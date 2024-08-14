@@ -4,6 +4,7 @@ import Upcharticon from "../../../assets/svg/upcharticon";
 import standerdicon from "../../../assets/images/standerdicon.png";
 import proicon from "../../../assets/images/proicon.png";
 import ecnicon from "../../../assets/images/ecnicon.png";
+import Accountsectionslider from "./Accountsectionsslider";
 
 export default function Accountssection({ id }) {
   return (
@@ -120,6 +121,7 @@ export default function Accountssection({ id }) {
             </div>
           </div>
         </div>
+        <Accountsectionslider />
       </div>
     </div>
   );

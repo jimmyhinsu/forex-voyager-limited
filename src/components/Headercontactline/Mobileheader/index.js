@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./mobileheader.scss";
 
-import Menuicon from "../../assets/icons/menu.png";
-import Sidebar from "../sidebar";
+import Menuicon from "../../../assets/icons/menu.png";
+import Sidebar from "../../sidebar";
 
 export default function Mobileheader() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);

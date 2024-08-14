@@ -1,0 +1,161 @@
+.accountsection-slide-container {
+    padding: 0 20px;
+    overflow: hidden;
+    display: none;
+
+    @media (max-width:1024px) {
+        display: block;
+    }
+
+    .slick-arrow  {
+        display: none !important;
+    }
+
+    .accounts-card-grid-vol1 {
+        margin: 0 20px;
+        width: calc(100% - 40px);
+        height: 100%;
+        padding: 40px;
+        overflow: hidden;
+        border-radius: 24px;
+        background-image: linear-gradient(180deg, #fff, #c4ccdd);
+        position: relative;
+        justify-content: flex-start;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        box-sizing: border-box;
+
+        .accounts-card-grid-vol1-topline {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background-color: rgb(173, 68, 255);
+        }
+
+        .accounts-card-grid-vol1-topline-sc {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background-color: rgb(245, 155, 71);
+        }
+
+        .planicon-div-sc {
+            background: rgb(245, 155, 71);
+            width: 65px;
+            height: 65px;
+            border-radius: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 32px;
+                height: 32px;
+            }
+        }
+
+        .accounts-card-grid-vol1-topline-trd {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 8px;
+            background-color: rgb(85, 149, 252);
+        }
+
+        .planicon-div-trd {
+            background: rgb(85, 149, 252);
+            width: 65px;
+            height: 65px;
+            border-radius: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 32px;
+                height: 32px;
+            }
+        }
+
+        .planicon-div {
+            background: rgb(173, 68, 255);
+            width: 65px;
+            height: 65px;
+            border-radius: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                width: 32px;
+                height: 32px;
+            }
+        }
+
+        .card-data {
+            h1 {
+                color: #161d2f;
+                font-size: 32px;
+                font-weight: 600;
+                line-height: normal;
+                text-align: left;
+
+                span {
+                    color: rgb(70 123 255 / 1);
+                }
+            }
+
+            p {
+                margin: 10px 0 0 0;
+                text-align: left;
+                color: #161d2f;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 1.2;
+                height: 70px;
+
+                @media (max-width:900px) {
+                    height: auto;
+                }
+            }
+        }
+
+        .card-last-details {
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            gap: 10px;
+            flex-direction: column;
+
+            .minimum-div {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 10px;
+
+                svg {
+                    width: 29px;
+                    height: 29px;
+                }
+
+                p {
+                    color: #161d2f;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: normal;
+                    text-align: left;
+
+                    span {
+                        color: rgb(70 123 255 / 1);
+                    }
+                }
+            }
+        }
+    }
+}

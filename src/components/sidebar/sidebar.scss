@@ -12,6 +12,10 @@
     transition: transform .5s ease-in-out;
     box-sizing: border-box;
 
+    @media (max-width:600px) {
+        width: 100%;
+    }
+
     .sidebar-top-line {
         width: calc(100% - 40px);
         display: flex;

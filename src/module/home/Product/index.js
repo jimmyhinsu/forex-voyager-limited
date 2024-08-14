@@ -107,9 +107,25 @@ export default function Ourproductslidesection({ id }) {
               </div>
             )}
             {activeButton === "Metals" && (
-              <div className="productimags">
-                <img src={gold} alt="forexheader" />
-              </div>
+              <>
+                <div className="productimags">
+                  <img src={gold} alt="forexheader" />
+                </div>
+                <div className="up-and-down-boxes-changer-sc" id="up-and-down-boxes-changer-mobile-metals">
+                  <div className="up-and-down-box-changer">
+                    <h3>2 Cents</h3>
+                    <span>Tightest spreads on Gold</span>
+                  </div>
+                  <div className="up-and-down-box-changer">
+                    <h3>1 Cent</h3>
+                    <span>Tightest spreads on Silver</span>
+                  </div>
+                  <div className="up-and-down-box-changer">
+                    <h3>1 Cent</h3>
+                    <span>Tightest spreads on Silver</span>
+                  </div>
+                </div>
+              </>
             )}
             {activeButton === "Shares" && (
               <div className="content-shares">
@@ -117,7 +133,7 @@ export default function Ourproductslidesection({ id }) {
                   Invest in <span>Shares</span>
                 </h1>
                 <p>Buy and Sell shares on over 20,000 equities of the largest multinational companies listed on the top stock exchanges in the world in market capitalization with margins as low as 5%.</p>
-                <div className="up-and-down-boxes-changer-sc">
+                <div className="up-and-down-boxes-changer-sc" id="up-and-down-boxes-changer-web-shares">
                   <div className="up-and-down-box-changer">
                     <h3>20,000+</h3>
                     <span>Tightest</span>
@@ -134,9 +150,25 @@ export default function Ourproductslidesection({ id }) {
               </div>
             )}
             {activeButton === "Shares" && (
-              <div className="productimags">
-                <img src={shares} alt="forexheader" />
-              </div>
+              <>
+                <div className="productimags">
+                  <img src={shares} alt="forexheader" />
+                </div>
+                <div className="up-and-down-boxes-changer-sc" id="up-and-down-boxes-changer-mobile-shares">
+                  <div className="up-and-down-box-changer">
+                    <h3>20,000+</h3>
+                    <span>Tightest</span>
+                  </div>
+                  <div className="up-and-down-box-changer">
+                    <h3>20:1</h3>
+                    <span>Level of Leverage</span>
+                  </div>
+                  <div className="up-and-down-box-changer">
+                    <h3>0%</h3>
+                    <span>Commission</span>
+                  </div>
+                </div>
+              </>
             )}
 
             {activeButton === "Indices" && (
@@ -145,7 +177,7 @@ export default function Ourproductslidesection({ id }) {
                   Invest in <span>Indices</span>
                 </h1>
                 <p>Gain instant access and trade major stock exchange indices from across the globe, including NASDAQ 100, German DAX 40, Dow Jones 30, and more.</p>
-                <div className="up-and-down-boxes-changer-th">
+                <div className="up-and-down-boxes-changer-th" id="up-and-down-boxes-changer-web-indices">
                   <div className="up-and-down-box-changer">
                     <h3>100:1</h3>
                     <span>Leverage</span>
@@ -163,9 +195,25 @@ export default function Ourproductslidesection({ id }) {
             )}
 
             {activeButton === "Indices" && (
-              <div className="productimags">
-                <img src={indices} alt="forexheader" />
-              </div>
+              <>
+                <div className="productimags">
+                  <img src={indices} alt="forexheader" />
+                </div>
+                <div className="up-and-down-boxes-changer-th" id="up-and-down-boxes-changer-mobile-indices">
+                  <div className="up-and-down-box-changer">
+                    <h3>100:1</h3>
+                    <span>Leverage</span>
+                  </div>
+                  <div className="up-and-down-box-changer">
+                    <h3>Tightest Spreads</h3>
+                    <span>The lowest spreads in the market</span>
+                  </div>
+                  <div className="up-and-down-box-changer">
+                    <h3>0%</h3>
+                    <span>Commission</span>
+                  </div>
+                </div>
+              </>
             )}
             {activeButton === "Commodities" && (
               <div className="content-commodities">
@@ -173,7 +221,7 @@ export default function Ourproductslidesection({ id }) {
                   Invest in <span>Commodities</span>
                 </h1>
                 <p>Trade commodities such as energies and grains and diversify your portfolio. Capitalize on supply and demand trends in the global commodity market to generate strong returns on your investment.</p>
-                <div className="up-and-down-boxes-changer-th">
+                <div className="up-and-down-boxes-changer-th" id="up-and-down-boxes-changer-web-commodities">
                   <div className="up-and-down-box-changer">
                     <h3>0%</h3>
                     <span>Commission</span>
@@ -191,9 +239,25 @@ export default function Ourproductslidesection({ id }) {
             )}
 
             {activeButton === "Commodities" && (
-              <div className="productimags">
-                <img src={commodities} alt="forexheader" />
-              </div>
+              <>
+                <div className="productimags">
+                  <img src={commodities} alt="forexheader" />
+                </div>
+                <div className="up-and-down-boxes-changer-th" id="up-and-down-boxes-changer-mobile-commodities">
+                  <div className="up-and-down-box-changer">
+                    <h3>0%</h3>
+                    <span>Commission</span>
+                  </div>
+                  <div className="up-and-down-box-changer">
+                    <h3>Tightest Spreads</h3>
+                    <span>At Zero Commission</span>
+                  </div>
+                  <div className="up-and-down-box-changer">
+                    <h3>Low Margin</h3>
+                    <span>On All Commodities</span>
+                  </div>
+                </div>
+              </>
             )}
             {activeButton === "Digital Assets" && (
               <div className="content-digital-assets">
@@ -204,7 +268,7 @@ export default function Ourproductslidesection({ id }) {
                   Invest in the most popular cryptocurrencies like Bitcoin, Ethereum, Ripple, etc. with Forex Voyager Limited and take advantage of this volatile market with significant pricing shifts, suitable for experienced traders who have an
                   aggressive trading approach.
                 </p>
-                <div className="up-and-down-boxes-changer-frth">
+                <div className="up-and-down-boxes-changer-frth" id="up-and-down-boxes-changer-web-digital">
                   <div className="up-and-down-box-changer">
                     <h3>{"<20ms"}</h3>
                     <span>Stable and nanosecond execution</span>
@@ -221,9 +285,25 @@ export default function Ourproductslidesection({ id }) {
               </div>
             )}
             {activeButton === "Digital Assets" && (
-              <div className="productimags">
-                <img src={cyrpto} alt="forexheader" />
-              </div>
+              <>
+                <div className="productimags">
+                  <img src={cyrpto} alt="forexheader" />
+                </div>
+                <div className="up-and-down-boxes-changer-frth" id="up-and-down-boxes-changer-mobile-digital">
+                  <div className="up-and-down-box-changer">
+                    <h3>{"<20ms"}</h3>
+                    <span>Stable and nanosecond execution</span>
+                  </div>
+                  <div className="up-and-down-box-changer">
+                    <h3>0%</h3>
+                    <span>Commission</span>
+                  </div>
+                  <div className="up-and-down-box-changer">
+                    <h3>UP TO 20:1</h3>
+                    <span>Leverage on cryptocurrencies</span>
+                  </div>
+                </div>
+              </>
             )}
           </div>
         </div>
