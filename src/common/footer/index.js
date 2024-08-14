@@ -29,14 +29,8 @@ export default function Footer() {
             <div className="footer-content">
               <p>About</p>
               <div className="footer-all-links-main">
-                <Link to={"/"}>Why Forex Voyager Limited</Link>
-                <Link to={"/"}>Global Presence</Link>
+                <Link to={"/"}>Why Forex Voyager</Link>
                 <Link to={"/"}>Regulations</Link>
-                <Link to={"/"}>Security of Funds</Link>
-                <Link to={"/"}>Milestones</Link>
-                <Link to={"/"}>Awards</Link>
-                <Link to={"/"}>Company News</Link>
-                <Link to={"/"}>Sponsorship</Link>
                 <Link to={"/"}>Careers</Link>
               </div>
             </div>
@@ -56,10 +50,7 @@ export default function Footer() {
             <div className="footer-content">
               <p>Platforms</p>
               <div className="footer-all-links-main">
-                <Link to={"/"}>MultiBank-Plus</Link>
-                <Link to={"/"}>MT4 Platform</Link>
                 <Link to={"/"}>MT5 Platform</Link>
-                <Link to={"/"}>Web Trader MT4</Link>
                 <Link to={"/"}>Web Trader MT5</Link>
               </div>
             </div>
@@ -79,14 +70,6 @@ export default function Footer() {
             </div>
 
             <div className="footer-content">
-              <p>Promotions</p>
-              <div className="footer-all-links-main">
-                <Link to={"/"}>Bonuses</Link>
-                <Link to={"/"}>Mission Center</Link>
-              </div>
-            </div>
-
-            <div className="footer-content">
               <p>Tools</p>
               <div className="footer-all-links-main">
                 <Link to={"/"}>Trading Tools</Link>
@@ -97,7 +80,6 @@ export default function Footer() {
                 <Link to={"/"}>Economic Calendar</Link>
                 <Link to={"/"}>Contract Specifications</Link>
                 <Link to={"/"}>Swap-free Policy</Link>
-                <Link to={"/"}>Dividends</Link>
               </div>
             </div>
 
@@ -114,7 +96,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-bottom-line">
-          <Link to={"/"}>Privecy Policy</Link>
+          <Link to={"/"}>Privacy Policy</Link>
           <Link to={"/"}>Terms & Conditions</Link>
           <Link to={"/"}>AMS Policy</Link>
           <Link to={"/"}>Deposit & withdrawal Policy</Link>

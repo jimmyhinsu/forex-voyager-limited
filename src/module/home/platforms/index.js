@@ -1,7 +1,6 @@
 import React from 'react'
 import '../platforms/platforms.scss'
 import backgroundimg from "../../../assets/images/striped-background-colored.webp";
-import meta4 from "../../../assets/images/meta-4.svg";
 import meta5 from "../../../assets/images/meta-5.svg";
 import Slideicon from '../../../assets/svg/slideicon';
 
@@ -27,7 +26,7 @@ function Platforms() {
                                 <div className='platform-grid-items1'>
                                     <div className='platform-title'>
                                         <h4>
-                                            MT4/MT5 <span> PLATFORMS </span>
+                                            MT5 <span> PLATFORMS </span>
                                         </h4>
                                     </div>
                                     <p>Trade over 20,000 instruments including forex, metals, shares, indices, commodities & cryptocurrencies on award-winning MT4 and MT5 Mobile Platforms with instant nano-second execution.</p>

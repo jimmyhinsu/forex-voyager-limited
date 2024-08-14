@@ -9,7 +9,7 @@ function Headermain() {
   const [isProductsDropdownVisible, setProductsDropdownVisible] = useState(false);
   const [isPlatformsDropdownVisible, setPlatformsDropdownVisible] = useState(false);
   const [isAccountsDropdownVisible, setAccountsDropdownVisible] = useState(false);
-  const [isPromotionsDropdownVisible, setPromotionsDropdownVisible] = useState(false);
+
   const [isToolsDropdownVisible, setToolsDropdownVisible] = useState(false);
   const [isPartnershipDropdownVisible, setPartnershipDropdownVisible] = useState(false);
   // const [isENDropdownVisible, setENDropdownVisible] = useState(false);
@@ -26,9 +26,6 @@ function Headermain() {
 
   const handleAccountsMouseEnter = () => setAccountsDropdownVisible(true);
   const handleAccountsMouseLeave = () => setAccountsDropdownVisible(false);
-
-  const handlePromotionsMouseEnter = () => setPromotionsDropdownVisible(true);
-  const handlePromotionsMouseLeave = () => setPromotionsDropdownVisible(false);
 
   const handleToolsMouseEnter = () => setToolsDropdownVisible(true);
   const handleToolsMouseLeave = () => setToolsDropdownVisible(false);
@@ -59,14 +56,8 @@ function Headermain() {
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <NavLink to={"/"}>Why MultiBank</NavLink>
-                  <NavLink to={"/"}>Global Presence</NavLink>
+                  <NavLink to={"/"}>Why Forex Voyager</NavLink>
                   <NavLink to={"/"}>Regulations</NavLink>
-                  <NavLink to={"/"}>Security of Funds</NavLink>
-                  <NavLink to={"/"}>Milestones</NavLink>
-                  <NavLink to={"/"}>Awards</NavLink>
-                  <NavLink to={"/"}>Company News</NavLink>
-                  <NavLink to={"/"}>Sponsorship</NavLink>
                   <NavLink to={"/"}>Careers</NavLink>
                 </div>
               </div>
@@ -102,13 +93,8 @@ function Headermain() {
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <NavLink to={"/"}>MT4 Platform</NavLink>
                   <NavLink to={"/"}>MT5 Platform</NavLink>
-                  <NavLink to={"/"}>Web Trader MT4</NavLink>
                   <NavLink to={"/"}>Web Trader MT5</NavLink>
-                  <NavLink to={"/"}>Social Trading</NavLink>
-                  <NavLink to={"/"}>MultiBank-Plus</NavLink>
-                  <NavLink to={"/"}>Download Center</NavLink>
                 </div>
               </div>
             </div>
@@ -137,22 +123,6 @@ function Headermain() {
           )}
         </div>
 
-        <div className={`dropdown-container ${isPromotionsDropdownVisible ? "active" : ""}`} onMouseEnter={handlePromotionsMouseEnter} onMouseLeave={handlePromotionsMouseLeave}>
-          <NavLink to={"/"} className={`${isPromotionsDropdownVisible ? "anceractive" : ""}`}>
-            Promotions <Dropdownicon />
-          </NavLink>
-          {isPromotionsDropdownVisible && (
-            <div className="dropdown-menu1">
-              <div className="dropdown-content-main">
-                <div className="dropdown-content">
-                  <NavLink to={"/"}>Bonuses</NavLink>
-                  <NavLink to={"/"}>Mission Center</NavLink>
-                </div>
-              </div>
-            </div>
-          )}
-        </div>
-
         <div className={`dropdown-container ${isToolsDropdownVisible ? "active" : ""}`} onMouseEnter={handleToolsMouseEnter} onMouseLeave={handleToolsMouseLeave}>
           <NavLink to={"/"} className={`${isToolsDropdownVisible ? "anceractive" : ""}`}>
             Tools <Dropdownicon />
@@ -169,7 +139,6 @@ function Headermain() {
                   <NavLink to={"/"}>Economic Calendar</NavLink>
                   <NavLink to={"/"}>Contract Specifications</NavLink>
                   <NavLink to={"/"}>Swap-free Policy</NavLink>
-                  <NavLink to={"/"}>Dividends</NavLink>
                 </div>
               </div>
             </div>

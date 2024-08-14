@@ -1,6 +1,5 @@
 import React from 'react'
 import "./herobanner.scss"
-import metatrade4 from "../../../assets/images/meta-4.svg";
 import metatrade5 from "../../../assets/images/meta-5.svg";
 import Slideicon from '../../../assets/svg/slideicon';
 
