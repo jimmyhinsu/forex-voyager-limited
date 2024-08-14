@@ -21,66 +21,71 @@
             width: fit-content;
             text-align: left;
 
-            p {
-                color: #fff;
-                font-size: 23px;
-                font-weight: 800;
-                font-family: "Plus Jakarta Sans", sans-serif;
-                position: relative;
+            a {
+                text-decoration-line: none;
 
-                @media (max-width: 800px) {
-                    font-size: 19px;
+                p {
+                    color: #fff;
+                    font-size: 23px;
+                    font-weight: 800;
+                    font-family: "Plus Jakarta Sans", sans-serif;
+                    position: relative;
+
+                    @media (max-width: 800px) {
+                        font-size: 19px;
+                    }
+
+                    @media (max-width: 576px) {
+                        font-size: 12px;
+                    }
+
+                    span {
+                        background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
+                        color: transparent;
+                        -webkit-background-clip: text;
+                        background-clip: text;
+                    }
+
+                    // &::before {
+                    //     position: absolute;
+                    //     right: -15px;
+                    //     top: 0;
+                    //     content: "";
+                    //     background: linear-gradient(88.9deg, #467BFF 33.43%, #75D9D9 103.55%);
+                    //     width: 2px;
+                    //     height: 8px;
+                    // }
+
+                    // &::after {
+                    //     position: absolute;
+                    //     right: -20px;
+                    //     top: 5px;
+                    //     content: "";
+                    //     background: linear-gradient(88.9deg, #467BFF 33.43%, #75D9D9 103.55%);
+                    //     width: 2px;
+                    //     height: 8px;
+                    // }
+
+                    // strong {
+                    //     position: absolute;
+                    //     right: -25px;
+                    //     top: 0;
+                    //     content: "";
+                    //     background: linear-gradient(88.9deg, #467BFF 33.43%, #75D9D9 103.55%);
+                    //     width: 2px;
+                    //     height: 8px;
+                    // }
+
+                    // b {
+                    //     position: absolute;
+                    //     right: -30px;
+                    //     top: 5px;
+                    //     content: "";
+                    //     background: linear-gradient(88.9deg, #467BFF 33.43%, #75D9D9 103.55%);
+                    //     width: 2px;
+                    //     height: 8px;
+                    // }
                 }
-                @media (max-width: 576px) {
-                    font-size: 12px;
-                }
-
-                span {
-                    background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
-                    color: transparent;
-                    -webkit-background-clip: text;
-                    background-clip: text;
-                }
-
-                // &::before {
-                //     position: absolute;
-                //     right: -15px;
-                //     top: 0;
-                //     content: "";
-                //     background: linear-gradient(88.9deg, #467BFF 33.43%, #75D9D9 103.55%);
-                //     width: 2px;
-                //     height: 8px;
-                // }
-
-                // &::after {
-                //     position: absolute;
-                //     right: -20px;
-                //     top: 5px;
-                //     content: "";
-                //     background: linear-gradient(88.9deg, #467BFF 33.43%, #75D9D9 103.55%);
-                //     width: 2px;
-                //     height: 8px;
-                // }
-
-                // strong {
-                //     position: absolute;
-                //     right: -25px;
-                //     top: 0;
-                //     content: "";
-                //     background: linear-gradient(88.9deg, #467BFF 33.43%, #75D9D9 103.55%);
-                //     width: 2px;
-                //     height: 8px;
-                // }
-
-                // b {
-                //     position: absolute;
-                //     right: -30px;
-                //     top: 5px;
-                //     content: "";
-                //     background: linear-gradient(88.9deg, #467BFF 33.43%, #75D9D9 103.55%);
-                //     width: 2px;
-                //     height: 8px;
-                // }
             }
         }
 

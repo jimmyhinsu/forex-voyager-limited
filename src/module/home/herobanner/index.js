@@ -1,49 +1,54 @@
-import React from 'react'
-import "./herobanner.scss"
+import React from "react";
+import "./herobanner.scss";
 import metatrade5 from "../../../assets/images/meta-5.svg";
-import Slideicon from '../../../assets/svg/slideicon';
+import Slideicon from "../../../assets/svg/slideicon";
 
+export default function Herobanner({ id }) {
+  return (
+    <>
+      <div className="herobannermain" id={id}>
+        <div className="herobannercontent">
+          <div className="text">
+            <h2>
+              <span>Life is </span> Better with <span>Money</span>
+            </h2>
+          </div>
 
-export default function Herobanner() {
-    return (
-        <>
-            <div className='herobannermain'>
-                <div className='herobannercontent'>
-                    <div className='text'>
-                        <h2><span>Life is </span> Better
-                            with <span>Money</span></h2>
-                    </div>
+          <p>Join millions of investors and take your portfolio to new heights.</p>
 
-                    <p>Join millions of investors and take your portfolio to new heights.</p>
+          <div className="button">
+            <button>
+              Strating Trading
+              <Slideicon />
+            </button>
+          </div>
 
-                    <div className='button'>
-                        <button>Strating Trading<Slideicon /></button>
-                    </div>
+          <div className="demo-ib-button">
+            <div className="demoaccount">
+              <button>
+                Demo Account
+                <Slideicon />
+              </button>
+            </div>
+            <div className="demoaccount">
+              <button>
+                IB/Institutional Offers
+                <Slideicon />
+              </button>
+            </div>
+          </div>
 
-                    <div className='demo-ib-button'>
-                        <div className='demoaccount'>
-                            <button>Demo Account
-                                <Slideicon />
-                            </button>
-                        </div>
-                        <div className='demoaccount'>
-                            <button>IB/Institutional Offers
-                                <Slideicon />
-                            </button>
-                        </div>
-                    </div>
-
-                    <div className='metatraders'>
-                        {/* <div className='tradeicon'>
+          <div className="metatraders">
+            {/* <div className='tradeicon'>
                             <img src={metatrade4} alt="error" />
 
                         </div> */}
-                        <div className='tradeicon'>
-                            <img src={metatrade5} alt="error" />
-                        </div>
-                    </div>
-                </div>
+            <div className="tradeicon">
+              <img src={metatrade5} alt="error" />
             </div>
-        </>
-    )
+          </div>
+        </div>
+      </div>
+    </>
+  );
 }

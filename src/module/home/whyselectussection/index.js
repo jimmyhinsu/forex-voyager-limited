@@ -6,9 +6,9 @@ import balance from "../../../assets/images/balanceicon.png";
 import headphone from "../../../assets/images/headphoneicon.png";
 import upgrowicon from "../../../assets/images/upgrowicon.png";
 
-export default function Whyselectussection() {
+export default function Whyselectussection({ id }) {
   return (
-    <div className="whyselectus-section-main">
+    <div className="whyselectus-section-main" id={id}>
       <div className="whyselectus-section-container">
         <div className="whyselectus-section-title-main">
           <h1>BENEFIT FROM THE WORLD’S NO.1 ONLINE FINANCIAL DERIVATIVES BROKER</h1>
@@ -30,8 +30,7 @@ export default function Whyselectussection() {
             <div className="whyselectus-cards-icons">
               <img src={upgrowicon} alt="shieldicon" />
             </div>
-            <h3>Daily Turnover
-              US$12.1Billion</h3>
+            <h3>Daily Turnover US$12.1Billion</h3>
             <p>Record Breaking Financial performance in 2022</p>
             <div className="whyselectus-cards-bottom-line whyselectus-cards-bottom-line-sc"></div>
           </div>
@@ -40,8 +39,7 @@ export default function Whyselectussection() {
             <div className="whyselectus-cards-icons">
               <img src={balance} alt="shieldicon" />
             </div>
-            <h3>Leverage
-              Up To 500:1</h3>
+            <h3>Leverage Up To 500:1</h3>
             <p>We provide one of the highest levels of leverage in the market, helping traders to multiply their potential profits.</p>
             <div className="whyselectus-cards-bottom-line whyselectus-cards-bottom-line-trd"></div>
           </div>
@@ -50,8 +48,7 @@ export default function Whyselectussection() {
             <div className="whyselectus-cards-icons">
               <img src={headphone} alt="shieldicon" />
             </div>
-            <h3>Customer
-              Service</h3>
+            <h3>Customer Service</h3>
             <p>Enjoy assistance from our 24/7/365 customer service desk</p>
             <div className="whyselectus-cards-bottom-line whyselectus-cards-bottom-line-frth"></div>
           </div>

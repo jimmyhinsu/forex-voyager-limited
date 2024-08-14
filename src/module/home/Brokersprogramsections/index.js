@@ -3,9 +3,9 @@ import "./brokersprogramsections.scss";
 import Slideicon from "../../../assets/svg/slideicon";
 import homelbsections from "../../../assets/images/homeIbSectionImage.webp";
 
-export default function Brokersprogramsections() {
+export default function Brokersprogramsections({ id }) {
   return (
-    <div className="brokersprogramsections-main">
+    <div className="brokersprogramsections-main" id={id}>
       <div className="brokersprogramsections-container">
         <div className="brokersprogramsections-grid-main">
           <div className="brokersprogramsections-grid-item1">
@@ -21,7 +21,7 @@ export default function Brokersprogramsections() {
               </div>
             </div>
           </div>
-          <div className="brokersprogramsections-grid-item2" >
+          <div className="brokersprogramsections-grid-item2">
             <img src={homelbsections} alt="error" />
           </div>
         </div>

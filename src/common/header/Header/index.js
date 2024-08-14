@@ -1,20 +1,15 @@
 import React, { useState } from "react";
 import "../header.scss";
-import { NavLink } from "react-router-dom";
 import Dropdownicon from "../../../assets/svg/dropdownicon";
 
 function Headermain() {
-  // State for managing visibility of each dropdown
   const [isAboutDropdownVisible, setAboutDropdownVisible] = useState(false);
   const [isProductsDropdownVisible, setProductsDropdownVisible] = useState(false);
   const [isPlatformsDropdownVisible, setPlatformsDropdownVisible] = useState(false);
   const [isAccountsDropdownVisible, setAccountsDropdownVisible] = useState(false);
-
   const [isToolsDropdownVisible, setToolsDropdownVisible] = useState(false);
   const [isPartnershipDropdownVisible, setPartnershipDropdownVisible] = useState(false);
-  // const [isENDropdownVisible, setENDropdownVisible] = useState(false);
 
-  // Handlers for showing and hiding each dropdown
   const handleAboutMouseEnter = () => setAboutDropdownVisible(true);
   const handleAboutMouseLeave = () => setAboutDropdownVisible(false);
 
@@ -33,32 +28,29 @@ function Headermain() {
   const handlePartnershipMouseEnter = () => setPartnershipDropdownVisible(true);
   const handlePartnershipMouseLeave = () => setPartnershipDropdownVisible(false);
 
-  // const handleENMouseEnter = () => setENDropdownVisible(true);
-  // const handleENMouseLeave = () => setENDropdownVisible(false);
-
   return (
     <div className="Headermain">
       <div className="Headerlogo">
-        <p>
-          <span>Forex Voyager </span>
-          Limited
-          {/* <strong></strong>
-          <b></b> */}
-        </p>
+        <a href="#about">
+          <p>
+            <span>Forex Voyager </span>
+            Limited
+          </p>
+        </a>
       </div>
 
       <div className="header-content">
         <div className={`dropdown-container ${isAboutDropdownVisible ? "active" : ""}`} onMouseEnter={handleAboutMouseEnter} onMouseLeave={handleAboutMouseLeave}>
-          <NavLink to={"/"} className={`${isAboutDropdownVisible ? "anceractive" : ""}`}>
+          <a href="#about" className={`${isAboutDropdownVisible ? "anceractive" : ""}`}>
             About <Dropdownicon />
-          </NavLink>
+          </a>
           {isAboutDropdownVisible && (
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <NavLink to={"/"}>Why Forex Voyager</NavLink>
-                  <NavLink to={"/"}>Regulations</NavLink>
-                  <NavLink to={"/"}>Careers</NavLink>
+                  <a href="#about-section1">Why Forex Voyager</a>
+                  <a href="#about-section2">Regulations</a>
+                  <a href="#about-section3">Careers</a>
                 </div>
               </div>
             </div>
@@ -66,19 +58,19 @@ function Headermain() {
         </div>
 
         <div className={`dropdown-container ${isProductsDropdownVisible ? "active" : ""}`} onMouseEnter={handleProductsMouseEnter} onMouseLeave={handleProductsMouseLeave}>
-          <NavLink to={"/"} className={`${isProductsDropdownVisible ? "anceractive" : ""}`}>
+          <a href="#products" className={`${isProductsDropdownVisible ? "anceractive" : ""}`}>
             Products <Dropdownicon />
-          </NavLink>
+          </a>
           {isProductsDropdownVisible && (
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <NavLink to={"/"}>Forex</NavLink>
-                  <NavLink to={"/"}>Metals</NavLink>
-                  <NavLink to={"/"}>Shares</NavLink>
-                  <NavLink to={"/"}>Indices</NavLink>
-                  <NavLink to={"/"}>Commodities</NavLink>
-                  <NavLink to={"/"}>Cryptocurrencies</NavLink>
+                  <a href="#products-section1">Forex</a>
+                  <a href="#products-section2">Metals</a>
+                  <a href="#products-section3">Shares</a>
+                  <a href="#products-section4">Indices</a>
+                  <a href="#products-section5">Commodities</a>
+                  <a href="#products-section6">Cryptocurrencies</a>
                 </div>
               </div>
             </div>
@@ -86,15 +78,15 @@ function Headermain() {
         </div>
 
         <div className={`dropdown-container ${isPlatformsDropdownVisible ? "active" : ""}`} onMouseEnter={handlePlatformsMouseEnter} onMouseLeave={handlePlatformsMouseLeave}>
-          <NavLink to={"/"} className={`${isPlatformsDropdownVisible ? "anceractive" : ""}`}>
+          <a href="#platforms" className={`${isPlatformsDropdownVisible ? "anceractive" : ""}`}>
             Platforms <Dropdownicon />
-          </NavLink>
+          </a>
           {isPlatformsDropdownVisible && (
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <NavLink to={"/"}>MT5 Platform</NavLink>
-                  <NavLink to={"/"}>Web Trader MT5</NavLink>
+                  <a href="#platforms-section1">MT5 Platform</a>
+                  <a href="#platforms-section2">Web Trader MT5</a>
                 </div>
               </div>
             </div>
@@ -102,21 +94,21 @@ function Headermain() {
         </div>
 
         <div className={`dropdown-container ${isAccountsDropdownVisible ? "active" : ""}`} onMouseEnter={handleAccountsMouseEnter} onMouseLeave={handleAccountsMouseLeave}>
-          <NavLink to={"/"} className={`${isAccountsDropdownVisible ? "anceractive" : ""}`}>
+          <a href="#accounts" className={`${isAccountsDropdownVisible ? "anceractive" : ""}`}>
             Accounts <Dropdownicon />
-          </NavLink>
+          </a>
           {isAccountsDropdownVisible && (
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <NavLink to={"/"}>Compare Accounts</NavLink>
-                  <NavLink to={"/"}>Standard</NavLink>
-                  <NavLink to={"/"}>Pro</NavLink>
-                  <NavLink to={"/"}>ECN</NavLink>
-                  <NavLink to={"/"}>Islamic Account</NavLink>
-                  <NavLink to={"/"}>Account Funding</NavLink>
-                  <NavLink to={"/"}>Withdrawals</NavLink>
-                  <NavLink to={"/"}>Account Forms</NavLink>
+                  <a href="#accounts-section1">Compare Accounts</a>
+                  <a href="#accounts-section2">Standard</a>
+                  <a href="#accounts-section3">Pro</a>
+                  <a href="#accounts-section4">ECN</a>
+                  <a href="#accounts-section5">Islamic Account</a>
+                  <a href="#accounts-section6">Account Funding</a>
+                  <a href="#accounts-section7">Withdrawals</a>
+                  <a href="#accounts-section8">Account Forms</a>
                 </div>
               </div>
             </div>
@@ -124,21 +116,21 @@ function Headermain() {
         </div>
 
         <div className={`dropdown-container ${isToolsDropdownVisible ? "active" : ""}`} onMouseEnter={handleToolsMouseEnter} onMouseLeave={handleToolsMouseLeave}>
-          <NavLink to={"/"} className={`${isToolsDropdownVisible ? "anceractive" : ""}`}>
+          <a href="#tools" className={`${isToolsDropdownVisible ? "anceractive" : ""}`}>
             Tools <Dropdownicon />
-          </NavLink>
+          </a>
           {isToolsDropdownVisible && (
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <NavLink to={"/"}>Trading Tools</NavLink>
-                  <NavLink to={"/"}>Trading Conditions</NavLink>
-                  <NavLink to={"/"}>Trading Hours & Holiday Notice</NavLink>
-                  <NavLink to={"/"}>CFD Expiration Dates</NavLink>
-                  <NavLink to={"/"}>Education</NavLink>
-                  <NavLink to={"/"}>Economic Calendar</NavLink>
-                  <NavLink to={"/"}>Contract Specifications</NavLink>
-                  <NavLink to={"/"}>Swap-free Policy</NavLink>
+                  <a href="#tools-section1">Trading Tools</a>
+                  <a href="#tools-section2">Trading Conditions</a>
+                  <a href="#tools-section3">Trading Hours & Holiday Notice</a>
+                  <a href="#tools-section4">CFD Expiration Dates</a>
+                  <a href="#tools-section5">Education</a>
+                  <a href="#tools-section6">Economic Calendar</a>
+                  <a href="#tools-section7">Contract Specifications</a>
+                  <a href="#tools-section8">Swap-free Policy</a>
                 </div>
               </div>
             </div>
@@ -146,40 +138,23 @@ function Headermain() {
         </div>
 
         <div className={`dropdown-container ${isPartnershipDropdownVisible ? "active" : ""}`} onMouseEnter={handlePartnershipMouseEnter} onMouseLeave={handlePartnershipMouseLeave}>
-          <NavLink to={"/"} className={`${isPartnershipDropdownVisible ? "anceractive" : ""}`}>
+          <a href="#partnership" className={`${isPartnershipDropdownVisible ? "anceractive" : ""}`}>
             Partnership <Dropdownicon />
-          </NavLink>
+          </a>
           {isPartnershipDropdownVisible && (
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <NavLink to={"/"}>Introducing Brokers</NavLink>
-                  <NavLink to={"/"}>Franchise Program</NavLink>
-                  <NavLink to={"/"}>Institutional Liquidity Offering</NavLink>
-                  <NavLink to={"/"}>CPA Affiliate Program</NavLink>
-                  <NavLink to={"/"}>IB Offers</NavLink>
+                  <a href="#partnership-section1">Introducing Brokers</a>
+                  <a href="#partnership-section2">Franchise Program</a>
+                  <a href="#partnership-section3">Institutional Liquidity Offering</a>
+                  <a href="#partnership-section4">CPA Affiliate Program</a>
+                  <a href="#partnership-section5">IB Offers</a>
                 </div>
               </div>
             </div>
           )}
         </div>
-
-        {/* <div className={`dropdown-container ${isENDropdownVisible ? "active" : ""}`} onMouseEnter={handleENMouseEnter} onMouseLeave={handleENMouseLeave}>
-          <NavLink to={"/"} className={`${isENDropdownVisible ? "anceractive" : ""}`}>
-            EN <Dropdownicon />
-          </NavLink>
-          {isENDropdownVisible && (
-            <div className="dropdown-menu1">
-              <div className="dropdown-content-main">
-                <div className="dropdown-content">
-                  <NavLink to={"/"}>Hindi</NavLink>
-                  <NavLink to={"/"}>English</NavLink>
-                  <NavLink to={"/"}>Gujarati</NavLink>
-                </div>
-              </div>
-            </div>
-          )}
-        </div> */}
       </div>
     </div>
   );

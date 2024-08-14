@@ -7,9 +7,7 @@ import gold from "../../../assets/images/img-goldHeader.webp";
 import indices from "../../../assets/images/img-indicesHeader-2.webp";
 import shares from "../../../assets/images/img-sharesHeader.webp";
 
-
-
-export default function Ourproductslidesection() {
+export default function Ourproductslidesection({ id }) {
   const [activeButton, setActiveButton] = useState("Forex");
 
   const handleButtonClick = (buttonName) => {
@@ -17,13 +15,15 @@ export default function Ourproductslidesection() {
   };
 
   return (
-    <div className="product-section-main">
+    <div className="product-section-main" id={id}>
       <div className="product-container">
         <div className="product-title-main">
           <div className="product-title-main-alignment">
             <h1>OUR PRODUCTS</h1>
             <h2>Trade our top performing products</h2>
-            <p>Confidently trade with Forex Voyager Limited cutting-edge trading platforms offering groundbreaking levels of stability and reliability. Subscribe and execute on the tightest pricing and liquidity from top-tier Banks and Prime Brokers.</p>
+            <p>
+              Confidently trade with Forex Voyager Limited cutting-edge trading platforms offering groundbreaking levels of stability and reliability. Subscribe and execute on the tightest pricing and liquidity from top-tier Banks and Prime Brokers.
+            </p>
             <div className="product-buttons-changer">
               <button onClick={() => handleButtonClick("Forex")} className={activeButton === "Forex" ? "activebutton" : ""}>
                 Forex

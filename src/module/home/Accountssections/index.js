@@ -5,9 +5,9 @@ import standerdicon from "../../../assets/images/standerdicon.png";
 import proicon from "../../../assets/images/proicon.png";
 import ecnicon from "../../../assets/images/ecnicon.png";
 
-export default function Accountssection() {
+export default function Accountssection({ id }) {
   return (
-    <div className="accounts-sections-main">
+    <div className="accounts-sections-main" id={id}>
       <div className="accounts-sections-container">
         <div className="accounts-sections-title-text-main">
           <h1>ACCOUNTS</h1>
