@@ -96,6 +96,10 @@
                 font-size: 12px;
                 padding: 0 15px 0 0;
                 border-right: 1px solid #fff;
+
+                @media (max-width: 512px) {
+                    font-size: 10px;
+                }
             }
 
             #career-border-remove {
@@ -109,6 +113,13 @@
         border-bottom: 1px solid rgb(31 37 51/1);
         padding: 24px 0 45px 0;
 
+        @media (max-width: 1024px) {
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+
         .footer-content-main {
             display: flex;
             justify-content: space-between;
@@ -119,7 +130,14 @@
 
             @media (max-width: 1024px) {
                 flex-wrap: wrap;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                margin: 0;
                 gap: 30px;
+            }
+
+            @media (max-width: 512px) {
+                gap: 20px;
             }
 
             .footer-content {
@@ -131,6 +149,10 @@
                     color: #fff;
                     font-weight: 500;
                     line-height: normal;
+
+                    @media (max-width: 512px) {
+                        font-size: 14px;
+                    }
                 }
 
                 .footer-all-links-main {
@@ -147,6 +169,10 @@
                         text-decoration-line: none;
                         color: #afbbcf;
                         transition: all 0.3s ease-in-out;
+
+                        @media (max-width: 512px) {
+                            font-size: 10px;
+                        }
 
                         &:hover {
                             transition: all 0.3s ease-in-out;
@@ -172,11 +198,26 @@
             font-size: 12px;
             padding: 0 15px 0 0;
             border-right: 1px solid #fff;
+
+            @media (max-width: 1024px) {
+                font-size: 10px;
+            }
+
+            @media (max-width: 512px) {
+                font-size: 8px;
+            }
         }
 
         #risk-side-border-remove {
             padding: 0 !important;
             border-right: none !important;
+        }
+        @media (max-width: 1024px) {
+            justify-content: center;
+        }
+
+        @media (max-width: 512px) {
+            gap: 10px;
         }
     }
 
@@ -196,6 +237,18 @@
             font-weight: 500;
             line-height: normal;
             color: #fff;
+
+            @media (max-width: 1024px) {
+                font-size: 12px;
+            }
+
+            @media (max-width: 512px) {
+                font-size: 10px;
+            }
+        }
+
+        @media (max-width: 1024px) {
+            justify-content: center;
         }
     }
 }

@@ -15,6 +15,10 @@
             align-items: center;
             gap: 20px;
 
+            @media (max-width: 1024px) {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
             .brokersprogramsections-grid-item1 {
                 max-width: 510px;
                 text-align: left;
@@ -23,19 +27,39 @@
                     font-size: 40px;
                     font-weight: 800;
                     color: #fff;
+
+                    @media (max-width: 1024px) {
+                        font-size: 30px;
+                    }
+
+                    @media (max-width: 576px) {
+                        font-size: 25px;
+                    }
                 }
 
                 p {
                     font-size: 20px;
                     font-weight: 600;
                     line-height: 1.2;
-                    margin: 24px 0 23px 0;
+                    margin: 24px 0;
+
+                    @media (max-width: 1024px) {
+                        font-size: 16px;
+                    }
+
+                    @media (max-width: 576px) {
+                        margin: 15px 0;
+                    }
                 }
 
                 span {
                     font-size: 18px;
                     font-weight: 400;
                     line-height: 1.5;
+
+                    @media (max-width: 576px) {
+                        font-size: 14px;
+                    }
                 }
 
                 .become-ib-button-main-alignment {
@@ -96,8 +120,19 @@
             }
 
             .brokersprogramsections-grid-item2 {
+                height: 100%;
+                width: 100%;
+                display: block;
                 img {
                     width: 100%;
+                    @media (max-width: 1024px) {
+                        max-width: 450px;
+                    }
+                }
+                @media (max-width: 1024px) {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
                 }
             }
         }

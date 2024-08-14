@@ -31,9 +31,6 @@ function Platforms() {
                                     </div>
                                     <p>Trade over 20,000 instruments including forex, metals, shares, indices, commodities & cryptocurrencies on award-winning MT4 and MT5 Mobile Platforms with instant nano-second execution.</p>
                                     <div className='platforms-two-img'>
-                                        {/* <div className='meta4'>
-                                            <img src={meta4} alt="error" />
-                                        </div> */}
                                         <div className='meta4'>
                                             <img src={meta5} alt="error" />
                                         </div>

@@ -52,7 +52,7 @@ export default function Ourproductslidesection() {
                   Invest in <span>Forex</span>
                 </h1>
                 <p>Trade over 55 major, cross, and exotic Forex pairs, and benefit from the tightest spreads in the industry.</p>
-                <div className="up-and-down-boxes-changer">
+                <div className="up-and-down-boxes-changer" id="up-and-down-boxes-changer-web">
                   <div className="up-and-down-box-changer">
                     <h3>Up to 500:1</h3>
                     <span>Highest levels of leverage</span>
@@ -65,9 +65,21 @@ export default function Ourproductslidesection() {
               </div>
             )}
             {activeButton === "Forex" && (
-              <div className="productimags">
-                <img src={forexheader} alt="forexheader" />
-              </div>
+              <>
+                <div className="productimags">
+                  <img src={forexheader} alt="forexheader" />
+                </div>
+                <div className="up-and-down-boxes-changer" id="up-and-down-boxes-changer-mobile">
+                  <div className="up-and-down-box-changer">
+                    <h3>Up to 500:1</h3>
+                    <span>Highest levels of leverage</span>
+                  </div>
+                  <div className="up-and-down-box-changer">
+                    <h3>0.0* Pips</h3>
+                    <span>Tightest spreads in the industry</span>
+                  </div>
+                </div>
+              </>
             )}
             {activeButton === "Metals" && (
               <div className="content-metals">
@@ -78,7 +90,7 @@ export default function Ourproductslidesection() {
                   Diversify your portfolio by trading metals, such as gold and silver and unmask new trading opportunities. With a worldwide network of the most prominent precious metal dealers, producers, consumers, and speculators in the industry,
                   Forex Voyager Limited brings unrivaled experience for smooth trading.
                 </p>
-                <div className="up-and-down-boxes-changer-sc">
+                <div className="up-and-down-boxes-changer-sc" id="up-and-down-boxes-changer-web-metals">
                   <div className="up-and-down-box-changer">
                     <h3>2 Cents</h3>
                     <span>Tightest spreads on Gold</span>

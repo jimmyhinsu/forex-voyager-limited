@@ -10,6 +10,14 @@
     justify-content: start;
     align-items: center;
 
+    @media (max-width: 1024px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+    }
+
     .herobannercontent {
         display: flex;
         flex-direction: column;
@@ -23,9 +31,11 @@
         @media (max-width: 1024px) {
             display: flex;
             justify-content: center;
-            padding: 35px;
+            align-items: center;
+            text-align: center;
             width: 100%;
             box-sizing: border-box;
+            padding: 0;
         }
 
         .text {
@@ -36,6 +46,11 @@
 
                 @media (max-width: 1024px) {
                     font-size: 50px;
+                    max-width: 302px;
+                }
+
+                @media (max-width: 576px) {
+                    font-size: 40px;
                 }
 
                 span {
@@ -58,7 +73,9 @@
         }
 
         .button {
-            background-color: transparent;
+            @media (max-width: 1024px) {
+                width: 100%;
+            }
             button {
                 background-image: linear-gradient(88.9deg, #467bff, #75d9d9 50%, #75d9d9 75%, #467bff 120%);
                 padding: 15px;
@@ -78,6 +95,11 @@
 
                 @media (max-width: 1024px) {
                     font-size: 18px;
+                }
+
+                @media (max-width: 576px) {
+                    font-size: 16px;
+                    padding: 12px;
                 }
 
                 &:hover {
@@ -103,6 +125,14 @@
             grid-template-columns: repeat(2, 1fr);
             gap: 20px;
             background-color: transparent;
+
+            @media (max-width: 1024px) {
+                width: 100%;
+            }
+
+            @media (max-width: 576px) {
+                grid-template-columns: repeat(1, 1fr);
+            }
 
             .demoaccount {
                 border: none;
@@ -133,6 +163,11 @@
                     align-items: center;
                     gap: 5px;
                     cursor: pointer;
+
+                    @media (max-width: 576px) {
+                        padding: 12px;
+                        font-size: 16px;
+                    }
 
                     &:before {
                         background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
