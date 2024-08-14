@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Headertopcontactline.scss";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Headertopline() {
   const [dropdownVisible, setDropdownVisible] = useState(false);
@@ -14,9 +14,9 @@ function Headertopline() {
           </a>
         </div>
         <div className="Contact-text">
-          <a href="contactus">
+          <Link to={"/contactus"}>
             <span>Contact Us</span>
-          </a>
+          </Link>
         </div>
       </div>
 

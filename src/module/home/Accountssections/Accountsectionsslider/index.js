@@ -18,9 +18,14 @@ export default function Accountsectionslider() {
     speed: 2000,
     autoplaySpeed: 2000,
     cssEase: "linear",
-    centerMode: true,
-    centerPadding: "20%",
+    centerMode: false,
+    centerPadding: "0",
     responsive: [
+      {
+        breakpoint: 1100,
+        centerMode: true,
+        centerPadding: "20%",
+      },
       {
         breakpoint: 600,
         settings: {

@@ -15,7 +15,7 @@ const router = createBrowserRouter([
             },
 
             {
-                path: "contactus",
+                path: "/contactus",
                 element: <Contcatus />
             }
         ]
