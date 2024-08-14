@@ -64,10 +64,6 @@ export default function Footer() {
                 <Link to={"/"}>Standard</Link>
                 <Link to={"/"}>Pro</Link>
                 <Link to={"/"}>ECN</Link>
-                <Link to={"/"}>Islamic Account</Link>
-                <Link to={"/"}>Account Funding</Link>
-                <Link to={"/"}>Withdrawals</Link>
-                <Link to={"/"}>Account Forms</Link>
               </div>
             </div>
 

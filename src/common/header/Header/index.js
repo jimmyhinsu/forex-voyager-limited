@@ -105,10 +105,6 @@ function Headermain() {
                   <a href="#accounts-section2">Standard</a>
                   <a href="#accounts-section3">Pro</a>
                   <a href="#accounts-section4">ECN</a>
-                  <a href="#accounts-section5">Islamic Account</a>
-                  <a href="#accounts-section6">Account Funding</a>
-                  <a href="#accounts-section7">Withdrawals</a>
-                  <a href="#accounts-section8">Account Forms</a>
                 </div>
               </div>
             </div>
