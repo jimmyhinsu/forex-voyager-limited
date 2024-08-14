@@ -8,12 +8,14 @@ export default function Footer() {
       <div className="footer-container">
         <div className="footertopline">
           <div className="footerlogo">
-            <p>
-              <span>Forex Voyager </span>
-              Limited
-              {/* <strong></strong>
+            <Link to={"/"}>
+              <p>
+                <span>Forex Voyager </span>
+                Limited
+                {/* <strong></strong>
               <b></b> */}
-            </p>
+              </p>
+            </Link>
           </div>
 
           <div className="footer-top-line-content">

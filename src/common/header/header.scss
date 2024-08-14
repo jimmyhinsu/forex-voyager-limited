@@ -37,62 +37,70 @@ header {
         box-sizing: border-box;
         height: 81px;
 
+        @media (max-width:1200px) {
+            display: none;
+        }
+
         .Headerlogo {
             text-align: left;
 
-            p {
-                color: #fff;
-                font-size: 35px;
-                font-weight: 800;
-                font-family: "Plus Jakarta Sans", sans-serif;
-                position: relative;
+            a {
+                text-decoration-line: none;
 
-                span {
-                    background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
-                    color: transparent;
-                    -webkit-background-clip: text;
-                    background-clip: text;
+                p {
+                    color: #fff;
+                    font-size: 35px;
+                    font-weight: 800;
+                    font-family: "Plus Jakarta Sans", sans-serif;
+                    position: relative;
+
+                    span {
+                        background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
+                        color: transparent;
+                        -webkit-background-clip: text;
+                        background-clip: text;
+                    }
+
+                    // &::before {
+                    //     position: absolute;
+                    //     right: -15px;
+                    //     top: 0;
+                    //     content: "";
+                    //     background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
+                    //     width: 4px;
+                    //     height: 15px;
+                    // }
+
+                    // &::after {
+                    //     position: absolute;
+                    //     right: -22px;
+                    //     top: 5px;
+                    //     content: "";
+                    //     background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
+                    //     width: 4px;
+                    //     height: 15px;
+                    // }
+
+                    // strong {
+                    //     position: absolute;
+                    //     right: -29px;
+                    //     top: 0;
+                    //     content: "";
+                    //     background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
+                    //     width: 4px;
+                    //     height: 15px;
+                    // }
+
+                    // b {
+                    //     position: absolute;
+                    //     right: -36px;
+                    //     top: 5px;
+                    //     content: "";
+                    //     background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
+                    //     width: 4px;
+                    //     height: 15px;
+                    // }
                 }
-
-                // &::before {
-                //     position: absolute;
-                //     right: -15px;
-                //     top: 0;
-                //     content: "";
-                //     background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
-                //     width: 4px;
-                //     height: 15px;
-                // }
-
-                // &::after {
-                //     position: absolute;
-                //     right: -22px;
-                //     top: 5px;
-                //     content: "";
-                //     background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
-                //     width: 4px;
-                //     height: 15px;
-                // }
-
-                // strong {
-                //     position: absolute;
-                //     right: -29px;
-                //     top: 0;
-                //     content: "";
-                //     background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
-                //     width: 4px;
-                //     height: 15px;
-                // }
-
-                // b {
-                //     position: absolute;
-                //     right: -36px;
-                //     top: 5px;
-                //     content: "";
-                //     background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
-                //     width: 4px;
-                //     height: 15px;
-                // }
             }
         }
 
