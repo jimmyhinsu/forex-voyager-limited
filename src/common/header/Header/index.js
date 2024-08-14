@@ -31,7 +31,7 @@ function Headermain() {
   return (
     <div className="Headermain">
       <div className="Headerlogo">
-        <a href="#about">
+        <a href="/">
           <p>
             <span>Forex Voyager </span>
             Limited

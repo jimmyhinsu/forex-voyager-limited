@@ -45,3 +45,11 @@ body {
   --tw-text-opacity: 1;
   color: rgb(255 255 255);
 }
+
+.main-body {
+  margin: 146px 0 0 0;
+
+  @media (max-width: 1200px) {
+    margin: 118px 0 0 0;
+  }
+}

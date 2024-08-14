@@ -14,7 +14,7 @@ function Headertopline() {
           </a>
         </div>
         <div className="Contact-text">
-          <a href="/">
+          <a href="contactus">
             <span>Contact Us</span>
           </a>
         </div>
