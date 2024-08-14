@@ -1,0 +1,116 @@
+.whyselectus-section-main {
+    width: 100%;
+    height: 100%;
+    margin: 100px 0;
+
+    .whyselectus-section-container {
+        max-width: 1372px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        .whyselectus-section-title-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            h1 {
+                text-align: center;
+                background: linear-gradient(88.9deg, #467BFF 33.43%, #75D9D9 103.55%);
+                color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text;
+                font-size: 18px;
+                font-weight: 500;
+                line-height: normal;
+                margin: 0 0 15px 0;
+            }
+
+            h2 {
+                font-size: 40px;
+                line-height: normal;
+                font-weight: 600;
+                color: #FFF;
+                margin: 0 0 15px 0;
+                max-width: 829px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: 400;
+                color: #FFF;
+                text-align: center;
+                max-width: 1105px;
+                margin-bottom: 50px;
+            }
+        }
+
+        .whyselectus-cards-grid-main {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            align-items: center;
+            gap: 20px;
+
+            .whyselectus-cards-grid-items1 {
+                padding: 32px;
+                background-image: linear-gradient(142.26deg, #141b35 1.22%, #060b22 105.61%);
+                border-radius: 24px;
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                gap: 15px;
+                flex-direction: column;
+                position: relative;
+                overflow: hidden;
+                height: -webkit-fill-available;
+
+                .whyselectus-cards-icons {
+                    display: flex;
+                    justify-content: start;
+                    align-items: center;
+
+                    img {
+                        width: 63px;
+                        height: 63px;
+                    }
+                }
+
+                h3 {
+                    font-size: 24px;
+                    color: #FFF;
+                    font-weight: 600;
+                    line-height: normal;
+                }
+
+                p {
+                    color: #FFF;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 1.3;
+                }
+
+                .whyselectus-cards-bottom-line-sc {
+                    background: rgb(33, 203, 128) !important;
+                }
+
+                .whyselectus-cards-bottom-line-trd {
+                    background: rgb(245, 155, 71) !important;
+                }
+
+                .whyselectus-cards-bottom-line-frth {
+                    background: rgb(206, 255, 68) !important;
+                }
+
+                .whyselectus-cards-bottom-line {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 3px;
+                    background: rgb(70, 123, 255);
+                }
+            }
+        }
+    }
+}
