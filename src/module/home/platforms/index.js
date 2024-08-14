@@ -22,64 +22,36 @@ function Platforms({ id }) {
                 <h2>Explore our Mobile Trading Platforms</h2>
               </div>
 
-<<<<<<< HEAD
-                            <div className='mt4-mt5-grid'>
-                                <div className='platform-grid-items1'>
-                                    <div className='platform-title'>
-                                        <h4>
-                                            MT5 <span> PLATFORMS </span>
-                                        </h4>
-                                    </div>
-                                    <p>Trade over 20,000 instruments including forex, metals, shares, indices, commodities & cryptocurrencies on award-winning MT4 and MT5 Mobile Platforms with instant nano-second execution.</p>
-                                    <div className='platforms-two-img'>
-                                        <div className='meta4'>
-                                            <img src={meta5} alt="error" />
-                                        </div>
-                                    </div>
-                                    <div className='Learn-more'>
-                                        <button>Learn More
-                                            <Slideicon />
-                                        </button>
-                                    </div>
-                                </div>
-
-                                <div className='platfromsimages'>
-
-                                </div>
-                            </div>
-                        </div>
-=======
-              <div className="mt4-mt5-grid">
-                <div className="platform-grid-items1">
-                  <div className="platform-title">
+              <div className='mt4-mt5-grid'>
+                <div className='platform-grid-items1'>
+                  <div className='platform-title'>
                     <h4>
                       MT5 <span> PLATFORMS </span>
                     </h4>
                   </div>
                   <p>Trade over 20,000 instruments including forex, metals, shares, indices, commodities & cryptocurrencies on award-winning MT4 and MT5 Mobile Platforms with instant nano-second execution.</p>
-                  <div className="platforms-two-img">
-                    {/* <div className='meta4'>
-                                            <img src={meta4} alt="error" />
-                                        </div> */}
-                    <div className="meta4">
+                  <div className='platforms-two-img'>
+                    <div className='meta4'>
                       <img src={meta5} alt="error" />
->>>>>>> d50c3de334efc5176a5a521e1a451751b16973af
                     </div>
                   </div>
-                  <div className="Learn-more">
-                    <button>
-                      Learn More
+                  <div className='Learn-more'>
+                    <button>Learn More
                       <Slideicon />
                     </button>
                   </div>
                 </div>
 
-                <div className="platfromsimages"></div>
+                <div className='platfromsimages'>
+
+                </div>
               </div>
             </div>
           </div>
         </div>
+
       </div>
+
     </>
   );
 }

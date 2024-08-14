@@ -1,5 +1,5 @@
 .herobannermain {
-    background-image: url(../../../assets/images/lp-hero-usps-v6-m.jpeg);
+    background-image: url(../../../assets/images/herobanner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -36,6 +36,10 @@
             width: 100%;
             box-sizing: border-box;
             padding: 0;
+        }
+
+        @media (max-width: 576px) {
+            padding: 20px;
         }
 
         .text {
