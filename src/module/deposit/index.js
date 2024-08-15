@@ -42,9 +42,9 @@ export default function Deposit() {
                     <h2>Withdrawals</h2>
                 </div>
 
-                <p>When a withdrawal is performed the amounts withdrawn will be returned to the same card used earlier for depositing. Winpro FX cannot process the withdrawals made to any different Card number or Card holder.</p>
+                <p>When a withdrawal is performed the amounts withdrawn will be returned to the same card used earlier for depositing. FOREX VOYAGER LIMITED cannot process the withdrawals made to any different Card number or Card holder.</p>
 
-                <p>We are not liable for any transfer delays you may experience due to a disruption of service in the system of the payment processor. Winpro FX reserves the right to ask you to upload a scanned color copy or photos of both the front and back pages of your card. It is advised that you only leave the first 4 and last 4 digits of your card number visible in the image, and also cover the CVV number from the back of your credit card. Please note that for cards that don’t show cardholder name, we may require from the Client a documental proof of card ownership, such as a confirmation letter or a Statement by the card issuer.</p>
+                <p>We are not liable for any transfer delays you may experience due to a disruption of service in the system of the payment processor. FOREX VOYAGER LIMITED reserves the right to ask you to upload a scanned color copy or photos of both the front and back pages of your card. It is advised that you only leave the first 4 and last 4 digits of your card number visible in the image, and also cover the CVV number from the back of your credit card. Please note that for cards that don’t show cardholder name, we may require from the Client a documental proof of card ownership, such as a confirmation letter or a Statement by the card issuer.</p>
 
                 <p>The company takes extreme precautions when dealing with security alerts for credit card payments in order to protect our and our clients' financial integrity. For this reason, although we strive to credit our clients' Credit/Debit card deposits as soon as possible, we do not undertake nor promise or ensure immediate crediting after depositing, as in some cases additional verification of payments is likely to be performed.</p>
 
@@ -88,7 +88,7 @@ export default function Deposit() {
                     <h2>REFUND Conditions:</h2>
                 </div>
 
-                <p>Winpro FX provide clients with a clear and transparent refund policy. In cases, where clients are not satisfied with the Company’s service level and did not make trading, investing, conversiontransactions, the Client can request a refund. The Company offers a 100% refund within 1 working day of the original service deposit. The request will be reviewed within 5 business days. After one day, deposit will no longer be refundable and will be treated as normal withdrawal based on the existing withdrawal terms and conditions.</p>
+                <p>FOREX VOYAGER LIMITED provide clients with a clear and transparent refund policy. In cases, where clients are not satisfied with the Company’s service level and did not make trading, investing, conversiontransactions, the Client can request a refund. The Company offers a 100% refund within 1 working day of the original service deposit. The request will be reviewed within 5 business days. After one day, deposit will no longer be refundable and will be treated as normal withdrawal based on the existing withdrawal terms and conditions.</p>
 
                 <p>The Client agree not to request for a refund or chargeback from its payment method provider at any time while or after using the Company’s services.</p>
 
@@ -106,7 +106,7 @@ export default function Deposit() {
 
                 <p>All complaints must be in writing and addressed to the Customer Support team of the Company via email at <a href="mailto:Info@forexvoyeger.com" target='_blank' rel="noreferrer">Info@forexvoyeger.com</a></p>
 
-                <p>Please note that this policy cannot be exhaustive, and additional conditions or requirements may apply at any time due to regulations and policies, including those set-in order to prevent money laundering. Any and all usage of the site and services is subject to the Terms and Conditions, as may be amended from time to time by Winpro FX, at its sole discretion.</p>
+                <p>Please note that this policy cannot be exhaustive, and additional conditions or requirements may apply at any time due to regulations and policies, including those set-in order to prevent money laundering. Any and all usage of the site and services is subject to the Terms and Conditions, as may be amended from time to time by FOREX VOYAGER LIMITED, at its sole discretion.</p>
             </div>
         </>
     )

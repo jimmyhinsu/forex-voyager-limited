@@ -44,7 +44,7 @@ export default function Callbackfrom() {
             try {
               const response = await fetch(`https://api.ipgeolocation.io/reverse-geocode?apiKey=YOUR_API_KEY&lat=${position.coords.latitude}&long=${position.coords.longitude}`);
               const data = await response.json();
-              const countryCode = data.country_code2; // Adjust based on the API response
+              const countryCode = data.country_code2; // <--------  Adjust based on the API response
               const region = regions.find((r) => r.code === countryCode) || regions.find((r) => r.code === "US");
               setSelectedRegion(region.code);
               setPhoneNumber(region.numberCode + " ");
@@ -63,7 +63,7 @@ export default function Callbackfrom() {
           }
         );
       } else {
-        // Geolocation not supported
+        //<---------------- Geolocation not supported
         const defaultRegion = regions.find((r) => r.code === "US");
         setSelectedRegion(defaultRegion.code);
         setPhoneNumber(defaultRegion.numberCode + " ");
@@ -71,7 +71,7 @@ export default function Callbackfrom() {
     };
 
     autoSelectRegion();
-  }, [regions]); // Add `regions` to the dependency array
+  }, [regions]); //<------------- Add `regions` to the dependency array
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
@@ -94,7 +94,7 @@ export default function Callbackfrom() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add your form submission logic here
+    //<-------------- Add your form submission logic here
   };
 
   const isFormValid = firstName && lastName && email && message && /^\d+$/.test(phoneNumber.replace(/^\+\d+\s/, ""));
