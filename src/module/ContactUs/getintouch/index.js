@@ -11,7 +11,7 @@ export default function Getintouch() {
           </div>
 
           <div className='contactus'>
-            <p>Contact us with any questions or if you’d like more information about MultiBank Group’s products and services.</p>
+            {/* <p>Contact us with any questions or if you’d like more information about MultiBank Group’s products and services.</p> */}
           </div>
         </div>
 
