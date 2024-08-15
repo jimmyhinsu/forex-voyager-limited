@@ -1,0 +1,44 @@
+.termspage {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+
+    .conatiner-terms {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        h1 {
+            font-size: 32px;
+            color: #fff;
+        }
+    }
+}
+
+.conatiner-terms {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+    .main-sub-name {
+        margin-top: 30px;
+
+        h2 {
+            font-size: 20px;
+            color: #3d6bdd;
+        }
+    }
+    p {
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 1.5;
+        margin: 10px 0 0;
+        text-align: justify;
+        color: #bfbfbf;
+        letter-spacing: 0.2;
+    }
+
+    a {
+        color: #bfbfbf;
+        font-weight: 600;
+    }
+}

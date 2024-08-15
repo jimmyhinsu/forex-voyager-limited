@@ -94,10 +94,10 @@ export default function Footer() {
           </div>
         </div>
         <div className="footer-bottom-line">
-          <Link to={"/"}>Privacy Policy</Link>
-          <Link to={"/"}>Terms & Conditions</Link>
-          <Link to={"/"}>AMS Policy</Link>
-          <Link to={"/"}>Deposit & withdrawal Policy</Link>
+          <Link to={"/privacypage"}>Privacy Policy</Link>
+          <Link to={"/terms"}>Terms & Conditions</Link>
+          <Link to={"/amlpolicy"}>AML Policy</Link>
+          <Link to={"/deposit"}>Deposit & withdrawal Policy</Link>
           <Link to={"/"}>Restricted Countries</Link>
           <Link to={"/"} id="risk-side-border-remove">
             Risk Disclosure
