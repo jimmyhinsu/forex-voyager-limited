@@ -98,8 +98,8 @@ export default function Footer() {
           <Link to={"/terms"}>Terms & Conditions</Link>
           <Link to={"/amlpolicy"}>AML Policy</Link>
           <Link to={"/deposit"}>Deposit & withdrawal Policy</Link>
-          <Link to={"/"}>Restricted Countries</Link>
-          <Link to={"/"} id="risk-side-border-remove">
+          <Link to={"/restrictedpolicy"}>Restricted Countries</Link>
+          <Link to={"/riskdisclosure"} id="risk-side-border-remove">
             Risk Disclosure
           </Link>
         </div>

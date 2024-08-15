@@ -26,7 +26,7 @@ export default function Callbackfrom() {
     () => [
       { code: "IN", image: INFlag, name: "India", numberCode: "+91" },
       { code: "NP", image: NPFlag, name: "Nepal", numberCode: "+977" },
-      { code: "BN", image: BNFlag, name: "Bangla Desh", numberCode: "+880" },
+      { code: "BN", image: BNFlag, name: "Bangladesh", numberCode: "+880" },
       { code: "PK", image: PKFlag, name: "Pakistan", numberCode: "+92" },
       { code: "CHN", image: CHNFlag, name: "China", numberCode: "+86" },
       { code: "SRLN", image: SRLNFlag, name: "Sri Lanka", numberCode: "+94" },
@@ -44,7 +44,7 @@ export default function Callbackfrom() {
             try {
               const response = await fetch(`https://api.ipgeolocation.io/reverse-geocode?apiKey=YOUR_API_KEY&lat=${position.coords.latitude}&long=${position.coords.longitude}`);
               const data = await response.json();
-              const countryCode = data.country_code2; // <--------  Adjust based on the API response
+              const countryCode = data.country_code2;
               const region = regions.find((r) => r.code === countryCode) || regions.find((r) => r.code === "US");
               setSelectedRegion(region.code);
               setPhoneNumber(region.numberCode + " ");
@@ -63,7 +63,6 @@ export default function Callbackfrom() {
           }
         );
       } else {
-        //<---------------- Geolocation not supported
         const defaultRegion = regions.find((r) => r.code === "US");
         setSelectedRegion(defaultRegion.code);
         setPhoneNumber(defaultRegion.numberCode + " ");
@@ -71,7 +70,7 @@ export default function Callbackfrom() {
     };
 
     autoSelectRegion();
-  }, [regions]); //<------------- Add `regions` to the dependency array
+  }, [regions]);
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
@@ -87,17 +86,26 @@ export default function Callbackfrom() {
   const handlePhoneNumberChange = (e) => {
     const currentRegion = regions.find((r) => r.code === selectedRegion);
     const input = e.target.value.replace(/^\+\d+\s/, "");
-    if (/^\d*$/.test(input)) {
-      setPhoneNumber(currentRegion.numberCode + " " + input);
-    }
+    setPhoneNumber(currentRegion.numberCode + " " + input);
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    //<-------------- Add your form submission logic here
-  };
 
-  const isFormValid = firstName && lastName && email && message && /^\d+$/.test(phoneNumber.replace(/^\+\d+\s/, ""));
+    console.log({
+      firstName,
+      lastName,
+      email,
+      phoneNumber,
+      message,
+    });
+
+    setFirstName("");
+    setLastName("");
+    setEmail("");
+    setPhoneNumber("");
+    setMessage("");
+  };
 
   const currentRegion = regions.find((r) => r.code === selectedRegion);
 
@@ -115,14 +123,7 @@ export default function Callbackfrom() {
               <img src={currentRegion.image} alt={selectedRegion} className="region-flag" />
               <Formdropdownicon />
             </div>
-            <input
-              type="tel"
-              placeholder={`Phone Number (${currentRegion.numberCode})`}
-              value={phoneNumber}
-              onChange={handlePhoneNumberChange}
-              pattern="[0-9]*"
-              className={`phone-input ${/^\d+$/.test(phoneNumber.replace(/^\+\d+\s/, "")) ? "" : "invalid"}`}
-            />
+            <input type="tel" placeholder={`Phone Number (${currentRegion.numberCode})`} value={phoneNumber} onChange={handlePhoneNumberChange} className="phone-input" />
             {isDropdownOpen && (
               <div className="dropdown-list">
                 {regions.map((region) => (
@@ -147,9 +148,11 @@ export default function Callbackfrom() {
             <Link to={"/contactus"}>Cookie Policy</Link>.
           </p>
           <div className="submit-button">
-            <button type="submit" disabled={!isFormValid} className={`submit-btn ${!isFormValid ? "disabled" : "active"}`}>
-              Submit
-            </button>
+            <a href="mailto:Info@forexvoyeger.com">
+              <button type="submit" className="submit-btn">
+                Submit
+              </button>
+            </a>
           </div>
         </div>
       </form>

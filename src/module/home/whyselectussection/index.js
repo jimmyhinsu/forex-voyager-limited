@@ -39,7 +39,7 @@ export default function Whyselectussection({ id }) {
             <div className="whyselectus-cards-icons">
               <img src={balance} alt="shieldicon" />
             </div>
-            <h3>Leverage Up To 500:1</h3>
+            <h3>Leverage Up To 1:500</h3>
             <p>We provide one of the highest levels of leverage in the market, helping traders to multiply their potential profits.</p>
             <div className="whyselectus-cards-bottom-line whyselectus-cards-bottom-line-trd"></div>
           </div>

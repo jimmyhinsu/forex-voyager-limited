@@ -84,6 +84,10 @@
             }
 
             .joinbutton {
+
+                a {
+                    text-decoration-line: none;
+                }
                 button {
                     border-radius: 50px;
                     padding: 15px 20px;
