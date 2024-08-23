@@ -9,6 +9,7 @@ import shares from "../../../src/assets/images/img-sharesHeader.webp";
 import Slideicon from "../../../src/assets/svg/slideicon";
 import Gotonext from '../home/gotonext';
 import Wanttoget from '../home/wanttoget';
+import Benefitfrom from '../../components/benefitfrom';
 
 export default function Forexproducts() {
     const [activeButton, setActiveButton] = useState("Forex");
@@ -320,6 +321,7 @@ export default function Forexproducts() {
                 </div>
             </div>
 
+            <Benefitfrom />
             <Gotonext />
             <Wanttoget />
         </>

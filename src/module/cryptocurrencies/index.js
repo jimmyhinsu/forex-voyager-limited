@@ -9,6 +9,7 @@ import shares from "../../../src/assets/images/img-sharesHeader.webp";
 import Slideicon from "../../../src/assets/svg/slideicon";
 import Gotonext from '../home/gotonext';
 import Wanttoget from '../home/wanttoget';
+import Benefitfrom from '../../components/benefitfrom';
 
 export default function Cryptocurrencies() {
     const [activeButton, setActiveButton] = useState("Digital Assets");
@@ -319,6 +320,8 @@ export default function Cryptocurrencies() {
                     </div>
                 </div>
             </div>
+
+            <Benefitfrom/>
             <Gotonext />
             <Wanttoget />
         </>

@@ -9,6 +9,7 @@ import shares from "../../../src/assets/images/img-sharesHeader.webp";
 import Slideicon from "../../../src/assets/svg/slideicon";
 import Gotonext from '../home/gotonext';
 import Wanttoget from '../home/wanttoget';
+import Benefitfrom from '../../components/benefitfrom';
 
 export default function Indices() {
   const [activeButton, setActiveButton] = useState("Indices");
@@ -320,6 +321,7 @@ export default function Indices() {
         </div>
       </div>
 
+      <Benefitfrom />
       <Gotonext />
       <Wanttoget />
     </>

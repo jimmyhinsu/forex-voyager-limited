@@ -9,6 +9,7 @@ import shares from "../../../src/assets/images/img-sharesHeader.webp";
 import Slideicon from "../../../src/assets/svg/slideicon";
 import Gotonext from '../home/gotonext';
 import Wanttoget from '../home/wanttoget';
+import Benefitfrom from '../../components/benefitfrom';
 
 export default function Metals() {
   const [activeButton, setActiveButton] = useState("Metals");
@@ -320,6 +321,7 @@ export default function Metals() {
         </div>
       </div>
 
+      <Benefitfrom />
       <Gotonext />
       <Wanttoget />
     </>
