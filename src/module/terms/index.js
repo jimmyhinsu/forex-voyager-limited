@@ -50,11 +50,11 @@ export default function Terms() {
                 <div className='main-sub-name'>
                     <h2>6. Contact Information</h2>
                 </div>
+                
                 <p>6.1 If you have any questions or concerns about this Trading Platform Agreement or WinproFX services and products, please contact us at:
                     <a href="mailto:Info@forexvoyeger.com" target='_blank' rel="noreferrer">Info@forexvoyeger.com</a>
                 </p>
             </div>
-
         </>
     )
 }

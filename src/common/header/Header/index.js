@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../header.scss";
 import Dropdownicon from "../../../assets/svg/dropdownicon";
+import { Link } from "react-router-dom";
 
 function Headermain() {
   const [isAboutDropdownVisible, setAboutDropdownVisible] = useState(false);
@@ -48,9 +49,9 @@ function Headermain() {
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <a href="#about-section1">Why Forex Voyager</a>
-                  <a href="#about-section2">Regulations</a>
-                  <a href="#about-section3">Careers</a>
+                  <Link to={"/"}>Why Forex Voyager</Link>
+                  <Link to={"/"}>Regulations</Link>
+                  <Link to={"/"}>Careers</Link>
                 </div>
               </div>
             </div>
@@ -65,12 +66,12 @@ function Headermain() {
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <a href="#products-section1">Forex</a>
-                  <a href="#products-section2">Metals</a>
-                  <a href="#products-section3">Shares</a>
-                  <a href="#products-section4">Indices</a>
-                  <a href="#products-section5">Commodities</a>
-                  <a href="#products-section6">Cryptocurrencies</a>
+                  <Link to={"/forexproducts"}>Forex</Link>
+                  <Link to={"/metals"}>Metals</Link>
+                  <Link to={"/shares"}>Shares</Link>
+                  <Link to={"/indices"}>Indices</Link>
+                  <Link to={"/commodities"}>Commodities</Link>
+                  <Link to={"/cryptocurrencies"}>Cryptocurrencies</Link>
                 </div>
               </div>
             </div>
@@ -85,8 +86,8 @@ function Headermain() {
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <a href="#platforms-section1">MT5 Platform</a>
-                  <a href="#platforms-section2">Web Trader MT5</a>
+                  <Link to={"/"}>MT5 Platform</Link>
+                  <Link to={"/"}>Web Trader MT5</Link>
                 </div>
               </div>
             </div>
@@ -101,10 +102,10 @@ function Headermain() {
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <a href="#accounts-section1">Compare Accounts</a>
-                  <a href="#accounts-section2">Standard</a>
-                  <a href="#accounts-section3">Pro</a>
-                  <a href="#accounts-section4">ECN</a>
+                  <Link to={"/"}>Compare Accounts</Link>
+                  <Link to={"/"}>Standard</Link>
+                  <Link to={"/"}>Pro</Link>
+                  <Link to={"/"}>ECN</Link>
                 </div>
               </div>
             </div>
@@ -119,14 +120,14 @@ function Headermain() {
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <a href="#tools-section1">Trading Tools</a>
-                  <a href="#tools-section2">Trading Conditions</a>
-                  <a href="#tools-section3">Trading Hours & Holiday Notice</a>
-                  <a href="#tools-section4">CFD Expiration Dates</a>
-                  <a href="#tools-section5">Education</a>
-                  <a href="#tools-section6">Economic Calendar</a>
-                  <a href="#tools-section7">Contract Specifications</a>
-                  <a href="#tools-section8">Swap-free Policy</a>
+                  <Link to={"/"}>Trading Tools</Link>
+                  <Link to={"/"}>Trading Conditions</Link>
+                  <Link to={"/"}>Trading Hours & Holiday Notice</Link>
+                  <Link to={"/"}>CFD Expiration Dates</Link>
+                  <Link to={"/"}>Education</Link>
+                  <Link to={"/"}>Economic Calendar</Link>
+                  <Link to={"/"}>Contract Specifications</Link>
+                  <Link to={"/"}>Swap-free Policy</Link>
                 </div>
               </div>
             </div>
@@ -141,11 +142,11 @@ function Headermain() {
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <a href="#partnership-section1">Introducing Brokers</a>
-                  <a href="#partnership-section2">Franchise Program</a>
-                  <a href="#partnership-section3">Institutional Liquidity Offering</a>
-                  <a href="#partnership-section4">CPA Affiliate Program</a>
-                  <a href="#partnership-section5">IB Offers</a>
+                  <Link to={"/"}>Introducing Brokers</Link>
+                  <Link to={"/"}>Franchise Program</Link>
+                  <Link to={"/"}>Institutional Liquidity Offering</Link>
+                  <Link to={"/"}>CPA Affiliate Program</Link>
+                  <Link to={"/"}>IB Offers</Link>
                 </div>
               </div>
             </div>

@@ -134,7 +134,7 @@
             }
 
             #up-and-down-boxes-changer-web-metals {
-                @media (max-width:1024px) {
+                @media (max-width: 1024px) {
                     display: none;
                 }
             }
@@ -148,7 +148,7 @@
             }
 
             #up-and-down-boxes-changer-web-shares {
-                @media (max-width:1024px) {
+                @media (max-width: 1024px) {
                     display: none;
                 }
             }
@@ -162,11 +162,10 @@
             }
 
             #up-and-down-boxes-changer-web-indices {
-                @media (max-width:1024px) {
+                @media (max-width: 1024px) {
                     display: none;
                 }
             }
-
 
             #up-and-down-boxes-changer-mobile-commodities {
                 display: none;
@@ -177,7 +176,7 @@
             }
 
             #up-and-down-boxes-changer-web-commodities {
-                @media (max-width:1024px) {
+                @media (max-width: 1024px) {
                     display: none;
                 }
             }
@@ -191,13 +190,13 @@
             }
 
             #up-and-down-boxes-changer-web-digital {
-                @media (max-width:1024px) {
+                @media (max-width: 1024px) {
                     display: none;
                 }
             }
 
             .product-content {
-                margin: 78px 0 0 0;
+                margin: 40px 0 0 0;
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 gap: 20px;
@@ -252,7 +251,7 @@
                     align-items: center;
                     gap: 10px;
 
-                    @media (max-width:800px) {
+                    @media (max-width: 800px) {
                         grid-template-columns: repeat(1, 1fr);
                     }
 
@@ -263,11 +262,13 @@
                         padding: 19px;
 
                         h3 {
-                            background: linear-gradient(88.9deg,
-                                    #467bff,
-                                    #75d9d9 50%,
-                                    #75d9d9 75%,
-                                    #467bff 120%) !important;
+                            background: linear-gradient(
+                                88.9deg,
+                                #467bff,
+                                #75d9d9 50%,
+                                #75d9d9 75%,
+                                #467bff 120%
+                            ) !important;
                             background-size: 200% auto !important;
                             color: transparent;
                             -webkit-background-clip: text !important;
@@ -286,7 +287,7 @@
                             min-width: 291px;
                             display: block;
 
-                            @media (max-width:1024px) {
+                            @media (max-width: 1024px) {
                                 min-width: auto;
                             }
                         }
@@ -299,11 +300,11 @@
                     align-items: center;
                     gap: 10px;
 
-                    @media (max-width:1024px) {
+                    @media (max-width: 1024px) {
                         grid-template-columns: repeat(2, 1fr);
                     }
 
-                    @media (max-width:576px) {
+                    @media (max-width: 576px) {
                         grid-template-columns: repeat(1, 1fr);
                     }
 
@@ -314,11 +315,13 @@
                         padding: 19px;
 
                         h3 {
-                            background: linear-gradient(88.9deg,
-                                    #467bff,
-                                    #75d9d9 50%,
-                                    #75d9d9 75%,
-                                    #467bff 120%) !important;
+                            background: linear-gradient(
+                                88.9deg,
+                                #467bff,
+                                #75d9d9 50%,
+                                #75d9d9 75%,
+                                #467bff 120%
+                            ) !important;
                             background-size: 200% auto !important;
                             color: transparent;
                             -webkit-background-clip: text !important;
@@ -346,11 +349,11 @@
                     align-items: center;
                     gap: 10px;
 
-                    @media (max-width:1024px) {
+                    @media (max-width: 1024px) {
                         grid-template-columns: repeat(2, 1fr);
                     }
 
-                    @media (max-width:576px) {
+                    @media (max-width: 576px) {
                         grid-template-columns: repeat(1, 1fr);
                     }
 
@@ -363,11 +366,13 @@
 
                         h3 {
                             min-width: 180px;
-                            background: linear-gradient(88.9deg,
-                                    #467bff,
-                                    #75d9d9 50%,
-                                    #75d9d9 75%,
-                                    #467bff 120%) !important;
+                            background: linear-gradient(
+                                88.9deg,
+                                #467bff,
+                                #75d9d9 50%,
+                                #75d9d9 75%,
+                                #467bff 120%
+                            ) !important;
                             background-size: 200% auto !important;
                             color: transparent;
                             -webkit-background-clip: text !important;
@@ -395,11 +400,11 @@
                     align-items: center;
                     gap: 10px;
 
-                    @media (max-width:1024px) {
+                    @media (max-width: 1024px) {
                         grid-template-columns: repeat(2, 1fr);
                     }
 
-                    @media (max-width:576px) {
+                    @media (max-width: 576px) {
                         grid-template-columns: repeat(1, 1fr);
                     }
 
@@ -412,11 +417,13 @@
 
                         h3 {
                             min-width: 180px;
-                            background: linear-gradient(88.9deg,
-                                    #467bff,
-                                    #75d9d9 50%,
-                                    #75d9d9 75%,
-                                    #467bff 120%) !important;
+                            background: linear-gradient(
+                                88.9deg,
+                                #467bff,
+                                #75d9d9 50%,
+                                #75d9d9 75%,
+                                #467bff 120%
+                            ) !important;
                             background-size: 200% auto !important;
                             color: transparent;
                             -webkit-background-clip: text !important;

@@ -1,17 +1,14 @@
 import React from "react";
 import "../platforms/platforms.scss";
-import backgroundimg from "../../../assets/images/striped-background-colored.webp";
 import meta5 from "../../../assets/images/meta-5.svg";
 import Slideicon from "../../../assets/svg/slideicon";
+import metaplat from "../../../assets/images/meta-5.png";
 
 function Platforms({ id }) {
   return (
     <>
       <div className="platforms" id={id}>
         <div className="backimg">
-          <div className="backgroundimg-alignment">
-            <img src={backgroundimg} alt="error" />
-          </div>
           <div className="mainplatformdiv">
             <div className="container">
               <div className="platformsheading">
@@ -43,15 +40,13 @@ function Platforms({ id }) {
                 </div>
 
                 <div className='platfromsimages'>
-
+                  <img src={metaplat} alt="error" />
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
-
     </>
   );
 }

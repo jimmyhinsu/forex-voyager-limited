@@ -1,8 +1,8 @@
 import React from 'react'
 import "./contactus.scss";
 import Getintouch from './getintouch';
-import Wanttoget from './wanttoget';
-import Gotonext from './gotonext';
+import Gotonext from '../home/gotonext';
+import Wanttoget from '../home/wanttoget';
 
 export default function Contcatus() {
     return (

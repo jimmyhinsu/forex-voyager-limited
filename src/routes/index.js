@@ -8,6 +8,13 @@ import Amlpolicy from "../module/amlpolicy";
 import Deposit from "../module/deposit";
 import Restrictedpolicy from "../module/Restrictedcountry";
 import Riskdisclosure from "../module/Riskdisclosure";
+import Errorpage from "../components/Errorpage";
+import Forexproducts from "../module/forexproducts";
+import Metals from "../module/metals";
+import Shares from "../module/shares";
+import Indices from "../module/indices";
+import Commodities from "../module/commodities";
+import Cryptocurrencies from "../module/cryptocurrencies";
 
 const router = createBrowserRouter([
   {
@@ -51,7 +58,35 @@ const router = createBrowserRouter([
         path: "/riskdisclosure",
         element: <Riskdisclosure />,
       },
+      {
+        path: "/forexproducts",
+        element: <Forexproducts />
+      },
+      {
+        path: "metals",
+        element: <Metals />
+      },
+      {
+        path: "shares",
+        element: <Shares />
+      },
+      {
+        path: "indices",
+        element: <Indices />
+      },
+      {
+        path: "commodities",
+        element: <Commodities />
+      },
+      {
+        path: "cryptocurrencies",
+        element: <Cryptocurrencies />
+      }
     ],
+  },
+  {
+    path: "*",
+    element: <Errorpage />
   },
 ]);
 
