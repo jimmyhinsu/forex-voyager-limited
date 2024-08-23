@@ -534,3 +534,56 @@ p {
         }
     }
 }
+
+.section-mt {
+    margin: 100px 0;
+
+    .bgliner-color {
+        padding: 50px 0;
+        background-image: radial-gradient(53.28% 46.13% at 53.28% 57.78%, #172547 0, #060b22 100%);
+
+        .container {
+            max-width: 1372px;
+            margin: 0 auto;
+            padding: 0 20px;
+
+            .what-forex {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                align-items: center;
+                gap: 130px;
+
+                .forex-text {
+                    h3 {
+                        color: #fff;
+                        font-size: 40px;
+                        font-weight: 700;
+                    }
+                    span {
+                        background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
+                        color: transparent;
+                        background-clip: text;
+                    }
+
+                    .forex-peragraph {
+                        margin-top: 20px;
+                        p {
+                            font-size: 18px;
+                            color: #fff;
+                            margin-top: 20px;
+                            line-height: 1.3;
+                            font-weight: 600;
+                        }
+                    }
+                }
+
+                .what-is-img {
+                    img {
+                        height: 100%;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

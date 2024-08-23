@@ -10,6 +10,7 @@ import Slideicon from "../../../src/assets/svg/slideicon";
 import Gotonext from '../home/gotonext';
 import Wanttoget from '../home/wanttoget';
 import Benefitfrom from '../../components/benefitfrom';
+import whatisforex from '../../assets/images/what-is-forex.webp';
 
 export default function Forexproducts() {
     const [activeButton, setActiveButton] = useState("Forex");
@@ -322,6 +323,30 @@ export default function Forexproducts() {
             </div>
 
             <Benefitfrom />
+
+            <div className='section-mt'>
+                <div className='bgliner-color'>
+                    <div className='container'>
+                        <div className='what-forex'>
+                            <div className='forex-text'>
+                                <h3>What is <span> Forex </span>?</h3>
+                                <div className='forex-peragraph'>
+                                    <p>Forex is the largest financial market in the world with a daily turnover of approximately $7.5 Trillion. It operates through a global network of banks, companies and individuals who constantly buy and sell currencies from each other.</p>
+
+                                    <p>The Foreign Exchange market has no physical location and operates 24 hours a day. Refer to our Trading Hours and be informed on the relevant dates and trading sessions.</p>
+
+                                    <p>MultiBank Group offers Forex major, cross and exotic pairs to trade in the Forex markets with deep liquidity. Benefit from the best trading tools and cutting-edge MetaTrader 4 and MetaTrader 5 trading platforms, available on all our accounts.</p>
+                                </div>
+                            </div>
+                            <div className='what-is-img'>
+                                <img src={whatisforex} alt="error" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
             <Gotonext />
             <Wanttoget />
         </>
