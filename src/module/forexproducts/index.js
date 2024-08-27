@@ -11,6 +11,7 @@ import Gotonext from '../home/gotonext';
 import Wanttoget from '../home/wanttoget';
 import Benefitfrom from '../../components/benefitfrom';
 import whatisforex from '../../assets/images/what-is-forex.webp';
+import tradewith from '../../assets/images/trade-with-mb.webp';
 
 export default function Forexproducts() {
     const [activeButton, setActiveButton] = useState("Forex");
@@ -335,7 +336,7 @@ export default function Forexproducts() {
 
                                     <p>The Foreign Exchange market has no physical location and operates 24 hours a day. Refer to our Trading Hours and be informed on the relevant dates and trading sessions.</p>
 
-                                    <p>MultiBank Group offers Forex major, cross and exotic pairs to trade in the Forex markets with deep liquidity. Benefit from the best trading tools and cutting-edge MetaTrader 4 and MetaTrader 5 trading platforms, available on all our accounts.</p>
+                                    <p>Forex Voyage offers Forex major, cross and exotic pairs to trade in the Forex markets with deep liquidity. Benefit from the best trading tools and cutting-edge MetaTrader 4 and MetaTrader 5 trading platforms, available on all our accounts.</p>
                                 </div>
                             </div>
                             <div className='what-is-img'>
@@ -346,6 +347,44 @@ export default function Forexproducts() {
                 </div>
             </div>
 
+            <div className='trade-forex'>
+                <div className='container'>
+                    <div className='trade-grid'>
+                        <div className='start-trading'>
+                            <h3>Trade Forex With</h3>
+                            <span>Forex Voyager</span>
+                            <p>Start trading with Forex Voyager on over 55 Forex pairs with the tightest spreads in the industry.</p>
+                        </div>
+                        <div className='trade-with-mb'>
+                            <img src={tradewith} alt="error" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='card-seaction'>
+                <div className='conatiner'>
+                    <div className='cards-grid'>
+                        <div className="whyselectus-cards-grid-items1">
+                            <span>Spreads</span>
+                            <div className="whyselectus-cards-bottom-line-sc"></div>
+                            <p>Starting from 0.0 Pips, Forex voyager offers one of the most competitive spreads in the market.</p>
+                        </div>
+
+                        <div className="whyselectus-cards-grid-items1">
+                            <span>Leverage</span>
+                            <div className="whyselectus-cards-bottom-line"></div>
+                            <p>With up to 500:1 leverage, users can increase their buying power, making a difference to the affordability of their trades.</p>
+                        </div>
+
+                        <div className="whyselectus-cards-grid-items1">
+                            <span>55+ Currency Pairs</span>
+                            <div className="whyselectus-cards-bottom-line-trd"></div>
+                            <p>There is a wide number of currency pairs, and they are classified into major, minor, and exotic currency pairs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
             <Gotonext />
             <Wanttoget />
