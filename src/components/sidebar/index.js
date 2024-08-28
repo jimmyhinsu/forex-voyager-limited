@@ -36,25 +36,7 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
                     <Link to={"/"}>Why Forex voyager Limited</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Global Presence</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Regulations</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Security of Funds</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Milestones</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Awards</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Company News</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Sponsorship</Link>
+                    <Link to={"/regulations"}>Regulations</Link>
                   </div>
                   <div className="dropdowns-links-main">
                     <Link to={"/"}>Careers</Link>
@@ -75,31 +57,22 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
               {activeDropdown === 2 && (
                 <div className="dropdown-content-sidebar-details">
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Why Forex voyager Limited</Link>
+                    <Link to={"/forexproducts"}>Forex</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Global Presence</Link>
+                    <Link to={"/metals"}>Metals</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Regulations</Link>
+                    <Link to={"/shares"}>Shares</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Security of Funds</Link>
+                    <Link to={"/indices"}>Indices</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Milestones</Link>
+                    <Link to={"/commodities"}>Commodities</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Awards</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Company News</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Sponsorship</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Careers</Link>
+                    <Link to={"/cryptocurrencies"}>Cryptocurrencies</Link>
                   </div>
                 </div>
               )}
@@ -117,32 +90,12 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
               {activeDropdown === 3 && (
                 <div className="dropdown-content-sidebar-details">
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Why Forex voyager Limited</Link>
+                    <Link to={"/"}>MT5 Platform</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Global Presence</Link>
+                    <Link to={"/"}>Web Trader MT5</Link>
                   </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Regulations</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Security of Funds</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Milestones</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Awards</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Company News</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Sponsorship</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Careers</Link>
-                  </div>
+
                 </div>
               )}
             </div>
@@ -159,38 +112,23 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
               {activeDropdown === 4 && (
                 <div className="dropdown-content-sidebar-details">
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Why Forex voyager Limited</Link>
+                    <Link to={"/"}>Compare Accounts</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Global Presence</Link>
+                    <Link to={"/"}>Standard</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Regulations</Link>
+                    <Link to={"/"}>Pro</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Security of Funds</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Milestones</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Awards</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Company News</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Sponsorship</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Careers</Link>
+                    <Link to={"/"}>ECN</Link>
                   </div>
                 </div>
               )}
             </div>
           </div>
 
-          <div className={`sidebar-dropdowns-content-box-main`}>
+          {/* <div className={`sidebar-dropdowns-content-box-main`}>
             <div className={`sidebar-dropdowns-content-box-background ${activeDropdown === 5 ? "active" : ""}`}>
               <div className={`sidebar-dropdowns-content-box ${activeDropdown === 5 ? "active" : ""}`} onClick={() => handleDropdownClick(5)}>
                 <Link to={"/"}>Promotions</Link>
@@ -230,7 +168,7 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
                 </div>
               )}
             </div>
-          </div>
+          </div> */}
 
           <div className={`sidebar-dropdowns-content-box-main`}>
             <div className={`sidebar-dropdowns-content-box-background ${activeDropdown === 6 ? "active" : ""}`}>
@@ -243,31 +181,28 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
               {activeDropdown === 6 && (
                 <div className="dropdown-content-sidebar-details">
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Why Forex voyager Limited</Link>
+                    <Link to={"/"}>Trading Tools</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Global Presence</Link>
+                    <Link to={"/"}>Trading Conditions</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Regulations</Link>
+                    <Link to={"/"}>Trading Hours & Holiday Notice</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Security of Funds</Link>
+                    <Link to={"/"}>CFD Expiration Dates</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Milestones</Link>
+                    <Link to={"/"}>Education</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Awards</Link>
+                    <Link to={"/"}>Economic Calendar</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Company News</Link>
+                    <Link to={"/"}>Contract Specifications</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Sponsorship</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Careers</Link>
+                    <Link to={"/"}>Swap-free Policy</Link>
                   </div>
                 </div>
               )}
@@ -285,31 +220,19 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
               {activeDropdown === 7 && (
                 <div className="dropdown-content-sidebar-details">
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Why Forex voyager Limited</Link>
+                    <Link to={"/"}>Introducing Brokers</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Global Presence</Link>
+                    <Link to={"/"}>Franchise Program</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Regulations</Link>
+                    <Link to={"/"}>Institutional Liquidity Offering</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Security of Funds</Link>
+                    <Link to={"/"}>CPA Affiliate Program</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Milestones</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Awards</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Company News</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Sponsorship</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Careers</Link>
+                    <Link to={"/"}>IB Offers</Link>
                   </div>
                 </div>
               )}

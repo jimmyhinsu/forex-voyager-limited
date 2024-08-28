@@ -17,6 +17,10 @@ p {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
+a {
+  text-decoration-line: none;
+}
+
 body {
   background-color: rgb(11 17 32 / 1);
   color: rgb(255 255 255 / 1);

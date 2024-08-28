@@ -22,7 +22,7 @@ export default function Benefitfrom() {
                             <div className="whyselectus-cards-bottom-line"></div>
                         </div>
 
-                        <div className="whyselectus-cards-grid-items1">
+                        <div className="whyselectus-cards-grid-items1 ">
                             <span> Global Presence</span>
                             <h3>25+ Offices</h3>
                             <span>Worldwide</span>

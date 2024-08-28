@@ -218,10 +218,6 @@
                     align-items: center;
                     gap: 10px;
 
-                    @media (max-width: 800px) {
-                        grid-template-columns: repeat(1, 1fr);
-                    }
-
                     .up-and-down-box-changer {
                         border-radius: 15px;
                         border: 2px solid rgb(43 50 69/1);
@@ -266,6 +262,9 @@
                     grid-template-columns: repeat(2, 1fr);
                     gap: 10px;
                     margin-top: 30px;
+                    @media (max-width: 1024px) {
+                        grid-template-columns: repeat(1, 1fr);
+                    }
                     .start {
                         button {
                             background-image: linear-gradient(88.9deg, #467bff, #75d9d9 50%, #75d9d9 75%, #467bff 120%);
@@ -283,6 +282,11 @@
                             gap: 15px;
                             transition: 0.4s ease-in-out;
                             cursor: pointer;
+
+                            @media (max-width: 1024px) {
+                                padding: 10px;
+                            }
+
 
                             &:hover {
                                 transition: 0.4s ease-in-out;
@@ -369,10 +373,6 @@
                     align-items: center;
                     gap: 10px;
 
-                    @media (max-width: 1024px) {
-                        grid-template-columns: repeat(2, 1fr);
-                    }
-
                     @media (max-width: 576px) {
                         grid-template-columns: repeat(1, 1fr);
                     }
@@ -417,10 +417,6 @@
                     grid-template-columns: repeat(3, 1fr);
                     align-items: center;
                     gap: 10px;
-
-                    @media (max-width: 1024px) {
-                        grid-template-columns: repeat(2, 1fr);
-                    }
 
                     @media (max-width: 576px) {
                         grid-template-columns: repeat(1, 1fr);
@@ -468,10 +464,6 @@
                     grid-template-columns: repeat(3, 1fr);
                     align-items: center;
                     gap: 10px;
-
-                    @media (max-width: 1024px) {
-                        grid-template-columns: repeat(2, 1fr);
-                    }
 
                     @media (max-width: 576px) {
                         grid-template-columns: repeat(1, 1fr);

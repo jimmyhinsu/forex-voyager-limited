@@ -10,6 +10,7 @@ import Slideicon from "../../../src/assets/svg/slideicon";
 import Gotonext from '../home/gotonext';
 import Wanttoget from '../home/wanttoget';
 import Benefitfrom from '../../components/benefitfrom';
+import { Link } from 'react-router-dom';
 
 export default function Indices() {
   const [activeButton, setActiveButton] = useState("Indices");
@@ -25,24 +26,36 @@ export default function Indices() {
           <div className="product-title-main">
             <div className="product-title-main-alignment">
               <div className="product-buttons-changer">
-                <button onClick={() => handleButtonClick("Forex")} className={activeButton === "Forex" ? "activebutton" : ""}>
-                  Forex
-                </button>
-                <button onClick={() => handleButtonClick("Metals")} className={activeButton === "Metals" ? "activebutton" : ""}>
-                  Metals
-                </button>
-                <button onClick={() => handleButtonClick("Shares")} className={activeButton === "Shares" ? "activebutton" : ""}>
-                  Shares
-                </button>
-                <button onClick={() => handleButtonClick("Indices")} className={activeButton === "Indices" ? "activebutton" : ""}>
-                  Indices
-                </button>
-                <button onClick={() => handleButtonClick("Commodities")} className={activeButton === "Commodities" ? "activebutton" : ""}>
-                  Commodities
-                </button>
-                <button onClick={() => handleButtonClick("Digital Assets")} className={activeButton === "Digital Assets" ? "activebutton" : ""}>
-                  Digital Assets
-                </button>
+                <Link to={"/forexproducts"}>
+                  <button onClick={() => handleButtonClick("Forex")} className={activeButton === "Forex" ? "activebutton" : ""}>
+                    Forex
+                  </button>
+                </Link>
+                <Link to={"/metals"}>
+                  <button onClick={() => handleButtonClick("Metals")} className={activeButton === "Metals" ? "activebutton" : ""}>
+                    Metals
+                  </button>
+                </Link>
+                <Link to={"/shares"}>
+                  <button onClick={() => handleButtonClick("Shares")} className={activeButton === "Shares" ? "activebutton" : ""}>
+                    Shares
+                  </button>
+                </Link>
+                <Link to={"/indices"}>
+                  <button onClick={() => handleButtonClick("Indices")} className={activeButton === "Indices" ? "activebutton" : ""}>
+                    Indices
+                  </button>
+                </Link>
+                <Link to={"/commodities"}>
+                  <button onClick={() => handleButtonClick("Commodities")} className={activeButton === "Commodities" ? "activebutton" : ""}>
+                    Commodities
+                  </button>
+                </Link>
+                <Link to={"/cryptocurrencies"}>
+                  <button onClick={() => handleButtonClick("Digital Assets")} className={activeButton === "Digital Assets" ? "activebutton" : ""}>
+                    Digital Assets
+                  </button>
+                </Link>
               </div>
             </div>
             <div className="product-content">
@@ -115,6 +128,16 @@ export default function Indices() {
                       <span>Tightest spreads on Silver</span>
                     </div>
                   </div>
+                  <div className='start-open-buttons'>
+                    <div className='start'>
+                      <button>Start Tranding Now
+                        <Slideicon />
+                      </button>
+                    </div>
+                    <div className='open'>
+                      <button>Open Demo Account</button>
+                    </div>
+                  </div>
                 </div>
               )}
               {activeButton === "Metals" && (
@@ -156,6 +179,16 @@ export default function Indices() {
                     <div className="up-and-down-box-changer">
                       <h3>0%</h3>
                       <span>Commission</span>
+                    </div>
+                  </div>
+                  <div className='start-open-buttons'>
+                    <div className='start'>
+                      <button>Start Tranding Now
+                        <Slideicon />
+                      </button>
+                    </div>
+                    <div className='open'>
+                      <button>Open Demo Account</button>
                     </div>
                   </div>
                 </div>
@@ -202,6 +235,16 @@ export default function Indices() {
                       <span>Commission</span>
                     </div>
                   </div>
+                  <div className='start-open-buttons'>
+                    <div className='start'>
+                      <button>Start Tranding Now
+                        <Slideicon />
+                      </button>
+                    </div>
+                    <div className='open'>
+                      <button>Open Demo Account</button>
+                    </div>
+                  </div>
                 </div>
               )}
 
@@ -244,6 +287,16 @@ export default function Indices() {
                     <div className="up-and-down-box-changer">
                       <h3>Low Margin</h3>
                       <span>On All Commodities</span>
+                    </div>
+                  </div>
+                  <div className='start-open-buttons'>
+                    <div className='start'>
+                      <button>Start Tranding Now
+                        <Slideicon />
+                      </button>
+                    </div>
+                    <div className='open'>
+                      <button>Open Demo Account</button>
                     </div>
                   </div>
                 </div>
@@ -291,6 +344,16 @@ export default function Indices() {
                     <div className="up-and-down-box-changer">
                       <h3>UP TO 20:1</h3>
                       <span>Leverage on cryptocurrencies</span>
+                    </div>
+                  </div>
+                  <div className='start-open-buttons'>
+                    <div className='start'>
+                      <button>Start Tranding Now
+                        <Slideicon />
+                      </button>
+                    </div>
+                    <div className='open'>
+                      <button>Open Demo Account</button>
                     </div>
                   </div>
                 </div>
