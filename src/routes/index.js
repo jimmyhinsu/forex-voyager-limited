@@ -15,6 +15,7 @@ import Shares from "../module/shares";
 import Indices from "../module/indices";
 import Commodities from "../module/commodities";
 import Cryptocurrencies from "../module/cryptocurrencies";
+import Regulations from "../module/regulations";
 
 const router = createBrowserRouter([
   {
@@ -81,13 +82,17 @@ const router = createBrowserRouter([
       {
         path: "cryptocurrencies",
         element: <Cryptocurrencies />
-      }
+      },
+      {
+        path: "regulations",
+        element: <Regulations />
+      },
+
     ],
   },
   {
     path: "*",
     element: <Errorpage />
-  },
+  }
 ]);
-
 export default router;

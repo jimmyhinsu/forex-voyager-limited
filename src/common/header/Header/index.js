@@ -50,7 +50,7 @@ function Headermain() {
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
                   <Link to={"/"}>Why Forex Voyager</Link>
-                  <Link to={"/"}>Regulations</Link>
+                  <Link to={"/regulations"}>Regulations</Link>
                   <Link to={"/"}>Careers</Link>
                 </div>
               </div>
