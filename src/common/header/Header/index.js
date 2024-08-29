@@ -8,7 +8,7 @@ function Headermain() {
   const [isProductsDropdownVisible, setProductsDropdownVisible] = useState(false);
   const [isPlatformsDropdownVisible, setPlatformsDropdownVisible] = useState(false);
   const [isAccountsDropdownVisible, setAccountsDropdownVisible] = useState(false);
-  const [isToolsDropdownVisible, setToolsDropdownVisible] = useState(false);
+
   const [isPartnershipDropdownVisible, setPartnershipDropdownVisible] = useState(false);
 
   const handleAboutMouseEnter = () => setAboutDropdownVisible(true);
@@ -22,9 +22,6 @@ function Headermain() {
 
   const handleAccountsMouseEnter = () => setAccountsDropdownVisible(true);
   const handleAccountsMouseLeave = () => setAccountsDropdownVisible(false);
-
-  const handleToolsMouseEnter = () => setToolsDropdownVisible(true);
-  const handleToolsMouseLeave = () => setToolsDropdownVisible(false);
 
   const handlePartnershipMouseEnter = () => setPartnershipDropdownVisible(true);
   const handlePartnershipMouseLeave = () => setPartnershipDropdownVisible(false);
@@ -49,7 +46,7 @@ function Headermain() {
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <Link to={"/"}>Why Forex Voyager</Link>
+                  <Link to={"/whyforexvoyager"}>Why Forex Voyager</Link>
                   <Link to={"/regulations"}>Regulations</Link>
                   <Link to={"/"}>Careers</Link>
                 </div>
@@ -106,28 +103,6 @@ function Headermain() {
                   <Link to={"/"}>Standard</Link>
                   <Link to={"/"}>Pro</Link>
                   <Link to={"/"}>ECN</Link>
-                </div>
-              </div>
-            </div>
-          )}
-        </div>
-
-        <div className={`dropdown-container ${isToolsDropdownVisible ? "active" : ""}`} onMouseEnter={handleToolsMouseEnter} onMouseLeave={handleToolsMouseLeave}>
-          <a href="#tools" className={`${isToolsDropdownVisible ? "anceractive" : ""}`}>
-            Tools <Dropdownicon />
-          </a>
-          {isToolsDropdownVisible && (
-            <div className="dropdown-menu1">
-              <div className="dropdown-content-main">
-                <div className="dropdown-content">
-                  <Link to={"/"}>Trading Tools</Link>
-                  <Link to={"/"}>Trading Conditions</Link>
-                  <Link to={"/"}>Trading Hours & Holiday Notice</Link>
-                  <Link to={"/"}>CFD Expiration Dates</Link>
-                  <Link to={"/"}>Education</Link>
-                  <Link to={"/"}>Economic Calendar</Link>
-                  <Link to={"/"}>Contract Specifications</Link>
-                  <Link to={"/"}>Swap-free Policy</Link>
                 </div>
               </div>
             </div>

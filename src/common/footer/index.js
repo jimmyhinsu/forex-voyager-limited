@@ -31,8 +31,8 @@ export default function Footer() {
             <div className="footer-content">
               <p>About</p>
               <div className="footer-all-links-main">
-                <Link to={"/"}>Why Forex Voyager</Link>
-                <Link to={"/"}>Regulations</Link>
+                <Link to={"/whyforexvoyager"}>Why Forex Voyager</Link>
+                <Link to={"/regulations"}>Regulations</Link>
                 <Link to={"/"}>Careers</Link>
               </div>
             </div>
@@ -40,12 +40,12 @@ export default function Footer() {
             <div className="footer-content">
               <p>Products</p>
               <div className="footer-all-links-main">
-                <Link to={"/"}>Forex</Link>
-                <Link to={"/"}>Metals</Link>
-                <Link to={"/"}>Shares</Link>
-                <Link to={"/"}>Indices</Link>
-                <Link to={"/"}>Commodities</Link>
-                <Link to={"/"}>Cryptocurrencies</Link>
+                <Link to={"/forexproducts"}>Forex</Link>
+                <Link to={"/metals"}>Metals</Link>
+                <Link to={"/shares"}>Shares</Link>
+                <Link to={"/indices"}>Indices</Link>
+                <Link to={"/commodities"}>Commodities</Link>
+                <Link to={"/cryptocurrencies"}>Cryptocurrencies</Link>
               </div>
             </div>
 
@@ -67,19 +67,6 @@ export default function Footer() {
               </div>
             </div>
 
-            <div className="footer-content">
-              <p>Tools</p>
-              <div className="footer-all-links-main">
-                <Link to={"/"}>Trading Tools</Link>
-                <Link to={"/"}>Trading Conditions</Link>
-                <Link to={"/"}>Trading Hours & Holiday Notice</Link>
-                <Link to={"/"}>CFD Expiration Dates</Link>
-                <Link to={"/"}>Education</Link>
-                <Link to={"/"}>Economic Calendar</Link>
-                <Link to={"/"}>Contract Specifications</Link>
-                <Link to={"/"}>Swap-free Policy</Link>
-              </div>
-            </div>
 
             <div className="footer-content">
               <p>Partnership</p>

@@ -16,6 +16,7 @@ import Indices from "../module/indices";
 import Commodities from "../module/commodities";
 import Cryptocurrencies from "../module/cryptocurrencies";
 import Regulations from "../module/regulations";
+import Whyforexvoyager from "../module/whyforexvoyager";
 
 const router = createBrowserRouter([
   {
@@ -87,7 +88,10 @@ const router = createBrowserRouter([
         path: "regulations",
         element: <Regulations />
       },
-
+      {
+        path: "whyforexvoyager",
+        element: <Whyforexvoyager />
+      },
     ],
   },
   {

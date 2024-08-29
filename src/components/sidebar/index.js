@@ -33,7 +33,7 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
               {activeDropdown === 1 && (
                 <div className="dropdown-content-sidebar-details">
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Why Forex voyager Limited</Link>
+                    <Link to={"/cryptocurrencies"}>Why Forex voyager Limited</Link>
                   </div>
                   <div className="dropdowns-links-main">
                     <Link to={"/regulations"}>Regulations</Link>
@@ -122,87 +122,6 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
                   </div>
                   <div className="dropdowns-links-main">
                     <Link to={"/"}>ECN</Link>
-                  </div>
-                </div>
-              )}
-            </div>
-          </div>
-
-          {/* <div className={`sidebar-dropdowns-content-box-main`}>
-            <div className={`sidebar-dropdowns-content-box-background ${activeDropdown === 5 ? "active" : ""}`}>
-              <div className={`sidebar-dropdowns-content-box ${activeDropdown === 5 ? "active" : ""}`} onClick={() => handleDropdownClick(5)}>
-                <Link to={"/"}>Promotions</Link>
-                <div className={`dropdown-icon ${activeDropdown === 5 ? "active" : ""}`}>
-                  <Asidedropdown />
-                </div>
-              </div>
-              {activeDropdown === 5 && (
-                <div className="dropdown-content-sidebar-details">
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Why Forex voyager Limited</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Global Presence</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Regulations</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Security of Funds</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Milestones</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Awards</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Company News</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Sponsorship</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Careers</Link>
-                  </div>
-                </div>
-              )}
-            </div>
-          </div> */}
-
-          <div className={`sidebar-dropdowns-content-box-main`}>
-            <div className={`sidebar-dropdowns-content-box-background ${activeDropdown === 6 ? "active" : ""}`}>
-              <div className={`sidebar-dropdowns-content-box ${activeDropdown === 6 ? "active" : ""}`} onClick={() => handleDropdownClick(6)}>
-                <Link to={"/"}>Tools</Link>
-                <div className={`dropdown-icon ${activeDropdown === 6 ? "active" : ""}`}>
-                  <Asidedropdown />
-                </div>
-              </div>
-              {activeDropdown === 6 && (
-                <div className="dropdown-content-sidebar-details">
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Trading Tools</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Trading Conditions</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Trading Hours & Holiday Notice</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>CFD Expiration Dates</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Education</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Economic Calendar</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Contract Specifications</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Swap-free Policy</Link>
                   </div>
                 </div>
               )}

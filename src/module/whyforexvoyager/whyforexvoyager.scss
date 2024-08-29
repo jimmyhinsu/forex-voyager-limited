@@ -1,0 +1,206 @@
+.whyforex-bg {
+    background-image: url("../../assets/images/striped-bg-alt.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    transform: rotateY(180deg);
+
+    .container {
+        max-width: 1372px;
+        margin: 0 auto;
+        padding: 0 20px;
+        transform: rotateY(180deg);
+
+        .whyforex-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            @media (max-width: 1024px) {
+                display: block;
+                padding: 0 20px;
+            }
+
+            @media (max-width: 576px) {
+                padding: 0;
+            }
+
+            .whyforex-detail {
+                h1 {
+                    color: #fff;
+                    font-size: 50px;
+                    font-weight: 800;
+
+                    @media (max-width: 1024px) {
+                        font-size: 45px;
+                    }
+
+                    @media (max-width: 576px) {
+                        font-size: 25px;
+                    }
+
+                    span {
+                        background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
+                        color: transparent;
+                        -webkit-background-clip: text;
+                        background-clip: text;
+                    }
+                }
+                p {
+                    margin-top: 15px;
+                    line-height: 1.5;
+                    color: #fff;
+                    font-size: 18px;
+                    max-width: 790px;
+
+                    @media (max-width: 576px) {
+                        font-size: 15px;
+                    }
+                }
+            }
+
+            .whyforex-flex-img {
+                img {
+                    display: block;
+                }
+                @media (max-width: 1024px) {
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+.established-bgcolor {
+    background-image: linear-gradient(142.26deg, #141b35 1.22%, #060b22 105.61%);
+    margin: 80px 0;
+    padding: 80px 0;
+
+    @media (max-width: 1024px) {
+        margin: 0;
+    }
+
+    .container {
+        max-width: 1372px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        .forex-esta {
+            h2 {
+                font-size: 40px;
+                color: #fff;
+                font-weight: 700;
+                span {
+                    background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
+                    color: transparent;
+                    -webkit-background-clip: text;
+                    background-clip: text;
+                }
+
+                @media (max-width: 1024px) {
+                    font-size: 34px;
+                }
+            }
+
+            @media (max-width: 1024px) {
+                padding: 0 20px;
+            }
+
+            @media (max-width: 576px) {
+                padding: 0;
+            }
+        }
+
+        .established-grid {
+            padding-top: 35px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 60px 32px;
+
+            @media (max-width: 1024px) {
+                padding: 30px 20px;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 30px 16px;
+            }
+
+            @media (max-width: 576px) {
+                grid-template-columns: repeat(1, 1fr);
+                gap: 20px;
+                padding: 15px 0;
+            }
+
+            .establish-grid-details {
+                display: flex;
+                justify-content: start;
+                align-items: start;
+                gap: 10px;
+                flex-direction: column;
+
+                .number {
+                    position: relative;
+                    width: 44px;
+                    height: 44px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    h3 {
+                        font-size: 24px;
+                        background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
+                        color: transparent;
+                        -webkit-background-clip: text;
+                        background-clip: text;
+
+                        @media (max-width: 576px) {
+                            font-size: 20px;
+                        }
+                    }
+
+                    &::before {
+                        position: absolute;
+                        background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
+                        content: "";
+                        inset: 0;
+                        -webkit-mask:
+                            linear-gradient(#fff 0 0) content-box,
+                            linear-gradient(#fff 0 0);
+                        mask-composite: exclude;
+                        border-radius: 50%;
+                        top: 0;
+                        left: 0;
+                        padding: 2px;
+                    }
+                }
+
+                .lucrative {
+                    h4 {
+                        color: #fff;
+                        font-size: 20px;
+                        font-weight: 600;
+
+                        @media (max-width: 576px) {
+                            font-size: 18px;
+                        }
+                    }
+                }
+
+                .wecollaborate {
+                    p {
+                        color: #f1f3f9;
+                        font-size: 18px;
+                        line-height: 1.4;
+                        font-weight: 300;
+
+                        @media (max-width: 576px) {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
