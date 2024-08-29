@@ -22,7 +22,7 @@ export default function Terms() {
                 <div className='main-sub-name'>
                     <h2>2. Binding Agreement</h2>
                 </div>
-                <p>2.1 By agreeing to this Trading Platform Agreement, you are entering into a legally binding contract with WinproFX.</p>
+                <p>2.1 By agreeing to this Trading Platform Agreement, you are entering into a legally binding contract with Forex Voyager.</p>
 
                 <p>2.2 You acknowledge and agree that your use of Forex Voyager services and products constitutes acceptance of this Trading Platform Agreement and any other applicable Forex Voyager contractual documentation, including but not limited to the General Terms and Conditions.</p>
 
@@ -50,8 +50,8 @@ export default function Terms() {
                 <div className='main-sub-name'>
                     <h2>6. Contact Information</h2>
                 </div>
-                
-                <p>6.1 If you have any questions or concerns about this Trading Platform Agreement or WinproFX services and products, please contact us at:
+
+                <p>6.1 If you have any questions or concerns about this Trading Platform Agreement or Forex Voyager services and products, please contact us at:
                     <a href="mailto:Info@forexvoyeger.com" target='_blank' rel="noreferrer">Info@forexvoyeger.com</a>
                 </p>
             </div>

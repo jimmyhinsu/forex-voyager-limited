@@ -3,6 +3,11 @@ import './whyforexvoyager.scss';
 import Gotonext from '../home/gotonext';
 import Wanttoget from '../home/wanttoget';
 import banner from '../../assets/images/banner.webp';
+import advantage1 from '../../assets/images/advantage1.webp';
+import advantage2 from '../../assets/images/advantage2.webp';
+import advantage3 from '../../assets/images/advantage3.webp';
+import advantage4 from '../../assets/images/advantage4.webp';
+import stripedcard from '../../assets/images/striped-background-card.webp';
 
 export default function Whyforexvoyager() {
     return (
@@ -16,6 +21,66 @@ export default function Whyforexvoyager() {
                         </div>
                         <div className='whyforex-flex-img'>
                             <img src={banner} alt="error" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='features-advantages'>
+                <div className='container'>
+                    <div className='whyforex-feat'>
+                        <h3>FEATURES</h3>
+                    </div>
+                    <h2>Forex Voyager Limited Advantages</h2>
+
+
+                    <div className='four-img-grid'>
+                        <div className='whyforex-main'>
+                            <div className='whychoose'>
+                                <h3>Heavily Regulated Across 5 Continents</h3>
+                                <div className="Whyforexicon">
+                                    <img src={advantage1} alt="Whyforexicon" />
+                                </div>
+                                <div className="stripedCard">
+                                    <img src={stripedcard} alt="stripedCard" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='whyforex-main'>
+                            <div className='whychoose'>
+                                <h3>Paid-Up Capital Of Over US$ 322 Million</h3>
+                                <div className="Whyforexicon">
+                                    <img src={advantage2} alt="Whyforexicon" />
+                                </div>
+                                <div className="stripedCard">
+                                    <img src={stripedcard} alt="stripedCard" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='whyforex-main'>
+                            <div className='whychoose'>
+                                <h3>Full ECN Model With Spreads Starting From 0.0* Pips</h3>
+                                <div className="Whyforexicon">
+                                    <img src={advantage3} alt="Whyforexicon" />
+                                </div>
+                                <div className="stripedCard">
+                                    <img src={stripedcard} alt="stripedCard" />
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='whyforex-main'>
+                            <div className='whychoose'>
+                                <h3>The Highest Level Of Leverage Up To 500:1</h3>
+                                <div className="Whyforexicon">
+                                    <img src={advantage4} alt="Whyforexicon" />
+                                </div>
+                                <div className="stripedCard">
+                                    <img src={stripedcard} alt="stripedCard" />
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

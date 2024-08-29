@@ -38,9 +38,6 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
                   <div className="dropdowns-links-main">
                     <Link to={"/regulations"}>Regulations</Link>
                   </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Careers</Link>
-                  </div>
                 </div>
               )}
             </div>

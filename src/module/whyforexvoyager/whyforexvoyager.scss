@@ -75,6 +75,132 @@
     }
 }
 
+.features-advantages {
+    margin: 80px 0 0 0;
+
+    .container {
+        max-width: 1372px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        .whyforex-feat {
+            margin-bottom: 15px;
+            text-align: center;
+            h3 {
+                font-size: 18px;
+                background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
+                color: transparent;
+                -webkit-background-clip: text;
+                background-clip: text;
+            }
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 40px;
+            color: #fff;
+        }
+
+        .four-img-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            align-items: center;
+
+            @media (max-width: 576px) {
+                gap: 10px;
+            }
+
+            .whyforex-main {
+                position: relative;
+
+                .whychoose {
+                    position: relative;
+                    overflow: hidden;
+                    background-image: linear-gradient(142.26deg, #141b35 1.22%, #060b22 105.61%);
+                    border-radius: 24px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column-reverse;
+                    transition: 0.4s ease-in-out;
+                    padding: 30px;
+                    height: 100%;
+
+                    @media (max-width: 576px) {
+                        height: 90px;
+                    }
+
+                    &:hover {
+                        background-image: none;
+                        background-color: #fff;
+                        transition: 0.4s ease-in-out;
+                        h3 {
+                            color: #060b22;
+                        }
+                    }
+
+                    &:before {
+                        background: linear-gradient(
+                            99.93deg,
+                            rgba(136, 149, 172, 0.4),
+                            rgba(32, 40, 59, 0.4) 10.42%,
+                            rgba(74, 92, 135, 0.4) 32.81%,
+                            rgba(32, 40, 59, 0.4)
+                        );
+                        z-index: 1;
+                        content: "";
+                        position: absolute;
+                        inset: 0;
+                        border-radius: inherit;
+                        -webkit-mask:
+                            linear-gradient(#fff 0 0) content-box,
+                            linear-gradient(#fff 0 0);
+                        -webkit-mask-composite: xor;
+                        mask-composite: exclude;
+                        padding: 2px;
+                    }
+
+                    h3 {
+                        text-align: center;
+                        z-index: 1;
+                        font-weight: 600;
+                        color: #fff;
+                        font-size: 18px;
+                        margin-top: 5px;
+
+                        @media (max-width: 1024px) {
+                            font-size: 16px;
+                        }
+
+                        @media (max-width: 576px) {
+                            font-size: 10px;
+                        }
+                    }
+
+                    .stripedCard {
+                        position: absolute;
+                        bottom: 0;
+                        left: 0;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .Whyforexicon {
+                    position: relative;
+                    z-index: 2;
+                    img {
+                        width: 150px;
+                        height: 150px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 .established-bgcolor {
     background-image: linear-gradient(142.26deg, #141b35 1.22%, #060b22 105.61%);
     margin: 80px 0;

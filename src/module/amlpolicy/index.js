@@ -23,7 +23,7 @@ export default function Amlpolicy() {
                 <div className='main-sub-name'>
                     <h2>Placement</h2>
                 </div>
-                <p>Any withdrawal of funds, from your WinproFX account to a bank account, can only be refunded to the same bank account that the funds were originally received from or any other bank account under client’s individual name. Please note, that the processing time of withdrawals to reach your bank account substantially depends on the currency of the bank account, as well as the location and the internal policies and procedures of the recipient’s financial institution and country. Therefore, please expect the amounts withdrawn to be credited to your bank account within 2 to 7 business days.</p>
+                <p>Any withdrawal of funds, from your Forex Voyager account to a bank account, can only be refunded to the same bank account that the funds were originally received from or any other bank account under client’s individual name. Please note, that the processing time of withdrawals to reach your bank account substantially depends on the currency of the bank account, as well as the location and the internal policies and procedures of the recipient’s financial institution and country. Therefore, please expect the amounts withdrawn to be credited to your bank account within 2 to 7 business days.</p>
 
                 <div className='main-sub-name'>
                     <h2>Layers</h2>
@@ -33,14 +33,14 @@ export default function Amlpolicy() {
                 <div className='main-sub-name'>
                     <h2>Integration</h2>
                 </div>
-                <p>The funds are re-circulated as legitimate to purchase goods and services.WinProFX adheres to the principles of Anti-Money Laundering and actively prevents any action that targets or facilitates the legalization process of illegally obtained funds. The AML policy means preventing the use of the company's services by criminals, with the objective of money laundering, terrorist financing or other criminal activity.</p>
+                <p>The funds are re-circulated as legitimate to purchase goods and services.Forex Voyager adheres to the principles of Anti-Money Laundering and actively prevents any action that targets or facilitates the legalization process of illegally obtained funds. The AML policy means preventing the use of the company's services by criminals, with the objective of money laundering, terrorist financing or other criminal activity.</p>
 
-                <p>To prevent money laundering, WinProFX does not accept or pay in cash under any circumstances. The company reserves the right to suspend the operation of any client, which may be considered illegal or, in the opinion of the staff, related to money laundering.</p>
+                <p>To prevent money laundering, Forex Voyager does not accept or pay in cash under any circumstances. The company reserves the right to suspend the operation of any client, which may be considered illegal or, in the opinion of the staff, related to money laundering.</p>
 
-                <p>Company procedures WinProFX will ensure that it is a real or legal person. WinProFX alsoperforms all the necessary measures in accordance with the applicable laws and regulations, issued by the monetary authorities.</p>
+                <p>Company procedures Forex Voyager will ensure that it is a real or legal person. Forex Voyager alsoperforms all the necessary measures in accordance with the applicable laws and regulations, issued by the monetary authorities.</p>
 
                 <div className='main-sub-name'>
-                    <h2>The AML policy is being met within FX of WinProFX by the following means</h2>
+                    <h2>The AML policy is being met within FX of Forex Voyager by the following means</h2>
                 </div>
 
                 <ul className='means'>
@@ -58,7 +58,7 @@ export default function Amlpolicy() {
 
                 <p>Valid passport (showing the first page of the local or international passport, where the photo and signature are clearly visible); or • Driving license with photograph; or • National identity card (showing the front and back); • Documents proving current permanent address (such as utility bills, bank statements, etc.) containing the customer's Full Name and Place of residence. These documents should not be older than 3 months from the filing date.</p>
 
-                <p>Corporate clients In the event that the applicant company is listed on a recognized or approved stock exchange or when there is independent evidence to show that the applicant is a wholly owned subsidiary or a subsidiary under the control of said company, no further steps will normally be taken to verify the identity. necessary. In the event that the company is not listed and none of the main directors or shareholders already has an account with WinProFX, the following documentation must be provided:</p>
+                <p>Corporate clients In the event that the applicant company is listed on a recognized or approved stock exchange or when there is independent evidence to show that the applicant is a wholly owned subsidiary or a subsidiary under the control of said company, no further steps will normally be taken to verify the identity. necessary. In the event that the company is not listed and none of the main directors or shareholders already has an account with Forex Voyager, the following documentation must be provided:</p>
 
                 <p>Certificate of incorporation or any national equivalent; • Memorandum and Articles of Association and statutory declaration or any national equivalent; • Certificate of good standing or other proof of the company's registered address; • Resolution of the board of directors to open an account and grant authority to those who will operate it; • Copies of powers of attorney or other authorities granted by the directors in relation to the company; • Proof of the identity of the directors in case they deal with Forex Voyager on behalf of the Client (in accordance with the individual identity verification rules described above); • Proof of identity of the final beneficiary (s) and / or the person (s) under whose instructions the signers of the account are empowered to act (in accordance with the rules of individual identity verification described above).</p>
 

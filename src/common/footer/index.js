@@ -33,7 +33,6 @@ export default function Footer() {
               <div className="footer-all-links-main">
                 <Link to={"/whyforexvoyager"}>Why Forex Voyager</Link>
                 <Link to={"/regulations"}>Regulations</Link>
-                <Link to={"/"}>Careers</Link>
               </div>
             </div>
 

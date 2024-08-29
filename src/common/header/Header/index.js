@@ -48,7 +48,6 @@ function Headermain() {
                 <div className="dropdown-content">
                   <Link to={"/whyforexvoyager"}>Why Forex Voyager</Link>
                   <Link to={"/regulations"}>Regulations</Link>
-                  <Link to={"/"}>Careers</Link>
                 </div>
               </div>
             </div>
