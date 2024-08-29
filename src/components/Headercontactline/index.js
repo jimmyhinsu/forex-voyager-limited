@@ -10,7 +10,7 @@ function Headertopline() {
       <div className="Headertopline-contact-and-number">
         <div className="in-number-text">
           <a href="tel:971551133624">
-            <span>UAE insted of IN:+971551133624</span>
+            <span>UAE :+971551133624</span>
           </a>
         </div>
         <div className="Contact-text">

@@ -35,7 +35,6 @@ export default function Whyforexvoyager() {
 
 
                     <div className='four-img-grid'>
-                        <div className='whyforex-main'>
                             <div className='whychoose'>
                                 <h3>Heavily Regulated Across 5 Continents</h3>
                                 <div className="Whyforexicon">
@@ -45,9 +44,7 @@ export default function Whyforexvoyager() {
                                     <img src={stripedcard} alt="stripedCard" />
                                 </div>
                             </div>
-                        </div>
 
-                        <div className='whyforex-main'>
                             <div className='whychoose'>
                                 <h3>Paid-Up Capital Of Over US$ 322 Million</h3>
                                 <div className="Whyforexicon">
@@ -57,9 +54,7 @@ export default function Whyforexvoyager() {
                                     <img src={stripedcard} alt="stripedCard" />
                                 </div>
                             </div>
-                        </div>
 
-                        <div className='whyforex-main'>
                             <div className='whychoose'>
                                 <h3>Full ECN Model With Spreads Starting From 0.0* Pips</h3>
                                 <div className="Whyforexicon">
@@ -69,9 +64,7 @@ export default function Whyforexvoyager() {
                                     <img src={stripedcard} alt="stripedCard" />
                                 </div>
                             </div>
-                        </div>
 
-                        <div className='whyforex-main'>
                             <div className='whychoose'>
                                 <h3>The Highest Level Of Leverage Up To 500:1</h3>
                                 <div className="Whyforexicon">
@@ -81,7 +74,6 @@ export default function Whyforexvoyager() {
                                     <img src={stripedcard} alt="stripedCard" />
                                 </div>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>

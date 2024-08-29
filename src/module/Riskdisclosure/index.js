@@ -12,7 +12,7 @@ export default function Riskdisclosure() {
 
       <div className="conatiner-deposit">
         <p>
-          Forex Voyager Limited (a trading name of forex voyeger), is reputed by the Financial Services Commission of the Republic of Mauritius with an Investment Dealer license 2023-00197, having its registered office at 1st Floor, The Sotheby
+          Forex Voyager Limited (a trading name of forex voyeger), is reputed by the Financial Services Commission of the Republic of Mauritius with an Investment Dealer license 2024-00486, having its registered office at Ground Floor, The Sotheby
           Building,Rodney Bay, Gros-Islet,SAINT Lucia P.O Box 838,Castries, Saint Lucia.
         </p>
 
