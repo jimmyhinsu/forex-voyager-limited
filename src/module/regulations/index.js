@@ -58,8 +58,8 @@ export default function Regulations() {
               </div>
 
               <div className='mexfm-pera'>
-                <p>MEXFM Securities (Mauritius) Ltd, <br />Registered Address:  Ground Floor, The Sotheby Building, Rodney Village,<br /> Rodney Bay, Gros-Islet, SAINT Lucia P.O Box 838, Castries, Saint Lucia.
-                  <br />Registration Number: 2024-00486</p>
+                <p>MEXFM Securities (Mauritius) Ltd, Registered Address:  Ground Floor, The Sotheby Building, Rodney Village,Rodney Bay, Gros-Islet, SAINT Lucia P.O Box 838, Castries, Saint Lucia.
+                  Registration Number: 2024-00486</p>
               </div>
 
               <div className="viewlicense">
