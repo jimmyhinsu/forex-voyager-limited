@@ -35,45 +35,45 @@ export default function Whyforexvoyager() {
 
 
                     <div className='four-img-grid'>
-                            <div className='whychoose'>
-                                <h3>Heavily Regulated Across 5 Continents</h3>
-                                <div className="Whyforexicon">
-                                    <img src={advantage1} alt="Whyforexicon" />
-                                </div>
-                                <div className="stripedCard">
-                                    <img src={stripedcard} alt="stripedCard" />
-                                </div>
+                        <div className='whychoose'>
+                            <h3>Heavily Regulated</h3>
+                            <div className="Whyforexicon">
+                                <img src={advantage1} alt="Whyforexicon" />
                             </div>
+                            <div className="stripedCard">
+                                <img src={stripedcard} alt="stripedCard" />
+                            </div>
+                        </div>
 
-                            <div className='whychoose'>
-                                <h3>Paid-Up Capital Of Over US$ 322 Million</h3>
-                                <div className="Whyforexicon">
-                                    <img src={advantage2} alt="Whyforexicon" />
-                                </div>
-                                <div className="stripedCard">
-                                    <img src={stripedcard} alt="stripedCard" />
-                                </div>
+                        <div className='whychoose'>
+                            <h3>Paid-Up Capital Of Over US$ 322 Million</h3>
+                            <div className="Whyforexicon">
+                                <img src={advantage2} alt="Whyforexicon" />
                             </div>
+                            <div className="stripedCard">
+                                <img src={stripedcard} alt="stripedCard" />
+                            </div>
+                        </div>
 
-                            <div className='whychoose'>
-                                <h3>Full ECN Model With Spreads Starting From 0.0* Pips</h3>
-                                <div className="Whyforexicon">
-                                    <img src={advantage3} alt="Whyforexicon" />
-                                </div>
-                                <div className="stripedCard">
-                                    <img src={stripedcard} alt="stripedCard" />
-                                </div>
+                        <div className='whychoose'>
+                            <h3>Full ECN Model With Spreads Starting From 0.0* Pips</h3>
+                            <div className="Whyforexicon">
+                                <img src={advantage3} alt="Whyforexicon" />
                             </div>
+                            <div className="stripedCard">
+                                <img src={stripedcard} alt="stripedCard" />
+                            </div>
+                        </div>
 
-                            <div className='whychoose'>
-                                <h3>The Highest Level Of Leverage Up To 500:1</h3>
-                                <div className="Whyforexicon">
-                                    <img src={advantage4} alt="Whyforexicon" />
-                                </div>
-                                <div className="stripedCard">
-                                    <img src={stripedcard} alt="stripedCard" />
-                                </div>
+                        <div className='whychoose'>
+                            <h3>The Highest Level Of Leverage Up To 500:1</h3>
+                            <div className="Whyforexicon">
+                                <img src={advantage4} alt="Whyforexicon" />
                             </div>
+                            <div className="stripedCard">
+                                <img src={stripedcard} alt="stripedCard" />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

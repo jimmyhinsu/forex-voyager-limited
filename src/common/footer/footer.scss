@@ -45,46 +45,6 @@
                         -webkit-background-clip: text;
                         background-clip: text;
                     }
-
-                    // &::before {
-                    //     position: absolute;
-                    //     right: -15px;
-                    //     top: 0;
-                    //     content: "";
-                    //     background: linear-gradient(88.9deg, #467BFF 33.43%, #75D9D9 103.55%);
-                    //     width: 2px;
-                    //     height: 8px;
-                    // }
-
-                    // &::after {
-                    //     position: absolute;
-                    //     right: -20px;
-                    //     top: 5px;
-                    //     content: "";
-                    //     background: linear-gradient(88.9deg, #467BFF 33.43%, #75D9D9 103.55%);
-                    //     width: 2px;
-                    //     height: 8px;
-                    // }
-
-                    // strong {
-                    //     position: absolute;
-                    //     right: -25px;
-                    //     top: 0;
-                    //     content: "";
-                    //     background: linear-gradient(88.9deg, #467BFF 33.43%, #75D9D9 103.55%);
-                    //     width: 2px;
-                    //     height: 8px;
-                    // }
-
-                    // b {
-                    //     position: absolute;
-                    //     right: -30px;
-                    //     top: 5px;
-                    //     content: "";
-                    //     background: linear-gradient(88.9deg, #467BFF 33.43%, #75D9D9 103.55%);
-                    //     width: 2px;
-                    //     height: 8px;
-                    // }
                 }
             }
         }
@@ -100,16 +60,10 @@
                 color: #fff;
                 font-size: 15px;
                 padding: 0 15px 0 0;
-                border-right: 1px solid #fff;
 
                 @media (max-width: 512px) {
                     font-size: 10px;
                 }
-            }
-
-            #career-border-remove {
-                padding: 0 !important;
-                border-right: none !important;
             }
         }
     }

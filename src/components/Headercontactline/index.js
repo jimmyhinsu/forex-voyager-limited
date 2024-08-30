@@ -3,7 +3,7 @@ import "./Headertopcontactline.scss";
 import { Link, NavLink } from "react-router-dom";
 
 function Headertopline() {
-  const [dropdownVisible, setDropdownVisible] = useState(false);
+  const [/* dropdownVisible */, setDropdownVisible] = useState(false);
 
   return (
     <div className="Headertopline">
@@ -28,7 +28,7 @@ function Headertopline() {
       <div className="Header-top-line-right-buttons">
         <div className="dropdown-container" onMouseEnter={() => setDropdownVisible(true)} onMouseLeave={() => setDropdownVisible(false)}>
           <NavLink to={"/"}>Log in</NavLink>
-          {dropdownVisible && (
+          {/* {dropdownVisible && (
             <div className="dropdown-menu">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
@@ -37,7 +37,7 @@ function Headertopline() {
                 </div>
               </div>
             </div>
-          )}
+          )} */}
         </div>
         <div className="Header-top-line-button">
           <button>Become an IB</button>

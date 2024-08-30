@@ -19,11 +19,11 @@ export default function Footer() {
           </div>
 
           <div className="footer-top-line-content">
-            <NavLink to={"/"}>Contact Us</NavLink>
-            <NavLink to={"/"}>Support</NavLink>
+            <NavLink to={"/contactus"}>Contact Us</NavLink>
+            {/* <NavLink to={"/"}>Support</NavLink>
             <NavLink to={"/"} id="career-border-remove">
               Careers
-            </NavLink>
+            </NavLink> */}
           </div>
         </div>
         <div className="footer-content-main-layout">
@@ -72,9 +72,9 @@ export default function Footer() {
               <div className="footer-all-links-main">
                 <Link to={"/"}>Introducing Brokers</Link>
                 <Link to={"/"}>Franchise Program</Link>
-                <Link to={"/"}>Institutional Liquidity Offering</Link>
+                {/* <Link to={"/"}>Institutional Liquidity Offering</Link>
                 <Link to={"/"}>CPA Affiliate Program</Link>
-                <Link to={"/"}>IB Offers</Link>
+                <Link to={"/"}>IB Offers</Link> */}
               </div>
             </div>
           </div>

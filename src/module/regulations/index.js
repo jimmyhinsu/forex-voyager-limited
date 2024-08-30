@@ -2,7 +2,7 @@ import React from 'react'
 import './regulations.scss';
 import Gotonext from '../home/gotonext';
 import Wanttoget from '../home/wanttoget';
-import fscm from '../../assets/icons/flag-mauritius.png';
+import fscm from '../../assets/icons/flaaag.png';
 import Slideicon from "../../assets/svg/slideicon";
 import Regulationsbackgorund from "../../assets/images/page-header-bg.webp";
 
@@ -23,13 +23,13 @@ export default function Regulations() {
                 </div>
               </div>
             </div>
-            <div className='regulated-pera'>
+            {/* <div className='regulated-pera'>
               <p>Forex Voyager is comprised of several entities that are heavily regulated across 5 continents by 15 financial regulators. This ensures that our clients get full transparency and security of funds.
                 <br />
                 <br />
                 Learn more about our various regulated entities
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

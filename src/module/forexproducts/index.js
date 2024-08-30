@@ -437,7 +437,7 @@ export default function Forexproducts() {
                         <div className="whyselectus-cards-grid-items1">
                             <span>Leverage</span>
                             <div className="whyselectus-cards-bottom-line"></div>
-                            <p>With up to 500:1 leverage, users can increase their buying power, making a difference to the affordability of their trades.</p>
+                            <p>With up to 1:500 leverage, users can increase their buying power, making a difference to the affordability of their trades.</p>
                         </div>
 
                         <div className="whyselectus-cards-grid-items1">

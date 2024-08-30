@@ -118,9 +118,7 @@ function Headermain() {
                 <div className="dropdown-content">
                   <Link to={"/"}>Introducing Brokers</Link>
                   <Link to={"/"}>Franchise Program</Link>
-                  <Link to={"/"}>Institutional Liquidity Offering</Link>
-                  <Link to={"/"}>CPA Affiliate Program</Link>
-                  <Link to={"/"}>IB Offers</Link>
+
                 </div>
               </div>
             </div>

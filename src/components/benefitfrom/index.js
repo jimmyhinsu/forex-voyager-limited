@@ -14,13 +14,13 @@ export default function Benefitfrom() {
                     </div>
 
                     <div className="whyselectus-cards-grid-main">
-                        <div className="whyselectus-cards-grid-items1">
+                        {/* <div className="whyselectus-cards-grid-items1">
                             <span>The Most</span>
                             <h3>Heavily Regulated</h3>
                             <span>Financial Derivatives Broker Worldwide</span>
                             <p>Forex Voyager is comprised of several entities that are regulated by 15 regulators across 5 continents: ASIC, AUSTRAC, BAFIN, CIMA, ESCA, FSC, FMA, HKCE, MAS, TFG and VFSC.</p>
                             <div className="whyselectus-cards-bottom-line"></div>
-                        </div>
+                        </div> */}
 
                         <div className="whyselectus-cards-grid-items1 ">
                             <span> Global Presence</span>

@@ -1,7 +1,7 @@
 .regulations-bg {
     height: 100%;
     width: 100%;
-    padding: 55px 0 145px 0;
+    padding: 55px 0 55px 0;
     position: relative;
 
     .regulations-backgorund-main {
@@ -43,20 +43,6 @@
                         background-clip: text;
                         font-size: 52px;
                     }
-                }
-            }
-
-            .regulated-pera {
-                display: flex;
-                justify-content: center;
-
-                p {
-                    font-size: 18px;
-                    color: #fff;
-                    margin-top: 20px;
-                    text-align: center;
-                    max-width: 773px;
-                    line-height: 1.5;
                 }
             }
         }
