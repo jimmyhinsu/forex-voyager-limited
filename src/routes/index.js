@@ -19,6 +19,9 @@ import Whyforexvoyager from "../module/whyforexvoyager";
 import Meta5 from "../module/meta5";
 import Webtradermeta5 from "../module/webtradermeta5";
 import Forex from "../module/forex";
+import Standard from "../module/standard";
+import Pro from "../module/pro";
+import Ecn from "../module/ecn";
 
 const router = createBrowserRouter([
   {
@@ -101,6 +104,18 @@ const router = createBrowserRouter([
       {
         path: "webtradermeta5",
         element: <Webtradermeta5 />
+      },
+      {
+        path: "standard",
+        element: <Standard />
+      },
+      {
+        path: "pro",
+        element: <Pro />
+      },
+      {
+        path: "ecn",                  
+        element: <Ecn />
       }
     ],
   },

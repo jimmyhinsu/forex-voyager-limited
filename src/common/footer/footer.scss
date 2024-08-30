@@ -24,26 +24,11 @@
             a {
                 text-decoration-line: none;
 
-                p {
-                    color: #fff;
-                    font-size: 28px;
-                    font-weight: 800;
-                    font-family: "Plus Jakarta Sans", sans-serif;
-                    position: relative;
-
-                    @media (max-width: 800px) {
-                        font-size: 19px;
-                    }
+                img {
+                    width: auto;
 
                     @media (max-width: 576px) {
-                        font-size: 12px;
-                    }
-
-                    span {
-                        background: linear-gradient(88.9deg, #3073c6 33.43%, #64e584 103.55%);
-                        color: transparent;
-                        -webkit-background-clip: text;
-                        background-clip: text;
+                        width: 130px;
                     }
                 }
             }
@@ -92,7 +77,7 @@
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 margin: 0;
-                gap: 30px;
+                gap: 80px;
             }
 
             @media (max-width: 512px) {

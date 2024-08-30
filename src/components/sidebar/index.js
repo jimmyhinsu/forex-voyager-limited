@@ -111,13 +111,13 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
                     <Link to={"/"}>Compare Accounts</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Standard</Link>
+                    <Link to={"/Standard"}>Standard</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Pro</Link>
+                    <Link to={"/pro"}>Pro</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>ECN</Link>
+                    <Link to={"/ecn"}>ECN</Link>
                   </div>
                 </div>
               )}

@@ -56,9 +56,9 @@ export default function Footer() {
               <p>Accounts</p>
               <div className="footer-all-links-main">
                 <Link to={"/"}>Compare Accounts</Link>
-                <Link to={"/"}>Standard</Link>
-                <Link to={"/"}>Pro</Link>
-                <Link to={"/"}>ECN</Link>
+                <Link to={"/standard"}>Standard</Link>
+                <Link to={"/pro"}>Pro</Link>
+                <Link to={"/ecn"}>ECN</Link>
               </div>
             </div>
 
