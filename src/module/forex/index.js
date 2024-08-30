@@ -6,7 +6,7 @@ import forexheader from "../../../src/assets/images/img-forexHeader.webp";
 import gold from "../../../src/assets/images/img-goldHeader.webp";
 import indices from "../../../src/assets/images/img-indicesHeader-2.webp";
 import shares from "../../../src/assets/images/img-sharesHeader.webp";
-import Slideicon from "../../../src/assets/svg/slideicon";
+import Slideicon from "../../assets/svg/slideicon";
 import Gotonext from '../home/gotonext';
 import Wanttoget from '../home/wanttoget';
 import Benefitfrom from '../../components/benefitfrom';
@@ -14,7 +14,7 @@ import whatisforex from '../../assets/images/what-is-forex.webp';
 import tradewith from '../../assets/images/trade-with-mb.webp';
 import { Link } from 'react-router-dom';
 
-export default function Forexproducts() {
+export default function Forex() {
     const [activeButton, setActiveButton] = useState("Forex");
 
     const handleButtonClick = (buttonName) => {
@@ -28,7 +28,7 @@ export default function Forexproducts() {
                     <div className="product-title-main">
                         <div className="product-title-main-alignment">
                             <div className="product-buttons-changer">
-                                <Link to={"/forexproducts"}>
+                                <Link to={"/Forex"}>
                                     <button onClick={() => handleButtonClick("Forex")} className={activeButton === "Forex" ? "activebutton" : ""}>
                                         Forex
                                     </button>

@@ -9,7 +9,6 @@ import Deposit from "../module/deposit";
 import Restrictedpolicy from "../module/Restrictedcountry";
 import Riskdisclosure from "../module/Riskdisclosure";
 import Errorpage from "../components/Errorpage";
-import Forexproducts from "../module/forexproducts";
 import Metals from "../module/metals";
 import Shares from "../module/shares";
 import Indices from "../module/indices";
@@ -18,6 +17,8 @@ import Cryptocurrencies from "../module/cryptocurrencies";
 import Regulations from "../module/regulations";
 import Whyforexvoyager from "../module/whyforexvoyager";
 import Meta5 from "../module/meta5";
+import Webtradermeta5 from "../module/webtradermeta5";
+import Forex from "../module/forex";
 
 const router = createBrowserRouter([
   {
@@ -62,8 +63,8 @@ const router = createBrowserRouter([
         element: <Riskdisclosure />,
       },
       {
-        path: "/forexproducts",
-        element: <Forexproducts />
+        path: "/forex",
+        element: <Forex />
       },
       {
         path: "metals",
@@ -96,6 +97,10 @@ const router = createBrowserRouter([
       {
         path: "meta5",
         element: <Meta5 />
+      },
+      {
+        path: "webtradermeta5",
+        element: <Webtradermeta5 />
       }
     ],
   },

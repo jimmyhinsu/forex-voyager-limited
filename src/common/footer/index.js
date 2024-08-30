@@ -35,7 +35,7 @@ export default function Footer() {
             <div className="footer-content">
               <p>Products</p>
               <div className="footer-all-links-main">
-                <Link to={"/forexproducts"}>Forex</Link>
+                <Link to={"/Forex"}>Forex</Link>
                 <Link to={"/metals"}>Metals</Link>
                 <Link to={"/shares"}>Shares</Link>
                 <Link to={"/indices"}>Indices</Link>
@@ -48,7 +48,7 @@ export default function Footer() {
               <p>Platforms</p>
               <div className="footer-all-links-main">
                 <Link to={"/meta5"}>MT5 Platform</Link>
-                <Link to={"/"}>Web Trader MT5</Link>
+                <Link to={"/webtradermeta5"}>Web Trader MT5</Link>
               </div>
             </div>
 

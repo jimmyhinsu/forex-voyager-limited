@@ -26,7 +26,7 @@ export default function Shares() {
                     <div className="product-title-main">
                         <div className="product-title-main-alignment">
                             <div className="product-buttons-changer">
-                                <Link to={"/forexproducts"}>
+                                <Link to={"/Forex"}>
                                     <button onClick={() => handleButtonClick("Forex")} className={activeButton === "Forex" ? "activebutton" : ""}>
                                         Forex
                                     </button>

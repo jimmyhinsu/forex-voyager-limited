@@ -1,0 +1,294 @@
+.strip-bg-colored {
+    background-image: url(../../assets/images/striped-background-colored.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    transform: rotateY(180deg);
+
+    .conatiner {
+        max-width: 1372px;
+        margin: 0 auto;
+        padding: 0 20px;
+        transform: rotateY(180deg);
+
+        .mttradingplatform {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 50px;
+
+            @media (max-width: 1024px) {
+                display: block;
+            }
+
+            .platformstrader {
+                .span-platfrom {
+                    span {
+                        font-size: 18px;
+                        color: #fff;
+
+                        @media (max-width: 576px) {
+                            font-size: 16px;
+                        }
+                    }
+                }
+
+                .trading-text {
+                    h2 {
+                        color: #fff;
+                        font-size: 55px;
+                        span {
+                            background: linear-gradient(88.9deg, #3073c6 33.43%, #64e584 103.55%);
+                            -webkit-background-clip: text;
+                            background-clip: text;
+                            color: transparent;
+                        }
+
+                        @media (max-width: 1024px) {
+                            font-size: 30px;
+                        }
+                    }
+                }
+
+                .traderline1 {
+                    margin-top: 20px;
+                    p {
+                        font-size: 18px;
+                        color: #fff;
+                        max-width: 600px;
+                    }
+                }
+                .traderline2 {
+                    margin-top: 20px;
+                    p {
+                        font-size: 18px;
+                        color: #fff;
+                        max-width: 600px;
+                    }
+                }
+
+                .trader-button {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    gap: 10px;
+                    margin-top: 30px;
+
+                    @media (max-width: 1024px) {
+                        grid-template-columns: repeat(1, 1fr);
+                    }
+                    .start {
+                        button {
+                            background-image: linear-gradient(88.9deg, #3073c6, #64e584 50%, #64e584 75%, #3073c6 120%);
+                            padding: 15px;
+                            border: none;
+                            border-radius: 50px;
+                            width: 100%;
+                            font-size: 20px;
+                            color: #fff;
+                            font-weight: 600;
+                            background-size: 200% auto !important;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 15px;
+                            transition: 0.4s ease-in-out;
+                            cursor: pointer;
+
+                            @media (max-width: 1024px) {
+                                padding: 10px;
+                            }
+
+                            &:hover {
+                                transition: 0.4s ease-in-out;
+                                background: linear-gradient(
+                                    88.9deg,
+                                    #467bff,
+                                    #75d9d9 50%,
+                                    #75d9d9 75%,
+                                    #467bff 120%
+                                ) !important;
+                                background-size: 200% auto !important;
+                                background-position: 100% !important;
+                            }
+
+                            svg {
+                                margin: 3px 0 0 0;
+                                background-color: transparent;
+                                path {
+                                    stroke: #fff;
+                                }
+                            }
+                        }
+                    }
+
+                    .open {
+                        border: none;
+                        border-radius: 50px;
+                        background-color: transparent;
+                        padding: 1px;
+                        transition: all 0.2s ease-in-out;
+
+                        &:hover {
+                            background-color: #fff;
+                            transition: all 0.2s ease-in-out;
+                        }
+                        button {
+                            background-color: transparent;
+                            padding: 15px;
+                            border-radius: 50px;
+                            width: 100%;
+                            border: none;
+                            position: relative;
+                            background: linear-gradient(88.9deg, #3073c6 33.43%, #64e584 103.55%);
+                            -webkit-background-clip: text;
+                            background-clip: text;
+                            color: transparent;
+                            font-size: 20px;
+                            font-weight: 600;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 5px;
+                            cursor: pointer;
+
+                            @media (max-width: 576px) {
+                                padding: 12px;
+                                font-size: 16px;
+                            }
+
+                            &:before {
+                                background: linear-gradient(88.9deg, #3073c6 33.43%, #64e584 103.55%);
+                                content: "";
+                                position: absolute;
+                                inset: 0;
+                                border-radius: inherit;
+                                -webkit-mask:
+                                    linear-gradient(#fff 0 0) content-box,
+                                    linear-gradient(#fff 0 0);
+                                -webkit-mask-composite: xor;
+                                mask-composite: exclude;
+                                padding: 2px;
+                            }
+
+                            svg {
+                                background-color: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .bannermt5 {
+                img {
+                    width: 658px;
+                    height: 460px;
+                    object-fit: contain;
+
+                    @media (max-width: 576px) {
+                        height: 265px;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.white-bg-main {
+    margin: 80px 0;
+
+    .white-bg-color {
+        padding: 40px;
+        background-image: linear-gradient(180deg, #fff, #c4ccdd);
+
+        @media (max-width: 1024px) {
+            padding: 20px;
+        }
+
+        .conatiner {
+            max-width: 1372px;
+            margin: 0 auto;
+            padding: 0 20px;
+
+            .whatismeta5 {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 70px;
+                align-items: center;
+
+                @media (max-width: 1024px) {
+                    grid-template-columns: repeat(1, 1fr);
+                    gap: 25px;
+                }
+
+                @media (max-width: 576px) {
+                    gap: 10px;
+                }
+
+                .meta5-pera {
+                    .whatis {
+                        h2 {
+                            color: #0b110b;
+                            font-size: 40px;
+
+                            span {
+                                background: linear-gradient(88.9deg, #3073c6 33.43%, #64e584 103.55%);
+                                -webkit-background-clip: text;
+                                background-clip: text;
+                                color: transparent;
+                            }
+
+                            @media (max-width: 1024px) {
+                                font-size: 34px;
+                            }
+                        }
+                    }
+
+                    p {
+                        color: #292b31;
+                        font-size: 18px;
+                        line-height: 1.5;
+                        margin-top: 15px;
+                        font-weight: 600;
+
+                        @media (max-width: 576px) {
+                            font-size: 14px;
+                        }
+                    }
+
+                    .withcomplete {
+                        margin-top: 15px;
+                        span {
+                            color: #292b31;
+                            font-size: 18px;
+                            line-height: 1.5;
+
+                            @media (max-width: 576px) {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+
+                .meta-trader-img {
+                    img {
+                        width: 582px;
+                        height: 355px;
+                        object-fit: contain;
+
+                        @media (max-width: 576px) {
+                            height: 370px;
+                            width: 100%;
+                        }
+                    }
+
+                    @media (max-width: 1024px) {
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}

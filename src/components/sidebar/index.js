@@ -54,7 +54,7 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
               {activeDropdown === 2 && (
                 <div className="dropdown-content-sidebar-details">
                   <div className="dropdowns-links-main">
-                    <Link to={"/forexproducts"}>Forex</Link>
+                    <Link to={"/Forex"}>Forex</Link>
                   </div>
                   <div className="dropdowns-links-main">
                     <Link to={"/metals"}>Metals</Link>
@@ -90,9 +90,8 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
                     <Link to={"/meta5"}>MT5 Platform</Link>
                   </div>
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>Web Trader MT5</Link>
+                    <Link to={"/webtradermeta5"}>Web Trader MT5</Link>
                   </div>
-
                 </div>
               )}
             </div>
