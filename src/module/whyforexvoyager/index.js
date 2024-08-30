@@ -8,6 +8,13 @@ import advantage2 from '../../assets/images/advantage2.webp';
 import advantage3 from '../../assets/images/advantage3.webp';
 import advantage4 from '../../assets/images/advantage4.webp';
 import stripedcard from '../../assets/images/striped-background-card.webp';
+import cs1 from '../../assets/images/cs1.webp';
+import cs2 from '../../assets/images/cs2.webp';
+import cs3 from '../../assets/images/cs3.webp';
+import cs4 from '../../assets/images/cs4.webp';
+import cs5 from '../../assets/images/cs5.webp';
+import cs6 from '../../assets/images/cs6.webp';
+
 
 export default function Whyforexvoyager() {
     return (
@@ -196,6 +203,84 @@ export default function Whyforexvoyager() {
                             </div>
                         </div>
 
+                    </div>
+                </div>
+            </div>
+
+            <div className='white-bg'>
+                <div className='container'>
+                    <div className='dedicated'>
+                        <h2>Dedicated <span> Customer Service</span></h2>
+                        <p>A team of well-trained and multilingual professionals is available 24-hours who are fluent in over 12 languages.</p>
+                    </div>
+
+                    <div className='dedicated-grid'>
+                        <div className='linear-darkbox'>
+                            <div className='img-sideline-flex'>
+                                <div className='six-img'>
+                                    <img src={cs1} alt="error" />
+                                </div>
+                                <div className='service'>
+                                    <p>IT and operational support including service desk, onboarding, configuration, and cash management.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='linear-darkbox'>
+                            <div className='img-sideline-flex'>
+                                <div className='six-img'>
+                                    <img src={cs2} alt="error" />
+                                </div>
+                                <div className='service'>
+                                    <p>Sales and market support including educational materials, videos, tutorials and seminars.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='linear-darkbox'>
+                            <div className='img-sideline-flex'>
+                                <div className='six-img'>
+                                    <img src={cs3} alt="error" />
+                                </div>
+                                <div className='service'>
+                                    <p>Several funding methods including: Visa, Mastercard, Neteller, Skrill, and Crypto.</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className='linear-darkbox'>
+                            <div className='img-sideline-flex'>
+                                <div className='six-img'>
+                                    <img src={cs4} alt="error" />
+                                </div>
+                                <div className='service'>
+                                    <p>Real-time online financial news in multiple languages.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='linear-darkbox'>
+                            <div className='img-sideline-flex'>
+                                <div className='six-img'>
+                                    <img src={cs5} alt="error" />
+                                </div>
+                                <div className='service'>
+                                    <p>Around the clock, quick account opening and funding available.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className='linear-darkbox'>
+                            <div className='img-sideline-flex'>
+                                <div className='six-img'>
+                                    <img src={cs6} alt="error" />
+                                </div>
+                                <div className='service'>
+                                    <p>Regulatory and corporate support.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

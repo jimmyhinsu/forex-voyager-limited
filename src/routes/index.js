@@ -17,6 +17,7 @@ import Commodities from "../module/commodities";
 import Cryptocurrencies from "../module/cryptocurrencies";
 import Regulations from "../module/regulations";
 import Whyforexvoyager from "../module/whyforexvoyager";
+import Meta5 from "../module/meta5";
 
 const router = createBrowserRouter([
   {
@@ -92,6 +93,10 @@ const router = createBrowserRouter([
         path: "whyforexvoyager",
         element: <Whyforexvoyager />
       },
+      {
+        path: "meta5",
+        element: <Meta5 />
+      }
     ],
   },
   {

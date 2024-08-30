@@ -80,7 +80,7 @@ function Headermain() {
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <Link to={"/"}>MT5 Platform</Link>
+                  <Link to={"/meta5"}>MT5 Platform</Link>
                   <Link to={"/"}>Web Trader MT5</Link>
                 </div>
               </div>

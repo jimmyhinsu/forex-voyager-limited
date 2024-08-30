@@ -87,7 +87,7 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
               {activeDropdown === 3 && (
                 <div className="dropdown-content-sidebar-details">
                   <div className="dropdowns-links-main">
-                    <Link to={"/"}>MT5 Platform</Link>
+                    <Link to={"/meta5"}>MT5 Platform</Link>
                   </div>
                   <div className="dropdowns-links-main">
                     <Link to={"/"}>Web Trader MT5</Link>
@@ -140,15 +140,6 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
                   </div>
                   <div className="dropdowns-links-main">
                     <Link to={"/"}>Franchise Program</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>Institutional Liquidity Offering</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>CPA Affiliate Program</Link>
-                  </div>
-                  <div className="dropdowns-links-main">
-                    <Link to={"/"}>IB Offers</Link>
                   </div>
                 </div>
               )}

@@ -47,7 +47,7 @@ export default function Footer() {
             <div className="footer-content">
               <p>Platforms</p>
               <div className="footer-all-links-main">
-                <Link to={"/"}>MT5 Platform</Link>
+                <Link to={"/meta5"}>MT5 Platform</Link>
                 <Link to={"/"}>Web Trader MT5</Link>
               </div>
             </div>
