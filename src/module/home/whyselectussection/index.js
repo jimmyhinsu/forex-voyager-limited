@@ -1,7 +1,7 @@
 import React from "react";
 import "./whyselectussection.scss";
 
-import shieldicon from "../../../assets/images/shieldicon.png";
+// import shieldicon from "../../../assets/images/shieldicon.png";
 import balance from "../../../assets/images/balanceicon.png";
 import headphone from "../../../assets/images/headphoneicon.png";
 import upgrowicon from "../../../assets/images/upgrowicon.png";
@@ -17,14 +17,14 @@ export default function Whyselectussection({ id }) {
         </div>
 
         <div className="whyselectus-cards-grid-main">
-          <div className="whyselectus-cards-grid-items1">
+          {/* <div className="whyselectus-cards-grid-items1">
             <div className="whyselectus-cards-icons">
               <img src={shieldicon} alt="shieldicon" />
             </div>
             <h3>Heavily Regulated By 15 Financial Regulators</h3>
             <p>Subsidiaries regulated by ASIC, AUSTRAC, BAFIN, CIMA, ESCA, CySEC, FSC, FMA, MAS, TFG and VFSC.</p>
             <div className="whyselectus-cards-bottom-line"></div>
-          </div>
+          </div> */}
 
           <div className="whyselectus-cards-grid-items1">
             <div className="whyselectus-cards-icons">

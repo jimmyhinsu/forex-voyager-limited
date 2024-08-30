@@ -69,7 +69,7 @@ export default function Forexproducts() {
                                     <p>Trade over 55 major, cross, and exotic Forex pairs, and benefit from the tightest spreads in the industry.</p>
                                     <div className="up-and-down-boxes-changer" id="up-and-down-boxes-changer-web">
                                         <div className="up-and-down-box-changer">
-                                            <h3>Up to 500:1</h3>
+                                            <h3>Up to 1:500</h3>
                                             <span>Highest levels of leverage</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
