@@ -191,7 +191,7 @@
                     }
 
                     span {
-                        background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
+                        background: linear-gradient(88.9deg, #3073c6 33.43%, #64e584 103.55%);
                         color: transparent;
                         -webkit-background-clip: text;
                         background-clip: text;
@@ -230,15 +230,9 @@
                         padding: 19px;
 
                         h3 {
-                            background: linear-gradient(
-                                88.9deg,
-                                #467bff,
-                                #75d9d9 50%,
-                                #75d9d9 75%,
-                                #467bff 120%
-                            ) !important;
+                           
                             background-size: 200% auto !important;
-                            color: transparent;
+                            color: #3073c6;
                             -webkit-background-clip: text !important;
                             background-clip: text;
                             font-size: 21px;
@@ -273,7 +267,7 @@
                     }
                     .start {
                         button {
-                            background-image: linear-gradient(88.9deg, #467bff, #75d9d9 50%, #75d9d9 75%, #467bff 120%);
+                            background-image: linear-gradient(88.9deg, #3073c6, #64e584 50%, #64e584 75%, #3073c6 120%);
                             padding: 15px;
                             border: none;
                             border-radius: 50px;
@@ -292,7 +286,6 @@
                             @media (max-width: 1024px) {
                                 padding: 10px;
                             }
-
 
                             &:hover {
                                 transition: 0.4s ease-in-out;
@@ -335,7 +328,7 @@
                             width: 100%;
                             border: none;
                             position: relative;
-                            background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
+                            background: linear-gradient(88.9deg, #3073c6 33.43%, #64e584 103.55%);
                             -webkit-background-clip: text;
                             background-clip: text;
                             color: transparent;
@@ -353,7 +346,7 @@
                             }
 
                             &:before {
-                                background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
+                                background: linear-gradient(88.9deg, #3073c6 33.43%, #64e584 103.55%);
                                 content: "";
                                 position: absolute;
                                 inset: 0;
@@ -390,15 +383,9 @@
                         padding: 19px;
 
                         h3 {
-                            background: linear-gradient(
-                                88.9deg,
-                                #467bff,
-                                #75d9d9 50%,
-                                #75d9d9 75%,
-                                #467bff 120%
-                            ) !important;
+                            
                             background-size: 200% auto !important;
-                            color: transparent;
+                            color: #3073c6;
                             -webkit-background-clip: text !important;
                             background-clip: text;
                             font-size: 21px;
@@ -441,15 +428,9 @@
 
                         h3 {
                             min-width: 180px;
-                            background: linear-gradient(
-                                88.9deg,
-                                #467bff,
-                                #75d9d9 50%,
-                                #75d9d9 75%,
-                                #467bff 120%
-                            ) !important;
+                            
                             background-size: 200% auto !important;
-                            color: transparent;
+                            color: #3073c6;
                             -webkit-background-clip: text !important;
                             background-clip: text;
                             font-size: 21px;
@@ -492,15 +473,9 @@
 
                         h3 {
                             min-width: 180px;
-                            background: linear-gradient(
-                                88.9deg,
-                                #467bff,
-                                #75d9d9 50%,
-                                #75d9d9 75%,
-                                #467bff 120%
-                            ) !important;
+                            
                             background-size: 200% auto !important;
-                            color: transparent;
+                            color: #3073c6;
                             -webkit-background-clip: text !important;
                             background-clip: text;
                             font-size: 21px;

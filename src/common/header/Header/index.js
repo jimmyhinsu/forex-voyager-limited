@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../header.scss";
 import Dropdownicon from "../../../assets/svg/dropdownicon";
+import logo from '../../../assets/images/Forex Voyeger Logo.png';
 import { Link } from "react-router-dom";
 
 function Headermain() {
@@ -30,10 +31,7 @@ function Headermain() {
     <div className="Headermain">
       <div className="Headerlogo">
         <a href="/">
-          <p>
-            <span>Forex Voyager </span>
-            Limited
-          </p>
+          <img src={logo} alt="error" />
         </a>
       </div>
 
@@ -118,7 +116,6 @@ function Headermain() {
                 <div className="dropdown-content">
                   <Link to={"/"}>Introducing Brokers</Link>
                   <Link to={"/"}>Franchise Program</Link>
-
                 </div>
               </div>
             </div>

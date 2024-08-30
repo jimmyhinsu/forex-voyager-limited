@@ -1,6 +1,7 @@
 import React from "react";
 import "./footer.scss";
 import { Link, NavLink } from "react-router-dom";
+import logo from '../../assets/images/Forex Voyeger Logo.png';
 
 export default function Footer() {
   return (
@@ -9,12 +10,7 @@ export default function Footer() {
         <div className="footertopline">
           <div className="footerlogo">
             <Link to={"/"}>
-              <p>
-                <span>Forex Voyager </span>
-                Limited
-                {/* <strong></strong>
-              <b></b> */}
-              </p>
+              <img src={logo} alt="error" />
             </Link>
           </div>
 

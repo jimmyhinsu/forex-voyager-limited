@@ -15,7 +15,7 @@
             gap: 15px;
 
             h1 {
-                background: linear-gradient(88.9deg, #467bff 33.43%, #75d9d9 103.55%);
+                background: linear-gradient(88.9deg, #3073c6 33.43%, #64e584 103.55%);
                 color: transparent;
                 -webkit-background-clip: text;
                 background-clip: text;
@@ -44,7 +44,7 @@
             gap: 20px;
             align-items: center;
 
-            @media (max-width:1024px) {
+            @media (max-width: 1024px) {
                 display: none;
             }
 
@@ -143,7 +143,7 @@
                         text-align: left;
 
                         span {
-                            color: rgb(70 123 255 / 1);
+                            color: #3073c6;
                         }
                     }
 
@@ -184,7 +184,7 @@
                             text-align: left;
 
                             span {
-                                color: rgb(70 123 255 / 1);
+                                color: #3073c6;
                             }
                         }
                     }
