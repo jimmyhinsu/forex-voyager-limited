@@ -6,6 +6,10 @@ import Accountssection from '../home/Accountssections';
 import bannermt5 from '../../assets/images/banner-mt5.webp';
 import Slideicon from "../../assets/svg/slideicon";
 import whatismeta from '../../assets/images/what-is-mt5.webp';
+import downloadapp from '../../assets/images/download-mt5.webp';
+import meta5svg from '../../assets/svg/logo-mt5.svg';
+import google from '../../assets/icons/playstore.png';
+import Appleicon from '../../assets/svg/appleicon';
 
 export default function Meta5() {
     return (
@@ -46,9 +50,61 @@ export default function Meta5() {
 
             </div>
 
-            <div className='white-bg-main'>
-                <div className='white-bg-color'>
-                    <div className='conatiner'>
+            <div className='white-background'>
+                <div className='container'>
+                    <div className='downloadapp-grid'>
+                        <div className='meta5app-detail'>
+                            <div className='meta5-svg'>
+                                <img src={meta5svg} alt="error" />
+                            </div>
+                            <h3><span>Download MT5</span> Trading Platform</h3>
+                            <p>Select a download type as per your device operating system and your account regulation.</p>
+                            <div className='apps-button'>
+                                <div className='appstore-buton-main'>
+                                    <a href="https://apps.apple.com/us/app/metatrader-5/id413251709" target='__blank'>
+                                        <button>
+                                            <div className='apple-icon-flex'>
+                                                <div className='apple-icon'>
+                                                    <Appleicon />
+                                                </div>
+                                                <div className='appstore'>
+                                                    <p>Download on the </p>
+                                                    <span>App Store</span>
+                                                </div>
+                                            </div>
+                                        </button>
+                                    </a>
+                                </div>
+
+                                <div className='appstore-buton-main'>
+                                    <a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader5&hl=en&referrer=ref_id%3d6380119913593281231%26server%3dMEXGlobalFinancial-Demo%252cMEXGlobalFinancial-Real" target='__blank'>
+                                        <button>
+                                            <div className='apple-icon-flex'>
+                                                <div className='apple-icon'>
+                                                    <img src={google} alt="error" />
+                                                </div>
+                                                <div className='appstore'>
+                                                    <p>Get It on</p>
+                                                    <span>Google Play</span>
+                                                </div>
+                                            </div>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className='downloadapp-img'>
+                            <img src={downloadapp} alt="error" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className='blue-bg-main'>
+                <div className='conatiner'>
+                    <div className='white-bg-color'>
                         <div className='whatismeta5'>
                             <div className='meta5-pera'>
                                 <div className='whatis'>

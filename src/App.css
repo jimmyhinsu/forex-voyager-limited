@@ -53,8 +53,8 @@ body {
 .main-body {
   margin: 146px 0 0 0;
 
-  @media (max-width: 1200px) {
-    margin: 118px 0 0 0;
+  @media (max-width: 1024px) {
+    margin: 100px 0 0 0;
   }
 }
 

@@ -196,21 +196,190 @@
     }
 }
 
-.white-bg-main {
+.white-background {
+    padding: 35px 0;
+    margin: 80px 0;
+    background-image: linear-gradient(180deg, #fff, #c4ccdd);
+
+    .container {
+        max-width: 1372px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        .downloadapp-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            align-items: center;
+            justify-content: center;
+
+            @media (max-width: 1024px) {
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            .meta5app-detail {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                gap: 15px;
+
+                @media (max-width: 1024px) {
+                    gap: 10px;
+                }
+
+                .meta5-svg {
+                    width: 100%;
+                    img {
+                    }
+                }
+
+                h3 {
+                    font-size: 40px;
+                    font-weight: 700;
+                    color: #161a2f;
+                    span {
+                        color: #3073c6;
+                    }
+
+                    @media (max-width: 576px) {
+                        font-size: 25px;
+                    }
+                }
+
+                p {
+                    color: #292b31;
+                    font-size: 16px;
+                    font-weight: 600;
+                }
+
+                .apps-button {
+                    display: flex;
+                    gap: 15px;
+                    align-items: center;
+                    justify-content: start;
+
+                    @media (max-width: 1024px) {
+                        justify-content: center;
+                        margin-top: 10px;
+                    }
+
+                    @media (max-width: 576px) {
+                        gap: 10px;
+                    }
+
+                    .appstore-buton-main {
+                        button {
+                            background-color: #000;
+                            color: #fff;
+                            padding: 12px 40px;
+                            border: none;
+                            border-radius: 50px;
+                            cursor: pointer;
+
+                            @media (max-width: 576px) {
+                                padding: 12px 20px;
+                            }
+
+                            &:hover {
+                                background-color: #fff;
+
+                                svg {
+                                    path {
+                                        fill: #000 !important;
+                                    }
+                                }
+
+                                .appstore {
+                                    p {
+                                        color: #000 !important;
+                                    }
+                                    span {
+                                        color: #000 !important;
+                                    }
+                                }
+                            }
+
+                            .apple-icon-flex {
+                                display: flex;
+                                justify-content: space-between;
+                                gap: 10px;
+
+                                .apple-icon {
+                                    img,
+                                    svg {
+                                        height: 40px;
+                                        width: 40px;
+
+                                        @media (max-width: 576px) {
+                                            height: 25px;
+                                            width: 25px;
+                                        }
+                                    }
+
+                                    svg {
+                                        path {
+                                            fill: #fff;
+                                        }
+                                    }
+                                }
+
+                                .appstore {
+                                    text-align: left;
+                                    p {
+                                        font-size: 12px;
+                                        color: #fff;
+
+                                        @media (max-width: 576px) {
+                                            font-size: 10px;
+                                        }
+                                    }
+                                    span {
+                                        font-size: 20px;
+                                        color: #fff;
+                                        font-weight: 600;
+
+                                        @media (max-width: 576px) {
+                                            font-size: 16px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            .downloadapp-img {
+                width: 100%;
+                text-align: center;
+                img {
+                    height: 323px;
+
+                    @media (max-width: 576px) {
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.blue-bg-main {
     margin: 80px 0;
 
-    .white-bg-color {
-        padding: 40px;
-        background-image: linear-gradient(180deg, #fff, #c4ccdd);
+    .conatiner {
+        max-width: 1372px;
+        margin: 0 auto;
+        padding: 0 20px;
 
-        @media (max-width: 1024px) {
-            padding: 20px;
-        }
+        .white-bg-color {
+            padding: 40px;
+            background-image: radial-gradient(53.28% 46.13% at 53.28% 57.78%, #172547 0, #060b22 100%);
+            border-radius: 25px;
 
-        .conatiner {
-            max-width: 1372px;
-            margin: 0 auto;
-            padding: 0 20px;
+            @media (max-width: 1024px) {
+                padding: 20px;
+            }
 
             .whatismeta5 {
                 display: grid;
@@ -230,7 +399,7 @@
                 .meta5-pera {
                     .whatis {
                         h2 {
-                            color: #0b110b;
+                            color: #ffffff;
                             font-size: 40px;
 
                             span {
@@ -247,7 +416,7 @@
                     }
 
                     p {
-                        color: #292b31;
+                        color: #ffffff;
                         font-size: 18px;
                         line-height: 1.5;
                         margin-top: 15px;
@@ -261,7 +430,7 @@
                     .withcomplete {
                         margin-top: 15px;
                         span {
-                            color: #292b31;
+                            color: #ffffff;
                             font-size: 18px;
                             line-height: 1.5;
 
