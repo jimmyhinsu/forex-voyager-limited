@@ -81,7 +81,7 @@ export default function Commodities() {
                                                 <Slideicon />
                                             </button>
                                         </div>
-                                        <div className='open'>
+                                        <div className='open-commdities'>
                                             <button>Open Demo Account</button>
                                         </div>
                                     </div>

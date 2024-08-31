@@ -25,7 +25,7 @@ export default function Standard() {
     const accountDetailsData = {
         title: "Standard Account Includes:",
         details: [
-            { text: "Trading Platform:", highlight: "MT4, MT5" },
+            { text: "Trading Platform:", highlight: "MT5" },
             { text: "Minimum initial deposit of", highlight: "$50" },
             { text: "Spreads from pips", highlight: "1.5" },
             { text: "Leverage up to from", highlight: "1:500" },
@@ -71,7 +71,7 @@ export default function Standard() {
                                                 <Slideicon />
                                             </button>
                                         </div>
-                                        <div className='open'>
+                                        <div className='open-stand'>
                                             <button>Open Demo Account</button>
                                         </div>
                                     </div>

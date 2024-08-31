@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./mobileheader.scss";
+import logo from '../../../assets/images/Forex Voyeger Logo.png';
 
 import Menuicon from "../../../assets/icons/menu.png";
 import Sidebar from "../../sidebar";
+import { Link } from "react-router-dom";
 
 export default function Mobileheader() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -22,12 +24,9 @@ export default function Mobileheader() {
   return (
     <div className="mobile-header-main">
       <div className="mobile-Header-logo">
-        <a href="#about">
-          <p>
-            <span>Forex Voyager </span>
-            Limited
-          </p>
-        </a>
+        <Link to={'/'}>
+          <img src={logo} alt="error" />
+        </Link>
       </div>
 
       <div className="mobile-header-menu" onClick={toggleSidebar}>
