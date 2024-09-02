@@ -57,7 +57,7 @@
                     p {
                         font-size: 18px;
                         color: #fff;
-                        max-width: 600px;
+                        letter-spacing: 0.3px;
                     }
                 }
                 .traderline2 {
@@ -65,7 +65,7 @@
                     p {
                         font-size: 18px;
                         color: #fff;
-                        max-width: 600px;
+                        letter-spacing: 0.3px;
                     }
                 }
 
@@ -182,7 +182,6 @@
 
             .bannermt5 {
                 img {
-                    width: 658px;
                     height: 460px;
                     object-fit: contain;
 
@@ -265,9 +264,13 @@
 
                     @media (max-width: 576px) {
                         gap: 10px;
+                        flex-direction: column;
                     }
 
                     .appstore-buton-main {
+                        @media (max-width: 576px) {
+                            width: 100%;
+                        }
                         button {
                             background-color: #000;
                             color: #fff;
@@ -278,6 +281,7 @@
 
                             @media (max-width: 576px) {
                                 padding: 12px 20px;
+                                width: 100%;
                             }
 
                             &:hover {
@@ -303,6 +307,11 @@
                                 display: flex;
                                 justify-content: space-between;
                                 gap: 10px;
+
+                                @media (max-width: 576px) {
+                                    justify-content: center;
+                                    gap: 15px;
+                                }
 
                                 .apple-icon {
                                     img,
@@ -430,7 +439,7 @@
                     .withcomplete {
                         margin-top: 15px;
                         span {
-                            color: #ffffff;
+                            color: #c9c9c9;
                             font-size: 18px;
                             line-height: 1.5;
 
@@ -443,7 +452,6 @@
 
                 .meta-trader-img {
                     img {
-                        width: 582px;
                         height: 355px;
                         object-fit: contain;
 

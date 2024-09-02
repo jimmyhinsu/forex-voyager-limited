@@ -65,7 +65,7 @@ export default function Ecn() {
                   <h1>
                     <span>Standard</span>  Account
                   </h1>
-                  <p>A commission-free account that is perfect for new traders looking to start investing. Standard accounts offer instant execution, stable spreads.</p>
+                  <p>An account with no commissions that is ideal for novice traders wishing to begin trading. Standard accounts provide consistent spreads and immediate execution.</p>
                   <div className='standard-open-buttons'>
                     <div className='start'>
                       <button>Start Tranding Now
@@ -89,9 +89,9 @@ export default function Ecn() {
               {activeButton === "proacc" && (
                 <div className="content-Standard">
                   <h1>
-                    <span>Standard</span>  Account
+                    <span>Pro</span>  Account
                   </h1>
-                  <p>A commission-free account that is perfect for new traders looking to start investing. Standard accounts offer instant execution, stable spreads.</p>
+                  <p>The Pro account is a fantastic choice for traders who wish to take advantage of tight spreads, quick execution, and no commission.</p>
                   <div className='standard-open-buttons'>
                     <div className='start'>
                       <button>Start Tranding Now
@@ -116,7 +116,7 @@ export default function Ecn() {
                   <h1>
                     <span>ECN </span>  Account
                   </h1>
-                  <p>An ECN account is best-suited for traders looking for raw spreads and instant execution.</p>
+                  <p>Traders seeking instantaneous execution and raw spreads are better off with an ECN account.</p>
                   <div className='standard-open-buttons'>
                     <div className='start'>
                       <button>Start Tranding Now

@@ -25,10 +25,10 @@ export default function Meta5() {
                                 <h2><span>MT5</span> Trading Platform</h2>
                             </div>
                             <div className='traderline1'>
-                                <p>MetaTrader 5 (MT5) trading platform meet the growing demands of brokers and traders.</p>
+                                <p>The trading platform MetaTrader 5 (MT5) satisfies the increasing needs of traders and brokers.</p>
                             </div>
                             <div className='traderline2'>
-                                <p>MT5 Platform offers all the various features provided by the MT4 platform, and in addition provides additional features such as improved trading functionalities and enhanced scripting tools for custom indicators and expert advisors.</p>
+                                <p>In addition to offering all the functionality offered by the MT4 platform, the MT5 platform also has expanded scripting tools for custom indicators and expert advisors, as well as increased trading functionalities.</p>
                             </div>
                             <div className='trader-button'>
                                 <div className='start'>
@@ -110,10 +110,10 @@ export default function Meta5() {
                                 <div className='whatis'>
                                     <h2>What is <span>MT5</span>?</h2>
                                 </div>
-                                <p>MT5 gives you access to our extensive line up of asset classes — including forex, stocks, indices, cryptocurrencies, metals, and commodities — on a single trading platform.</p>
+                                <p>With just one trading platform, MT5 provides you with access to our wide range of asset classes, which include FX, equities, indices, cryptocurrencies, metals, and commodities.</p>
 
                                 <div className='withcomplete'>
-                                    <span>With complete access to advanced trade types and cutting-edge analytical tools, Forex Voyager pushes the MT5 experience to a new level, that’s whether you’re a new or experienced trader. The main benefit of the MT5 platform is that traders are not restricted to using the built-in analytical resources.</span>
+                                    <span>Whether you're a veteran trader or just starting out, Forex Voyager elevates the MT5 experience with its extensive access to sophisticated trade types and state-of-the-art analytical tools. The MT5 platform's primary advantage is that traders are not limited to utilizing the integrated analytical tools.</span>
                                 </div>
                             </div>
 

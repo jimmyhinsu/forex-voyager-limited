@@ -26,7 +26,7 @@ export default function Benefitfrom() {
                             <span> Global Presence</span>
                             <h3>25+ Offices</h3>
                             <span>Worldwide</span>
-                            <p>Forex Voyager maintains 25+ offices worldwide to cater to our international client base and partner with affiliates in major financial hubs around the world.</p>
+                            <p>In order to serve our global clientele and collaborate with affiliates in significant financial centers across the globe, Forex Voyager keeps more than 25 offices across the globe.</p>
                             <div className="whyselectus-cards-bottom-line whyselectus-cards-bottom-line-sc"></div>
                         </div>
 
@@ -34,7 +34,7 @@ export default function Benefitfrom() {
                             <span> Daily Turnover</span>
                             <h3>$15.6 Billion</h3>
                             <span>Record Breaking Financial Performance</span>
-                            <p>With a turnover of over US$ 6.8 Trillion in 2023, exceeding all previous record years, we deliver results that instill confidence.</p>
+                            <p>Delivering earnings that inspire trust, we surpass all prior record years with a turnover of nearly US$ 6.8 trillion in 2023.</p>
                             <div className="whyselectus-cards-bottom-line whyselectus-cards-bottom-line-trd"></div>
                         </div>
                     </div>
