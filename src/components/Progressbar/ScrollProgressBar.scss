@@ -1,0 +1,9 @@
+.scroll-progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    background-color: #3498db;
+    z-index: 99;
+    transition: width 0.2s ease-out;
+}
