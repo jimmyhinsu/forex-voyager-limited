@@ -72,23 +72,24 @@
                 align-items: center;
                 border-bottom: 1px solid rgb(31 37 51/1);
                 margin: 0 20px;
+                cursor: pointer;
 
                 &.active {
                     border-bottom: none;
 
-                    a {
+                    p {
                         color: rgb(70 123 255 / 1);
                     }
                 }
 
-                a {
+                p {
                     color: #fff;
                     margin: 12px 0;
                     text-align: left;
                     font-size: 14px;
                     font-weight: 500;
                     line-height: normal;
-                    text-decoration-line: none;
+                    cursor: pointer;
 
                     @media (max-width: 576px) {
                         font-size: 12px;
