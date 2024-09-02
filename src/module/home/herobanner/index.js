@@ -10,11 +10,11 @@ export default function Herobanner({ id }) {
         <div className="herobannercontent">
           <div className="text">
             <h2>
-              <span>Life is </span> Better with <span>Money</span>
+              <span>Money </span> Enriches Life's  <span>Possibilities</span>
             </h2>
           </div>
 
-          <p>Join millions of investors and take your portfolio to new heights.</p>
+          <p>Become part of a global trading community and boost your portfolio.</p>
 
           <div className="button">
             <button>

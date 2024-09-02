@@ -33,7 +33,7 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
               {activeDropdown === 1 && (
                 <div className="dropdown-content-sidebar-details">
                   <div className="dropdowns-links-main">
-                    <Link to={"/cryptocurrencies"} onClick={onClose}>Why Forex Voyager Limited</Link>
+                    <Link to={"/whyforexvoyager"} onClick={onClose}>Why Forex Voyager Limited</Link>
                   </div>
                   <div className="dropdowns-links-main">
                     <Link to={"/regulations"} onClick={onClose}>Regulations</Link>
