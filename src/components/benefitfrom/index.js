@@ -9,8 +9,8 @@ export default function Benefitfrom() {
                 <div className="whyselectus-section-container">
                     <div className="whyselectus-section-title-main">
                         <h1>BENEFIT FROM THE WORLD’S NO.1 ONLINE FINANCIAL DERIVATIVES BROKER</h1>
-                        <h2>Why Over 1 Million Clients Choose Forex Voyager Limited</h2>
-                        <p>We have a long history of delivering exceptional and profitable trading experiences by providing unique trading accounts, instant execution, cutting-edge platforms, and the tightest pricing and liquidity.</p>
+                        <h2>The Factors That Make More Than A Million Clients Choose Forex Voyager Limited</h2>
+                        <p>We have been able to continually deliver excellent and profitable trading experiences because of our long history of offering distinctive trading accounts, quick execution, cutting-edge platforms, tightest pricing and liquidity, and unique trading experiences.</p>
                     </div>
 
                     <div className="whyselectus-cards-grid-main">

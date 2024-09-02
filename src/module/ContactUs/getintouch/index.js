@@ -39,7 +39,7 @@ export default function Getintouch() {
 
             <div className={`whychoose-main ${activeIndex === 1 ? "active" : ""}`} onClick={() => setActiveIndex(1)}>
               <div className="whychoose">
-                <p>24/7 Customer Service through</p>
+                <p>24/7 Client Support through</p>
                 <h3>Live Chat</h3>
                 <div className="stripedCard">
                   <img src={stripedCard} alt="stripedCard" />

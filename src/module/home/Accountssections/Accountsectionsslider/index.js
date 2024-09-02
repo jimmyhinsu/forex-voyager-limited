@@ -60,7 +60,7 @@ export default function Accountsectionslider() {
                 <span>Standard</span> Account
               </h1>
 
-              <p>A commission-free account that is perfect for new traders looking to start investing.Standard accounts offer instant execution, stable spreads.</p>
+              <p>An account with no commissions that is ideal for novice traders wishing to begin trading.Standard accounts provide consistent spreads and immediate execution.</p>
             </div>
 
             <div className="card-last-details">
@@ -97,7 +97,7 @@ export default function Accountsectionslider() {
                 <span>Pro</span> Account
               </h1>
 
-              <p>The Pro account is suitable for traders looking to take advantage of zero commissions, tight spreads, and instant execution.</p>
+              <p>For traders who want to benefit from tight spreads, rapid execution, and no commissions, the Pro account is a good option.</p>
             </div>
 
             <div className="card-last-details">
@@ -134,7 +134,7 @@ export default function Accountsectionslider() {
                 <span>ECN</span> Account
               </h1>
 
-              <p>An ECN account is best suited for traders looking for raw spreads and instant execution.</p>
+              <p>Traders seeking instantaneous execution and raw spreads are better off with an ECN account.</p>
             </div>
 
             <div className="card-last-details">

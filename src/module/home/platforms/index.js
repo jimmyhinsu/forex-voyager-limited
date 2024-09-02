@@ -16,7 +16,7 @@ function Platforms({ id }) {
               </div>
 
               <div className="exploreour">
-                <h2>Explore our Mobile Trading Platforms</h2>
+                <h2>Experience our Mobile Trading Platforms</h2>
               </div>
 
               <div className='mt4-mt5-grid'>
@@ -26,7 +26,7 @@ function Platforms({ id }) {
                       MT5 <span> PLATFORMS </span>
                     </h4>
                   </div>
-                  <p>Trade over 20,000 instruments including forex, metals, shares, indices, commodities & cryptocurrencies on award-winning MT4 and MT5 Mobile Platforms with instant nano-second execution.</p>
+                  <p>Trade over 20,000 assets on the renowned MT4 and MT5 Mobile Platforms with instantaneous nanosecond execution, including forex, metals, shares, indices, commodities, and cryptocurrencies.</p>
                   <div className='platforms-two-img'>
                     <div className='meta4'>
                       <img src={meta5} alt="error" />

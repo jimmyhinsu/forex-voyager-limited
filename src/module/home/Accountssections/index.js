@@ -12,7 +12,7 @@ export default function Accountssection({ id }) {
       <div className="accounts-sections-container">
         <div className="accounts-sections-title-text-main">
           <h1>ACCOUNTS</h1>
-          <h2>Select an Account That Suits Your Trading Style</h2>
+          <h2>Choose a Trading Account That Fits Your Style</h2>
         </div>
         <div className="accounts-card-grid-main">
           <div className="accounts-card-grid-vol1">
@@ -26,7 +26,7 @@ export default function Accountssection({ id }) {
                 <span>Standard</span> Account
               </h1>
 
-              <p>A commission-free account that is perfect for new traders looking to start investing.Standard accounts offer instant execution, stable spreads.</p>
+              <p>An account with no commissions that is ideal for novice traders wishing to begin trading.Standard accounts provide consistent spreads and immediate execution.</p>
             </div>
 
             <div className="card-last-details">
@@ -61,7 +61,7 @@ export default function Accountssection({ id }) {
                 <span>Pro</span> Account
               </h1>
 
-              <p>The Pro account is suitable for traders looking to take advantage of zero commissions, tight spreads, and instant execution.</p>
+              <p>For traders who want to benefit from tight spreads, rapid execution, and no commissions, the Pro account is a good option.</p>
             </div>
 
             <div className="card-last-details">
@@ -96,7 +96,7 @@ export default function Accountssection({ id }) {
                 <span>ECN</span> Account
               </h1>
 
-              <p>An ECN account is best suited for traders looking for raw spreads and instant execution.</p>
+              <p>Traders seeking instantaneous execution and raw spreads are better off with an ECN account.</p>
             </div>
 
             <div className="card-last-details">

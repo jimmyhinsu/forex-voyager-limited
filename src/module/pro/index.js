@@ -31,7 +31,7 @@ export default function Pro() {
       { text: "Leverage up to from", highlight: "1:500" },
       { text: "Social Trading", highlight: "" },
       { text: "24/7 technical and account support", highlight: "" },
-      { text: "Multilingual customer service", highlight: "" }
+      { text: "Multilingual client support", highlight: "" }
     ]
   };
   return (
@@ -90,7 +90,7 @@ export default function Pro() {
                   <h1>
                     <span>Pro </span>  Account
                   </h1>
-                  <p>The Pro account is suitable for traders looking to take advantage of zero commissions, tight spreads, and instant execution.</p>
+                  <p>For traders who want to benefit from tight spreads, rapid execution, and no commissions, the Pro account is a good option.</p>
                   <div className='standard-open-buttons'>
                     <div className='start'>
                       <button>Start Tranding Now

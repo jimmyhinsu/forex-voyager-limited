@@ -9,9 +9,9 @@ export default function Brokersprogramsections({ id }) {
       <div className="brokersprogramsections-container">
         <div className="brokersprogramsections-grid-main">
           <div className="brokersprogramsections-grid-item1">
-            <h1>Introducing Brokers & Institutional Program</h1>
-            <p>Increase your profits with the highest rebates & commissions in the industry.</p>
-            <span>Forex Voyager Limited Institutional Programs include Introducing Broker, Affiliate Program, White Label, Prime of Primes & Franchise Partner, all exclusively tailored to suit your business.</span>
+            <h1>Announcing the Institutional Program and Brokers</h1>
+            <p>With the largest industry rebates and commissions, you can boost your profits.</p>
+            <span>The institutional programs offered by Forex Voyager Limited are specifically designed to fit your business and include White Label, Prime of Primes, Affiliate Program, Introducing Broker, and Franchise Partner.</span>
             <div className="become-ib-button-main-alignment">
               <div className="become-ib-button">
                 <button>

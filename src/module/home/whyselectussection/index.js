@@ -12,8 +12,8 @@ export default function Whyselectussection({ id }) {
       <div className="whyselectus-section-container">
         <div className="whyselectus-section-title-main">
           <h1>BENEFIT FROM THE WORLD’S NO.1 ONLINE FINANCIAL DERIVATIVES BROKER</h1>
-          <h2>Why Over 1 Million Clients Choose Forex Voyager Limited</h2>
-          <p>We have a long history of delivering exceptional and profitable trading experiences by providing unique trading accounts, instant execution, cutting-edge platforms, and the tightest pricing and liquidity.</p>
+          <h2>The Reasons Over A Million Customers Select Forex Voyager Limited</h2>
+          <p>Our lengthy history of providing distinctive trading accounts, fast execution, state-of-the-art platforms, tightest pricing and liquidity, and unique trading experiences has allowed us to consistently deliver great and successful trading experiences.</p>
         </div>
 
         <div className="whyselectus-cards-grid-main">
@@ -30,7 +30,7 @@ export default function Whyselectussection({ id }) {
             <div className="whyselectus-cards-icons">
               <img src={upgrowicon} alt="shieldicon" />
             </div>
-            <h3>Daily Turnover US$12.1Billion</h3>
+            <h3>Daily Revenue of $12.1 billion USD</h3>
             <p>Record Breaking Financial performance in 2022</p>
             <div className="whyselectus-cards-bottom-line whyselectus-cards-bottom-line-sc"></div>
           </div>
@@ -48,8 +48,8 @@ export default function Whyselectussection({ id }) {
             <div className="whyselectus-cards-icons">
               <img src={headphone} alt="shieldicon" />
             </div>
-            <h3>Customer Service</h3>
-            <p>Enjoy assistance from our 24/7/365 customer service desk</p>
+            <h3>Client Support</h3>
+            <p>Enjoy assistance from our 24/7/365 Client Support desk</p>
             <div className="whyselectus-cards-bottom-line whyselectus-cards-bottom-line-frth"></div>
           </div>
         </div>

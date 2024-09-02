@@ -33,7 +33,7 @@ export default function Privacypage() {
                 <div className='main-sub-name'>
                     <h2>PERSONAL INFORMATION WE COLLECT</h2>
                 </div>
-                <p>If you decide to apply to open an account with Forex Voyager Limited, there is certain information that we will require from you in order to do so. Forex Voyager obtains most of the information directly from you through application or other forms, and from maintaining records of information provided in the course of ongoing customer service. Forex Voyager may also collect information about your use of the website, such as pages visited, frequency and duration and visit and trading activities.</p>
+                <p>If you decide to apply to open an account with Forex Voyager Limited, there is certain information that we will require from you in order to do so. Forex Voyager obtains most of the information directly from you through application or other forms, and from maintaining records of information provided in the course of ongoing client support. Forex Voyager may also collect information about your use of the website, such as pages visited, frequency and duration and visit and trading activities.</p>
 
                 <p>In relation to your personal data, you agree that we use and rely on the data you provided us, and we and our group companies can store and process them both in physically and/or electronically</p>
 
@@ -52,7 +52,7 @@ export default function Privacypage() {
                     </ul>
                 </div>
 
-                <p>Forex Voyager will use information collected from you to provide the information and services requested by you and to improve the quality of our service. Unless you are informed otherwise, the personal information Forex Voyager holds is used for establishing and managing your account, reviewing your ongoing needs, enhancing customer service and products, by giving ongoing information or opportunities that may be relevant to you.</p>
+                <p>Forex Voyager will use information collected from you to provide the information and services requested by you and to improve the quality of our service. Unless you are informed otherwise, the personal information Forex Voyager holds is used for establishing and managing your account, reviewing your ongoing needs, enhancing client support and products, by giving ongoing information or opportunities that may be relevant to you.</p>
 
 
                 <div className='main-sub-name'>

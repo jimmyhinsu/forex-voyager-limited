@@ -32,7 +32,7 @@ export default function Ecn() {
       { text: "Leverage up to from", highlight: "1:500" },
       { text: "Social Trading", highlight: "" },
       { text: "24/7 technical and account support", highlight: "" },
-      { text: "Multilingual customer service", highlight: "" }
+      { text: "Multilingual client support", highlight: "" }
     ]
   };
   return (
