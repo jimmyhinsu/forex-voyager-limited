@@ -7,6 +7,10 @@ import Slideicon from "../../assets/svg/slideicon";
 import Regulationsbackgorund from "../../assets/images/page-header-bg.webp";
 
 
+import pdf from "../../assets/pdf/Forexvoyager.pdf";
+
+
+
 export default function Regulations() {
   return (
     <>
@@ -63,10 +67,12 @@ export default function Regulations() {
               </div>
 
               <div className="viewlicense">
-                <button>
-                  View License
-                  <Slideicon />
-                </button>
+                <a href={pdf} target='__blank'>
+                  <button>
+                    View License
+                    <Slideicon />
+                  </button>
+                </a>
               </div>
             </div>
 
@@ -76,6 +82,9 @@ export default function Regulations() {
 
       <Gotonext />
       <Wanttoget />
+
+
+      {/* <img src="../../assets/pdf/Forexvoyag.pdf" alt="pdf" /> */}
     </>
   )
 }
