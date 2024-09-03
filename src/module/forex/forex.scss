@@ -642,6 +642,11 @@
                 overflow: hidden;
                 height: -webkit-fill-available;
 
+                @media (max-width: 576px) {
+                    padding: 20px;
+                    height: auto;
+                }
+
                 span {
                     color: #fff;
                     font-size: 24px;
@@ -683,10 +688,6 @@
                     height: 3px;
                     border-radius: 5px;
                     background: rgb(33, 203, 128);
-                }
-
-                @media (max-width: 576px) {
-                    padding: 20px;
                 }
             }
         }

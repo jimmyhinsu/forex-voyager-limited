@@ -216,7 +216,11 @@
                     align-items: center;
                     img {
                         max-height: 460px;
-                        max-width: 658px;
+
+                        @media (max-width: 576px) {
+                            min-height: 150px;
+                            width: 100%;
+                        }
                     }
                 }
 
