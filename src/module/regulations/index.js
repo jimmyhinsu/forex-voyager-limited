@@ -41,9 +41,9 @@ export default function Regulations() {
               <div className='fscm-icon'>
                 <img src={fscm} alt="error" />
               </div>
-              <div className='fscm-name'>
+              {/* <div className='fscm-name'>
                 <p>FSCM</p>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -53,12 +53,12 @@ export default function Regulations() {
                 <img src={fscm} alt="error" />
               </div>
 
-              <div className='mexfm'>
+              {/* <div className='mexfm'>
                 <h2>  MEXFM Securities</h2>
-              </div>
+              </div> */}
 
               <div className='mexfm-pera'>
-                <p>MEXFM Securities (Mauritius) Ltd, Registered Address:  Ground Floor, The Sotheby Building, Rodney Village,Rodney Bay, Gros-Islet, SAINT Lucia P.O Box 838, Castries, Saint Lucia.
+                <p>Registered Address:  Ground Floor, The Sotheby Building, Rodney Village,Rodney Bay, Gros-Islet, SAINT Lucia P.O Box 838, Castries, Saint Lucia.
                   Registration Number: 2024-00486</p>
               </div>
 
