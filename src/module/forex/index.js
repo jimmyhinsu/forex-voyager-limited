@@ -1,16 +1,16 @@
 import React, { useState } from 'react'
 import './forex.scss';
-import commodities from "../../../src/assets/images/img-commoditiesHeader.webp";
-import cyrpto from "../../../src/assets/images/img-cyrptoCurrencyHeader.webp";
-import forexheader from "../../../src/assets/images/img-forexHeader.webp";
-import gold from "../../../src/assets/images/img-goldHeader.webp";
-import indices from "../../../src/assets/images/img-indicesHeader-2.webp";
-import shares from "../../../src/assets/images/img-sharesHeader.webp";
+import commodities from "../../../src/assets/images/invest in commodities.webp";
+import cyrpto from "../../../src/assets/images/invest in degital.png";
+import forexheader from "../../../src/assets/images/invest in forex.png";
+import gold from "../../../src/assets/images/invest in metlas.png";
+import indices from "../../../src/assets/images/invest in indices.png";
+import shares from "../../../src/assets/images/invest in shares.webp";
 import Slideicon from "../../assets/svg/slideicon";
 import Gotonext from '../home/gotonext';
 import Wanttoget from '../home/wanttoget';
 import Benefitfrom from '../../components/benefitfrom';
-import whatisforex from '../../assets/images/what-is-forex.webp';
+import whatisforex from '../../assets/images/what is forex.png';
 import tradewith from '../../assets/images/trade-with-mb.webp';
 import { Link } from 'react-router-dom';
 

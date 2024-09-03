@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "./ourproductslidesection.scss";
-import commodities from "../../../assets/images/img-commoditiesHeader.webp";
-import cyrpto from "../../../assets/images/img-cyrptoCurrencyHeader.webp";
-import forexheader from "../../../assets/images/img-forexHeader.webp";
-import gold from "../../../assets/images/img-goldHeader.webp";
-import indices from "../../../assets/images/img-indicesHeader-2.webp";
-import shares from "../../../assets/images/img-sharesHeader.webp";
+import commodities from "../../../assets/images/invest in commodities.webp";
+import cyrpto from "../../../assets/images/invest in degital.png";
+import forexheader from "../../../assets/images/invest in forex.png";
+import gold from "../../../assets/images/invest in metlas.png";
+import indices from "../../../assets/images/invest in indices.png";
+import shares from "../../../assets/images/invest in shares.webp";
 
 export default function Ourproductslidesection({ id }) {
   const [activeButton, setActiveButton] = useState("Forex");

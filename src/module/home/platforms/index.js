@@ -2,7 +2,7 @@ import React from "react";
 import "../platforms/platforms.scss";
 import meta5 from "../../../assets/images/meta-5.svg";
 import Slideicon from "../../../assets/svg/slideicon";
-import metaplat from "../../../assets/images/meta-5.png";
+import metaplat from "../../../assets/images/meta-5 img.webp";
 
 function Platforms({ id }) {
   return (
