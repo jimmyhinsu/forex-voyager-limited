@@ -19,31 +19,31 @@ export default function Meta5() {
                     <div className='mttradingplatform'>
                         <div className='platformstrader'>
                             <div className='span-platfrom'>
-                                <span>PLATFORMS</span>
+                                <span data-aos="fade-down">PLATFORMS</span>
                             </div>
                             <div className='trading-text'>
-                                <h2><span>MT5</span> Trading Platform</h2>
+                                <h2 data-aos="fade-down"><span>MT5</span> Trading Platform</h2>
                             </div>
                             <div className='traderline1'>
-                                <p>The trading platform MetaTrader 5 (MT5) satisfies the increasing needs of traders and brokers.</p>
+                                <p data-aos="fade-down">The trading platform MetaTrader 5 (MT5) satisfies the increasing needs of traders and brokers.</p>
                             </div>
                             <div className='traderline2'>
-                                <p>In addition to offering all the functionality offered by the MT4 platform, the MT5 platform also has expanded scripting tools for custom indicators and expert advisors, as well as increased trading functionalities.</p>
+                                <p data-aos="fade-down">In addition to offering all the functionality offered by the MT4 platform, the MT5 platform also has expanded scripting tools for custom indicators and expert advisors, as well as increased trading functionalities.</p>
                             </div>
                             <div className='trader-button'>
                                 <div className='start'>
-                                    <button>Start Tranding Now
+                                    <button data-aos="fade-down">Start Tranding Now
                                         <Slideicon />
                                     </button>
                                 </div>
                                 <div className='open'>
-                                    <button>Open Demo Account</button>
+                                    <button data-aos="fade-down">Open Demo Account</button>
                                 </div>
                             </div>
                         </div>
 
                         <div className='bannermt5'>
-                            <img src={bannermt5} alt="error" />
+                            <img src={bannermt5} alt="error" data-aos="flip-right" />
                         </div>
                     </div>
                 </div>
@@ -55,14 +55,14 @@ export default function Meta5() {
                     <div className='downloadapp-grid'>
                         <div className='meta5app-detail'>
                             <div className='meta5-svg'>
-                                <img src={meta5svg} alt="error" />
+                                <img src={meta5svg} alt="error" data-aos="flip-right" />
                             </div>
-                            <h3><span>Download MT5</span> Trading Platform</h3>
-                            <p>Select a download type as per your device operating system and your account regulation.</p>
+                            <h3 data-aos="fade-down"><span>Download MT5</span> Trading Platform</h3>
+                            <p data-aos="fade-down">Select a download type as per your device operating system and your account regulation.</p>
                             <div className='apps-button'>
                                 <div className='appstore-buton-main'>
                                     <a href="https://apps.apple.com/us/app/metatrader-5/id413251709" target='__blank'>
-                                        <button>
+                                        <button data-aos="flip-right">
                                             <div className='apple-icon-flex'>
                                                 <div className='apple-icon'>
                                                     <Appleicon />
@@ -78,13 +78,13 @@ export default function Meta5() {
 
                                 <div className='appstore-buton-main'>
                                     <a href="https://play.google.com/store/apps/details?id=net.metaquotes.metatrader5&hl=en&referrer=ref_id%3d6380119913593281231%26server%3dMEXGlobalFinancial-Demo%252cMEXGlobalFinancial-Real" target='__blank'>
-                                        <button>
+                                        <button data-aos="flip-right">
                                             <div className='apple-icon-flex'>
                                                 <div className='apple-icon'>
                                                     <img src={google} alt="error" />
                                                 </div>
                                                 <div className='appstore'>
-                                                    <p>Get It on</p>
+                                                    <p >Get It on</p>
                                                     <span>Google Play</span>
                                                 </div>
                                             </div>
@@ -96,7 +96,7 @@ export default function Meta5() {
 
 
                         <div className='downloadapp-img'>
-                            <img src={downloadapp} alt="error" />
+                            <img src={downloadapp} alt="error" data-aos="flip-right" />
                         </div>
                     </div>
                 </div>
@@ -108,17 +108,17 @@ export default function Meta5() {
                         <div className='whatismeta5'>
                             <div className='meta5-pera'>
                                 <div className='whatis'>
-                                    <h2>What is <span>MT5</span>?</h2>
+                                    <h2 data-aos="fade-down">What is <span>MT5</span>?</h2>
                                 </div>
-                                <p>With just one trading platform, MT5 provides you with access to our wide range of asset classes, which include FX, equities, indices, cryptocurrencies, metals, and commodities.</p>
+                                <p data-aos="fade-down">With just one trading platform, MT5 provides you with access to our wide range of asset classes, which include FX, equities, indices, cryptocurrencies, metals, and commodities.</p>
 
                                 <div className='withcomplete'>
-                                    <span>Whether you're a veteran trader or just starting out, Forex Voyager elevates the MT5 experience with its extensive access to sophisticated trade types and state-of-the-art analytical tools. The MT5 platform's primary advantage is that traders are not limited to utilizing the integrated analytical tools.</span>
+                                    <span data-aos="fade-down">Whether you're a veteran trader or just starting out, Forex Voyager elevates the MT5 experience with its extensive access to sophisticated trade types and state-of-the-art analytical tools. The MT5 platform's primary advantage is that traders are not limited to utilizing the integrated analytical tools.</span>
                                 </div>
                             </div>
 
                             <div className='meta-trader-img'>
-                                <img src={whatismeta} alt="error" />
+                                <img src={whatismeta} alt="error" data-aos="flip-right" />
                             </div>
                         </div>
                     </div>

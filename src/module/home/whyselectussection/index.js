@@ -11,9 +11,9 @@ export default function Whyselectussection({ id }) {
     <div className="whyselectus-section-main" id={id}>
       <div className="whyselectus-section-container">
         <div className="whyselectus-section-title-main">
-          <h1>BENEFIT FROM THE WORLD’S NO.1 ONLINE FINANCIAL DERIVATIVES BROKER</h1>
-          <h2>The Reasons Over A Million Customers Select Forex Voyager Limited</h2>
-          <p>Our lengthy history of providing distinctive trading accounts, fast execution, state-of-the-art platforms, tightest pricing and liquidity, and unique trading experiences has allowed us to consistently deliver great and successful trading experiences.</p>
+          <h1 data-aos="fade-down">BENEFIT FROM THE WORLD’S NO.1 ONLINE FINANCIAL DERIVATIVES BROKER</h1>
+          <h2 data-aos="fade-down">The Reasons Over A Million Customers Select Forex Voyager Limited</h2>
+          <p data-aos="fade-down">Our lengthy history of providing distinctive trading accounts, fast execution, state-of-the-art platforms, tightest pricing and liquidity, and unique trading experiences has allowed us to consistently deliver great and successful trading experiences.</p>
         </div>
 
         <div className="whyselectus-cards-grid-main">
@@ -28,28 +28,28 @@ export default function Whyselectussection({ id }) {
 
           <div className="whyselectus-cards-grid-items1">
             <div className="whyselectus-cards-icons">
-              <img src={upgrowicon} alt="shieldicon" />
+              <img src={upgrowicon} alt="shieldicon" data-aos="flip-right" />
             </div>
-            <h3>Daily Revenue of $12.1 billion USD</h3>
-            <p>Record Breaking Financial performance in 2022</p>
+            <h3 data-aos="flip-right">Daily Revenue of $12.1 billion USD</h3>
+            <p data-aos="flip-right">Record Breaking Financial performance in 2022</p>
             <div className="whyselectus-cards-bottom-line whyselectus-cards-bottom-line-sc"></div>
           </div>
 
           <div className="whyselectus-cards-grid-items1">
             <div className="whyselectus-cards-icons">
-              <img src={balance} alt="shieldicon" />
+              <img src={balance} alt="shieldicon" data-aos="flip-right" />
             </div>
-            <h3>Leverage Up To 1:500</h3>
-            <p>We provide one of the highest levels of leverage in the market, helping traders to multiply their potential profits.</p>
+            <h3 data-aos="flip-right">Leverage Up To 1:500</h3>
+            <p data-aos="flip-right">We provide one of the highest levels of leverage in the market, helping traders to multiply their potential profits.</p>
             <div className="whyselectus-cards-bottom-line whyselectus-cards-bottom-line-trd"></div>
           </div>
 
           <div className="whyselectus-cards-grid-items1">
             <div className="whyselectus-cards-icons">
-              <img src={headphone} alt="shieldicon" />
+              <img src={headphone} alt="shieldicon" data-aos="flip-right" />
             </div>
-            <h3>Client Support</h3>
-            <p>Enjoy assistance from our 24/7/365 Client Support desk</p>
+            <h3 data-aos="flip-right">Client Support</h3>
+            <p data-aos="flip-right">Enjoy assistance from our 24/7/365 Client Support desk</p>
             <div className="whyselectus-cards-bottom-line whyselectus-cards-bottom-line-frth"></div>
           </div>
         </div>

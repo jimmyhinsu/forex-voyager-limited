@@ -23,7 +23,7 @@ export default function Regulations() {
             <div className='regulations-txt-main'>
               <div className='regulations-txt'>
                 <div className='regulations-txt'>
-                  <h1 className='regulations-txt'>Regulations</h1>
+                  <h1 className='regulations-txt' data-aos="fade-down">Regulations</h1>
                 </div>
               </div>
             </div>
@@ -43,7 +43,7 @@ export default function Regulations() {
           <div className='fscm-buttonflex'>
             <div className='fscm-button'>
               <div className='fscm-icon'>
-                <img src={fscm} alt="error" />
+                <img src={fscm} alt="error" data-aos="flip-left" />
               </div>
               {/* <div className='fscm-name'>
                 <p>FSCM</p>
@@ -54,7 +54,7 @@ export default function Regulations() {
           <div className='fscm-content-main'>
             <div className='fscm-contentbox'>
               <div className='fscm-icon-cont'>
-                <img src={fscm} alt="error" />
+                <img src={fscm} alt="error" data-aos="flip-left" />
               </div>
 
               {/* <div className='mexfm'>
@@ -62,13 +62,13 @@ export default function Regulations() {
               </div> */}
 
               <div className='mexfm-pera'>
-                <p>Registered Address:  Ground Floor, The Sotheby Building, Rodney Village,Rodney Bay, Gros-Islet, SAINT Lucia P.O Box 838, Castries, Saint Lucia.
+                <p data-aos="fade-up-left">Registered Address:  Ground Floor, The Sotheby Building, Rodney Village,Rodney Bay, Gros-Islet, SAINT Lucia P.O Box 838, Castries, Saint Lucia.
                   Registration Number: 2024-00486</p>
               </div>
 
               <div className="viewlicense">
                 <a href={pdf} target='__blank'>
-                  <button>
+                  <button data-aos="fade-up-left">
                     View License
                     <Slideicon />
                   </button>

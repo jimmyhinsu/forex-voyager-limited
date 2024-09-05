@@ -7,7 +7,7 @@ function Accoundetails({ title, details = [] }) {
         <div className='accounts-details-main'>
             <div className='accounts-details-container'>
                 <div className='standard-title'>
-                    <h1>{title}</h1>
+                    <h1 data-aos="fade-down">{title}</h1>
                     <span></span>
                 </div>
                 <div className='accounts-details-box-line-one-main'>
@@ -18,7 +18,7 @@ function Accoundetails({ title, details = [] }) {
                             key={index}
                         >
                             <img src={Accdetailsdotedimage} alt="Detail Icon" />
-                            <p>{detail.text} <span>{detail.highlight}</span></p>
+                            <p data-aos="fade-down">{detail.text} <span>{detail.highlight}</span></p>
                         </div>
                     ))}
                 </div>

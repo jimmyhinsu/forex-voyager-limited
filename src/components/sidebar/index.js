@@ -179,11 +179,11 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
               </div>
               {activeDropdown === 4 && (
                 <div className="dropdown-content-sidebar-details">
-                  <div className="dropdowns-links-main">
+                  {/* <div className="dropdowns-links-main">
                     <Link to={"/"} onClick={onClose}>
                       Compare Accounts
                     </Link>
-                  </div>
+                  </div> */}
                   <div className="dropdowns-links-main">
                     <Link to={"/Standard"} onClick={onClose}>
                       Standard
@@ -262,12 +262,14 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
           </div>
         </div>
       </div>
-      <div
+
+      <div>
         className={`sidebarbackground ${
           isSidebarOpen ? "sidebarbackgroundopen" : ""
         }`}
         onClick={onClose}
-      ></div>
+      </div>
+      
     </>
   );
 }

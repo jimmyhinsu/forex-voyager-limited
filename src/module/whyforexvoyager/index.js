@@ -23,11 +23,11 @@ export default function Whyforexvoyager() {
                 <div className='container'>
                     <div className='whyforex-flex'>
                         <div className='whyforex-detail'>
-                            <h1>Why <span>Forex Voyager Limited</span></h1>
-                            <p>We have effectively established our dominance in the trading industry since our founding. We have paved the way for the foreign exchange business and are still producing top-notch goods, services, and trading platforms.</p>
+                            <h1 data-aos="fade-down">Why <span>Forex Voyager Limited</span></h1>
+                            <p data-aos="fade-down">We have effectively established our dominance in the trading industry since our founding. We have paved the way for the foreign exchange business and are still producing top-notch goods, services, and trading platforms.</p>
                         </div>
                         <div className='whyforex-flex-img'>
-                            <img src={banner} alt="error" />
+                            <img src={banner} alt="error" data-aos="flip-left" />
                         </div>
                     </div>
                 </div>
@@ -36,16 +36,16 @@ export default function Whyforexvoyager() {
             <div className='features-advantages'>
                 <div className='container'>
                     <div className='whyforex-feat'>
-                        <h3>FEATURES</h3>
+                        <h3 data-aos="fade-down">FEATURES</h3>
                     </div>
-                    <h2>Forex Voyager Limited Advantages</h2>
+                    <h2 data-aos="fade-down">Forex Voyager Limited Advantages</h2>
 
 
                     <div className='four-img-grid'>
                         <div className='whychoose'>
-                            <h3>Heavily Regulated</h3>
+                            <h3 data-aos="fade-down-right">Heavily Regulated</h3>
                             <div className="Whyforexicon">
-                                <img src={advantage1} alt="Whyforexicon" />
+                                <img src={advantage1} alt="Whyforexicon" data-aos="flip-right" />
                             </div>
                             <div className="stripedCard">
                                 <img src={stripedcard} alt="stripedCard" />
@@ -53,9 +53,9 @@ export default function Whyforexvoyager() {
                         </div>
 
                         <div className='whychoose'>
-                            <h3>Paid-Up Capital Of Over US$ 322 Million</h3>
+                            <h3 data-aos="fade-down-right">Paid-Up Capital Of Over US$ 322 Million</h3>
                             <div className="Whyforexicon">
-                                <img src={advantage2} alt="Whyforexicon" />
+                                <img src={advantage2} alt="Whyforexicon" data-aos="flip-right" />
                             </div>
                             <div className="stripedCard">
                                 <img src={stripedcard} alt="stripedCard" />
@@ -63,9 +63,9 @@ export default function Whyforexvoyager() {
                         </div>
 
                         <div className='whychoose'>
-                            <h3>Full ECN Model With Spreads Starting From 0.0* Pips</h3>
+                            <h3 data-aos="fade-down-right">Full ECN Model With Spreads Starting From 0.0* Pips</h3>
                             <div className="Whyforexicon">
-                                <img src={advantage3} alt="Whyforexicon" />
+                                <img src={advantage3} alt="Whyforexicon" data-aos="flip-right" />
                             </div>
                             <div className="stripedCard">
                                 <img src={stripedcard} alt="stripedCard" />
@@ -73,9 +73,9 @@ export default function Whyforexvoyager() {
                         </div>
 
                         <div className='whychoose'>
-                            <h3>The Highest Level Of Leverage Up To 500:1</h3>
+                            <h3 data-aos="fade-down-right">The Highest Level Of Leverage Up To 500:1</h3>
                             <div className="Whyforexicon">
-                                <img src={advantage4} alt="Whyforexicon" />
+                                <img src={advantage4} alt="Whyforexicon" data-aos="flip-right" />
                             </div>
                             <div className="stripedCard">
                                 <img src={stripedcard} alt="stripedCard" />
@@ -88,7 +88,7 @@ export default function Whyforexvoyager() {
             <div className='established-bgcolor'>
                 <div className='container'>
                     <div className='forex-esta'>
-                        <h2><span>Forex Voyager Limited</span>
+                        <h2 data-aos="fade-down"><span>Forex Voyager Limited</span>
                             <br />
                             Established in 2017
                         </h2>
@@ -100,10 +100,10 @@ export default function Whyforexvoyager() {
                                 <h3>1</h3>
                             </div>
                             <div className='lucrative'>
-                                <h4>Profitable Brokers Program</h4>
+                                <h4 data-aos="fade-right">Profitable Brokers Program</h4>
                             </div>
                             <div className='wecollaborate'>
-                                <p>Through our Introducing Brokers Program, we work with professionals and partners, offering them compensation and rebate structures that are unparalleled in the industry.</p>
+                                <p data-aos="fade-right">Through our Introducing Brokers Program, we work with professionals and partners, offering them compensation and rebate structures that are unparalleled in the industry.</p>
                             </div>
                         </div>
 
@@ -112,10 +112,10 @@ export default function Whyforexvoyager() {
                                 <h3>2</h3>
                             </div>
                             <div className='lucrative'>
-                                <h4>Money withdrawal in a day</h4>
+                                <h4 data-aos="fade-right">Money withdrawal in a day</h4>
                             </div>
                             <div className='wecollaborate'>
-                                <p>We have streamlined the process of withdrawing funds for the convenience of our investors.</p>
+                                <p data-aos="fade-right">We have streamlined the process of withdrawing funds for the convenience of our investors.</p>
                             </div>
                         </div>
 
@@ -124,10 +124,10 @@ export default function Whyforexvoyager() {
                                 <h3>3</h3>
                             </div>
                             <div className='lucrative'>
-                                <h4>Modern trading platform</h4>
+                                <h4 data-aos="fade-right">Modern trading platform</h4>
                             </div>
                             <div className='wecollaborate'>
-                                <p>cutting-edge trading systems that are made with stability and real-time trading functionality in mind.</p>
+                                <p data-aos="fade-right">cutting-edge trading systems that are made with stability and real-time trading functionality in mind.</p>
                             </div>
                         </div>
 
@@ -136,10 +136,10 @@ export default function Whyforexvoyager() {
                                 <h3>4</h3>
                             </div>
                             <div className='lucrative'>
-                                <h4>State of the art products</h4>
+                                <h4 data-aos="fade-right">State of the art products</h4>
                             </div>
                             <div className='wecollaborate'>
-                                <p>Trade more than 20,000 items, such as shares, commodities, forex, metals, indices, and cryptocurrencies.</p>
+                                <p data-aos="fade-right">Trade more than 20,000 items, such as shares, commodities, forex, metals, indices, and cryptocurrencies.</p>
                             </div>
                         </div>
 
@@ -148,10 +148,10 @@ export default function Whyforexvoyager() {
                                 <h3>5</h3>
                             </div>
                             <div className='lucrative'>
-                                <h4>Fast and reliable execution in nanoseconds</h4>
+                                <h4 data-aos="fade-right">Fast and reliable execution in nanoseconds</h4>
                             </div>
                             <div className='wecollaborate'>
-                                <p>No Commission Exchange. Protection against Negative Balance. No requotes, rejections, or limitations on EA were allowed.</p>
+                                <p data-aos="fade-right">No Commission Exchange. Protection against Negative Balance. No requotes, rejections, or limitations on EA were allowed.</p>
                             </div>
                         </div>
 
@@ -160,10 +160,10 @@ export default function Whyforexvoyager() {
                                 <h3>6</h3>
                             </div>
                             <div className='lucrative'>
-                                <h4>Exceptional financial services</h4>
+                                <h4 data-aos="fade-right">Exceptional financial services</h4>
                             </div>
                             <div className='wecollaborate'>
-                                <p>Skilled, multilingual customer support available 24/7. Free VPS, API, EA, MAM, and PAMM.</p>
+                                <p data-aos="fade-right">Skilled, multilingual customer support available 24/7. Free VPS, API, EA, MAM, and PAMM.</p>
                             </div>
                         </div>
 
@@ -172,10 +172,10 @@ export default function Whyforexvoyager() {
                                 <h3>7</h3>
                             </div>
                             <div className='lucrative'>
-                                <h4>Money security</h4>
+                                <h4 data-aos="fade-right">Money security</h4>
                             </div>
                             <div className='wecollaborate'>
-                                <p>We are expected to adhere to stringent regulations and requirements because our companies are highly regulated, giving our clients the highest level of financial protection.</p>
+                                <p data-aos="fade-right">We are expected to adhere to stringent regulations and requirements because our companies are highly regulated, giving our clients the highest level of financial protection.</p>
                             </div>
                         </div>
 
@@ -184,10 +184,10 @@ export default function Whyforexvoyager() {
                                 <h3>8</h3>
                             </div>
                             <div className='lucrative'>
-                                <h4>financial success that breaks records</h4>
+                                <h4 data-aos="fade-right">financial success that breaks records</h4>
                             </div>
                             <div className='wecollaborate'>
-                                <p>Delivering earnings that inspire trust, we surpass all prior record years with a turnover of nearly US$ 6.8 trillion in 2023.</p>
+                                <p data-aos="fade-right">Delivering earnings that inspire trust, we surpass all prior record years with a turnover of nearly US$ 6.8 trillion in 2023.</p>
                             </div>
                         </div>
 
@@ -196,10 +196,10 @@ export default function Whyforexvoyager() {
                                 <h3>9</h3>
                             </div>
                             <div className='lucrative'>
-                                <h4>Global presence in leading financial hubs</h4>
+                                <h4 data-aos="fade-right">Global presence in leading financial hubs</h4>
                             </div>
                             <div className='wecollaborate'>
-                                <p>Working with affiliates, we provide services to a global clientele from our more than 25 locations situated in global financial hubs.</p>
+                                <p data-aos="fade-right">Working with affiliates, we provide services to a global clientele from our more than 25 locations situated in global financial hubs.</p>
                             </div>
                         </div>
 
@@ -210,18 +210,18 @@ export default function Whyforexvoyager() {
             <div className='white-bg'>
                 <div className='container'>
                     <div className='dedicated'>
-                        <h2>Committed <span> Client Support</span></h2>
-                        <p>A group of skilled, multilingual workers who speak more than 12 languages well are on call around-the-clock.</p>
+                        <h2 data-aos="fade-down">Committed <span> Client Support</span></h2>
+                        <p data-aos="fade-down">A group of skilled, multilingual workers who speak more than 12 languages well are on call around-the-clock.</p>
                     </div>
 
                     <div className='dedicated-grid'>
                         <div className='linear-darkbox'>
                             <div className='img-sideline-flex'>
                                 <div className='six-img'>
-                                    <img src={cs1} alt="error" />
+                                    <img src={cs1} alt="error" data-aos="flip-right" />
                                 </div>
                                 <div className='service'>
-                                    <p>IT and operational support including service desk, onboarding, configuration, and cash management.</p>
+                                    <p data-aos="fade-right">IT and operational support including service desk, onboarding, configuration, and cash management.</p>
                                 </div>
                             </div>
                         </div>
@@ -229,10 +229,10 @@ export default function Whyforexvoyager() {
                         <div className='linear-darkbox'>
                             <div className='img-sideline-flex'>
                                 <div className='six-img'>
-                                    <img src={cs2} alt="error" />
+                                    <img src={cs2} alt="error" data-aos="flip-right" />
                                 </div>
                                 <div className='service'>
-                                    <p>Sales and marketing assistance, encompassing tutorials, films, seminars, and instructional resources.</p>
+                                    <p data-aos="fade-right">Sales and marketing assistance, encompassing tutorials, films, seminars, and instructional resources.</p>
                                 </div>
                             </div>
                         </div>
@@ -240,10 +240,10 @@ export default function Whyforexvoyager() {
                         <div className='linear-darkbox'>
                             <div className='img-sideline-flex'>
                                 <div className='six-img'>
-                                    <img src={cs3} alt="error" />
+                                    <img src={cs3} alt="error" data-aos="flip-right" />
                                 </div>
                                 <div className='service'>
-                                    <p>Numerous funding options, such as Skrill, Visa, Mastercard, Neteller, and Crypto.</p>
+                                    <p data-aos="fade-right">Numerous funding options, such as Skrill, Visa, Mastercard, Neteller, and Crypto.</p>
                                 </div>
                             </div>
                         </div>
@@ -252,10 +252,10 @@ export default function Whyforexvoyager() {
                         <div className='linear-darkbox'>
                             <div className='img-sideline-flex'>
                                 <div className='six-img'>
-                                    <img src={cs4} alt="error" />
+                                    <img src={cs4} alt="error" data-aos="flip-right" />
                                 </div>
                                 <div className='service'>
-                                    <p>online financial news available in several languages in real time.</p>
+                                    <p data-aos="fade-right">online financial news available in several languages in real time.</p>
                                 </div>
                             </div>
                         </div>
@@ -263,10 +263,10 @@ export default function Whyforexvoyager() {
                         <div className='linear-darkbox'>
                             <div className='img-sideline-flex'>
                                 <div className='six-img'>
-                                    <img src={cs5} alt="error" />
+                                    <img src={cs5} alt="error" data-aos="flip-right" />
                                 </div>
                                 <div className='service'>
-                                    <p>Fast account opening and funding are available around-the-clock.</p>
+                                    <p data-aos="fade-right">Fast account opening and funding are available around-the-clock.</p>
                                 </div>
                             </div>
                         </div>
@@ -274,10 +274,10 @@ export default function Whyforexvoyager() {
                         <div className='linear-darkbox'>
                             <div className='img-sideline-flex'>
                                 <div className='six-img'>
-                                    <img src={cs6} alt="error" />
+                                    <img src={cs6} alt="error" data-aos="flip-right" />
                                 </div>
                                 <div className='service'>
-                                    <p>corporate and regulatory backing.</p>
+                                    <p data-aos="fade-right">corporate and regulatory backing.</p>
                                 </div>
                             </div>
                         </div>

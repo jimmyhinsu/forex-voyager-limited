@@ -61,18 +61,18 @@ export default function Pro() {
             <div className="standard-acc-content">
               {activeButton === "Standard" && (
                 <div className="content-Standard">
-                  <h1>
+                  <h1 data-aos="fade-down">
                     <span>Standard</span>  Account
                   </h1>
-                  <p>A commission-free account that is perfect for new traders looking to start investing. Standard accounts offer instant execution, stable spreads.</p>
+                  <p data-aos="fade-down">A commission-free account that is perfect for new traders looking to start investing. Standard accounts offer instant execution, stable spreads.</p>
                   <div className='standard-open-buttons'>
                     <div className='start'>
-                      <button>Start Tranding Now
+                      <button data-aos="fade-down">Start Tranding Now
                         <Slideicon />
                       </button>
                     </div>
                     <div className='open-demo'>
-                      <button>Open Demo Account</button>
+                      <button data-aos="fade-down">Open Demo Account</button>
                     </div>
                   </div>
                 </div>
@@ -80,57 +80,57 @@ export default function Pro() {
               {activeButton === "Standard" && (
                 <>
                   <div className="standard-accimags">
-                    <img src={Standardaccmaimage} alt="Standardaccmaimage" />
+                    <img src={Standardaccmaimage} alt="Standardaccmaimage" data-aos="flip-right" />
                   </div>
 
                 </>
               )}
               {activeButton === "proacc" && (
                 <div className="content-Standard">
-                  <h1>
+                  <h1 data-aos="fade-down">
                     <span>Pro </span>  Account
                   </h1>
                   <p>The Pro account is a fantastic choice for traders who wish to take advantage of tight spreads, quick execution, and no commission.</p>
                   <div className='standard-open-buttons'>
                     <div className='start'>
-                      <button>Start Tranding Now
+                      <button data-aos="fade-down">Start Tranding Now
                         <Slideicon />
                       </button>
                     </div>
                     <div className='open'>
-                      <button>Open Demo Account</button>
+                      <button data-aos="fade-down">Open Demo Account</button>
                     </div>
                   </div>
                 </div>
               )}{activeButton === "proacc" && (
                 <>
                   <div className="standard-accimags">
-                    <img src={Proaccmaimage} alt="Proaccmaimage" />
+                    <img src={Proaccmaimage} alt="Proaccmaimage" data-aos="flip-right" />
                   </div>
 
                 </>
               )}
               {activeButton === "ecnacc" && (
                 <div className="content-Standard">
-                  <h1>
+                  <h1 data-aos="fade-down">
                     <span>ECN </span>Account
                   </h1>
-                  <p>Traders seeking instantaneous execution and raw spreads are better off with an ECN account.</p>
+                  <p data-aos="fade-down">Traders seeking instantaneous execution and raw spreads are better off with an ECN account.</p>
                   <div className='standard-open-buttons'>
                     <div className='start'>
-                      <button>Start Tranding Now
+                      <button data-aos="fade-down">Start Tranding Now
                         <Slideicon />
                       </button>
                     </div>
                     <div className='open'>
-                      <button>Open Demo Account</button>
+                      <button data-aos="fade-down">Open Demo Account</button>
                     </div>
                   </div>
                 </div>
               )}{activeButton === "ecnacc" && (
                 <>
                   <div className="standard-accimags">
-                    <img src={Ecnaccmaimage} alt="Ecnaccmaimage" />
+                    <img src={Ecnaccmaimage} alt="Ecnaccmaimage" data-aos="flip-right" />
                   </div>
 
                 </>
@@ -142,7 +142,7 @@ export default function Pro() {
 
       <Accoundetails title={accountDetailsData.title} details={accountDetailsData.details} />
 
-      <div className="standard-acc-section-main" >
+      {/* <div className="standard-acc-section-main" >
         <div className="standard-acc-container">
           <div className='open-sc-main'>
             <div className='open-sc'>
@@ -150,7 +150,8 @@ export default function Pro() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      
       <Gotonext />
       <Wanttoget />
     </>

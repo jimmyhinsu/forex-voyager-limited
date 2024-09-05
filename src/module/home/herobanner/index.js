@@ -9,15 +9,15 @@ export default function Herobanner({ id }) {
       <div className="herobannermain" id={id}>
         <div className="herobannercontent">
           <div className="text">
-            <h2>
+            <h2 data-aos="fade-down">
               <span>Money </span> Enriches Life's  <span>Possibilities</span>
             </h2>
           </div>
 
-          <p>Become part of a global trading community and boost your portfolio.</p>
+          <p data-aos="fade-down">Become part of a global trading community and boost your portfolio.</p>
 
           <div className="button">
-            <button>
+            <button data-aos="fade-down">
               Strating Trading
               <Slideicon />
             </button>
@@ -25,13 +25,13 @@ export default function Herobanner({ id }) {
 
           <div className="demo-ib-button">
             <div className="demoaccount">
-              <button>
+              <button data-aos="fade-down">
                 Demo Account
                 <Slideicon />
               </button>
             </div>
             <div className="demoaccount">
-              <button>
+              <button data-aos="fade-down">
                 IB/Institutional Offers
                 <Slideicon />
               </button>
@@ -43,7 +43,7 @@ export default function Herobanner({ id }) {
                             <img src={metatrade4} alt="error" />
 
                         </div> */}
-            <div className="tradeicon">
+            <div className="tradeicon" >
               <img src={metatrade5} alt="error" />
             </div>
           </div>

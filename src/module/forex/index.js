@@ -11,7 +11,7 @@ import Gotonext from '../home/gotonext';
 import Wanttoget from '../home/wanttoget';
 import Benefitfrom from '../../components/benefitfrom';
 import whatisforex from '../../assets/images/what is forex.png';
-import tradewith from '../../assets/images/trade-with-mb.webp';
+import tradewith from '../../assets/images/trade exchange.png';
 import { Link } from 'react-router-dom';
 
 export default function Forex() {
@@ -63,29 +63,29 @@ export default function Forex() {
                         <div className="product-content">
                             {activeButton === "Forex" && (
                                 <div className="content-forex">
-                                    <h1>
+                                    <h1 data-aos="fade-right">
                                         Invest in <span>Forex</span>
                                     </h1>
-                                    <p>Take advantage of the narrowest spreads in the market as you trade over 55 main, cross, and exotic Forex pairs.</p>
+                                    <p data-aos="fade-right">Take advantage of the narrowest spreads in the market as you trade over 55 main, cross, and exotic Forex pairs.</p>
                                     <div className="up-and-down-boxes-changer" id="up-and-down-boxes-changer-web">
                                         <div className="up-and-down-box-changer">
-                                            <h3>Up to 1:500</h3>
-                                            <span>Highest levels of leverage</span>
+                                            <h3 data-aos="fade-right">Up to 1:500</h3>
+                                            <span data-aos="fade-right">Highest levels of leverage</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>0.0* Pips</h3>
-                                            <span>Tightest spreads in the industry</span>
+                                            <h3 data-aos="fade-right">0.0* Pips</h3>
+                                            <span data-aos="fade-right">Tightest spreads in the industry</span>
                                         </div>
                                     </div>
 
                                     <div className='start-open-buttons'>
                                         <div className='start'>
-                                            <button>Start Tranding Now
+                                            <button data-aos="fade-right">Start Tranding Now
                                                 <Slideicon />
                                             </button>
                                         </div>
                                         <div className='open'>
-                                            <button>Open Demo Account</button>
+                                            <button data-aos="fade-right">Open Demo Account</button>
                                         </div>
                                     </div>
                                 </div>
@@ -93,50 +93,50 @@ export default function Forex() {
                             {activeButton === "Forex" && (
                                 <>
                                     <div className="productimags">
-                                        <img src={forexheader} alt="forexheader" />
+                                        <img src={forexheader} alt="forexheader" data-aos="flip-right" />
                                     </div>
                                     <div className="up-and-down-boxes-changer" id="up-and-down-boxes-changer-mobile">
                                         <div className="up-and-down-box-changer">
-                                            <h3>Up to 500:1</h3>
-                                            <span>Highest levels of leverage</span>
+                                            <h3 data-aos="fade-right">Up to 500:1</h3>
+                                            <span data-aos="fade-right">Highest levels of leverage</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>0.0* Pips</h3>
-                                            <span>Tightest spreads in the industry</span>
+                                            <h3 data-aos="fade-right">0.0* Pips</h3>
+                                            <span data-aos="fade-right">Tightest spreads in the industry</span>
                                         </div>
                                     </div>
                                 </>
                             )}
                             {activeButton === "Metals" && (
                                 <div className="content-metals">
-                                    <h1>
+                                    <h1 data-aos="fade-right">
                                         Invest in <span>Metals</span>
                                     </h1>
-                                    <p>
+                                    <p data-aos="fade-right">
                                         By trading metals like gold and silver, you may diversify your portfolio and uncover fresh trading opportunities. With an unmatched global network of the most well-known producers, traders, buyers, and speculators in the precious metals market, Forex Voyager Limited offers unparalleled expertise for seamless trading.
                                     </p>
                                     <div className="up-and-down-boxes-changer-sc" id="up-and-down-boxes-changer-web-metals">
                                         <div className="up-and-down-box-changer">
-                                            <h3>2 Cents</h3>
-                                            <span>Tightest spreads on Gold</span>
+                                            <h3 data-aos="fade-right">2 Cents</h3>
+                                            <span data-aos="fade-right">Tightest spreads on Gold</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>1 Cent</h3>
-                                            <span>Tightest spreads on Silver</span>
+                                            <h3 data-aos="fade-right">1 Cent</h3>
+                                            <span data-aos="fade-right">Tightest spreads on Silver</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>1 Cent</h3>
-                                            <span>Tightest spreads on Silver</span>
+                                            <h3 data-aos="fade-right">1 Cent</h3>
+                                            <span data-aos="fade-right">Tightest spreads on Silver</span>
                                         </div>
                                     </div>
                                     <div className='start-open-buttons'>
                                         <div className='start'>
-                                            <button>Start Tranding Now
+                                            <button data-aos="fade-right">Start Tranding Now
                                                 <Slideicon />
                                             </button>
                                         </div>
                                         <div className='open'>
-                                            <button>Open Demo Account</button>
+                                            <button data-aos="fade-right">Open Demo Account</button>
                                         </div>
                                     </div>
                                 </div>
@@ -144,52 +144,52 @@ export default function Forex() {
                             {activeButton === "Metals" && (
                                 <>
                                     <div className="productimags">
-                                        <img src={gold} alt="forexheader" />
+                                        <img src={gold} alt="forexheader" data-aos="flip-right" />
                                     </div>
                                     <div className="up-and-down-boxes-changer-sc" id="up-and-down-boxes-changer-mobile-metals">
                                         <div className="up-and-down-box-changer">
-                                            <h3>2 Cents</h3>
-                                            <span>Tightest spreads on Gold</span>
+                                            <h3 data-aos="fade-right">2 Cents</h3>
+                                            <span data-aos="fade-right">Tightest spreads on Gold</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>1 Cent</h3>
-                                            <span>Tightest spreads on Silver</span>
+                                            <h3 data-aos="fade-right">1 Cent</h3>
+                                            <span data-aos="fade-right">Tightest spreads on Silver</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>1 Cent</h3>
-                                            <span>Tightest spreads on Silver</span>
+                                            <h3 data-aos="fade-right">1 Cent</h3>
+                                            <span data-aos="fade-right">Tightest spreads on Silver</span>
                                         </div>
                                     </div>
                                 </>
                             )}
                             {activeButton === "Shares" && (
                                 <div className="content-shares">
-                                    <h1>
+                                    <h1 data-aos="fade-right">
                                         Invest in <span>Shares</span>
                                     </h1>
-                                    <p>Purchase and sell shares of more than 20,000 of the biggest global corporations' stocks that are listed on the world's leading stock exchanges according to market capitalization, with as little as 5% margin.</p>
+                                    <p data-aos="fade-right">Purchase and sell shares of more than 20,000 of the biggest global corporations' stocks that are listed on the world's leading stock exchanges according to market capitalization, with as little as 5% margin.</p>
                                     <div className="up-and-down-boxes-changer-sc" id="up-and-down-boxes-changer-web-shares">
                                         <div className="up-and-down-box-changer">
-                                            <h3>20,000+</h3>
-                                            <span>Tightest</span>
+                                            <h3 data-aos="fade-right">20,000+</h3>
+                                            <span data-aos="fade-right">Tightest</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>20:1</h3>
-                                            <span>Level of Leverage</span>
+                                            <h3 data-aos="fade-right">20:1</h3>
+                                            <span data-aos="fade-right">Level of Leverage</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>0%</h3>
-                                            <span>Commission</span>
+                                            <h3 data-aos="fade-right">0%</h3>
+                                            <span data-aos="fade-right">Commission</span>
                                         </div>
                                     </div>
                                     <div className='start-open-buttons'>
                                         <div className='start'>
-                                            <button>Start Tranding Now
+                                            <button data-aos="fade-right">Start Tranding Now
                                                 <Slideicon />
                                             </button>
                                         </div>
                                         <div className='open'>
-                                            <button>Open Demo Account</button>
+                                            <button data-aos="fade-right">Open Demo Account</button>
                                         </div>
                                     </div>
                                 </div>
@@ -197,20 +197,20 @@ export default function Forex() {
                             {activeButton === "Shares" && (
                                 <>
                                     <div className="productimags">
-                                        <img src={shares} alt="forexheader" />
+                                        <img src={shares} alt="forexheader" data-aos="flip-right" />
                                     </div>
                                     <div className="up-and-down-boxes-changer-sc" id="up-and-down-boxes-changer-mobile-shares">
                                         <div className="up-and-down-box-changer">
-                                            <h3>20,000+</h3>
-                                            <span>Tightest</span>
+                                            <h3 data-aos="fade-right">20,000+</h3>
+                                            <span data-aos="fade-right">Tightest</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>20:1</h3>
-                                            <span>Level of Leverage</span>
+                                            <h3 data-aos="fade-right">20:1</h3>
+                                            <span data-aos="fade-right">Level of Leverage</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>0%</h3>
-                                            <span>Commission</span>
+                                            <h3 data-aos="fade-right">0%</h3>
+                                            <span data-aos="fade-right">Commission</span>
                                         </div>
                                     </div>
                                 </>
@@ -218,32 +218,32 @@ export default function Forex() {
 
                             {activeButton === "Indices" && (
                                 <div className="content-indices">
-                                    <h1>
+                                    <h1 data-aos="fade-right">
                                         Invest in <span>Indices</span>
                                     </h1>
-                                    <p>Get immediate access to and trade important global stock exchange indices, such as the Dow Jones 30, German DAX 40, and NASDAQ 100.</p>
+                                    <p data-aos="fade-right">Get immediate access to and trade important global stock exchange indices, such as the Dow Jones 30, German DAX 40, and NASDAQ 100.</p>
                                     <div className="up-and-down-boxes-changer-th" id="up-and-down-boxes-changer-web-indices">
                                         <div className="up-and-down-box-changer">
-                                            <h3>100:1</h3>
-                                            <span>Leverage</span>
+                                            <h3 data-aos="fade-right">100:1</h3>
+                                            <span data-aos="fade-right">Leverage</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>Tightest Spreads</h3>
-                                            <span>The lowest spreads in the market</span>
+                                            <h3 data-aos="fade-right">Tightest Spreads</h3>
+                                            <span data-aos="fade-right">The lowest spreads in the market</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>0%</h3>
-                                            <span>Commission</span>
+                                            <h3 data-aos="fade-right">0%</h3>
+                                            <span data-aos="fade-right">Commission</span>
                                         </div>
                                     </div>
                                     <div className='start-open-buttons'>
                                         <div className='start'>
-                                            <button>Start Tranding Now
+                                            <button data-aos="fade-right">Start Tranding Now
                                                 <Slideicon />
                                             </button>
                                         </div>
                                         <div className='open'>
-                                            <button>Open Demo Account</button>
+                                            <button data-aos="fade-right">Open Demo Account</button>
                                         </div>
                                     </div>
                                 </div>
@@ -252,52 +252,52 @@ export default function Forex() {
                             {activeButton === "Indices" && (
                                 <>
                                     <div className="productimags">
-                                        <img src={indices} alt="forexheader" />
+                                        <img src={indices} alt="forexheader" data-aos="flip-right" />
                                     </div>
                                     <div className="up-and-down-boxes-changer-th" id="up-and-down-boxes-changer-mobile-indices">
                                         <div className="up-and-down-box-changer">
-                                            <h3>100:1</h3>
-                                            <span>Leverage</span>
+                                            <h3 data-aos="fade-right">100:1</h3>
+                                            <span data-aos="fade-right">Leverage</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>Tightest Spreads</h3>
-                                            <span>The lowest spreads in the market</span>
+                                            <h3 data-aos="fade-right">Tightest Spreads</h3>
+                                            <span data-aos="fade-right">The lowest spreads in the market</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>0%</h3>
-                                            <span>Commission</span>
+                                            <h3 data-aos="fade-right">0%</h3>
+                                            <span data-aos="fade-right">Commission</span>
                                         </div>
                                     </div>
                                 </>
                             )}
                             {activeButton === "Commodities" && (
                                 <div className="content-commodities">
-                                    <h1>
+                                    <h1 data-aos="fade-right">
                                         Invest in <span>Commodities</span>
                                     </h1>
-                                    <p>Trade commodities to diversify your portfolio, such as grains and energy. To get a good return on your investment, take advantage of changes in the global commodity market's supply and demand..</p>
+                                    <p data-aos="fade-right">Trade commodities to diversify your portfolio, such as grains and energy. To get a good return on your investment, take advantage of changes in the global commodity market's supply and demand..</p>
                                     <div className="up-and-down-boxes-changer-th" id="up-and-down-boxes-changer-web-commodities">
                                         <div className="up-and-down-box-changer">
-                                            <h3>0%</h3>
-                                            <span>Commission</span>
+                                            <h3 data-aos="fade-right">0%</h3>
+                                            <span data-aos="fade-right">Commission</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>Tightest Spreads</h3>
-                                            <span>At Zero Commission</span>
+                                            <h3 data-aos="fade-right">Tightest Spreads</h3>
+                                            <span data-aos="fade-right">At Zero Commission</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>Low Margin</h3>
-                                            <span>On All Commodities</span>
+                                            <h3 data-aos="fade-right">Low Margin</h3>
+                                            <span data-aos="fade-right">On All Commodities</span>
                                         </div>
                                     </div>
                                     <div className='start-open-buttons'>
                                         <div className='start'>
-                                            <button>Start Tranding Now
+                                            <button data-aos="fade-right">Start Tranding Now
                                                 <Slideicon />
                                             </button>
                                         </div>
                                         <div className='open'>
-                                            <button>Open Demo Account</button>
+                                            <button data-aos="fade-right">Open Demo Account</button>
                                         </div>
                                     </div>
                                 </div>
@@ -306,54 +306,54 @@ export default function Forex() {
                             {activeButton === "Commodities" && (
                                 <>
                                     <div className="productimags">
-                                        <img src={commodities} alt="forexheader" />
+                                        <img src={commodities} alt="forexheader" data-aos="flip-right" />
                                     </div>
                                     <div className="up-and-down-boxes-changer-th" id="up-and-down-boxes-changer-mobile-commodities">
                                         <div className="up-and-down-box-changer">
-                                            <h3>0%</h3>
-                                            <span>Commission</span>
+                                            <h3 data-aos="fade-right">0%</h3>
+                                            <span data-aos="fade-right">Commission</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>Tightest Spreads</h3>
-                                            <span>At Zero Commission</span>
+                                            <h3 data-aos="fade-right">Tightest Spreads</h3>
+                                            <span data-aos="fade-right">At Zero Commission</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>Low Margin</h3>
-                                            <span>On All Commodities</span>
+                                            <h3 data-aos="fade-right">Low Margin</h3>
+                                            <span data-aos="fade-right">On All Commodities</span>
                                         </div>
                                     </div>
                                 </>
                             )}
                             {activeButton === "Digital Assets" && (
                                 <div className="content-digital-assets">
-                                    <h1>
+                                    <h1 data-aos="fade-right">
                                         Invest in <span>Digital Assets</span>
                                     </h1>
-                                    <p>
+                                    <p data-aos="fade-right">
                                         With Forex Voyager Limited, you can invest in the most well-known cryptocurrencies, such as Bitcoin, Ethereum, Ripple, and others, and benefit from this market's large price swings. This is best suited for seasoned traders who prefer to trade aggressively.
                                     </p>
                                     <div className="up-and-down-boxes-changer-frth" id="up-and-down-boxes-changer-web-digital">
                                         <div className="up-and-down-box-changer">
-                                            <h3>{"<20ms"}</h3>
-                                            <span>Stable and nanosecond execution</span>
+                                            <h3 data-aos="fade-right">{"<20ms"}</h3>
+                                            <span data-aos="fade-right">Stable and nanosecond execution</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>0%</h3>
-                                            <span>Commission</span>
+                                            <h3 data-aos="fade-right">0%</h3>
+                                            <span data-aos="fade-right">Commission</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>UP TO 20:1</h3>
-                                            <span>Leverage on cryptocurrencies</span>
+                                            <h3 data-aos="fade-right">UP TO 20:1</h3>
+                                            <span data-aos="fade-right">Leverage on cryptocurrencies</span>
                                         </div>
                                     </div>
                                     <div className='start-open-buttons'>
                                         <div className='start'>
-                                            <button>Start Tranding Now
+                                            <button data-aos="fade-right">Start Tranding Now
                                                 <Slideicon />
                                             </button>
                                         </div>
                                         <div className='open'>
-                                            <button>Open Demo Account</button>
+                                            <button data-aos="fade-right">Open Demo Account</button>
                                         </div>
                                     </div>
                                 </div>
@@ -361,20 +361,20 @@ export default function Forex() {
                             {activeButton === "Digital Assets" && (
                                 <>
                                     <div className="productimags">
-                                        <img src={cyrpto} alt="forexheader" />
+                                        <img src={cyrpto} alt="forexheader" data-aos="flip-right" />
                                     </div>
                                     <div className="up-and-down-boxes-changer-frth" id="up-and-down-boxes-changer-mobile-digital">
                                         <div className="up-and-down-box-changer">
-                                            <h3>{"<20ms"}</h3>
+                                            <h3 data-aos="fade-right">{"<20ms"}</h3>
                                             <span>Stable and nanosecond execution</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>0%</h3>
-                                            <span>Commission</span>
+                                            <h3 data-aos="fade-right">0%</h3>
+                                            <span data-aos="fade-right">Commission</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3>UP TO 20:1</h3>
-                                            <span>Leverage on cryptocurrencies</span>
+                                            <h3 data-aos="fade-right">UP TO 20:1</h3>
+                                            <span data-aos="fade-right">Leverage on cryptocurrencies</span>
                                         </div>
                                     </div>
                                 </>
@@ -391,17 +391,17 @@ export default function Forex() {
                     <div className='container'>
                         <div className='what-forex'>
                             <div className='forex-text'>
-                                <h3>What is <span> Forex </span>?</h3>
+                                <h3 data-aos="fade-down">What is <span> Forex </span>?</h3>
                                 <div className='forex-peragraph'>
-                                    <p>With a daily turnover of over $7.5 trillion, forex is the biggest financial market globally. It functions via an international network of banks, businesses, and private citizens who exchange currencies on a regular basis.</p>
+                                    <p data-aos="fade-down">With a daily turnover of over $7.5 trillion, forex is the biggest financial market globally. It functions via an international network of banks, businesses, and private citizens who exchange currencies on a regular basis.</p>
 
-                                    <p>The Foreign exchange market is open around-the-clock and lacks a physical presence. To find out the pertinent dates and trading sessions, see our Trading Hours.</p>
+                                    <p data-aos="fade-down">The Foreign exchange market is open around-the-clock and lacks a physical presence. To find out the pertinent dates and trading sessions, see our Trading Hours.</p>
 
-                                    <p>With extensive liquidity, Forex Voyage provides trading in major, cross, and exotic pairings on the Forex markets. Enjoy the most advanced trading platforms, MetaTrader 4 and MetaTrader 5, together with the greatest trading tools, on all of our accounts.</p>
+                                    <p data-aos="fade-down">With extensive liquidity, Forex Voyage provides trading in major, cross, and exotic pairings on the Forex markets. Enjoy the most advanced trading platforms, MetaTrader 4 and MetaTrader 5, together with the greatest trading tools, on all of our accounts.</p>
                                 </div>
                             </div>
                             <div className='what-is-img'>
-                                <img src={whatisforex} alt="error" />
+                                <img src={whatisforex} alt="error" data-aos="flip-right" />
                             </div>
                         </div>
                     </div>
@@ -412,12 +412,12 @@ export default function Forex() {
                 <div className='container'>
                     <div className='trade-grid'>
                         <div className='start-trading'>
-                            <h3>Trade Forex With</h3>
-                            <span>Forex Voyager</span>
-                            <p>With the narrowest spreads in the market, start trading on over 55 Forex pairs with Forex Voyager.</p>
+                            <h3 data-aos="fade-down">Trade Forex With</h3>
+                            <span data-aos="fade-down">Forex Voyager</span>
+                            <p data-aos="fade-down">With the narrowest spreads in the market, start trading on over 55 Forex pairs with Forex Voyager.</p>
                         </div>
                         <div className='trade-with-mb'>
-                            <img src={tradewith} alt="error" />
+                            <img src={tradewith} alt="error" data-aos="flip-right" />
                         </div>
                     </div>
                 </div>
@@ -427,21 +427,21 @@ export default function Forex() {
                 <div className='conatiner'>
                     <div className='cards-grid'>
                         <div className="whyselectus-cards-grid-items1">
-                            <span>Distributes</span>
+                            <span data-aos="fade-down">Distributes</span>
                             <div className="whyselectus-cards-bottom-line-sc"></div>
-                            <p>Forex Voyager has one of the most competitive spreads available, with starting prices as low as 0.0 pip.</p>
+                            <p data-aos="fade-down">Forex Voyager has one of the most competitive spreads available, with starting prices as low as 0.0 pip.</p>
                         </div>
 
                         <div className="whyselectus-cards-grid-items1">
-                            <span>Leverage</span>
+                            <span data-aos="fade-down">Leverage</span>
                             <div className="whyselectus-cards-bottom-line"></div>
-                            <p>Users can raise their buying power with up to 1:500 leverage, which affects how affordable their trades are.</p>
+                            <p data-aos="fade-down"> Users can raise their buying power with up to 1:500 leverage, which affects how affordable their trades are.</p>
                         </div>
 
                         <div className="whyselectus-cards-grid-items1">
-                            <span>55+ Currency Pairs</span>
+                            <span data-aos="fade-down">55+ Currency Pairs</span>
                             <div className="whyselectus-cards-bottom-line-trd"></div>
-                            <p>Major, minor, and exotic currency pairs are among the many different types of currency pairs that exist.</p>
+                            <p data-aos="fade-down">Major, minor, and exotic currency pairs are among the many different types of currency pairs that exist.</p>
                         </div>
                     </div>
                 </div>

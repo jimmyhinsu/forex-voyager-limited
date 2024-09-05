@@ -30,8 +30,8 @@ function Headermain() {
   return (
     <div className="Headermain">
       <div className="Headerlogo">
-        <a href="/">
-          <img src={logo} alt="error" />
+        <a href="/" >
+          <img data-aos="flip-left" src={logo} alt="error" />
         </a>
       </div>
 
@@ -96,7 +96,7 @@ function Headermain() {
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <Link to={"/"}>Compare Accounts</Link>
+                  {/* <Link to={"/"}>Compare Accounts</Link> */}
                   <Link to={"/standard"}>Standard</Link>
                   <Link to={"/pro"}>Pro</Link>
                   <Link to={"/ecn"}>ECN</Link>

@@ -11,42 +11,42 @@ export default function Gotonext() {
             <div className='container1'>
                 <div className='choose-where'>
                     <div className='title'>
-                        <h2>Choose Where To Go Next</h2>
+                        <h2 data-aos="fade-down">Choose Where To Go Next</h2>
                     </div>
                     <div className='three-next-img-grid'>
                         <div className='whychoose-main'>
                             <div className='whychoose'>
-                                <h3>Why ForexVoyager Limited</h3>
+                                <h3 data-aos="fade-right">Why ForexVoyager Limited</h3>
                                 <div className="stripedCard">
                                     <img src={stripedCard} alt="stripedCard" />
                                 </div>
                             </div>
                             <div className="Whyforexicon">
-                                <img src={Whyforexicon} alt="Whyforexicon" />
+                                <img src={Whyforexicon} alt="Whyforexicon" data-aos="flip-right" />
                             </div>
                         </div>
 
                         <div className='whychoose-main'>
                             <div className='whychoose'>
-                                <h3>Account Funding</h3>
+                                <h3 data-aos="fade-right">Account Funding</h3>
                                 <div className="stripedCard">
                                     <img src={stripedCard} alt="stripedCard" />
                                 </div>
                             </div>
                             <div className="Whyforexicon">
-                                <img src={accountfunding} alt="Whyforexicon" />
+                                <img src={accountfunding} alt="Whyforexicon" data-aos="flip-right" />
                             </div>
                         </div>
 
                         <div className='whychoose-main'>
                             <div className='whychoose'>
-                                <h3>Support</h3>
+                                <h3 data-aos="fade-right">Support</h3>
                                 <div className="stripedCard">
                                     <img src={stripedCard} alt="stripedCard" />
                                 </div>
                             </div>
                             <div className="Whyforexicon">
-                                <img src={support} alt="Whyforexicon" />
+                                <img src={support} alt="Whyforexicon" data-aos="flip-right" />
                             </div>
                         </div>
                     </div>
