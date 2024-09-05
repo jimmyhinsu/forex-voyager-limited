@@ -10,7 +10,7 @@ export default function Herobanner({ id }) {
         <div className="herobannercontent">
           <div className="text">
             <h2 data-aos="fade-down">
-              <span>Money </span> Enriches Life's  <span>Possibilities</span>
+              <span>Trade </span> with confidence,  Explore <span>with Courage</span>
             </h2>
           </div>
 
