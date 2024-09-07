@@ -71,7 +71,7 @@ export default function Ourproductslidesection({ id }) {
                 </div>
                 <div className="up-and-down-boxes-changer" id="up-and-down-boxes-changer-mobile">
                   <div className="up-and-down-box-changer" data-aos="flip-left">
-                    <h3>Up to 500:1</h3>
+                    <h3>Up to 1:500</h3>
                     <span>Highest levels of leverage</span>
                   </div>
                   <div className="up-and-down-box-changer" data-aos="flip-left">
@@ -178,7 +178,7 @@ export default function Ourproductslidesection({ id }) {
                 <p>Get immediate access to and trade important global stock exchange indices, such as the Dow Jones 30, German DAX 40, and NASDAQ 100.</p>
                 <div className="up-and-down-boxes-changer-th" id="up-and-down-boxes-changer-web-indices">
                   <div className="up-and-down-box-changer" data-aos="flip-left">
-                    <h3>100:1</h3>
+                    <h3>1:100</h3>
                     <span>Leverage</span>
                   </div>
                   <div className="up-and-down-box-changer" data-aos="flip-left">
@@ -200,7 +200,7 @@ export default function Ourproductslidesection({ id }) {
                 </div>
                 <div className="up-and-down-boxes-changer-th" id="up-and-down-boxes-changer-mobile-indices">
                   <div className="up-and-down-box-changer" data-aos="flip-left">
-                    <h3>100:1</h3>
+                    <h3>1:100</h3>
                     <span>Leverage</span>
                   </div>
                   <div className="up-and-down-box-changer" data-aos="flip-left">

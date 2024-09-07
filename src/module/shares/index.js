@@ -67,7 +67,7 @@ export default function Shares() {
                                     <p data-aos="fade-down">Take advantage of the narrowest spreads in the market as you trade over 55 main, cross, and exotic Forex pairs.</p>
                                     <div className="up-and-down-boxes-changer" id="up-and-down-boxes-changer-web">
                                         <div className="up-and-down-box-changer">
-                                            <h3 data-aos="fade-down">Up to 500:1</h3>
+                                            <h3 data-aos="fade-down">Up to 1:500</h3>
                                             <span data-aos="fade-down">Highest levels of leverage</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
@@ -95,7 +95,7 @@ export default function Shares() {
                                     </div>
                                     <div className="up-and-down-boxes-changer" id="up-and-down-boxes-changer-mobile">
                                         <div className="up-and-down-box-changer">
-                                            <h3 data-aos="fade-down">Up to 500:1</h3>
+                                            <h3 data-aos="fade-down">Up to 1:500</h3>
                                             <span data-aos="fade-down">Highest levels of leverage</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
@@ -222,7 +222,7 @@ export default function Shares() {
                                     <p data-aos="fade-down">Get immediate access to and trade important global stock exchange indices, such as the Dow Jones 30, German DAX 40, and NASDAQ 100.</p>
                                     <div className="up-and-down-boxes-changer-th" id="up-and-down-boxes-changer-web-indices">
                                         <div className="up-and-down-box-changer">
-                                            <h3 data-aos="fade-down">100:1</h3>
+                                            <h3 data-aos="fade-down">1:100</h3>
                                             <span data-aos="fade-down">Leverage</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
@@ -254,7 +254,7 @@ export default function Shares() {
                                     </div>
                                     <div className="up-and-down-boxes-changer-th" id="up-and-down-boxes-changer-mobile-indices">
                                         <div className="up-and-down-box-changer">
-                                            <h3 data-aos="fade-down">100:1</h3>
+                                            <h3 data-aos="fade-down">1:100</h3>
                                             <span data-aos="fade-down">Leverage</span>
                                         </div>
                                         <div className="up-and-down-box-changer">

@@ -3,7 +3,7 @@ import "./whyselectussection.scss";
 
 // import shieldicon from "../../../assets/images/shieldicon.png";
 import balance from "../../../assets/images/balanceicon.png";
-import headphone from "../../../assets/images/headphoneicon.png";
+import headphone from "../../../assets/images/headphone.png";
 import upgrowicon from "../../../assets/images/upgrowicon.png";
 
 export default function Whyselectussection({ id }) {
@@ -31,7 +31,7 @@ export default function Whyselectussection({ id }) {
               <img src={upgrowicon} alt="shieldicon" data-aos="flip-right" />
             </div>
             <h3 data-aos="flip-right">Daily Revenue of $12.1 billion USD</h3>
-            <p data-aos="flip-right">Record Breaking Financial performance in 2022</p>
+            <p data-aos="flip-right">Record Breaking Financial performance in 2024</p>
             <div className="whyselectus-cards-bottom-line whyselectus-cards-bottom-line-sc"></div>
           </div>
 

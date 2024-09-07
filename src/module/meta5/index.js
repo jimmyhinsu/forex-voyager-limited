@@ -28,7 +28,7 @@ export default function Meta5() {
                                 <p data-aos="fade-down">The trading platform MetaTrader 5 (MT5) satisfies the increasing needs of traders and brokers.</p>
                             </div>
                             <div className='traderline2'>
-                                <p data-aos="fade-down">In addition to offering all the functionality offered by the MT4 platform, the MT5 platform also has expanded scripting tools for custom indicators and expert advisors, as well as increased trading functionalities.</p>
+                                <p data-aos="fade-down">In addition to offering all the functionality offered by the MT5 platform also has expanded scripting tools for custom indicators and expert advisors, as well as increased trading functionalities.</p>
                             </div>
                             <div className='trader-button'>
                                 <div className='start'>

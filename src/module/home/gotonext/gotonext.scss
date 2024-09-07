@@ -47,6 +47,7 @@
                 flex-direction: column-reverse;
                 overflow: hidden;
                 border-radius: 24px;
+                padding-top: 10px;
                 &:hover {
                     background-image: none;
                     background-color: #fff;
@@ -109,7 +110,7 @@
 
                     .stripedCard {
                         position: absolute;
-                        top: 50%;
+
                         img {
                             width: 100%;
                         }

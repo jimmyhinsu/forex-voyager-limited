@@ -2,18 +2,18 @@ import React from 'react'
 import './whyforexvoyager.scss';
 import Gotonext from '../home/gotonext';
 import Wanttoget from '../home/wanttoget';
-import banner from '../../assets/images/banner.webp';
-import advantage1 from '../../assets/images/advantage1.webp';
-import advantage2 from '../../assets/images/advantage2.webp';
-import advantage3 from '../../assets/images/advantage3.webp';
-import advantage4 from '../../assets/images/advantage4.webp';
+import banner from '../../assets/images/banner.png';
+import advantage1 from '../../assets/images/security.png';
+import advantage2 from '../../assets/images/money and finance.png';
+import advantage3 from '../../assets/images/3d-growth-png.png';
+import advantage4 from '../../assets/images/advantage.png';
 import stripedcard from '../../assets/images/striped-background-card.webp';
-import cs1 from '../../assets/images/cs1.webp';
-import cs2 from '../../assets/images/cs2.webp';
-import cs3 from '../../assets/images/cs3.webp';
-import cs4 from '../../assets/images/cs4.webp';
-import cs5 from '../../assets/images/cs5.webp';
-import cs6 from '../../assets/images/cs6.webp';
+import cs1 from '../../assets/images/headphone.png';
+import cs2 from '../../assets/images/cs-2.png';
+import cs3 from '../../assets/images/cs3.png';
+import cs4 from '../../assets/images/cs-4.png';
+import cs5 from '../../assets/images/clock-png.png';
+import cs6 from '../../assets/images/cs6.png';
 
 
 export default function Whyforexvoyager() {
@@ -73,7 +73,7 @@ export default function Whyforexvoyager() {
                         </div>
 
                         <div className='whychoose'>
-                            <h3 data-aos="fade-down-right">The Highest Level Of Leverage Up To 500:1</h3>
+                            <h3 data-aos="fade-down-right">The Highest Level Of Leverage Up To 1:500</h3>
                             <div className="Whyforexicon">
                                 <img src={advantage4} alt="Whyforexicon" data-aos="flip-right" />
                             </div>

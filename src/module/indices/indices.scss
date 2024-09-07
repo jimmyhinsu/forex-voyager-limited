@@ -423,6 +423,10 @@
                         padding: 19px;
                         height: -webkit-fill-available;
 
+                         @media (max-width:576px) {
+                            height: auto;
+                        }
+
                         h3 {
                             min-width: 180px;
                             
@@ -463,6 +467,10 @@
                         background-image: radial-gradient(50% 50% at 15.31% 50.26%, #0f182d 0, #0b1120 100%);
                         padding: 19px;
                         height: -webkit-fill-available;
+
+                        @media (max-width:576px) {
+                            height: auto;
+                        }
 
                         h3 {
                             min-width: 180px;
