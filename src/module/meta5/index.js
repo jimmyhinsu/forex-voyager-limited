@@ -3,10 +3,10 @@ import './meta5.scss';
 import Gotonext from '../home/gotonext';
 import Wanttoget from '../home/wanttoget';
 import Accountssection from '../home/Accountssections';
-import bannermt5 from '../../assets/images/banner-mt5.webp';
+// import bannermt5 from '../../assets/images/banner-mt5.webp';
 import Slideicon from "../../assets/svg/slideicon";
-import whatismeta from '../../assets/images/what-is-mt5.webp';
-import downloadapp from '../../assets/images/download-mt5.webp';
+import whatismeta from '../../assets/images/meta trader 5.png';
+import downloadapp from '../../assets/images/download-mt5.png';
 import meta5svg from '../../assets/svg/logo-mt5.svg';
 import google from '../../assets/icons/playstore.png';
 import Appleicon from '../../assets/svg/appleicon';
@@ -42,9 +42,9 @@ export default function Meta5() {
                             </div>
                         </div>
 
-                        <div className='bannermt5'>
+                        {/* <div className='bannermt5'>
                             <img src={bannermt5} alt="error" data-aos="flip-right" />
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
