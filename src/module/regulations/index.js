@@ -84,7 +84,7 @@ export default function Regulations() {
       {/* <Wanttoget /> */}
 
 
-      {/* <img src="../../assets/pdf/Forexvoyag.pdf" alt="pdf" /> */}
+
     </>
   )
 }
