@@ -8,7 +8,7 @@ import indices from "../../../src/assets/images/invest in indices.png";
 import shares from "../../../src/assets/images/invest in shares.webp";
 import Slideicon from "../../assets/svg/slideicon";
 import Gotonext from '../home/gotonext';
-import Wanttoget from '../home/wanttoget';
+// import Wanttoget from '../home/wanttoget';
 import Benefitfrom from '../../components/benefitfrom';
 import whatisforex from '../../assets/images/what is forex.png';
 import tradewith from '../../assets/images/trade exchange.png';
@@ -448,7 +448,7 @@ export default function Forex() {
             </div>
 
             <Gotonext />
-            <Wanttoget />
+            {/* <Wanttoget /> */}
         </>
     )
 }

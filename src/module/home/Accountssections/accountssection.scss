@@ -1,6 +1,7 @@
 .accounts-sections-main {
     width: 100%;
     height: 100%;
+    margin-top: 80px;
 
     .accounts-sections-container {
         max-width: 1372px;
@@ -29,7 +30,7 @@
                 line-height: normal;
                 font-weight: 600;
                 font-family: "Plus Jakarta Sans", sans-serif;
-                color: #fff;
+                color: #3073c6;
                 margin: 0 0 60px 0;
 
                 @media (max-width: 1024px) {
@@ -54,13 +55,14 @@
                 padding: 40px;
                 overflow: hidden;
                 border-radius: 24px;
-                background-image: linear-gradient(180deg, #fff, #c4ccdd);
+                background-image: linear-gradient(180deg, #fff, #ddebff);
                 position: relative;
                 justify-content: flex-start;
                 display: flex;
                 flex-direction: column;
                 gap: 40px;
                 box-sizing: border-box;
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
                 .accounts-card-grid-vol1-topline {
                     position: absolute;

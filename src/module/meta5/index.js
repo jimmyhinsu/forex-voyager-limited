@@ -1,7 +1,7 @@
 import React from 'react'
 import './meta5.scss';
 import Gotonext from '../home/gotonext';
-import Wanttoget from '../home/wanttoget';
+// import Wanttoget from '../home/wanttoget';
 import Accountssection from '../home/Accountssections';
 // import bannermt5 from '../../assets/images/banner-mt5.webp';
 import Slideicon from "../../assets/svg/slideicon";
@@ -127,7 +127,7 @@ export default function Meta5() {
 
             < Accountssection />
             <Gotonext />
-            <Wanttoget />
+            {/* <Wanttoget /> */}
         </>
     )
 }

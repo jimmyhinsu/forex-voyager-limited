@@ -15,7 +15,7 @@
         justify-content: space-between;
         align-items: center;
         padding: 0 0 30px 0;
-        border-bottom: 1px solid rgb(31 37 51/1);
+        border-bottom: 1px solid #919191;
 
         .footerlogo {
             width: fit-content;
@@ -42,11 +42,12 @@
 
             a {
                 text-decoration-line: none;
-                color: #fff;
-                font-size: 15px;
+                color: #3073c6;
+                font-weight: 600;
+                font-size: 20px;
                 padding: 0 15px 0 0;
 
-                @media (max-width: 512px) {
+                @media (max-width: 576px) {
                     font-size: 10px;
                 }
             }
@@ -54,33 +55,30 @@
     }
 
     .footer-content-main-layout {
-        border-bottom: 1px solid rgb(31 37 51/1);
+        border-bottom: 1px solid #919191;
         padding: 24px 0 45px 0;
 
         @media (max-width: 1024px) {
-            display: flex;
             text-align: center;
-            justify-content: center;
-            align-items: center;
         }
 
         .footer-content-main {
             display: flex;
             justify-content: space-between;
             align-items: start;
-            margin: 0 0 50px 0;
+            margin: 0 0 30px 0;
             flex-wrap: nowrap;
             gap: 40px;
 
             @media (max-width: 1024px) {
                 flex-wrap: wrap;
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                margin: 0;
-                gap: 80px;
+                // display: grid;
+                // grid-template-columns: repeat(3, 1fr);
+                // margin: 0;
+                // gap: 80px;
             }
 
-            @media (max-width: 512px) {
+            @media (max-width: 576px) {
                 gap: 20px;
             }
 
@@ -90,11 +88,11 @@
                 p {
                     font-size: 20px;
                     margin: 0 0 15px 0;
-                    color: #fff;
-                    font-weight: 500;
+                    color: #3073c6;
+                    font-weight: 700;
                     line-height: normal;
 
-                    @media (max-width: 512px) {
+                    @media (max-width: 576px) {
                         font-size: 14px;
                     }
                 }
@@ -106,15 +104,17 @@
                     gap: 12px;
                     flex-direction: column;
 
-                    a {
+                    a,
+                    span {
                         font-size: 15px;
                         line-height: normal;
                         font-weight: 500;
                         text-decoration-line: none;
-                        color: #afbbcf;
+                        color: #000000;
                         transition: all 0.3s ease-in-out;
+                        max-width: 425px;
 
-                        @media (max-width: 512px) {
+                        @media (max-width: 576px) {
                             font-size: 10px;
                         }
 
@@ -122,6 +122,61 @@
                             transition: all 0.3s ease-in-out;
                             color: rgb(70 123 255/1);
                         }
+                    }
+
+                    .mobilenumber {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        text-align: center;
+                        gap: 10px;
+
+                        .callicon {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            img {
+                                width: 18px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .risk-restricted {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: start;
+            gap: 50px;
+            text-align: left;
+            padding: 15px 0;
+
+            @media (max-width: 1024px) {
+                grid-template-columns: repeat(1, 1fr);
+                gap: 12px;
+            }
+
+            .risk-warning {
+                p {
+                    font-size: 18px;
+                    color: #3073c6;
+                    font-weight: 600;
+                    margin-bottom: 8px;
+
+                    @media (max-width: 576px) {
+                        font-size: 14px;
+                        margin-bottom: 5px;
+                    }
+                }
+                span {
+                    color: #6f6f6f;
+                    font-size: 14px;
+                    font-weight: 500;
+
+                    @media (max-width: 576px) {
+                        font-size: 10px;
                     }
                 }
             }
@@ -136,10 +191,15 @@
         text-align: left;
         padding: 15px 0;
 
+        @media (max-width: 576px) {
+            flex-wrap: wrap;
+        }
+
         a {
             text-decoration-line: none;
-            color: #fff;
-            font-size: 12px;
+            color: #000000;
+            font-size: 14px;
+            font-weight: 500;
             padding: 0 15px 0 0;
             border-right: 1px solid #fff;
 
@@ -147,7 +207,7 @@
                 font-size: 10px;
             }
 
-            @media (max-width: 512px) {
+            @media (max-width: 576px) {
                 font-size: 8px;
             }
         }
@@ -160,7 +220,7 @@
             justify-content: center;
         }
 
-        @media (max-width: 512px) {
+        @media (max-width: 576px) {
             gap: 10px;
         }
     }
@@ -178,15 +238,15 @@
 
         p {
             font-size: 14px;
-            font-weight: 500;
+            font-weight: 600;
             line-height: normal;
-            color: #fff;
+            color: #3073c6;
 
             @media (max-width: 1024px) {
                 font-size: 12px;
             }
 
-            @media (max-width: 512px) {
+            @media (max-width: 576px) {
                 font-size: 10px;
             }
         }

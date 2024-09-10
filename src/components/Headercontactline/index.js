@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Headertopcontactline.scss";
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Headertopline() {
-  const [/* dropdownVisible */, setDropdownVisible] = useState(false);
 
   return (
     <div className="Headertopline">
@@ -26,21 +25,7 @@ function Headertopline() {
       </div>
 
       <div className="Header-top-line-right-buttons">
-        <div className="dropdown-container" onMouseEnter={() => setDropdownVisible(true)} onMouseLeave={() => setDropdownVisible(false)}>
-          <NavLink to={"/"}>Log in</NavLink>
-          {/* {dropdownVisible && (
-            <div className="dropdown-menu">
-              <div className="dropdown-content-main">
-                <div className="dropdown-content">
-                  <NavLink to={"/"}>My Portal</NavLink>
-                  <NavLink to={"/"}>MultiBank-Plus</NavLink>
-                </div>
-              </div>
-            </div>
-          )} */}
-        </div>
         <div className="Header-top-line-button">
-          <button>Become an IB</button>
           <button>Start Trading</button>
         </div>
       </div>

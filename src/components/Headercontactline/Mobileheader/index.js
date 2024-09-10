@@ -33,7 +33,9 @@ export default function Mobileheader() {
         <img src={Menuicon} alt="Menuicon" />
       </div>
 
-      {isSidebarOpen && <Sidebar isSidebarOpen={isSidebarOpen} onClose={closeSidebar} />}
+      <>
+        {isSidebarOpen && <Sidebar isSidebarOpen={isSidebarOpen} onClose={closeSidebar} />}
+      </>
     </div>
   );
 }

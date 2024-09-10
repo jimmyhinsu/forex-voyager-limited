@@ -4,7 +4,7 @@ import Herobanner from "./herobanner";
 import Platforms from "./platforms";
 import Ourproductslidesection from "./Product";
 import Brokersprogramsections from "./Brokersprogramsections";
-import Wanttoget from "./wanttoget";
+// import Wanttoget from "./wanttoget";
 import Accountssection from "./Accountssections";
 import Gotonext from "./gotonext";
 import Whyselectussection from "./whyselectussection";
@@ -19,7 +19,7 @@ export default function Home() {
       <Brokersprogramsections id="tools" />
       <Whyselectussection id="partnership" />
       <Gotonext />
-      <Wanttoget />
+      {/* <Wanttoget /> */}
       
     </>
   );

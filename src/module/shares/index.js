@@ -8,7 +8,7 @@ import indices from "../../../src/assets/images/invest in indices.png";
 import shares from "../../../src/assets/images/invest in shares.webp";
 import Slideicon from "../../../src/assets/svg/slideicon";
 import Gotonext from '../home/gotonext';
-import Wanttoget from '../home/wanttoget';
+// import Wanttoget from '../home/wanttoget';
 import Benefitfrom from '../../components/benefitfrom';
 import { Link } from 'react-router-dom';
 
@@ -384,7 +384,7 @@ export default function Shares() {
 
             <Benefitfrom />
             <Gotonext />
-            <Wanttoget />
+            {/* <Wanttoget /> */}
         </>
     )
 }

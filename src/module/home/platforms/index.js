@@ -33,7 +33,7 @@ function Platforms({ id }) {
                     </div>
                   </div>
                   <div className='Learn-more'>
-                    <button data-aos="fade-right">Learn More
+                    <button data-aos="fade-right"><p>Learn More</p>
                       <Slideicon />
                     </button>
                   </div>

@@ -13,7 +13,7 @@ import Ecnaccmaimage from "../../assets/images/ecnaccmaimage.png";
 import { Link } from 'react-router-dom';
 import Accoundetails from '../../components/Accountdtailscomponent';
 import Gotonext from '../home/gotonext';
-import Wanttoget from '../home/wanttoget';
+// import Wanttoget from '../home/wanttoget';
 
 export default function Ecn() {
 
@@ -153,7 +153,7 @@ export default function Ecn() {
       </div> */}
 
       <Gotonext />
-      <Wanttoget />
+      {/* <Wanttoget /> */}
     </>
   )
 }

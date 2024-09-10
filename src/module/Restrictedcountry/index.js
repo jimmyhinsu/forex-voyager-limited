@@ -3,7 +3,7 @@ import "./restrictedpolicy.scss";
 
 export default function Restrictedpolicy() {
   return (
-    <div>
+    <div className="restrictedpolicy-page-main-alignment">
       <div className="restrictedpolicy-page-main">
         <h1>Restricted Countries</h1>
         <div className="restrictedpolicy-page-content">

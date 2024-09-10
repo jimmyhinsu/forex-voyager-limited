@@ -20,7 +20,7 @@ header {
         0 0 #0000,
         0 0 #0000,
         0px 4px 20px rgba(0, 0, 0, 0.25);
-    background-color: #0b1120;
+    background-color: #ffffff;
     display: flex;
     flex-direction: column;
     position: fixed;
@@ -29,7 +29,6 @@ header {
     z-index: 99;
 
     .Headermain {
-        border-top: 1px solid rgb(43 50 69 / 1);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -67,7 +66,7 @@ header {
                         rotate: 0deg;
 
                         path {
-                            fill: #467bff;
+                            fill: #3073c6;
                         }
                     }
                 }
@@ -76,7 +75,7 @@ header {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    color: #fff;
+                    color: #3073c6;
                     background-color: transparent;
                     border: none;
                     text-decoration-line: none;
@@ -91,7 +90,7 @@ header {
                         height: 8px;
 
                         path {
-                            fill: #fff;
+                            fill: #3073c6;
                         }
                     }
                 }
@@ -113,7 +112,7 @@ header {
 
                         .dropdown-content {
                             border-radius: 0 0 20px 20px;
-                            background-color: rgb(11 17 32 / 1);
+                            background-color: #ffffff;
                             // position: absolute;
                             // top: 2px;
                             // left: 0;
@@ -131,7 +130,7 @@ header {
                             a {
                                 text-decoration-line: none;
                                 min-width: max-content;
-                                color: #fff;
+                                color: #3073c6;
                                 font-size: 14px;
                                 font-weight: 500;
                                 font-family: "Plus Jakarta Sans", sans-serif;
@@ -148,11 +147,58 @@ header {
 
                                 &:hover {
                                     transition: 0.4s ease-in-out;
-                                    background-color: rgb(43 50 69 / 1);
+                                    background-color: #3073c6;
+                                    color: #fff;
                                 }
                             }
                         }
                     }
+                }
+            }
+        }
+
+        .headermain-last-buttons {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            .dropdown-container {
+                position: relative;
+
+                a {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: #3073c6;
+                    background-color: transparent;
+                    border: none;
+                    text-decoration-line: none;
+                    font-size: 18px;
+                    font-weight: 500;
+                    width: 85px;
+                    height: 51px;
+                }
+            }
+
+            button {
+                border: none;
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 19px;
+                text-align: center;
+                font-family: "Plus Jakarta Sans", sans-serif;
+                padding: 6px 15px;
+                border-radius: 50px;
+                cursor: pointer;
+                transition: 0.4s ease-in-out;
+                background-image: linear-gradient(88.9deg, #3073c6, #64e584 50%, #64e584 75%, #3073c6 120%);
+                background-size: 200% auto !important;
+                color: #fff;
+                &:hover {
+                    transition: 0.4s ease-in-out;
+                    background-image: linear-gradient(88.9deg, #3073c6, #64e584 50%, #64e584 75%, #3073c6 120%);
+                    background-size: 200% auto !important;
+                    background-position: 100% !important;
                 }
             }
         }

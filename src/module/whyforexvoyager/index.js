@@ -1,7 +1,7 @@
 import React from 'react'
 import './whyforexvoyager.scss';
 import Gotonext from '../home/gotonext';
-import Wanttoget from '../home/wanttoget';
+// import Wanttoget from '../home/wanttoget';
 import banner from '../../assets/images/banner.png';
 import advantage1 from '../../assets/images/security.png';
 import advantage2 from '../../assets/images/money and finance.png';
@@ -286,7 +286,7 @@ export default function Whyforexvoyager() {
             </div>
 
             <Gotonext />
-            <Wanttoget />
+            {/* <Wanttoget /> */}
         </>
     )
 }

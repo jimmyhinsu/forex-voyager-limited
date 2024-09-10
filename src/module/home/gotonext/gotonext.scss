@@ -17,7 +17,7 @@
 
             h2 {
                 font-size: 40px;
-                color: #fff;
+                color: #3073c6;
 
                 @media (max-width: 1024px) {
                     font-size: 30px;
@@ -42,7 +42,7 @@
             .whychoose-main {
                 position: relative;
                 height: 100%;
-                background-image: linear-gradient(142.26deg, #141b35 1.22%, #060b22 105.61%);
+                background-color: #3073c6;
                 display: flex;
                 flex-direction: column-reverse;
                 overflow: hidden;
@@ -55,7 +55,7 @@
 
                     .whychoose {
                         h3 {
-                            color: #060b22;
+                            color: #3073c6;
                         }
                     }
                 }
@@ -96,7 +96,7 @@
                         text-align: center;
                         z-index: 1;
                         font-weight: 400;
-                        color: #fff;
+                        color: #ffffff;
                         font-size: 22px;
 
                         @media (max-width: 1024px) {

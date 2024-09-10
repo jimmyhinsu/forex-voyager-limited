@@ -1,7 +1,7 @@
 import React from 'react'
 import './regulations.scss';
 import Gotonext from '../home/gotonext';
-import Wanttoget from '../home/wanttoget';
+// import Wanttoget from '../home/wanttoget';
 import fscm from '../../assets/icons/flaaag.png';
 import Slideicon from "../../assets/svg/slideicon";
 import Regulationsbackgorund from "../../assets/images/page-header-bg.webp";
@@ -81,7 +81,7 @@ export default function Regulations() {
       </div>
 
       <Gotonext />
-      <Wanttoget />
+      {/* <Wanttoget /> */}
 
 
       {/* <img src="../../assets/pdf/Forexvoyag.pdf" alt="pdf" /> */}

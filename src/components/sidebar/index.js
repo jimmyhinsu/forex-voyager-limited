@@ -24,21 +24,18 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
         <div className="sidebar-content-main">
           <div className="sidebar-dropdowns-content-box-main">
             <div
-              className={`sidebar-dropdowns-content-box-background ${
-                activeDropdown === 1 ? "active" : ""
-              }`}
+              className={`sidebar-dropdowns-content-box-background ${activeDropdown === 1 ? "active" : ""
+                }`}
             >
               <div
-                className={`sidebar-dropdowns-content-box ${
-                  activeDropdown === 1 ? "active" : ""
-                }`}
+                className={`sidebar-dropdowns-content-box ${activeDropdown === 1 ? "active" : ""
+                  }`}
                 onClick={() => handleDropdownClick(1)}
               >
                 <p> About</p>
                 <div
-                  className={`dropdown-icon ${
-                    activeDropdown === 1 ? "active" : ""
-                  }`}
+                  className={`dropdown-icon ${activeDropdown === 1 ? "active" : ""
+                    }`}
                 >
                   <Asidedropdown />
                 </div>
@@ -62,21 +59,18 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
 
           <div className="sidebar-dropdowns-content-box-main">
             <div
-              className={`sidebar-dropdowns-content-box-background ${
-                activeDropdown === 2 ? "active" : ""
-              }`}
+              className={`sidebar-dropdowns-content-box-background ${activeDropdown === 2 ? "active" : ""
+                }`}
             >
               <div
-                className={`sidebar-dropdowns-content-box ${
-                  activeDropdown === 2 ? "active" : ""
-                }`}
+                className={`sidebar-dropdowns-content-box ${activeDropdown === 2 ? "active" : ""
+                  }`}
                 onClick={() => handleDropdownClick(2)}
               >
                 <p>Products</p>
                 <div
-                  className={`dropdown-icon ${
-                    activeDropdown === 2 ? "active" : ""
-                  }`}
+                  className={`dropdown-icon ${activeDropdown === 2 ? "active" : ""
+                    }`}
                 >
                   <Asidedropdown />
                 </div>
@@ -120,21 +114,18 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
 
           <div className="sidebar-dropdowns-content-box-main">
             <div
-              className={`sidebar-dropdowns-content-box-background ${
-                activeDropdown === 3 ? "active" : ""
-              }`}
+              className={`sidebar-dropdowns-content-box-background ${activeDropdown === 3 ? "active" : ""
+                }`}
             >
               <div
-                className={`sidebar-dropdowns-content-box ${
-                  activeDropdown === 3 ? "active" : ""
-                }`}
+                className={`sidebar-dropdowns-content-box ${activeDropdown === 3 ? "active" : ""
+                  }`}
                 onClick={() => handleDropdownClick(3)}
               >
                 <p>Platforms</p>
                 <div
-                  className={`dropdown-icon ${
-                    activeDropdown === 3 ? "active" : ""
-                  }`}
+                  className={`dropdown-icon ${activeDropdown === 3 ? "active" : ""
+                    }`}
                 >
                   <Asidedropdown />
                 </div>
@@ -158,21 +149,18 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
 
           <div className="sidebar-dropdowns-content-box-main">
             <div
-              className={`sidebar-dropdowns-content-box-background ${
-                activeDropdown === 4 ? "active" : ""
-              }`}
+              className={`sidebar-dropdowns-content-box-background ${activeDropdown === 4 ? "active" : ""
+                }`}
             >
               <div
-                className={`sidebar-dropdowns-content-box ${
-                  activeDropdown === 4 ? "active" : ""
-                }`}
+                className={`sidebar-dropdowns-content-box ${activeDropdown === 4 ? "active" : ""
+                  }`}
                 onClick={() => handleDropdownClick(4)}
               >
                 <p>Accounts</p>
                 <div
-                  className={`dropdown-icon ${
-                    activeDropdown === 4 ? "active" : ""
-                  }`}
+                  className={`dropdown-icon ${activeDropdown === 4 ? "active" : ""
+                    }`}
                 >
                   <Asidedropdown />
                 </div>
@@ -206,21 +194,18 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
 
           <div className="sidebar-dropdowns-content-box-main sidebar-dropdowns-content-box-main-sc">
             <div
-              className={`sidebar-dropdowns-content-box-background ${
-                activeDropdown === 7 ? "active" : ""
-              }`}
+              className={`sidebar-dropdowns-content-box-background ${activeDropdown === 7 ? "active" : ""
+                }`}
             >
               <div
-                className={`sidebar-dropdowns-content-box ${
-                  activeDropdown === 7 ? "active" : ""
-                }`}
+                className={`sidebar-dropdowns-content-box ${activeDropdown === 7 ? "active" : ""
+                  }`}
                 onClick={() => handleDropdownClick(7)}
               >
                 <p>Partnership</p>
                 <div
-                  className={`dropdown-icon ${
-                    activeDropdown === 7 ? "active" : ""
-                  }`}
+                  className={`dropdown-icon ${activeDropdown === 7 ? "active" : ""
+                    }`}
                 >
                   <Asidedropdown />
                 </div>
@@ -263,13 +248,10 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
         </div>
       </div>
 
-      <div>
-        className={`sidebarbackground ${
-          isSidebarOpen ? "sidebarbackgroundopen" : ""
+      <div className={`sidebarbackground ${isSidebarOpen ? "sidebarbackgroundopen" : ""
         }`}
-        onClick={onClose}
-      </div>
-      
+        onClick={onClose}></div>
+
     </>
   );
 }

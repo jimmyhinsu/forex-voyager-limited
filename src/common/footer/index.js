@@ -2,6 +2,9 @@ import React from "react";
 import "./footer.scss";
 import { Link, NavLink } from "react-router-dom";
 import logo from '../../assets/images/Forex Voyeger Logo.png';
+import call from '../../assets/icons/telephone-call.png';
+import email from '../../assets/icons/email.png';
+
 
 export default function Footer() {
   return (
@@ -62,7 +65,6 @@ export default function Footer() {
               </div>
             </div>
 
-
             <div className="footer-content">
               <p data-aos="fade-down">Partnership</p>
               <div className="footer-all-links-main">
@@ -73,21 +75,59 @@ export default function Footer() {
                 <Link to={"/"}>IB Offers</Link> */}
               </div>
             </div>
+
+            <div className="footer-content">
+              <p data-aos="fade-down">Address</p>
+              <div className="footer-all-links-main">
+                <a href="https://maps.app.goo.gl/owsBEWCnqpCMh1BZ9" target="__blank" data-aos="fade-right"> Registered Address :- Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, SAINT Lucia P.O Box 838, Castries, Saint Lucia.</a>
+
+                <span data-aos="fade-right">Registration Number:- 2024-00486</span>
+
+                <div className="mobilenumber">
+                  <div className="callicon">
+                    <img data-aos="fade-right" src={call} alt="error" />
+                  </div>
+                  <a data-aos="fade-right" href="tel:+97143520476">+97143520476</a>
+                </div>
+
+                <div className="mobilenumber">
+                  <div className="callicon">
+                    <img data-aos="fade-right" src={email} alt="error" />
+                  </div>
+                  <a data-aos="fade-right" href="mailto:Info@forexvoyeger.com">Info@forexvoyeger.com</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div className="risk-restricted">
+            <div className="risk-warning">
+              <p>Risk Warning</p>
+              <span>Please note that forex trading and trading in other leveraged products involves a significant level of risk and is not suitable for all investors. Trading in financial instruments may result in losses as well as profits and your losses can be greater than your initial invested capital. Before undertaking any such transactions, you should ensure that you fully understand the risks involved and seek independent advice if necessary.</span>
+            </div>
+
+            <div className="risk-warning">
+              <p>Restricted Regions</p>
+              <span>Forex Voyager Limited does not provide services for citizens/residents of the USA, Cuba, Iraq, Myanmar, North Korea, Sudan. The services of Forex Voyager are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.</span>
+            </div>
           </div>
         </div>
+
+
         <div className="footer-bottom-line">
-          <Link to={"/privacypage"} data-aos="fade-right">Privacy Policy</Link>
-          <Link to={"/terms"} data-aos="fade-right">Terms & Conditions</Link>
-          <Link to={"/amlpolicy"} data-aos="fade-right">AML Policy</Link>
-          <Link to={"/deposit"} data-aos="fade-right">Deposit & withdrawal Policy</Link>
-          <Link to={"/restrictedpolicy"} data-aos="fade-right">Restricted Countries</Link>
-          <Link to={"/riskdisclosure"} id="risk-side-border-remove" data-aos="fade-right">
+          <Link to={"/privacypage"}>Privacy Policy</Link>
+          <Link to={"/terms"}>Terms & Conditions</Link>
+          <Link to={"/amlpolicy"}>AML Policy</Link>
+          <Link to={"/deposit"}>Deposit & withdrawal Policy</Link>
+          <Link to={"/restrictedpolicy"}>Restricted Countries</Link>
+          <Link to={"/riskdisclosure"} id="risk-side-border-remove">
             Risk Disclosure
           </Link>
         </div>
 
         <div className="footer-copyright-text">
-          <p data-aos="fade-right">© 2024 All Rights Reserved By Forex Voyager Limited</p>
+          <p>© 2024 All Rights Reserved By Forex Voyager Limited</p>
         </div>
       </div>
     </div>
