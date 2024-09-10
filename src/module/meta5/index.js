@@ -3,7 +3,7 @@ import './meta5.scss';
 import Gotonext from '../home/gotonext';
 // import Wanttoget from '../home/wanttoget';
 import Accountssection from '../home/Accountssections';
-// import bannermt5 from '../../assets/images/banner-mt5.webp';
+import meta5banner from "../../assets/images/meta 5 banner.png"
 import Slideicon from "../../assets/svg/slideicon";
 import whatismeta from '../../assets/images/meta trader 5.png';
 import downloadapp from '../../assets/images/download-mt5.png';
@@ -42,9 +42,9 @@ export default function Meta5() {
                             </div>
                         </div>
 
-                        {/* <div className='bannermt5'>
-                            <img src={bannermt5} alt="error" data-aos="flip-right" />
-                        </div> */}
+                        <div className='bannermt5'>
+                            <img src={meta5banner} alt="error" data-aos="flip-right" />
+                        </div>
                     </div>
                 </div>
 
