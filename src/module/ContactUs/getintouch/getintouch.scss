@@ -18,13 +18,14 @@
                 line-height: normal;
                 font-size: 40px;
                 text-align: center;
+                color: #3073c6;
             }
 
             p {
                 font-size: 18px;
                 font-weight: 500;
                 line-height: 1.2;
-                color: #3073c6;
+                color: #000000;
                 max-width: 831px;
                 text-align: center;
             }
@@ -82,7 +83,7 @@
                     height: 153px;
                     position: relative;
                     overflow: hidden;
-                    background-image: linear-gradient(142.26deg, #141b35 1.22%, #060b22 105.61%);
+                    background-image: linear-gradient(142.26deg, #3073c6 1.22%, #7fa5d3 105.61%);
                     border-radius: 24px;
                     display: flex;
                     justify-content: end;
@@ -133,7 +134,7 @@
                         text-align: center;
                         z-index: 1;
                         font-weight: 700;
-                        color: #3073c6;
+                        color: #ffffff;
                         font-size: 22px;
 
                         @media (max-width: 1024px) {
@@ -149,7 +150,7 @@
                         font-size: 14px;
                         font-weight: 300;
                         line-height: 1.2;
-                        color: #afbbcf;
+                        color: #ffffff;
                         margin: 0 0 10px 0;
                     }
 
@@ -183,9 +184,5 @@
                 }
             }
         }
-
-        // .contact-social-boxe-clicked-data {
-
-        // }
     }
 }

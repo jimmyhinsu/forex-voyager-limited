@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
     padding: 0 0 30px 0;
-    background-image: url("../../assets//images/striped-background-colored.webp");
+    background-image: url("../../assets/images/colored.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -75,10 +75,10 @@
                     }
 
                     button {
-                        background-color: #1f2532;
+                        background-color: #3073c6;
                         border-radius: 50px;
                         border: none;
-                        color: #3073c6;
+                        color: #fff;
                         padding: 12px 24px;
                         display: flex;
                         justify-content: center;
@@ -106,13 +106,13 @@
 
                     .activebutton {
                         transition: all 0.5s ease-in-out;
-                        background-color: #fff;
-                        color: #161d2f;
+                        background-color: #1f2532;
+                        color: #fff;
 
                         &:hover {
                             transition: all 0.5s ease-in-out;
-                            background-color: #fff;
-                            color: #161d2f;
+                            background-color: #1f2532;
+                            color: #fff;
                         }
                     }
                 }
@@ -456,7 +456,7 @@
             border-radius: 50px;
             width: 100%;
             font-size: 20px;
-            color: #3073c6;
+            color: #ffffff;
             font-weight: 600;
             background-size: 200% auto !important;
             display: flex;
@@ -541,63 +541,3 @@
         }
     }
 }
-
-// .open-sc-main {
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     .open-sc {
-//         border: none;
-//         border-radius: 50px;
-//         background-color: transparent;
-//         padding: 1px;
-//         transition: all 0.2s ease-in-out;
-
-//         &:hover {
-//             background-color: #fff;
-//             transition: all 0.2s ease-in-out;
-//         }
-//         button {
-//             background-color: transparent;
-//             padding: 15px;
-//             border-radius: 50px;
-//             width: 100%;
-//             border: none;
-//             position: relative;
-//             background: linear-gradient(88.9deg, #3073c6 33.43%, #64e584 103.55%);
-//             -webkit-background-clip: text;
-//             background-clip: text;
-//             color: transparent;
-//             font-size: 20px;
-//             font-weight: 600;
-//             display: flex;
-//             justify-content: center;
-//             align-items: center;
-//             gap: 5px;
-//             cursor: pointer;
-
-//             @media (max-width: 576px) {
-//                 padding: 12px;
-//                 font-size: 16px;
-//             }
-
-//             &:before {
-//                 background: linear-gradient(88.9deg, #3073c6 33.43%, #64e584 103.55%);
-//                 content: "";
-//                 position: absolute;
-//                 inset: 0;
-//                 border-radius: inherit;
-//                 -webkit-mask:
-//                     linear-gradient(#fff 0 0) content-box,
-//                     linear-gradient(#fff 0 0);
-//                 -webkit-mask-composite: xor;
-//                 mask-composite: exclude;
-//                 padding: 2px;
-//             }
-
-//             svg {
-//                 background-color: transparent;
-//             }
-//         }
-//     }
-// }

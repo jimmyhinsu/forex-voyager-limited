@@ -12,7 +12,7 @@
 
         input {
             border-radius: 5px;
-            background-image: linear-gradient(180deg, #0f182d, #0b1120 92.86%);
+            background-image: linear-gradient(180deg, #8cbdf9, #3073c6 92.86%);
             border: 1px solid rgb(43 50 69 / 1);
             height: 54px;
             width: 100%;
@@ -22,12 +22,12 @@
             font-size: 14px;
             font-weight: 500;
             line-height: 1.2;
-            color: rgb(175 187 207 / 1);
+            color: #ffffff;
             margin: 19px 0 0 0;
             transition: 0.2s ease-in-out;
 
             &::placeholder {
-                color: #3073c6;
+                color: #dbdbdb;
             }
 
             &:hover {
@@ -48,7 +48,7 @@
         .telephone-input-main {
             position: relative;
             border-radius: 5px;
-            background-image: linear-gradient(180deg, #0f182d, #0b1120 92.86%);
+            background-image: linear-gradient(180deg, #8cbdf9, #3073c6 92.86%);
             border: 1px solid rgb(43 50 69 / 1);
             height: 54px;
             width: 100%;
@@ -58,13 +58,13 @@
             font-size: 14px;
             font-weight: 500;
             line-height: 1.2;
-            color: rgb(175 187 207 / 1);
+            color: #ffffff;
             margin: 19px 0 0 0;
             display: grid;
             grid-template-columns: 66px 1fr;
 
             &::placeholder {
-                color: #3073c6;
+                color: #dbdbdb;
             }
 
             &:hover {
@@ -82,7 +82,7 @@
                 width: 266px;
                 overflow-x: hidden;
                 overflow-y: auto;
-                background-image: linear-gradient(180deg, #0f182d, #0b1120 92.86%);
+                background-image: linear-gradient(180deg, #8cbdf9, #3073c6 92.86%);
                 border-radius: 2px;
                 padding: 15px 20px;
                 border: 1px solid #afbccf;
@@ -141,14 +141,14 @@
                 font-size: 14px;
                 font-weight: 500;
                 line-height: 1.2;
-                color: rgb(175 187 207 / 1);
+                color: #ffffff;
                 margin: 0;
 
                 &::placeholder {
                     font-size: 14px;
                     font-weight: 500;
                     line-height: 1.2;
-                    color: rgb(175 187 207 / 1);
+                    color: #ffffff;
                 }
             }
         }
@@ -169,7 +169,7 @@
 
         textarea {
             border-radius: 5px;
-            background-image: linear-gradient(180deg, #0f182d, #0b1120 92.86%);
+            background-image: linear-gradient(180deg, #8cbdf9, #3073c6 92.86%);
             border: 1px solid rgb(43 50 69 / 1);
             height: 129px;
             width: 100%;
@@ -179,13 +179,13 @@
             font-size: 14px;
             font-weight: 500;
             line-height: 1.2;
-            color: rgb(175 187 207 / 1);
+            color: #ffffff;
             transition: 0.2s ease-in-out;
             resize: none;
             margin: 0;
 
             &::placeholder {
-                color: #3073c6;
+                color: #dbdbdb;
             }
 
             &:hover {
@@ -211,7 +211,7 @@
             font-size: 15px;
             font-weight: 500;
             line-height: 1.2;
-            color: rgb(175 187 207 / 1);
+            color: #000000;
             text-align: center;
 
             a {
@@ -240,7 +240,7 @@
                 border-radius: 50px;
                 width: 100%;
                 font-size: 22px;
-                color: #3073c6;
+                color: #ffffff;
                 font-weight: 600;
                 background-size: 200% auto !important;
                 display: flex;
