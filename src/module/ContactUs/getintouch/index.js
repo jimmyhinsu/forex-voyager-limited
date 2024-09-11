@@ -20,14 +20,14 @@ export default function Getintouch() {
       <div className="get-in-touch">
         <div className="container">
           <div className="title-get">
-            <h1>Get in touch</h1>
-            <p>Contact us with any questions or if you’d like more information about MultiBank Group’s products and services.</p>
+            <h1 data-aos="fade-down">Get in touch</h1>
+            <p data-aos="fade-down">Contact us with any questions or if you’d like more information about MultiBank Group’s products and services.</p>
           </div>
           <div className="contact-social-boxes-main">
             <div className={`whychoose-main ${activeIndex === 0 ? "active" : ""}`} onClick={() => setActiveIndex(0)}>
               <div className="whychoose">
-                <p>Send a message through</p>
-                <h3>Whatsapp</h3>
+                <p data-aos="fade-right">Send a message through</p>
+                <h3 data-aos="fade-right">Whatsapp</h3>
                 <div className="stripedCard">
                   <img src={stripedCard} alt="stripedCard" />
                 </div>
@@ -39,8 +39,8 @@ export default function Getintouch() {
 
             <div className={`whychoose-main ${activeIndex === 1 ? "active" : ""}`} onClick={() => setActiveIndex(1)}>
               <div className="whychoose">
-                <p>24/7 Client Support through</p>
-                <h3>Live Chat</h3>
+                <p data-aos="fade-right">24/7 Client Support through</p>
+                <h3 data-aos="fade-right">Live Chat</h3>
                 <div className="stripedCard">
                   <img src={stripedCard} alt="stripedCard" />
                 </div>
@@ -52,8 +52,8 @@ export default function Getintouch() {
 
             <div className={`whychoose-main ${activeIndex === 2 ? "active" : ""}`} onClick={() => setActiveIndex(2)}>
               <div className="whychoose">
-                <p>Fill our short form and get a</p>
-                <h3>Call Back</h3>
+                <p data-aos="fade-right">Fill our short form and get a</p>
+                <h3 data-aos="fade-right">Call Back</h3>
                 <div className="stripedCard">
                   <img src={stripedCard} alt="stripedCard" />
                 </div>
@@ -65,8 +65,8 @@ export default function Getintouch() {
 
             <div className={`whychoose-main ${activeIndex === 3 ? "active" : ""}`} onClick={() => setActiveIndex(3)}>
               <div className="whychoose">
-                <p>We’re available 24/7</p>
-                <h3>Call us now</h3>
+                <p data-aos="fade-right">We’re available 24/7</p>
+                <h3 data-aos="fade-right">Call us now</h3>
                 <div className="stripedCard">
                   <img src={stripedCard} alt="stripedCard" />
                 </div>

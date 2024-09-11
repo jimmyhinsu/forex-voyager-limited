@@ -143,13 +143,13 @@ export default function Callbackfrom() {
         </div>
 
         <div className="terms-lin-main">
-          <p>
+          <p data-aos="fade-down">
             By submitting this form, you agree to receive emails from Forex Voyager Limited in accordance with our <Link to={"/terms"}> Terms & Conditions</Link>, <Link to={"/privacypage"}> Privacy Policy</Link> and
             <Link to={"/contactus"}> Cookie Policy</Link>.
           </p>
           <div className="submit-button">
             <a href="mailto:Info@forexvoyeger.com">
-              <button type="submit" className="submit-btn">
+              <button type="submit" className="submit-btn" data-aos="fade-down">
                 Submit
               </button>
             </a>

@@ -12,8 +12,7 @@
 
         input {
             border-radius: 5px;
-            background-image: linear-gradient(180deg, #8cbdf9, #3073c6 92.86%);
-            border: 1px solid rgb(43 50 69 / 1);
+            border: 1px solid #000000;
             height: 54px;
             width: 100%;
             box-sizing: border-box;
@@ -22,17 +21,17 @@
             font-size: 14px;
             font-weight: 500;
             line-height: 1.2;
-            color: #ffffff;
+            color: #000000;
             margin: 19px 0 0 0;
             transition: 0.2s ease-in-out;
 
             &::placeholder {
-                color: #dbdbdb;
+                color: #868686;
             }
 
             &:hover {
                 transition: 0.2s ease-in-out;
-                border-color: rgb(209 213 226 / 1);
+                border-color: #3073c6;
             }
 
             &::-webkit-inner-spin-button {
@@ -48,8 +47,7 @@
         .telephone-input-main {
             position: relative;
             border-radius: 5px;
-            background-image: linear-gradient(180deg, #8cbdf9, #3073c6 92.86%);
-            border: 1px solid rgb(43 50 69 / 1);
+            border: 1px solid #000000;
             height: 54px;
             width: 100%;
             box-sizing: border-box;
@@ -58,18 +56,18 @@
             font-size: 14px;
             font-weight: 500;
             line-height: 1.2;
-            color: #ffffff;
+            color: #000000;
             margin: 19px 0 0 0;
             display: grid;
             grid-template-columns: 66px 1fr;
 
             &::placeholder {
-                color: #dbdbdb;
+                color: #868686;
             }
 
             &:hover {
                 transition: 0.2s ease-in-out;
-                border-color: rgb(209 213 226 / 1);
+                border-color: #3073c6;
             }
 
             .dropdown-list {
@@ -86,6 +84,7 @@
                 border-radius: 2px;
                 padding: 15px 20px;
                 border: 1px solid #afbccf;
+                color: #fff;
 
                 .form-dropdowncontent {
                     cursor: pointer;
@@ -141,7 +140,7 @@
                 font-size: 14px;
                 font-weight: 500;
                 line-height: 1.2;
-                color: #ffffff;
+                color: #000000;
                 margin: 0;
 
                 &::placeholder {
@@ -164,13 +163,12 @@
             font-weight: 500;
             display: block;
             margin: 0 0 5px 0;
-            color: #afbbcf;
+            color: #868686;
         }
 
         textarea {
             border-radius: 5px;
-            background-image: linear-gradient(180deg, #8cbdf9, #3073c6 92.86%);
-            border: 1px solid rgb(43 50 69 / 1);
+            border: 1px solid #000000;
             height: 129px;
             width: 100%;
             box-sizing: border-box;
@@ -179,18 +177,18 @@
             font-size: 14px;
             font-weight: 500;
             line-height: 1.2;
-            color: #ffffff;
+            color: #000000;
             transition: 0.2s ease-in-out;
             resize: none;
             margin: 0;
 
             &::placeholder {
-                color: #dbdbdb;
+                color: #868686;
             }
 
             &:hover {
                 transition: 0.2s ease-in-out;
-                border-color: rgb(209 213 226 / 1);
+                border-color: #3073c6;
             }
 
             &focus {

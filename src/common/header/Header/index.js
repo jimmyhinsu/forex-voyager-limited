@@ -115,7 +115,7 @@ function Headermain() {
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
                   <Link to={"/"}>Introducing Brokers</Link>
-                  <Link to={"/"}>Franchise Program</Link>
+                  {/* <Link to={"/"}>Franchise Program</Link> */}
                 </div>
               </div>
             </div>

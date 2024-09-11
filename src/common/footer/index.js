@@ -69,7 +69,7 @@ export default function Footer() {
               <p data-aos="fade-down">Partnership</p>
               <div className="footer-all-links-main">
                 <Link to={"/"} data-aos="fade-right">Introducing Brokers</Link>
-                <Link to={"/"} data-aos="fade-right">Franchise Program</Link>
+                {/* <Link to={"/"} data-aos="fade-right">Franchise Program</Link> */}
                 {/* <Link to={"/"}>Institutional Liquidity Offering</Link>
                 <Link to={"/"}>CPA Affiliate Program</Link>
                 <Link to={"/"}>IB Offers</Link> */}

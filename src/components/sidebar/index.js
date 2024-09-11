@@ -217,11 +217,11 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
                       Introducing Brokers
                     </Link>
                   </div>
-                  <div className="dropdowns-links-main">
+                  {/* <div className="dropdowns-links-main">
                     <Link to={"/"} onClick={onClose}>
                       Franchise Program
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               )}
             </div>
