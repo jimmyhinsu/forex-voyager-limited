@@ -393,7 +393,7 @@ export default function Forex() {
                             <div className='forex-text'>
                                 <h3 data-aos="fade-down">What is <span> Forex </span>?</h3>
                                 <div className='forex-peragraph'>
-                                    <p data-aos="fade-down">With a daily turnover of over $7.5 trillion, forex is the biggest financial market globally. It functions via an international network of banks, businesses, and private citizens who exchange currencies on a regular basis.</p>
+                                    <p data-aos="fade-down">With a daily turnover of over Millions USD, Forex is the biggest financial market globally. It functions via an international network of banks, businesses, and private citizens who exchange currencies on a regular basis.</p>
 
                                     <p data-aos="fade-down">The Foreign exchange market is open around-the-clock and lacks a physical presence. To find out the pertinent dates and trading sessions, see our Trading Hours.</p>
 

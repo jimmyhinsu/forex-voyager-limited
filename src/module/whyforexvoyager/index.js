@@ -53,7 +53,7 @@ export default function Whyforexvoyager() {
                         </div>
 
                         <div className='whychoose'>
-                            <h3 data-aos="fade-down-right">Paid-Up Capital Of Over US$ 322 Million</h3>
+                            <h3 data-aos="fade-down-right">Paid-Up Capital Of Over Millions USD</h3>
                             <div className="Whyforexicon">
                                 <img src={advantage2} alt="Whyforexicon" data-aos="flip-right" />
                             </div>
@@ -90,7 +90,7 @@ export default function Whyforexvoyager() {
                     <div className='forex-esta'>
                         <h2 data-aos="fade-down"><span>Forex Voyager Limited</span>
                             <br />
-                            Established in 2017
+                            Established in 2023
                         </h2>
                     </div>
 
@@ -187,7 +187,7 @@ export default function Whyforexvoyager() {
                                 <h4 data-aos="fade-right">financial success that breaks records</h4>
                             </div>
                             <div className='wecollaborate'>
-                                <p data-aos="fade-right">Delivering earnings that inspire trust, we surpass all prior record years with a turnover of nearly US$ 6.8 trillion in 2024.</p>
+                                <p data-aos="fade-right">Delivering earnings that inspire trust, we surpass all prior record years with a turnover of nearly Millions USD in 2024.</p>
                             </div>
                         </div>
 
@@ -199,7 +199,7 @@ export default function Whyforexvoyager() {
                                 <h4 data-aos="fade-right">Global presence in leading financial hubs</h4>
                             </div>
                             <div className='wecollaborate'>
-                                <p data-aos="fade-right">Working with affiliates, we provide services to a global clientele from our more than 25 locations situated in global financial hubs.</p>
+                                <p data-aos="fade-right">Working with affiliates, we provide services to a global clientele from our more than 3 locations situated in global financial hubs.</p>
                             </div>
                         </div>
 
