@@ -138,7 +138,7 @@ export default function Ourproductslidesection({ id }) {
                     <span>Tightest</span>
                   </div>
                   <div className="up-and-down-box-changer" data-aos="flip-left">
-                    <h3>20:1</h3>
+                    <h3>1:20</h3>
                     <span>Level of Leverage</span>
                   </div>
                   <div className="up-and-down-box-changer" data-aos="flip-left">
@@ -159,7 +159,7 @@ export default function Ourproductslidesection({ id }) {
                     <span>Tightest</span>
                   </div>
                   <div className="up-and-down-box-changer" data-aos="flip-left">
-                    <h3>20:1</h3>
+                    <h3>1:20</h3>
                     <span>Level of Leverage</span>
                   </div>
                   <div className="up-and-down-box-changer" data-aos="flip-left">
@@ -276,7 +276,7 @@ export default function Ourproductslidesection({ id }) {
                     <span>Commission</span>
                   </div>
                   <div className="up-and-down-box-changer" data-aos="flip-left">
-                    <h3>UP TO 20:1</h3>
+                    <h3>UP TO 1:20</h3>
                     <span>Leverage on cryptocurrencies</span>
                   </div>
                 </div>
@@ -297,7 +297,7 @@ export default function Ourproductslidesection({ id }) {
                     <span>Commission</span>
                   </div>
                   <div className="up-and-down-box-changer" data-aos="flip-left">
-                    <h3>UP TO 20:1</h3>
+                    <h3>UP TO 1:20</h3>
                     <span>Leverage on cryptocurrencies</span>
                   </div>
                 </div>

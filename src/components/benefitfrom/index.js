@@ -34,7 +34,7 @@ export default function Benefitfrom() {
                             <span data-aos="fade-right"> Daily Turnover</span>
                             <h3 data-aos="flip-right">$15.6 Billion</h3>
                             <span data-aos="fade-right">Record Breaking Financial Performance</span>
-                            <p data-aos="fade-right">Delivering earnings that inspire trust, we surpass all prior record years with a turnover of nearly US$ 6.8 trillion in 2023.</p>
+                            <p data-aos="fade-right">Delivering earnings that inspire trust, we surpass all prior record years with a turnover of nearly US$ 6.8 trillion in 2024.</p>
                             <div className="whyselectus-cards-bottom-line whyselectus-cards-bottom-line-trd"></div>
                         </div>
                     </div>

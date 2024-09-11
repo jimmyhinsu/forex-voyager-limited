@@ -174,7 +174,7 @@ export default function Forex() {
                                             <span data-aos="fade-down">Tightest</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3 data-aos="fade-down">20:1</h3>
+                                            <h3 data-aos="fade-down">1:20</h3>
                                             <span data-aos="fade-down">Level of Leverage</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
@@ -205,7 +205,7 @@ export default function Forex() {
                                             <span data-aos="fade-down">Tightest</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3 data-aos="fade-down">20:1</h3>
+                                            <h3 data-aos="fade-down">1:20</h3>
                                             <span data-aos="fade-down">Level of Leverage</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
@@ -342,7 +342,7 @@ export default function Forex() {
                                             <span data-aos="fade-down">Commission</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3 data-aos="fade-down">UP TO 20:1</h3>
+                                            <h3 data-aos="fade-down">UP TO 1:20</h3>
                                             <span data-aos="fade-down">Leverage on cryptocurrencies</span>
                                         </div>
                                     </div>
@@ -373,7 +373,7 @@ export default function Forex() {
                                             <span data-aos="fade-down">Commission</span>
                                         </div>
                                         <div className="up-and-down-box-changer">
-                                            <h3 data-aos="fade-down">UP TO 20:1</h3>
+                                            <h3 data-aos="fade-down">UP TO 1:20</h3>
                                             <span data-aos="fade-down">Leverage on cryptocurrencies</span>
                                         </div>
                                     </div>
@@ -397,7 +397,7 @@ export default function Forex() {
 
                                     <p data-aos="fade-down">The Foreign exchange market is open around-the-clock and lacks a physical presence. To find out the pertinent dates and trading sessions, see our Trading Hours.</p>
 
-                                    <p data-aos="fade-down">With extensive liquidity, Forex Voyage provides trading in major, cross, and exotic pairings on the Forex markets. Enjoy the most advanced trading platforms, MetaTrader 4 and MetaTrader 5, together with the greatest trading tools, on all of our accounts.</p>
+                                    <p data-aos="fade-down">With extensive liquidity, Forex Voyage provides trading in major, cross, and exotic pairings on the Forex markets. Enjoy the most advanced trading platforms, MetaTrader 5, together with the greatest trading tools, on all of our accounts.</p>
                                 </div>
                             </div>
                             <div className='what-is-img'>

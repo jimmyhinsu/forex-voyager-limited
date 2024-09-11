@@ -187,7 +187,7 @@ export default function Whyforexvoyager() {
                                 <h4 data-aos="fade-right">financial success that breaks records</h4>
                             </div>
                             <div className='wecollaborate'>
-                                <p data-aos="fade-right">Delivering earnings that inspire trust, we surpass all prior record years with a turnover of nearly US$ 6.8 trillion in 2023.</p>
+                                <p data-aos="fade-right">Delivering earnings that inspire trust, we surpass all prior record years with a turnover of nearly US$ 6.8 trillion in 2024.</p>
                             </div>
                         </div>
 
