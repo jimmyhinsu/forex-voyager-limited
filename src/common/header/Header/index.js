@@ -114,7 +114,7 @@ function Headermain() {
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <Link to={"/"}>Introducing Brokers</Link>
+                  <Link to={"/becomeib"}>Introducing Brokers</Link>
                   {/* <Link to={"/"}>Franchise Program</Link> */}
                 </div>
               </div>
@@ -129,8 +129,11 @@ function Headermain() {
             <NavLink to={"/"}>Log in</NavLink>
           </div>
         </div>
+
         <div className="Header-top-line-button">
-          <button>Become an IB</button>
+          <Link to={"/becomeib"}>
+            <button>Become an IB</button>
+          </Link>
         </div>
       </div>
     </div>

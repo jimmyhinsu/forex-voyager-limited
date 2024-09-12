@@ -213,7 +213,7 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
               {activeDropdown === 7 && (
                 <div className="dropdown-content-sidebar-details">
                   <div className="dropdowns-links-main">
-                    <Link to={"/"} onClick={onClose}>
+                    <Link to={"/becomeib"} onClick={onClose}>
                       Introducing Brokers
                     </Link>
                   </div>
@@ -235,12 +235,16 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
                 <Slideicon />
               </button>
             </div>
-            <div className="become-ib-button">
-              <button>
-                <span>Become an IB</span>
-                <Slideicon />
-              </button>
-            </div>
+
+            <Link to={"/becomeib"} onClick={onClose}>
+              <div className="become-ib-button">
+                <button>
+                  <span>Become an IB</span>
+                  <Slideicon />
+                </button>
+              </div>
+            </Link>
+
             <div className="log-in-button">
               <button>Log in</button>
             </div>

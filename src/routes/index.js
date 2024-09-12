@@ -22,6 +22,7 @@ import Forex from "../module/forex";
 import Standard from "../module/standard";
 import Pro from "../module/pro";
 import Ecn from "../module/ecn";
+import Becomeib from "../module/becomeib";
 
 const router = createBrowserRouter([
   {
@@ -70,52 +71,56 @@ const router = createBrowserRouter([
         element: <Forex />
       },
       {
-        path: "metals",
+        path: "/metals",
         element: <Metals />
       },
       {
-        path: "shares",
+        path: "/shares",
         element: <Shares />
       },
       {
-        path: "indices",
+        path: "/indices",
         element: <Indices />
       },
       {
-        path: "commodities",
+        path: "/commodities",
         element: <Commodities />
       },
       {
-        path: "cryptocurrencies",
+        path: "/cryptocurrencies",
         element: <Cryptocurrencies />
       },
       {
-        path: "regulations",
+        path: "/regulations",
         element: <Regulations />
       },
       {
-        path: "whyforexvoyager",
+        path: "/whyforexvoyager",
         element: <Whyforexvoyager />
       },
       {
-        path: "meta5",
+        path: "/meta5",
         element: <Meta5 />
       },
       {
-        path: "webtradermeta5",
+        path: "/webtradermeta5",
         element: <Webtradermeta5 />
       },
       {
-        path: "standard",
+        path: "/standard",
         element: <Standard />
       },
       {
-        path: "pro",
+        path: "/pro",
         element: <Pro />
       },
       {
-        path: "ecn",                  
+        path: "/ecn",
         element: <Ecn />
+      },
+      {
+        path: "/becomeib",
+        element: <Becomeib />
       }
     ],
   },
