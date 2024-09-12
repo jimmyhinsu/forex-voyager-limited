@@ -7,14 +7,12 @@ import Mobileheader from "../../components/Headercontactline/Mobileheader";
 
 function Header() {
   return (
-    <div>
       <header>
         <Headertopline />
         <Headermain />
         <Mobileheader />
         {/* <ScrollProgressBar /> */}
       </header>
-    </div>
   );
 }
 

@@ -121,6 +121,10 @@ const router = createBrowserRouter([
       {
         path: "/becomeib",
         element: <Becomeib />
+      },
+      {
+        path: "/introducingbrokers",
+        element: <Becomeib />
       }
     ],
   },
