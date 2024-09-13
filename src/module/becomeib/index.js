@@ -1,6 +1,6 @@
 import React from 'react'
 import './becomeib.scss';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import percntage from "../../assets/icons/discount.png";
 import profile from '../../assets/icons/usher-man-with-tie.png';
 import up from '../../assets/icons/up-arrow.png';
@@ -22,11 +22,11 @@ export default function Becomeib() {
 
                             <p data-aos="fade-right">Our experienced forex brokers will help visionary individuals and institutions in setting up their own business and Introducing Broker. With our extensive experience in the Forex Industry, you can take the trading experience of your customers to the next level with an innovative platform, dedicated support, low commissions, and precise order execution. Choose the Best Forex Trading Broker Platform to enhance your trading success.</p>
 
-                            <Link to={"/"}>
+                            {/* <Link to={"/"}>
                                 <div className='beomeib' data-aos="flip-right">
                                     <button>Become a Partner</button>
                                 </div>
-                            </Link>
+                            </Link> */}
 
                         </div>
                     </div>

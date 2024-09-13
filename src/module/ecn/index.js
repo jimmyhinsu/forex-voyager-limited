@@ -3,12 +3,12 @@ import './ecn.scss';
 
 import Slideicon from '../../assets/svg/slideicon';
 
-import Standardicon from "../../assets/images/standardicon.svg"
-import Proicon from "../../assets/images/proicon.svg"
-import Encicon from "../../assets/images/ecnicon.svg"
+import Standardicon from "../../assets/images/standerdicon.png"
+import Proicon from "../../assets/images/proicon.png"
+import Encicon from "../../assets/images/ecnicon.png"
 
 import Standardaccmaimage from "../../assets/images/standardaccmaimage.png";
-import Proaccmaimage from "../../assets/images/proaccmaimage.png";
+import Proaccmaimage from "../../assets/images/pro account.png";
 import Ecnaccmaimage from "../../assets/images/ecnaccmaimage.png";
 import { Link } from 'react-router-dom';
 import Accoundetails from '../../components/Accountdtailscomponent';

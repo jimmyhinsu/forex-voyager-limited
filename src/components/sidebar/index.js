@@ -245,9 +245,9 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
               </div>
             </Link>
 
-            <div className="log-in-button">
+            {/* <div className="log-in-button">
               <button>Log in</button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

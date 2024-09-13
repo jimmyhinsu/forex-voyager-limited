@@ -79,7 +79,7 @@ export default function Footer() {
             <div className="footer-content">
               <p data-aos="fade-down">Address</p>
               <div className="footer-all-links-main">
-                <a href="https://maps.app.goo.gl/owsBEWCnqpCMh1BZ9" target="__blank" data-aos="fade-right"> Registered Address :- Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, SAINT Lucia P.O Box 838, Castries, Saint Lucia.</a>
+                <a href=" " data-aos="fade-right"> Registered Address :- Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, SAINT Lucia P.O Box 838, Castries, Saint Lucia.</a>
 
                 <span data-aos="fade-right">Registration Number:- 2024-00486</span>
 
