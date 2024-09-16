@@ -23,7 +23,7 @@ export default function Regulations() {
             <div className='regulations-txt-main'>
               <div className='regulations-txt'>
                 <div className='regulations-txt'>
-                  <h1 className='regulations-txt' data-aos="fade-down">Regulations</h1>
+                  <h1 className='regulations-txt' data-aos="fade-down">Licence</h1>
                 </div>
               </div>
             </div>

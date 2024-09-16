@@ -7,11 +7,11 @@ import { useEffect } from 'react';
 function App() {
   useEffect(() => {
     Aos.init({
-      duration: 1000, // Animation duration
-      once: false,    // Animations should happen multiple times
+      duration: 1000, 
+      once: false,  
     });
     return () => {
-      Aos.refresh(); // Ensure animations refresh on component unmount
+      Aos.refresh();
     };
   }, []);
   return (

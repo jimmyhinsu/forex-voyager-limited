@@ -31,7 +31,7 @@ export default function Footer() {
               <p data-aos="fade-down">About</p>
               <div className="footer-all-links-main">
                 <Link to={"/whyforexvoyager"} data-aos="fade-right">Why Forex Voyager</Link>
-                <Link to={"/regulations"} data-aos="fade-right">Regulations</Link>
+                <Link to={"/regulations"} data-aos="fade-right">Licence</Link>
               </div>
             </div>
 

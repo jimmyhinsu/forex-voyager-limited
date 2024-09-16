@@ -49,7 +49,7 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
                   </div>
                   <div className="dropdowns-links-main">
                     <Link to={"/regulations"} onClick={onClose}>
-                      Regulations
+                    Licence
                     </Link>
                   </div>
                 </div>
