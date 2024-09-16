@@ -80,6 +80,7 @@ export default function Footer() {
               <p data-aos="fade-down">Address</p>
               <div className="footer-all-links-main">
                 <a href=" " data-aos="fade-right"> Registered Address :- Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, SAINT Lucia P.O Box 838, Castries, Saint Lucia.</a>
+                <a href="https://maps.app.goo.gl/Wovm1KNRz4b2Ao5o8" target="__blank" data-aos="fade-right"> Physical Address  :- Voyeger FX Management Consultancy LLC Office Number 1-01B-226 First Floor, Madina Mall Beirut Street, Muhaisnah 4, Dubai, UAE</a>
 
                 <span data-aos="fade-right">Registration Number:- 2024-00486</span>
 
