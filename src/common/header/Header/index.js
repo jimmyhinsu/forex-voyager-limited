@@ -31,7 +31,7 @@ function Headermain() {
     <div className="Headermain">
       <div className="Headerlogo">
         <a href="/" >
-          <img data-aos="flip-left" src={logo} alt="error" />
+          <img src={logo} alt="error" />
         </a>
       </div>
 

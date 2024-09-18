@@ -116,6 +116,7 @@ export default function Callbackfrom() {
           <input type="text" placeholder="First Name*" value={firstName} onChange={(e) => setFirstName(e.target.value)} />
           <input type="text" placeholder="Last Name*" value={lastName} onChange={(e) => setLastName(e.target.value)} />
         </div>
+        
         <div className="name-inputs-main">
           <input type="text" placeholder="Email*" value={email} onChange={(e) => setEmail(e.target.value)} />
           <div className="telephone-input-main">
@@ -149,9 +150,9 @@ export default function Callbackfrom() {
           </p>
           <div className="submit-button">
             <a href="mailto:Info@forexvoyeger.com">
-              <button type="submit" className="submit-btn" data-aos="fade-down">
+              <div className="submit-btn" data-aos="fade-down">
                 Submit
-              </button>
+              </div>
             </a>
           </div>
         </div>
