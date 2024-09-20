@@ -92,7 +92,7 @@ export default function Callbackfrom() {
 
     console.log(formData);
 
-    const mailtoLink = `mailto:pr.vaghasiyakrish@gmail.com?subject=Callback%20Request&body=First%20Name:%20${encodeURIComponent(
+    const mailtoLink = `mailto:Info@forexvoyeger.com?subject=Callback%20Request&body=First%20Name:%20${encodeURIComponent(
       firstName
     )}%0ALast%20Name:%20${encodeURIComponent(
       lastName
