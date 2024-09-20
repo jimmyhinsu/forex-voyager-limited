@@ -61,7 +61,6 @@ export default function Callbackfrom() {
   const handlePhoneNumberChange = (e) => {
     const inputValue = e.target.value;
 
-    // Remove any non-numeric characters except for the plus sign and spaces
     const cleanedInput = inputValue.replace(/[^+\d\s]/g, "");
 
     const currentRegion = memoizedRegions.find((r) => r.code === selectedRegion);
@@ -93,7 +92,7 @@ export default function Callbackfrom() {
 
     console.log(formData);
 
-    const mailtoLink = `mailto:Info@forexvoyeger.com?subject=Callback%20Request&body=First%20Name:%20${encodeURIComponent(
+    const mailtoLink = `mailto:pr.vaghasiyakrish@gmail.com?subject=Callback%20Request&body=First%20Name:%20${encodeURIComponent(
       firstName
     )}%0ALast%20Name:%20${encodeURIComponent(
       lastName
@@ -170,8 +169,10 @@ export default function Callbackfrom() {
               value={phoneNumber}
               onChange={handlePhoneNumberChange}
               className="phone-input"
-              pattern="\+?\d*"
+              pattern="^\+?\d{1,3}\s?\d{0,}$"
+              title="Phone number should start with a '+' followed by the country code and phone number."
             />
+
             {isDropdownOpen && (
               <div className="dropdown-list" ref={dropdownRef}>
                 <div className="country-search">
