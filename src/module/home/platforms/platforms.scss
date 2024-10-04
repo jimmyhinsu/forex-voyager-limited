@@ -122,56 +122,56 @@
                             }
                         }
 
-                        .Learn-more {
-                            border: none;
-                            border-radius: 50px;
-                            background-color: transparent;
-                            padding: 1px;
-                            transition: all 0.2s ease-in-out;
+                        // .Learn-more {
+                        //     border: none;
+                        //     border-radius: 50px;
+                        //     background-color: transparent;
+                        //     padding: 1px;
+                        //     transition: all 0.2s ease-in-out;
 
-                            &:hover {
-                                transform: translateY(-5px);
-                                transition: all 0.2s ease-in-out;
-                            }
-                            button {
-                                padding: 15px 25px;
-                                border-radius: 50px;
-                                width: 100%;
-                                border: none;
-                                position: relative;
-                                background: linear-gradient(88.9deg, #ffffff 33.43%, #64e584 103.55%);
-                                -webkit-background-clip: text;
-                                background-clip: text;
-                                color: transparent;
-                                font-size: 20px;
-                                font-weight: 600;
-                                display: flex;
-                                justify-content: center;
-                                align-items: center;
-                                gap: 5px;
-                                cursor: pointer;
+                        //     &:hover {
+                        //         transform: translateY(-5px);
+                        //         transition: all 0.2s ease-in-out;
+                        //     }
+                        //     button {
+                        //         padding: 15px 25px;
+                        //         border-radius: 50px;
+                        //         width: 100%;
+                        //         border: none;
+                        //         position: relative;
+                        //         background: linear-gradient(88.9deg, #ffffff 33.43%, #64e584 103.55%);
+                        //         -webkit-background-clip: text;
+                        //         background-clip: text;
+                        //         color: transparent;
+                        //         font-size: 20px;
+                        //         font-weight: 600;
+                        //         display: flex;
+                        //         justify-content: center;
+                        //         align-items: center;
+                        //         gap: 5px;
+                        //         cursor: pointer;
 
-                                &:before {
-                                    background: linear-gradient(88.9deg, #fcfcfc 33.43%, #64e584 103.55%);
-                                    content: "";
-                                    position: absolute;
-                                    inset: 0;
-                                    border-radius: inherit;
-                                    -webkit-mask:
-                                        linear-gradient(#fff 0 0) content-box,
-                                        linear-gradient(#fff 0 0);
-                                    -webkit-mask-composite: xor;
-                                    mask-composite: exclude;
-                                    padding: 2px;
-                                }
-                            }
+                        //         &:before {
+                        //             background: linear-gradient(88.9deg, #fcfcfc 33.43%, #64e584 103.55%);
+                        //             content: "";
+                        //             position: absolute;
+                        //             inset: 0;
+                        //             border-radius: inherit;
+                        //             -webkit-mask:
+                        //                 linear-gradient(#fff 0 0) content-box,
+                        //                 linear-gradient(#fff 0 0);
+                        //             -webkit-mask-composite: xor;
+                        //             mask-composite: exclude;
+                        //             padding: 2px;
+                        //         }
+                        //     }
 
-                            svg {
-                               path {
-                                 stroke: #fff;
-                               }
-                            }
-                        }
+                        //     svg {
+                        //        path {
+                        //          stroke: #fff;
+                        //        }
+                        //     }
+                        // }
                     }
 
                     .platfromsimages {

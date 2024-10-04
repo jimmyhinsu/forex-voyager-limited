@@ -23,7 +23,7 @@ export default function Wanttoget() {
             <div className="joinbutton">
               <Link to={"/contactus"}>
                 <button>
-                  Join Forex Voyager Limited
+                  Join Forex Voyeger Limited
                   <Slideicon />
                 </button>
               </Link>

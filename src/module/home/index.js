@@ -20,7 +20,6 @@ export default function Home() {
       <Whyselectussection id="partnership" />
       <Gotonext />
       {/* <Wanttoget /> */}
-      
     </>
   );
 }

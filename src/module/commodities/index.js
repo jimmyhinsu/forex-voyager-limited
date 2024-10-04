@@ -110,7 +110,7 @@ export default function Commodities() {
                                         Invest in <span>Metals</span>
                                     </h1>
                                     <p data-aos="fade-down">
-                                        By trading metals like gold and silver, you may diversify your portfolio and uncover fresh trading opportunities. With an unmatched global network of the most well-known producers, traders, buyers, and speculators in the precious metals market, Forex Voyager Limited offers unparalleled expertise for seamless trading.
+                                        By trading metals like gold and silver, you may diversify your portfolio and uncover fresh trading opportunities. With an unmatched global network of the most well-known producers, traders, buyers, and speculators in the precious metals market, Forex Voyeger Limited offers unparalleled expertise for seamless trading.
                                     </p>
                                     <div className="up-and-down-boxes-changer-sc" id="up-and-down-boxes-changer-web-metals">
                                         <div className="up-and-down-box-changer">
@@ -327,7 +327,7 @@ export default function Commodities() {
                                         Invest in <span>Digital Assets</span>
                                     </h1>
                                     <p data-aos="fade-down">
-                                        With Forex Voyager Limited, you can invest in the most well-known cryptocurrencies, such as Bitcoin, Ethereum, Ripple, and others, and benefit from this market's large price swings. This is best suited for seasoned traders who prefer to trade aggressively.
+                                        With Forex Voyeger Limited, you can invest in the most well-known cryptocurrencies, such as Bitcoin, Ethereum, Ripple, and others, and benefit from this market's large price swings. This is best suited for seasoned traders who prefer to trade aggressively.
                                     </p>
                                     <div className="up-and-down-boxes-changer-frth" id="up-and-down-boxes-changer-web-digital">
                                         <div className="up-and-down-box-changer">

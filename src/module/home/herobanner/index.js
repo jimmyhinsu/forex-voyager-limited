@@ -1,7 +1,7 @@
 import React from "react";
 import "./herobanner.scss";
 import metatrade5 from "../../../assets/images/meta-5.svg";
-import Slideicon from "../../../assets/svg/slideicon";
+// import Slideicon from "../../../assets/svg/slideicon";
 
 export default function Herobanner({ id }) {
   return (
@@ -16,14 +16,14 @@ export default function Herobanner({ id }) {
 
           <p data-aos="fade-down">Become part of a global trading community and boost your portfolio.</p>
 
-          <div className="button">
+          {/* <div className="button">
             <button data-aos="fade-down">
               Strating Trading
               <Slideicon />
             </button>
-          </div>
+          </div> */}
 
-          <div className="demo-ib-button">
+          {/* <div className="demo-ib-button">
             <div className="demoaccount">
               <button data-aos="fade-down">
                 Demo Account
@@ -36,7 +36,7 @@ export default function Herobanner({ id }) {
                 <Slideicon />
               </button>
             </div>
-          </div>
+          </div> */}
 
           <div className="metatraders">
             {/* <div className='tradeicon'>

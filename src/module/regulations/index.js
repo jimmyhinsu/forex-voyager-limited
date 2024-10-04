@@ -28,7 +28,7 @@ export default function Regulations() {
               </div>
             </div>
             {/* <div className='regulated-pera'>
-              <p>Forex Voyager is comprised of several entities that are heavily regulated across 5 continents by 15 financial regulators. This ensures that our clients get full transparency and security of funds.
+              <p>Forex Voyeger is comprised of several entities that are heavily regulated across 5 continents by 15 financial regulators. This ensures that our clients get full transparency and security of funds.
                 <br />
                 <br />
                 Learn more about our various regulated entities

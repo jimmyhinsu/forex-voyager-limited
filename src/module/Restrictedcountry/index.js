@@ -7,7 +7,7 @@ export default function Restrictedpolicy() {
       <div className="restrictedpolicy-page-main">
         <h1>Restricted Countries</h1>
         <div className="restrictedpolicy-page-content">
-          <p>Forex Voyager Limited does not provide any services to the following Country :</p>
+          <p>Forex Voyeger Limited does not provide any services to the following Country :</p>
           <ul>
             <li>EU Member countries</li>
           </ul>

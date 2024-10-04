@@ -11,8 +11,8 @@ function Becomibbenefitssection() {
         <div className='becomib-benefits-section'>
             <div className='becomib-benefits-section-container'>
                 <div className='becomib-benefits-section-content'>
-                    <h1 data-aos="fade-down">Benefits Of Becoming Introducing&nbsp; Broker With Forex Voyager</h1>
-                    <p data-aos="fade-down">Unlock a world of advantages by becoming an Introducing Broker with Forex Voyager. Enjoy generous commission structures, industry recognition, continuous market evolution, and the opportunity to empower traders with everyday rewards. Join us in reshaping the future of trading partnerships with the Best Broker Trading Platform.</p>
+                    <h1 data-aos="fade-down">Benefits Of Becoming Introducing&nbsp; Broker With Forex Voyeger</h1>
+                    <p data-aos="fade-down">Unlock a world of advantages by becoming an Introducing Broker with Forex Voyeger. Enjoy generous commission structures, industry recognition, continuous market evolution, and the opportunity to empower traders with everyday rewards. Join us in reshaping the future of trading partnerships with the Best Broker Trading Platform.</p>
                 </div>
                 <div className='becomib-benefits-section-content-sc'>
                     <div className='becomib-benefits-section-content-sc-box-main-one'>

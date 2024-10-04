@@ -113,7 +113,7 @@ export default function Meta5() {
                                 <p data-aos="fade-down">With just one trading platform, MT5 provides you with access to our wide range of asset classes, which include FX, equities, indices, cryptocurrencies, metals, and commodities.</p>
 
                                 <div className='withcomplete'>
-                                    <span data-aos="fade-down">Whether you're a veteran trader or just starting out, Forex Voyager elevates the MT5 experience with its extensive access to sophisticated trade types and state-of-the-art analytical tools. The MT5 platform's primary advantage is that traders are not limited to utilizing the integrated analytical tools.</span>
+                                    <span data-aos="fade-down">Whether you're a veteran trader or just starting out, Forex Voyeger elevates the MT5 experience with its extensive access to sophisticated trade types and state-of-the-art analytical tools. The MT5 platform's primary advantage is that traders are not limited to utilizing the integrated analytical tools.</span>
                                 </div>
                             </div>
 

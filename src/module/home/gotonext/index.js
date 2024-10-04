@@ -14,11 +14,12 @@ export default function Gotonext() {
                     <div className='title'>
                         <h2 data-aos="fade-down">Choose Where To Go Next</h2>
                     </div>
+
                     <div className='three-next-img-grid'>
-                        <Link to={'/whyforexvoyager'}>
+                        <Link to={'/whyForexVoyeger'}>
                             <div className='whychoose-main'>
                                 <div className='whychoose'>
-                                    <h3 data-aos="fade-right">Why ForexVoyager Limited</h3>
+                                    <h3 data-aos="fade-right">Why ForexVoyeger Limited</h3>
                                     <div className="stripedCard">
                                         <img src={stripedCard} alt="stripedCard" />
                                     </div>
@@ -55,6 +56,7 @@ export default function Gotonext() {
                             </div>
                         </Link>
                     </div>
+
                 </div>
             </div>
         </>

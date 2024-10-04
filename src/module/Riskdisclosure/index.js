@@ -12,7 +12,7 @@ export default function Riskdisclosure() {
 
       <div className="conatiner-deposit">
         <p>
-          Forex Voyager Limited (a trading name of forex voyeger), is reputed by the Financial Services Commission of the Republic of Mauritius with an Investment Dealer license 2024-00486, having its registered office at Ground Floor, The Sotheby
+          Forex Voyeger Limited (a trading name of forex voyeger), is reputed by the Financial Services Commission of the Republic of Mauritius with an Investment Dealer license 2024-00486, having its registered office at Ground Floor, The Sotheby
           Building,Rodney Bay, Gros-Islet,SAINT Lucia P.O Box 838,Castries, Saint Lucia.
         </p>
 
@@ -51,7 +51,7 @@ export default function Riskdisclosure() {
         </div>
 
         <p>
-          Before you are able to open an account to trade a CFD or spread bet product, Forex Voyager Limited will evaluate whether the product(s) and/ or services you have chosen are appropriate for you, and to warn you if, on the basis of the
+          Before you are able to open an account to trade a CFD or spread bet product, Forex Voyeger Limited will evaluate whether the product(s) and/ or services you have chosen are appropriate for you, and to warn you if, on the basis of the
           information you provide to us, any product or service is not appropriate. Any decision to open an account and to use our products or services is yours. It is your responsibility to understand the risks involved with our products or
           services.
         </p>
@@ -81,7 +81,7 @@ export default function Riskdisclosure() {
 
         <p>
           In some rare cases if your card does not belong to CFT/OCT programs, by which your card issuer allows withdrawals above the deposited amount, we will not be able to process the transaction. In this case you may withdraw your funds via bank
-          transfer instead. Forex Voyager cannot determine if your card belongs to this program and accepts such transactions until we receive your withdrawal request. You should consult with your card issuer for any further information.
+          transfer instead. Forex Voyeger cannot determine if your card belongs to this program and accepts such transactions until we receive your withdrawal request. You should consult with your card issuer for any further information.
         </p>
 
         <div className="main-sub-name">
@@ -205,7 +205,7 @@ export default function Riskdisclosure() {
         </div>
         <p>
           You take the risk that your trades and any related profits may be or become subject to tax. We do not represent or warrant that no tax or stamp duty (other than trading duty) will be payable. You will be responsible for all taxes and stamp
-          duty in respect of your trades. Forex voyager Limited does not provide any tax advice to clients, and you are responsible for your own tax affairs.
+          duty in respect of your trades. Forex Voyeger Limited does not provide any tax advice to clients, and you are responsible for your own tax affairs.
         </p>
         <div className="main-sub-name">
           <h2>17. Your Money</h2>
@@ -218,18 +218,18 @@ export default function Riskdisclosure() {
           <h2>18. System Failure</h2>
         </div>
         <p>
-          Operational risks with Forex voyager Limited on your device are inherent in every CFD transaction. Disruptions in Forex voyager Limited's operational processes such as phone systems, IT systems, networks or external events may lead to
+          Operational risks with Forex Voyeger Limited on your device are inherent in every CFD transaction. Disruptions in Forex Voyeger Limited's operational processes such as phone systems, IT systems, networks or external events may lead to
           delays in the execution and settlement of a transaction.
         </p>
         <p>
           The functions that enable you to access our Platform via mobile applications are not identical to the functions available to you when accessing our Platform via a desktop computer. This may limit the information that you are able to see at
           any time and adversely affect your ability to take quick and reliable actions on our Platform and to limit the related risks.
         </p>
-        <p>Forex voyager Limited accepts or bears any liability whatsoever in relation to the operational processes of Forex voyager Limited, except to the extent that it is caused by the fraud or dishonesty by Forex voyager Limited.</p>
+        <p>Forex Voyeger Limited accepts or bears any liability whatsoever in relation to the operational processes of Forex Voyeger Limited, except to the extent that it is caused by the fraud or dishonesty by Forex Voyeger Limited.</p>
         <p>
           For more information you can contact us at support
           <a href="mailto:Info@forexvoyeger.com" target="_blank" rel="noreferrer">
-            support@Forexvoyager.com
+            support@ForexVoyeger.com
           </a>
         </p>
       </div>
