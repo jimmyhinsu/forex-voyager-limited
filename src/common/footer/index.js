@@ -30,7 +30,7 @@ export default function Footer() {
             <div className="footer-content">
               <p data-aos="fade-down">About</p>
               <div className="footer-all-links-main">
-                <Link to={"/whyForexVoyeger"} data-aos="fade-right">Why Forex Voyeger</Link>
+                <Link to={"/whyForexVoyager"} data-aos="fade-right">Why Forex Voyeger</Link>
                 <Link to={"/regulations"} data-aos="fade-right">Licence</Link>
               </div>
             </div>

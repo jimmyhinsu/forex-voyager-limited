@@ -22,13 +22,13 @@ export default function Benefitfrom() {
                             <div className="whyselectus-cards-bottom-line"></div>
                         </div> */}
 
-                        <div className="whyselectus-cards-grid-items1 ">
+                        {/* <div className="whyselectus-cards-grid-items1 ">
                             <span data-aos="fade-right"> Global Presence</span>
                             <h3 data-aos="flip-right">3+ Offices</h3>
                             <span data-aos="fade-right">Worldwide</span>
                             <p data-aos="fade-right"> In order to serve our global clientele and collaborate with affiliates in significant financial centers across the globe, Forex Voyeger keeps more than 3 offices across the globe.</p>
                             <div className="whyselectus-cards-bottom-line whyselectus-cards-bottom-line-sc"></div>
-                        </div>
+                        </div> */}
 
                         <div className="whyselectus-cards-grid-items1">
                             <span data-aos="fade-right"> Daily Turnover</span>

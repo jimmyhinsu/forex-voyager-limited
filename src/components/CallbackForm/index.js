@@ -231,7 +231,7 @@ export default function Callbackfrom() {
         <div className="terms-lin-main">
           <p data-aos="fade-down">
             By submitting this form, you agree to receive emails from Forex
-            Voyager Limited in accordance with our{" "}
+            Voyeger Limited in accordance with our{" "}
             <Link to={"/terms"}>Terms & Conditions</Link> and{" "}
             <Link to={"/privacypage"}>Privacy Policy</Link>.
           </p>

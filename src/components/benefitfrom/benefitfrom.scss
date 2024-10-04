@@ -72,10 +72,8 @@
         }
 
         .whyselectus-cards-grid-main {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            align-items: center;
-            gap: 20px;
+            display: flex;
+            justify-content: center;
 
             @media (max-width: 1024px) {
                 display: flex;

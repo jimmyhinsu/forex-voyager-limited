@@ -6,7 +6,7 @@ import forexheader from "../../../src/assets/images/invest in forex.png";
 import gold from "../../../src/assets/images/invest in metlas.png";
 import indices from "../../../src/assets/images/invest in indices.png";
 import shares from "../../../src/assets/images/invest in shares.webp";
-import Slideicon from "../../assets/svg/slideicon";
+// import Slideicon from "../../assets/svg/slideicon";
 import Gotonext from '../home/gotonext';
 // import Wanttoget from '../home/wanttoget';
 import Benefitfrom from '../../components/benefitfrom';
@@ -78,7 +78,7 @@ export default function Forex() {
                                         </div>
                                     </div>
 
-                                    <div className='start-open-buttons'>
+                                    {/* <div className='start-open-buttons'>
                                         <div className='start'>
                                             <button data-aos="fade-down">Start Tranding Now
                                                 <Slideicon />
@@ -87,7 +87,7 @@ export default function Forex() {
                                         <div className='open'>
                                             <button data-aos="fade-down">Open Demo Account</button>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             )}
                             {activeButton === "Forex" && (
@@ -129,7 +129,7 @@ export default function Forex() {
                                             <span data-aos="fade-down">Tightest spreads on Silver</span>
                                         </div>
                                     </div>
-                                    <div className='start-open-buttons'>
+                                    {/* <div className='start-open-buttons'>
                                         <div className='start'>
                                             <button data-aos="fade-down">Start Tranding Now
                                                 <Slideicon />
@@ -138,7 +138,7 @@ export default function Forex() {
                                         <div className='open'>
                                             <button data-aos="fade-down">Open Demo Account</button>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             )}
                             {activeButton === "Metals" && (
@@ -182,7 +182,7 @@ export default function Forex() {
                                             <span data-aos="fade-down">Commission</span>
                                         </div>
                                     </div>
-                                    <div className='start-open-buttons'>
+                                    {/* <div className='start-open-buttons'>
                                         <div className='start'>
                                             <button data-aos="fade-down">Start Tranding Now
                                                 <Slideicon />
@@ -191,7 +191,7 @@ export default function Forex() {
                                         <div className='open'>
                                             <button data-aos="fade-down">Open Demo Account</button>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             )}
                             {activeButton === "Shares" && (
@@ -236,7 +236,7 @@ export default function Forex() {
                                             <span data-aos="fade-down">Commission</span>
                                         </div>
                                     </div>
-                                    <div className='start-open-buttons'>
+                                    {/* <div className='start-open-buttons'>
                                         <div className='start'>
                                             <button data-aos="fade-down">Start Tranding Now
                                                 <Slideicon />
@@ -245,7 +245,7 @@ export default function Forex() {
                                         <div className='open'>
                                             <button data-aos="fade-down">Open Demo Account</button>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             )}
 
@@ -290,7 +290,7 @@ export default function Forex() {
                                             <span data-aos="fade-down">On All Commodities</span>
                                         </div>
                                     </div>
-                                    <div className='start-open-buttons'>
+                                    {/* <div className='start-open-buttons'>
                                         <div className='start'>
                                             <button data-aos="fade-down">Start Tranding Now
                                                 <Slideicon />
@@ -299,7 +299,7 @@ export default function Forex() {
                                         <div className='open'>
                                             <button data-aos="fade-down">Open Demo Account</button>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             )}
 
@@ -346,7 +346,7 @@ export default function Forex() {
                                             <span data-aos="fade-down">Leverage on cryptocurrencies</span>
                                         </div>
                                     </div>
-                                    <div className='start-open-buttons'>
+                                    {/* <div className='start-open-buttons'>
                                         <div className='start'>
                                             <button data-aos="fade-down">Start Tranding Now
                                                 <Slideicon />
@@ -355,7 +355,7 @@ export default function Forex() {
                                         <div className='open'>
                                             <button data-aos="fade-down">Open Demo Account</button>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             )}
                             {activeButton === "Digital Assets" && (
@@ -397,7 +397,7 @@ export default function Forex() {
 
                                     <p data-aos="fade-down">The Foreign exchange market is open around-the-clock and lacks a physical presence. To find out the pertinent dates and trading sessions, see our Trading Hours.</p>
 
-                                    <p data-aos="fade-down">With extensive liquidity, Forex Voyage provides trading in major, cross, and exotic pairings on the Forex markets. Enjoy the most advanced trading platforms, MetaTrader 5, together with the greatest trading tools, on all of our accounts.</p>
+                                    <p data-aos="fade-down">With extensive liquidity, Forex Voyeger provides trading in major, cross, and exotic pairings on the Forex markets. Enjoy the most advanced trading platforms, MetaTrader 5, together with the greatest trading tools, on all of our accounts.</p>
                                 </div>
                             </div>
                             <div className='what-is-img'>
