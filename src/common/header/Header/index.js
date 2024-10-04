@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../header.scss";
 import Dropdownicon from "../../../assets/svg/dropdownicon";
 import logo from '../../../assets/images/Forex Voyeger Logo.png';
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Headermain() {
   const [isAboutDropdownVisible, setAboutDropdownVisible] = useState(false);
@@ -31,7 +31,7 @@ function Headermain() {
     <div className="Headermain">
       <div className="Headerlogo">
         <a href="/" >
-          <img data-aos="flip-left" src={logo} alt="error" />
+          <img src={logo} alt="error" />
         </a>
       </div>
 
@@ -45,7 +45,7 @@ function Headermain() {
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
                   <Link to={"/whyforexvoyager"}>Why Forex Voyager</Link>
-                  <Link to={"/regulations"}>Regulations</Link>
+                  <Link to={"/regulations"}>Licence</Link>
                 </div>
               </div>
             </div>
@@ -114,8 +114,8 @@ function Headermain() {
             <div className="dropdown-menu1">
               <div className="dropdown-content-main">
                 <div className="dropdown-content">
-                  <Link to={"/"}>Introducing Brokers</Link>
-                  <Link to={"/"}>Franchise Program</Link>
+                  <Link to={"/introducingbrokers"}>Introducing Brokers</Link>
+                  {/* <Link to={"/"}>Franchise Program</Link> */}
                 </div>
               </div>
             </div>
@@ -125,12 +125,15 @@ function Headermain() {
 
       <div className="headermain-last-buttons">
         <div className="Header-top-line-right-buttons">
-          <div className="dropdown-container">
+          {/* <div className="dropdown-container">
             <NavLink to={"/"}>Log in</NavLink>
-          </div>
+          </div> */}
         </div>
+
         <div className="Header-top-line-button">
-          <button>Become an IB</button>
+          <Link to={"/becomeib"}>
+            <button>Become an IB</button>
+          </Link>
         </div>
       </div>
     </div>

@@ -2,6 +2,7 @@ import React from "react";
 import "./brokersprogramsections.scss";
 import Slideicon from "../../../assets/svg/slideicon";
 import homelbsections from "../../../assets/images/homeIbSectionImage.png";
+import { Link } from "react-router-dom";
 
 export default function Brokersprogramsections({ id }) {
   return (
@@ -14,10 +15,12 @@ export default function Brokersprogramsections({ id }) {
             <span data-aos="fade-right">The institutional programs offered by Forex Voyager Limited are specifically designed to fit your business and include White Label, Prime of Primes, Affiliate Program, Introducing Broker, and Franchise Partner.</span>
             <div className="become-ib-button-main-alignment">
               <div className="become-ib-button">
-                <button data-aos="fade-right">
-                  <span>Become an IB</span>
-                  <Slideicon />
-                </button>
+                <Link to={'/becomeib'}>
+                  <button data-aos="fade-right">
+                    <span>Become an IB</span>
+                    <Slideicon />
+                  </button>
+                </Link>
               </div>
             </div>
           </div>

@@ -11,7 +11,7 @@ export default function Whyselectussection({ id }) {
     <div className="whyselectus-section-main" id={id}>
       <div className="whyselectus-section-container">
         <div className="whyselectus-section-title-main">
-          <h1 data-aos="fade-down">BENEFIT FROM THE WORLD’S NO.1 ONLINE FINANCIAL DERIVATIVES BROKER</h1>
+          <h1 data-aos="fade-down">BENEFIT FROM THE WORLD’S Leading ONLINE FINANCIAL DERIVATIVES BROKER</h1>
           <h2 data-aos="fade-down">The Reasons Over A Million Customers Select Forex Voyager Limited</h2>
           <p data-aos="fade-down">Our lengthy history of providing distinctive trading accounts, fast execution, state-of-the-art platforms, tightest pricing and liquidity, and unique trading experiences has allowed us to consistently deliver great and successful trading experiences.</p>
         </div>
@@ -30,7 +30,7 @@ export default function Whyselectussection({ id }) {
             <div className="whyselectus-cards-icons">
               <img src={upgrowicon} alt="shieldicon" data-aos="flip-right" />
             </div>
-            <h3 data-aos="flip-right">Daily Revenue of $12.1 billion USD</h3>
+            <h3 data-aos="flip-right">Daily Revenue of Millions USD</h3>
             <p data-aos="flip-right">Record Breaking Financial performance in 2024</p>
             <div className="whyselectus-cards-bottom-line whyselectus-cards-bottom-line-sc"></div>
           </div>

@@ -4,6 +4,7 @@ import stripedCard from "../../../assets/images/striped-background-card.webp"
 import Whyforexicon from "../../../assets/images/why-multibank.webp"
 import accountfunding from "../../../assets/images/account-funding.webp";
 import support from "../../../assets/images/support.webp";
+import { Link } from 'react-router-dom';
 
 export default function Gotonext() {
     return (
@@ -14,17 +15,19 @@ export default function Gotonext() {
                         <h2 data-aos="fade-down">Choose Where To Go Next</h2>
                     </div>
                     <div className='three-next-img-grid'>
-                        <div className='whychoose-main'>
-                            <div className='whychoose'>
-                                <h3 data-aos="fade-right">Why ForexVoyager Limited</h3>
-                                <div className="stripedCard">
-                                    <img src={stripedCard} alt="stripedCard" />
+                        <Link to={'/whyforexvoyager'}>
+                            <div className='whychoose-main'>
+                                <div className='whychoose'>
+                                    <h3 data-aos="fade-right">Why ForexVoyager Limited</h3>
+                                    <div className="stripedCard">
+                                        <img src={stripedCard} alt="stripedCard" />
+                                    </div>
+                                </div>
+                                <div className="Whyforexicon">
+                                    <img src={Whyforexicon} alt="Whyforexicon" data-aos="flip-right" />
                                 </div>
                             </div>
-                            <div className="Whyforexicon">
-                                <img src={Whyforexicon} alt="Whyforexicon" data-aos="flip-right" />
-                            </div>
-                        </div>
+                        </Link>
 
                         <div className='whychoose-main'>
                             <div className='whychoose'>
@@ -38,17 +41,19 @@ export default function Gotonext() {
                             </div>
                         </div>
 
-                        <div className='whychoose-main'>
-                            <div className='whychoose'>
-                                <h3 data-aos="fade-right">Support</h3>
-                                <div className="stripedCard">
-                                    <img src={stripedCard} alt="stripedCard" />
+                        <Link to={'/contactus'}>
+                            <div className='whychoose-main'>
+                                <div className='whychoose'>
+                                    <h3 data-aos="fade-right">Support</h3>
+                                    <div className="stripedCard">
+                                        <img src={stripedCard} alt="stripedCard" />
+                                    </div>
+                                </div>
+                                <div className="Whyforexicon">
+                                    <img src={support} alt="Whyforexicon" data-aos="flip-right" />
                                 </div>
                             </div>
-                            <div className="Whyforexicon">
-                                <img src={support} alt="Whyforexicon" data-aos="flip-right" />
-                            </div>
-                        </div>
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,97 @@
+.becomeib-what-section-main {
+    padding: 60px 0;
+
+    .becomeib-what-section-container {
+        max-width: 1372px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .what-sets-us-tile {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 0 48px 0;
+
+        @media (max-width: 1024px) {
+            flex-direction: column;
+            align-items: start;
+            gap: 20px;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: 600;
+            line-height: normal;
+            color: #0d1721;
+        }
+
+        button {
+            background-image: linear-gradient(88.9deg, #3073c6, #64e584 50%, #64e584 75%, #3073c6 120%);
+            padding: 10px;
+            border: none;
+            border-radius: 50px;
+            width: fit-content;
+            font-size: 15px;
+            color: #ffffff;
+            font-weight: 600;
+            background-size: 200% auto !important;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            transition: 0.4s ease-in-out;
+            cursor: pointer;
+
+            &:hover {
+                transition: 0.4s ease-in-out;
+                background: linear-gradient(88.9deg, #467bff, #75d9d9 50%, #75d9d9 75%, #467bff 120%) !important;
+                background-size: 200% auto !important;
+                background-position: 100% !important;
+            }
+        }
+    }
+
+    .becomeib-what-section-cards-main {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 24px;
+
+        @media (max-width: 1024px) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        @media (max-width: 576px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .becomeib-what-section-cards-items {
+            box-shadow:
+                rgb(134 187 253) 0px 30px 50px -12px inset,
+                rgb(199 224 255) 0px 18px 26px -18px inset;
+            padding: 20px;
+            border-radius: 20px;
+            border: 1px solid #0d1721;
+
+            .becomeib-what-section-cards-items-content {
+                display: flex;
+                justify-content: start;
+                align-items: center;
+                gap: 20px;
+
+                .withdrawalicon-main {
+                    img {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+
+                p {
+                    line-height: normal;
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: #0d1721;
+                }
+            }
+        }
+    }
+}

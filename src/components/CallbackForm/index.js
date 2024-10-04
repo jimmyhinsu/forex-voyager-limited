@@ -1,76 +1,51 @@
-import React, { useState, useEffect, useMemo } from "react";
+import React, { useState, useEffect, useMemo, useRef } from "react";
 import "./callbackfrom.scss";
 import Formdropdownicon from "../../assets/svg/formdropdownicon";
 import { Link } from "react-router-dom";
 
-import USFlag from "../../assets/icons/usa.png";
-import UKFlag from "../../assets/icons/uk.png";
-import INFlag from "../../assets/icons/india.png";
-import BNFlag from "../../assets/icons/bangladesh.png";
-import PKFlag from "../../assets/icons/pakistan.png";
-import CHNFlag from "../../assets/icons/china.png";
-import SRLNFlag from "../../assets/icons/sri-lanka.png";
-import NPFlag from "../../assets/icons/nepal.png";
+// <------- dropdown sr & cr icon -------> 
+import Searcicon from "../../assets/svg/searcicon";
+import Closeicon from "../../assets/svg/closeicon";
+
+// <------- Import regions from the separate file -------> 
+import { regions } from "../regioniconsandcodes/regions";
 
 export default function Callbackfrom() {
-  const [selectedRegion, setSelectedRegion] = useState("US");
-  const [phoneNumber, setPhoneNumber] = useState("+1 ");
+  const [selectedRegion, setSelectedRegion] = useState("AE");
+  const [phoneNumber, setPhoneNumber] = useState("+971 ");
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [searchTerm, setSearchTerm] = useState("");
 
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const regions = useMemo(
-    () => [
-      { code: "IN", image: INFlag, name: "India", numberCode: "+91" },
-      { code: "NP", image: NPFlag, name: "Nepal", numberCode: "+977" },
-      { code: "BN", image: BNFlag, name: "Bangladesh", numberCode: "+880" },
-      { code: "PK", image: PKFlag, name: "Pakistan", numberCode: "+92" },
-      { code: "CHN", image: CHNFlag, name: "China", numberCode: "+86" },
-      { code: "SRLN", image: SRLNFlag, name: "Sri Lanka", numberCode: "+94" },
-      { code: "UK", image: UKFlag, name: "United Kingdom", numberCode: "+44" },
-      { code: "US", image: USFlag, name: "United States", numberCode: "+1" },
-    ],
-    []
-  );
+  const dropdownRef = useRef(null);
+
+  const memoizedRegions = useMemo(() => regions, []);
 
   useEffect(() => {
-    const autoSelectRegion = () => {
-      if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(
-          async (position) => {
-            try {
-              const response = await fetch(`https://api.ipgeolocation.io/reverse-geocode?apiKey=YOUR_API_KEY&lat=${position.coords.latitude}&long=${position.coords.longitude}`);
-              const data = await response.json();
-              const countryCode = data.country_code2;
-              const region = regions.find((r) => r.code === countryCode) || regions.find((r) => r.code === "US");
-              setSelectedRegion(region.code);
-              setPhoneNumber(region.numberCode + " ");
-            } catch (error) {
-              console.error("Error fetching location:", error);
-              const defaultRegion = regions.find((r) => r.code === "US");
-              setSelectedRegion(defaultRegion.code);
-              setPhoneNumber(defaultRegion.numberCode + " ");
-            }
-          },
-          (error) => {
-            console.error("Geolocation error:", error);
-            const defaultRegion = regions.find((r) => r.code === "US");
-            setSelectedRegion(defaultRegion.code);
-            setPhoneNumber(defaultRegion.numberCode + " ");
-          }
-        );
-      } else {
-        const defaultRegion = regions.find((r) => r.code === "US");
-        setSelectedRegion(defaultRegion.code);
-        setPhoneNumber(defaultRegion.numberCode + " ");
+    const defaultRegion = memoizedRegions.find((r) => r.code === "AE");
+
+    if (defaultRegion) {
+      setSelectedRegion(defaultRegion.code);
+      setPhoneNumber(defaultRegion.numberCode + " ");
+    }
+  }, [memoizedRegions]);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setIsDropdownOpen(false);
       }
     };
 
-    autoSelectRegion();
-  }, [regions]);
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, [dropdownRef]);
 
   const toggleDropdown = () => {
     setIsDropdownOpen(!isDropdownOpen);
@@ -84,76 +59,188 @@ export default function Callbackfrom() {
   };
 
   const handlePhoneNumberChange = (e) => {
-    const currentRegion = regions.find((r) => r.code === selectedRegion);
-    const input = e.target.value.replace(/^\+\d+\s/, "");
-    setPhoneNumber(currentRegion.numberCode + " " + input);
+    const inputValue = e.target.value;
+
+    const cleanedInput = inputValue.replace(/[^+\d\s]/g, "");
+
+    const currentRegion = memoizedRegions.find((r) => r.code === selectedRegion);
+
+    const inputWithoutCode = cleanedInput.replace(/^\+\d+\s*/, "");
+
+    if (inputWithoutCode === "") {
+      setPhoneNumber(currentRegion.numberCode + " ");
+      return;
+    }
+
+    if (!cleanedInput.startsWith(currentRegion.numberCode)) {
+      setPhoneNumber(currentRegion.numberCode + " " + inputWithoutCode);
+    } else {
+      setPhoneNumber(cleanedInput);
+    }
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log({
+    const formData = {
       firstName,
       lastName,
       email,
       phoneNumber,
       message,
-    });
+    };
+
+    console.log(formData);
+
+    const mailtoLink = `mailto:Info@forexvoyeger.com?subject=Callback%20Request&body=First%20Name:%20${encodeURIComponent(
+      firstName
+    )}%0ALast%20Name:%20${encodeURIComponent(
+      lastName
+    )}%0AEmail:%20${encodeURIComponent(
+      email
+    )}%0APhone%20Number:%20${encodeURIComponent(
+      phoneNumber
+    )}%0AMessage:%20${encodeURIComponent(message)}`;
+
+    window.location.href = mailtoLink;
 
     setFirstName("");
     setLastName("");
     setEmail("");
-    setPhoneNumber("");
+    setPhoneNumber("+971 ");
     setMessage("");
   };
 
-  const currentRegion = regions.find((r) => r.code === selectedRegion);
+  const currentRegion = memoizedRegions.find((r) => r.code === selectedRegion);
+
+  const filteredRegions = useMemo(() => {
+    const filtered = memoizedRegions.filter((region) =>
+      region.name.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+
+    const uniqueRegions = Array.from(new Set(filtered.map((r) => r.code))).map(
+      (code) => filtered.find((r) => r.code === code)
+    );
+
+    return uniqueRegions;
+  }, [memoizedRegions, searchTerm]);
 
   return (
     <div className="callback-form-main">
       <form onSubmit={handleSubmit}>
         <div className="name-inputs-main">
-          <input type="text" placeholder="First Name*" value={firstName} onChange={(e) => setFirstName(e.target.value)} />
-          <input type="text" placeholder="Last Name*" value={lastName} onChange={(e) => setLastName(e.target.value)} />
+          <input
+            type="text"
+            placeholder="First Name*"
+            value={firstName}
+            onChange={(e) => setFirstName(e.target.value)}
+            required
+          />
+          <input
+            type="text"
+            placeholder="Last Name*"
+            value={lastName}
+            onChange={(e) => setLastName(e.target.value)}
+            required
+          />
         </div>
+
         <div className="name-inputs-main">
-          <input type="text" placeholder="Email*" value={email} onChange={(e) => setEmail(e.target.value)} />
+          <input
+            type="email"
+            placeholder="Email*"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
           <div className="telephone-input-main">
             <div className="region-select-main" onClick={toggleDropdown}>
-              <img src={currentRegion.image} alt={selectedRegion} className="region-flag" />
+              <img
+                src={currentRegion.image}
+                alt={selectedRegion}
+                className="region-flag"
+              />
               <Formdropdownicon />
             </div>
-            <input type="tel" placeholder={`Phone Number (${currentRegion.numberCode})`} value={phoneNumber} onChange={handlePhoneNumberChange} className="phone-input" />
+            <input
+              required
+              type="tel"
+              placeholder={`Phone Number (${currentRegion.numberCode})`}
+              value={phoneNumber}
+              onChange={handlePhoneNumberChange}
+              className="phone-input"
+              pattern="^\+?\d{1,3}\s?\d{0,}$"
+              title="Phone number should start with a '+' followed by the country code and phone number."
+            />
+
             {isDropdownOpen && (
-              <div className="dropdown-list">
-                {regions.map((region) => (
-                  <div className="form-dropdowncontent" key={region.code} onClick={() => handleSelect(region)}>
-                    <img src={region.image} alt={region.code} className="region-flag" />
-                    <span className="region-name-txt">{region.name}</span>
+              <div className="dropdown-list" ref={dropdownRef}>
+                <div className="country-search">
+                  <input
+                    type="text"
+                    placeholder="Search country"
+                    value={searchTerm}
+                    onChange={(e) => setSearchTerm(e.target.value)}
+                  />
+                  <div className="searchicon">
+                    <Searcicon />
                   </div>
-                ))}
+                  {searchTerm && (
+                    <div className="clear-search" onClick={() => setSearchTerm("")}>
+                      <Closeicon />
+                    </div>
+                  )}
+                </div>
+                {filteredRegions.length > 0 ? (
+                  <div className="country-suggestion-main">
+                    {filteredRegions.map((region) => (
+                      <div
+                        className="form-dropdowncontent"
+                        key={region.code}
+                        onClick={() => handleSelect(region)}
+                      >
+                        <img
+                          src={region.image}
+                          alt={region.code}
+                          className="region-flag"
+                        />
+                        <span className="region-name-txt">{region.name}</span>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div className="nocountryfound">
+                    <span>No Country found.</span>
+                  </div>
+                )}
               </div>
             )}
           </div>
         </div>
 
         <div className="textarea-main">
-          <label>Message*</label>
-          <textarea placeholder="Type your message here" value={message} onChange={(e) => setMessage(e.target.value)}></textarea>
+          <label>Message * </label>
+          <textarea
+            placeholder="Type your message here"
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            required
+          ></textarea>
         </div>
 
         <div className="terms-lin-main">
-          <p>
-            By submitting this form, you agree to receive emails from Forex Voyager Limited in accordance with our <Link to={"/terms"}> Terms & Conditions</Link>, <Link to={"/privacypage"}> Privacy Policy</Link> and
-            <Link to={"/contactus"}> Cookie Policy</Link>.
+          <p data-aos="fade-down">
+            By submitting this form, you agree to receive emails from Forex
+            Voyager Limited in accordance with our{" "}
+            <Link to={"/terms"}>Terms & Conditions</Link> and{" "}
+            <Link to={"/privacypage"}>Privacy Policy</Link>.
           </p>
-          <div className="submit-button">
-            <a href="mailto:Info@forexvoyeger.com">
-              <button type="submit" className="submit-btn">
-                Submit
-              </button>
-            </a>
-          </div>
+        </div>
+
+        <div className="submit-button">
+          <button type="submit" className="submit-btn">
+            Submit
+          </button>
         </div>
       </form>
     </div>

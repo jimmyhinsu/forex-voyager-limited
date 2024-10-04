@@ -26,7 +26,7 @@ function Platforms({ id }) {
                       MT5 <span> PLATFORMS </span>
                     </h4>
                   </div>
-                  <p data-aos="fade-right">Trade over 20,000 assets on the renowned MT4 and MT5 Mobile Platforms with instantaneous nanosecond execution, including forex, metals, shares, indices, commodities, and cryptocurrencies.</p>
+                  <p data-aos="fade-right">Trade over 20,000 assets on the renowned MT5 Mobile Platforms with instantaneous nanosecond execution, including forex, metals, shares, indices, commodities, and cryptocurrencies.</p>
                   <div className='platforms-two-img'>
                     <div className='meta4'>
                       <img data-aos="fade-right" src={meta5} alt="error" />

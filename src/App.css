@@ -50,14 +50,6 @@ body {
   color: rgb(255 255 255);
 }
 
-.main-body {
-  margin: 127px 0 0 0;
-
-  @media (max-width: 1024px) {
-    margin: 100px 0 0 0;
-  }
-}
-
 img {
   -moz-user-select: none;
   -webkit-user-select: none;

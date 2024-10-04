@@ -31,7 +31,7 @@ export default function Footer() {
               <p data-aos="fade-down">About</p>
               <div className="footer-all-links-main">
                 <Link to={"/whyforexvoyager"} data-aos="fade-right">Why Forex Voyager</Link>
-                <Link to={"/regulations"} data-aos="fade-right">Regulations</Link>
+                <Link to={"/regulations"} data-aos="fade-right">Licence</Link>
               </div>
             </div>
 
@@ -68,8 +68,8 @@ export default function Footer() {
             <div className="footer-content">
               <p data-aos="fade-down">Partnership</p>
               <div className="footer-all-links-main">
-                <Link to={"/"} data-aos="fade-right">Introducing Brokers</Link>
-                <Link to={"/"} data-aos="fade-right">Franchise Program</Link>
+                <Link to={"/becomeib"} data-aos="fade-right">Introducing Brokers</Link>
+                {/* <Link to={"/"} data-aos="fade-right">Franchise Program</Link> */}
                 {/* <Link to={"/"}>Institutional Liquidity Offering</Link>
                 <Link to={"/"}>CPA Affiliate Program</Link>
                 <Link to={"/"}>IB Offers</Link> */}
@@ -79,7 +79,9 @@ export default function Footer() {
             <div className="footer-content">
               <p data-aos="fade-down">Address</p>
               <div className="footer-all-links-main">
-                <a href="https://maps.app.goo.gl/owsBEWCnqpCMh1BZ9" target="__blank" data-aos="fade-right"> Registered Address :- Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, SAINT Lucia P.O Box 838, Castries, Saint Lucia.</a>
+                <a href=" " data-aos="fade-right"> Registered Address :- Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, SAINT Lucia P.O Box 838, Castries, Saint Lucia.</a>
+                
+                <a href="https://maps.app.goo.gl/Wovm1KNRz4b2Ao5o8" target="__blank" data-aos="fade-right"> Physical Address  :- 1-01B-226 First Floor, Madina Mall Beirut Street, Muhaisnah 4, Dubai, UAE</a>
 
                 <span data-aos="fade-right">Registration Number:- 2024-00486</span>
 
@@ -98,7 +100,6 @@ export default function Footer() {
                 </div>
               </div>
             </div>
-
           </div>
 
           <div className="risk-restricted">

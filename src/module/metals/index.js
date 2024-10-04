@@ -172,7 +172,7 @@ export default function Metals() {
                       <span data-aos="fade-down">Tightest</span>
                     </div>
                     <div className="up-and-down-box-changer">
-                      <h3 data-aos="fade-down">20:1</h3>
+                      <h3 data-aos="fade-down">1:20</h3>
                       <span data-aos="fade-down">Level of Leverage</span>
                     </div>
                     <div className="up-and-down-box-changer">
@@ -203,7 +203,7 @@ export default function Metals() {
                       <span data-aos="fade-down">Tightest</span>
                     </div>
                     <div className="up-and-down-box-changer">
-                      <h3 data-aos="fade-down">20:1</h3>
+                      <h3 data-aos="fade-down">1:20</h3>
                       <span data-aos="fade-down">Level of Leverage</span>
                     </div>
                     <div className="up-and-down-box-changer">
@@ -340,7 +340,7 @@ export default function Metals() {
                       <span data-aos="fade-down">Commission</span>
                     </div>
                     <div className="up-and-down-box-changer">
-                      <h3 data-aos="fade-down">UP TO 20:1</h3>
+                      <h3 data-aos="fade-down">UP TO 1:20</h3>
                       <span data-aos="fade-down">Leverage on cryptocurrencies</span>
                     </div>
                   </div>
@@ -371,7 +371,7 @@ export default function Metals() {
                       <span data-aos="fade-down">Commission</span>
                     </div>
                     <div className="up-and-down-box-changer">
-                      <h3 data-aos="fade-down">UP TO 20:1</h3>
+                      <h3 data-aos="fade-down">UP TO 1:20</h3>
                       <span data-aos="fade-down">Leverage on cryptocurrencies</span>
                     </div>
                   </div>
