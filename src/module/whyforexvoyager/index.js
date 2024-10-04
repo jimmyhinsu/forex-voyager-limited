@@ -3,10 +3,10 @@ import './whyforexvoyager.scss';
 import Gotonext from '../home/gotonext';
 // import Wanttoget from '../home/wanttoget';
 import banner from '../../assets/images/banner.png';
-import advantage1 from '../../assets/images/security.png';
+// import advantage1 from '../../assets/images/security.png';
 import advantage2 from '../../assets/images/money and finance.png';
 import advantage3 from '../../assets/images/3d-growth-png.png';
-// import advantage4 from '../../assets/images/advantage.png';
+import advantage4 from '../../assets/images/advantage.png';
 import stripedcard from '../../assets/images/striped-background-card.webp';
 import cs1 from '../../assets/images/headphone.png';
 import cs2 from '../../assets/images/cs-2.png';
@@ -42,7 +42,7 @@ export default function Whyforexvoyager() {
 
 
                     <div className='four-img-grid'>
-                        <div className='whychoose'>
+                        {/* <div className='whychoose'>
                             <h3 data-aos="fade-down-right">Heavily Regulated</h3>
                             <div className="Whyforexicon">
                                 <img src={advantage1} alt="Whyforexicon" data-aos="flip-right" />
@@ -50,7 +50,7 @@ export default function Whyforexvoyager() {
                             <div className="stripedCard">
                                 <img src={stripedcard} alt="stripedCard" />
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className='whychoose'>
                             <h3 data-aos="fade-down-right">Paid-Up Capital Of Over Millions USD</h3>
@@ -72,7 +72,7 @@ export default function Whyforexvoyager() {
                             </div>
                         </div>
 
-                        {/* <div className='whychoose'>
+                        <div className='whychoose'>
                             <h3 data-aos="fade-down-right">The Highest Level Of Leverage Up To 1:500</h3>
                             <div className="Whyforexicon">
                                 <img src={advantage4} alt="Whyforexicon" data-aos="flip-right" />
@@ -80,7 +80,7 @@ export default function Whyforexvoyager() {
                             <div className="stripedCard">
                                 <img src={stripedcard} alt="stripedCard" />
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@ export default function Whyforexvoyager() {
                     <div className='forex-esta'>
                         <h2 data-aos="fade-down"><span>Forex Voyager Limited</span>
                             <br />
-                            Established in 2023
+                            Established in 2024
                         </h2>
                     </div>
 
