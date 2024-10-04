@@ -4,7 +4,7 @@ import router from './routes';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
-import "./style/theme.scss"
+// import "./style/theme.scss"
 function App() {
   useEffect(() => {
     Aos.init({
