@@ -440,104 +440,104 @@
     }
 }
 
-.standard-open-buttons {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-    margin-top: 30px;
-    @media (max-width: 1024px) {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .start {
-        button {
-            background-image: linear-gradient(88.9deg, #3073c6, #64e584 50%, #64e584 75%, #3073c6 120%);
-            padding: 15px;
-            border: none;
-            border-radius: 50px;
-            width: 100%;
-            font-size: 20px;
-            color: #ffffff;
-            font-weight: 600;
-            background-size: 200% auto !important;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 15px;
-            transition: 0.4s ease-in-out;
-            cursor: pointer;
+// .standard-open-buttons {
+//     display: grid;
+//     grid-template-columns: repeat(2, 1fr);
+//     gap: 10px;
+//     margin-top: 30px;
+//     @media (max-width: 1024px) {
+//         grid-template-columns: repeat(1, 1fr);
+//     }
+//     .start {
+//         button {
+//             background-image: linear-gradient(88.9deg, #3073c6, #64e584 50%, #64e584 75%, #3073c6 120%);
+//             padding: 15px;
+//             border: none;
+//             border-radius: 50px;
+//             width: 100%;
+//             font-size: 20px;
+//             color: #ffffff;
+//             font-weight: 600;
+//             background-size: 200% auto !important;
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             gap: 15px;
+//             transition: 0.4s ease-in-out;
+//             cursor: pointer;
 
-            @media (max-width: 1024px) {
-                padding: 10px;
-            }
+//             @media (max-width: 1024px) {
+//                 padding: 10px;
+//             }
 
-            &:hover {
-                transition: 0.4s ease-in-out;
-                background: linear-gradient(88.9deg, #467bff, #75d9d9 50%, #75d9d9 75%, #467bff 120%) !important;
-                background-size: 200% auto !important;
-                background-position: 100% !important;
-            }
+//             &:hover {
+//                 transition: 0.4s ease-in-out;
+//                 background: linear-gradient(88.9deg, #467bff, #75d9d9 50%, #75d9d9 75%, #467bff 120%) !important;
+//                 background-size: 200% auto !important;
+//                 background-position: 100% !important;
+//             }
 
-            svg {
-                margin: 3px 0 0 0;
-                background-color: transparent;
-                path {
-                    stroke: #fff;
-                }
-            }
-        }
-    }
-    .open {
-        border: none;
-        border-radius: 50px;
-        background-color: transparent;
-        padding: 1px;
-        transition: all 0.2s ease-in-out;
+//             svg {
+//                 margin: 3px 0 0 0;
+//                 background-color: transparent;
+//                 path {
+//                     stroke: #fff;
+//                 }
+//             }
+//         }
+//     }
+//     .open {
+//         border: none;
+//         border-radius: 50px;
+//         background-color: transparent;
+//         padding: 1px;
+//         transition: all 0.2s ease-in-out;
 
-        &:hover {
-            background-color: #fff;
-            transition: all 0.2s ease-in-out;
-        }
-        button {
-            background-color: transparent;
-            padding: 15px;
-            border-radius: 50px;
-            width: 100%;
-            border: none;
-            position: relative;
-            background: linear-gradient(88.9deg, #3073c6 33.43%, #64e584 103.55%);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            font-size: 20px;
-            font-weight: 600;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 5px;
-            cursor: pointer;
+//         &:hover {
+//             background-color: #fff;
+//             transition: all 0.2s ease-in-out;
+//         }
+//         button {
+//             background-color: transparent;
+//             padding: 15px;
+//             border-radius: 50px;
+//             width: 100%;
+//             border: none;
+//             position: relative;
+//             background: linear-gradient(88.9deg, #3073c6 33.43%, #64e584 103.55%);
+//             -webkit-background-clip: text;
+//             background-clip: text;
+//             color: transparent;
+//             font-size: 20px;
+//             font-weight: 600;
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             gap: 5px;
+//             cursor: pointer;
 
-            @media (max-width: 576px) {
-                padding: 12px;
-                font-size: 16px;
-            }
+//             @media (max-width: 576px) {
+//                 padding: 12px;
+//                 font-size: 16px;
+//             }
 
-            &:before {
-                background: linear-gradient(88.9deg, #3073c6 33.43%, #64e584 103.55%);
-                content: "";
-                position: absolute;
-                inset: 0;
-                border-radius: inherit;
-                -webkit-mask:
-                    linear-gradient(#fff 0 0) content-box,
-                    linear-gradient(#fff 0 0);
-                -webkit-mask-composite: xor;
-                mask-composite: exclude;
-                padding: 2px;
-            }
+//             &:before {
+//                 background: linear-gradient(88.9deg, #3073c6 33.43%, #64e584 103.55%);
+//                 content: "";
+//                 position: absolute;
+//                 inset: 0;
+//                 border-radius: inherit;
+//                 -webkit-mask:
+//                     linear-gradient(#fff 0 0) content-box,
+//                     linear-gradient(#fff 0 0);
+//                 -webkit-mask-composite: xor;
+//                 mask-composite: exclude;
+//                 padding: 2px;
+//             }
 
-            svg {
-                background-color: transparent;
-            }
-        }
-    }
-}
+//             svg {
+//                 background-color: transparent;
+//             }
+//         }
+//     }
+// }
