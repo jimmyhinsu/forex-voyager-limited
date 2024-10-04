@@ -42,7 +42,7 @@ export default function Whyforexvoyager() {
 
 
                     <div className='four-img-grid'>
-                        <div className='whychoose'>
+                        {/* <div className='whychoose'>
                             <h3 data-aos="fade-down-right">Heavily Regulated</h3>
                             <div className="Whyforexicon">
                                 <img src={advantage1} alt="Whyforexicon" data-aos="flip-right" />
@@ -50,7 +50,7 @@ export default function Whyforexvoyager() {
                             <div className="stripedCard">
                                 <img src={stripedcard} alt="stripedCard" />
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className='whychoose'>
                             <h3 data-aos="fade-down-right">Paid-Up Capital Of Over US$ 322 Million</h3>
