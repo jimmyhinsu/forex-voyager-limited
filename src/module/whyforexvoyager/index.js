@@ -3,7 +3,7 @@ import './whyforexvoyager.scss';
 import Gotonext from '../home/gotonext';
 // import Wanttoget from '../home/wanttoget';
 import banner from '../../assets/images/banner.png';
-import advantage1 from '../../assets/images/security.png';
+// import advantage1 from '../../assets/images/security.png';
 import advantage2 from '../../assets/images/money and finance.png';
 import advantage3 from '../../assets/images/3d-growth-png.png';
 import advantage4 from '../../assets/images/advantage.png';
@@ -13,7 +13,7 @@ import cs2 from '../../assets/images/cs-2.png';
 import cs3 from '../../assets/images/cs3.png';
 import cs4 from '../../assets/images/cs-4.png';
 import cs5 from '../../assets/images/clock-png.png';
-import cs6 from '../../assets/images/cs6.png';
+// import cs6 from '../../assets/images/cs6.png';
 
 
 export default function Whyforexvoyager() {
@@ -42,7 +42,7 @@ export default function Whyforexvoyager() {
 
 
                     <div className='four-img-grid'>
-                        <div className='whychoose'>
+                        {/* <div className='whychoose'>
                             <h3 data-aos="fade-down-right">Heavily Regulated</h3>
                             <div className="Whyforexicon">
                                 <img src={advantage1} alt="Whyforexicon" data-aos="flip-right" />
@@ -50,7 +50,7 @@ export default function Whyforexvoyager() {
                             <div className="stripedCard">
                                 <img src={stripedcard} alt="stripedCard" />
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className='whychoose'>
                             <h3 data-aos="fade-down-right">Paid-Up Capital Of Over Millions USD</h3>
@@ -90,7 +90,7 @@ export default function Whyforexvoyager() {
                     <div className='forex-esta'>
                         <h2 data-aos="fade-down"><span>Forex Voyeger Limited</span>
                             <br />
-                            Established in 2023
+                            Established in 2024
                         </h2>
                     </div>
 
@@ -271,7 +271,7 @@ export default function Whyforexvoyager() {
                             </div>
                         </div>
 
-                        <div className='linear-darkbox'>
+                        {/* <div className='linear-darkbox'>
                             <div className='img-sideline-flex'>
                                 <div className='six-img'>
                                     <img src={cs6} alt="error" data-aos="flip-right" />
@@ -280,7 +280,7 @@ export default function Whyforexvoyager() {
                                     <p data-aos="fade-right">corporate and regulatory backing.</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
