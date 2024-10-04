@@ -179,6 +179,12 @@
                 width: 100%;
                 img {
                 }
+
+                @media (max-width: 1024px) {
+                    img {
+                        width: 100%;
+                    }
+                }
             }
         }
     }

@@ -4,7 +4,7 @@ import Gotonext from '../home/gotonext';
 // import Wanttoget from '../home/wanttoget';
 import Accountssection from '../home/Accountssections';
 import meta5banner from "../../assets/images/meta 5 banner.png"
-import Slideicon from "../../assets/svg/slideicon";
+// import Slideicon from "../../assets/svg/slideicon";
 import whatismeta from '../../assets/images/meta trader 5.png';
 import downloadapp from '../../assets/images/download-mt5.png';
 import meta5svg from '../../assets/svg/logo-mt5.svg';
@@ -30,7 +30,7 @@ export default function Meta5() {
                             <div className='traderline2'>
                                 <p data-aos="fade-down">In addition to offering all the functionality offered by the MT5 platform also has expanded scripting tools for custom indicators and expert advisors, as well as increased trading functionalities.</p>
                             </div>
-                            <div className='trader-button'>
+                            {/* <div className='trader-button'>
                                 <div className='start'>
                                     <button data-aos="fade-down">Start Tranding Now
                                         <Slideicon />
@@ -39,7 +39,7 @@ export default function Meta5() {
                                 <div className='open'>
                                     <button data-aos="fade-down">Open Demo Account</button>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className='bannermt5'>
