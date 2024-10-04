@@ -271,7 +271,7 @@ export default function Whyforexvoyager() {
                             </div>
                         </div>
 
-                        <div className='linear-darkbox'>
+                        {/* <div className='linear-darkbox'>
                             <div className='img-sideline-flex'>
                                 <div className='six-img'>
                                     <img src={cs6} alt="error" data-aos="flip-right" />
@@ -280,7 +280,7 @@ export default function Whyforexvoyager() {
                                     <p data-aos="fade-right">corporate and regulatory backing.</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
