@@ -9,7 +9,7 @@ export default function Benefitfrom() {
                 <div className="whyselectus-section-container">
                     <div className="whyselectus-section-title-main">
                         <h1 data-aos="fade-right">BENEFIT FROM THE WORLD’S Leading ONLINE FINANCIAL DERIVATIVES BROKER</h1>
-                        <h2 data-aos="fade-right">The Factors That Make More Than A Million Clients Choose Forex Voyeger Limited</h2>
+                        <h2 data-aos="fade-right">The Factors That Make More Than A Million Clients Choose Forex Voyager Limited</h2>
                         <p data-aos="fade-right">We have been able to continually deliver excellent and profitable trading experiences because of our long history of offering distinctive trading accounts, quick execution, cutting-edge platforms, tightest pricing and liquidity, and unique trading experiences.</p>
                     </div>
 
@@ -18,7 +18,7 @@ export default function Benefitfrom() {
                             <span>The Most</span>
                             <h3>Heavily Regulated</h3>
                             <span>Financial Derivatives Broker Worldwide</span>
-                            <p>Forex Voyeger is comprised of several entities that are regulated by 15 regulators across 5 continents: ASIC, AUSTRAC, BAFIN, CIMA, ESCA, FSC, FMA, HKCE, MAS, TFG and VFSC.</p>
+                            <p>Forex Voyager is comprised of several entities that are regulated by 15 regulators across 5 continents: ASIC, AUSTRAC, BAFIN, CIMA, ESCA, FSC, FMA, HKCE, MAS, TFG and VFSC.</p>
                             <div className="whyselectus-cards-bottom-line"></div>
                         </div> */}
 
@@ -26,7 +26,7 @@ export default function Benefitfrom() {
                             <span data-aos="fade-right"> Global Presence</span>
                             <h3 data-aos="flip-right">3+ Offices</h3>
                             <span data-aos="fade-right">Worldwide</span>
-                            <p data-aos="fade-right"> In order to serve our global clientele and collaborate with affiliates in significant financial centers across the globe, Forex Voyeger keeps more than 3 offices across the globe.</p>
+                            <p data-aos="fade-right"> In order to serve our global clientele and collaborate with affiliates in significant financial centers across the globe, Forex Voyager keeps more than 3 offices across the globe.</p>
                             <div className="whyselectus-cards-bottom-line whyselectus-cards-bottom-line-sc"></div>
                         </div> */}
 

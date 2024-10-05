@@ -12,19 +12,19 @@ export default function Privacypage() {
 
             <div className="conatiner-privacy">
                 <div className='main-sub-name'>
-                    <h2>Privacy Policy Of Forex Voyeger Limited</h2>
+                    <h2>Privacy Policy Of Forex Voyager Limited</h2>
                 </div>
-                <p>It is the stated policy of Forex Voyeger Limited (hereafter referred to as “Forex”, “Forex Voyeger”, ‘us’, ‘we’ and ‘our’) that Forex Voyeger will act in accordance with current best practice with regard to the processing of personal data.</p>
+                <p>It is the stated policy of Forex Voyager Limited (hereafter referred to as “Forex”, “Forex Voyager”, ‘us’, ‘we’ and ‘our’) that Forex Voyager will act in accordance with current best practice with regard to the processing of personal data.</p>
 
                 <p>Your privacy is very important to us and we make it our priority to safeguard and secure any and all confidential information relating to individuals.</p>
 
-                <p>Forex Voyeger understands the importance of maintaining the privacy of your personal information. Forex Voyeger as a company would like to assure you of our commitment to keeping it private</p>
+                <p>Forex Voyager understands the importance of maintaining the privacy of your personal information. Forex Voyager as a company would like to assure you of our commitment to keeping it private</p>
 
 
                 <div className='main-sub-name'>
                     <h2>PRIVACY PROTECTION</h2>
                 </div>
-                <p>Forex Voyeger has appointed a Data Protection Officer to ensure that our Company manages/processes your personal information in compliance with the applicable data protection laws and regulations and in accordance with this Privacy Policy.</p>
+                <p>Forex Voyager has appointed a Data Protection Officer to ensure that our Company manages/processes your personal information in compliance with the applicable data protection laws and regulations and in accordance with this Privacy Policy.</p>
 
                 <p>In relation to your personal data, you agree that we use and rely on the data you provided us, and we and our group companies can store and process them both in physically and/or electronically</p>
 
@@ -33,7 +33,7 @@ export default function Privacypage() {
                 <div className='main-sub-name'>
                     <h2>PERSONAL INFORMATION WE COLLECT</h2>
                 </div>
-                <p>If you decide to apply to open an account with Forex Voyeger Limited, there is certain information that we will require from you in order to do so. Forex Voyeger obtains most of the information directly from you through application or other forms, and from maintaining records of information provided in the course of ongoing client support. Forex Voyeger may also collect information about your use of the website, such as pages visited, frequency and duration and visit and trading activities.</p>
+                <p>If you decide to apply to open an account with Forex Voyager Limited, there is certain information that we will require from you in order to do so. Forex Voyager obtains most of the information directly from you through application or other forms, and from maintaining records of information provided in the course of ongoing client support. Forex Voyager may also collect information about your use of the website, such as pages visited, frequency and duration and visit and trading activities.</p>
 
                 <p>In relation to your personal data, you agree that we use and rely on the data you provided us, and we and our group companies can store and process them both in physically and/or electronically</p>
 
@@ -52,7 +52,7 @@ export default function Privacypage() {
                     </ul>
                 </div>
 
-                <p>Forex Voyeger will use information collected from you to provide the information and services requested by you and to improve the quality of our service. Unless you are informed otherwise, the personal information Forex Voyeger holds is used for establishing and managing your account, reviewing your ongoing needs, enhancing client support and products, by giving ongoing information or opportunities that may be relevant to you.</p>
+                <p>Forex Voyager will use information collected from you to provide the information and services requested by you and to improve the quality of our service. Unless you are informed otherwise, the personal information Forex Voyager holds is used for establishing and managing your account, reviewing your ongoing needs, enhancing client support and products, by giving ongoing information or opportunities that may be relevant to you.</p>
 
 
                 <div className='main-sub-name'>
@@ -81,7 +81,7 @@ export default function Privacypage() {
                     <li>Risk management</li>
                     <li>Measures to manage business and for further developing and services</li>
                     <li>Measures to ensure IT and system security, preventing potential crime, asset security, admittance controls and anti-trespassing measures</li>
-                    <li>Sharing your personal data within Forex Voyeger for the purpose of updating/verifying your personal data in accordance with the relevant anti-money laundering compliance framework.</li>
+                    <li>Sharing your personal data within Forex Voyager for the purpose of updating/verifying your personal data in accordance with the relevant anti-money laundering compliance framework.</li>
                 </ul>
 
                 <div className='main-sub-name'>
@@ -144,7 +144,7 @@ export default function Privacypage() {
                 <p>As part of using your personal data for the purposes set out above, the Company may disclose your personal information to the following:</p>
 
                 <ul className='ul-lines'>
-                    <li>Any companies under Forex Voyeger, meaning any of our ultimate holding companies and their respective subsidiaries may receive such information;</li>
+                    <li>Any companies under Forex Voyager, meaning any of our ultimate holding companies and their respective subsidiaries may receive such information;</li>
                     <li>Our associates and service providers, for business purposes, including third parties such as business service providers and specialist advisers who have been contracted to provide us with administrative, financial, legal, tax, compliance, insurance, research or other services;</li>
                     <li>Business introducers with whom we have a mutual business relationship;</li>
                     <li>Business parties, credit providers, courts, tribunals and regulatory authorities as agreed or authorized by law;</li>
@@ -158,8 +158,8 @@ export default function Privacypage() {
                 <div className='main-sub-name'>
                     <h2>TRANSFERS OUTSIDE OF THE EUROPEAN ECONOMIC AREA</h2>
                 </div>
-                <p>We may transfer your personal information outside the European Economic Area (EEA) to other Forex Voyeger companies as well as service providers (i.e. processors) who are engaged on our behalf. To the extent we transfer your information outside the EEA, we will ensure that the transfer is lawful and that processors in third countries are obliged to comply with the European data protection laws or other countries’ laws which are comparable and to provide appropriate safeguards in relation to the transfer of your data in accordance with GDPR Article 46.</p>
-                <p>By submitting your personal data, you consent to your personal information being processed by staff of Forex Voyeger operating outside the EEA who work for us. Such staff may be, among others, engaged in the fulfilment of your requests, the processing of your payment details and the provision of support services. The Company will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy</p>
+                <p>We may transfer your personal information outside the European Economic Area (EEA) to other Forex Voyager companies as well as service providers (i.e. processors) who are engaged on our behalf. To the extent we transfer your information outside the EEA, we will ensure that the transfer is lawful and that processors in third countries are obliged to comply with the European data protection laws or other countries’ laws which are comparable and to provide appropriate safeguards in relation to the transfer of your data in accordance with GDPR Article 46.</p>
+                <p>By submitting your personal data, you consent to your personal information being processed by staff of Forex Voyager operating outside the EEA who work for us. Such staff may be, among others, engaged in the fulfilment of your requests, the processing of your payment details and the provision of support services. The Company will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy</p>
 
                 <div className='main-sub-name'>
                     <h2>YOUR COLLECTED INFORMATION</h2>
@@ -208,7 +208,7 @@ export default function Privacypage() {
                 <div className='main-sub-name'>
                     <h2>RECTIFICATION</h2>
                 </div>
-                <p>We will take all reasonable steps to make sure that your personal information remains accurate, complete and up-to-date. If the personal information we hold about you is inaccurate or incomplete, you are entitled to have it rectified. If we have disclosed your personal information to others, we will let them know about the rectification where possible. You may inform us at any time that your personal details have changed by emailing us at support@ForexVoyeger.com The Company will change your personal information in accordance with your instructions. To proceed with such requests, in some cases we may need supporting documents from you as proof, i.e. personal information that we are required to keep for regulatory or other legal purposes.</p>
+                <p>We will take all reasonable steps to make sure that your personal information remains accurate, complete and up-to-date. If the personal information we hold about you is inaccurate or incomplete, you are entitled to have it rectified. If we have disclosed your personal information to others, we will let them know about the rectification where possible. You may inform us at any time that your personal details have changed by emailing us at support@ForexVoyager.com The Company will change your personal information in accordance with your instructions. To proceed with such requests, in some cases we may need supporting documents from you as proof, i.e. personal information that we are required to keep for regulatory or other legal purposes.</p>
 
                 <div className='main-sub-name'>
                     <h2>ERASURE</h2>
@@ -239,7 +239,7 @@ export default function Privacypage() {
                 <div className='main-sub-name'>
                     <h2>OPT-OUT OF SUBMITTING YOUR PERSONAL INFORMATION</h2>
                 </div>
-                <p>If you do not want us to use your personal information, you must inform the Company by sending an email to support@ForexVoyeger.com . If you decide to do so, we may not be able to continue to provide information, services and/or products requested by you and we will have no liability to you in this respect.</p>
+                <p>If you do not want us to use your personal information, you must inform the Company by sending an email to support@ForexVoyager.com . If you decide to do so, we may not be able to continue to provide information, services and/or products requested by you and we will have no liability to you in this respect.</p>
 
                 <div className='main-sub-name'>
                     <h2>LEGAL DISCLAIMER</h2>
@@ -247,14 +247,14 @@ export default function Privacypage() {
                 <p>The Company may disclose your personally identifiable information as required by rules and regulations and if the Company believes that disclosure is necessary to protect our rights or to comply with other proceedings, court order, legal process served or pursuant to governmental, intergovernmental or other regulatory bodies. The Company is not liable for misuse or loss of personal information or otherwise on the Company’s website(s) that the Company does not have access to or control over. The Company will not be liable for unlawful or unauthorized use of your personal information due to misuse or misplacement of your passwords, negligent or malicious intervention or otherwise by you or due to your acts or omissions or a person authorized by you (whether or to that authorization is permitted by the terms of our legal relationship with you).</p>
 
                 <div className='main-sub-name'>
-                    <h2>Forex Voyeger Card Acceptance</h2>
+                    <h2>Forex Voyager Card Acceptance</h2>
                 </div>
                 <p>All credit/debit cards details and personally identifiable information will NOT be stored, sold, shared, rented or leased to any third parties</p>
 
                 <div className='main-sub-name'>
                     <h2>HOW TO CONTACT US</h2>
                 </div>
-                <p>If you have any questions or concerns regarding this Privacy Policy, please email us at <a href="mailto:Info@forexvoyeger.com" target='_blank' rel="noreferrer">Info@forexvoyeger.com</a></p>
+                <p>If you have any questions or concerns regarding this Privacy Policy, please email us at <a href="mailto:Info@forexVoyager.com" target='_blank' rel="noreferrer">Info@forexVoyager.com</a></p>
             </div>
         </>
     )

@@ -6,11 +6,11 @@ function Becomanpartner() {
         <div className='becom-an-partner-main'>
             <div className='becom-an-partner-container'>
                 <div className='becom-an-partner-content'>
-                    <h1 data-aos="fade-down">Become An Forex Voyeger
+                    <h1 data-aos="fade-down">Become An Forex Voyager
                         <br />
                         And Start Earning Today</h1>
                     <div className='embark-pera-main'>
-                        <p data-aos="fade-down">Embark on a lucrative journey by becoming a Forex Voyeger and kickstart your earnings today. Join our dynamic network, harness rewarding opportunities, and pave the way for financial success together. Partner with the Best Trading Brokers For Beginners and ensure a smooth start to your trading journey.</p>
+                        <p data-aos="fade-down">Embark on a lucrative journey by becoming a Forex Voyager and kickstart your earnings today. Join our dynamic network, harness rewarding opportunities, and pave the way for financial success together. Partner with the Best Trading Brokers For Beginners and ensure a smooth start to your trading journey.</p>
                         {/* <button data-aos="flip-right">Become a Partner</button> */}
                     </div>
                 </div>

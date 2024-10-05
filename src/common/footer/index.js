@@ -30,7 +30,7 @@ export default function Footer() {
             <div className="footer-content">
               <p data-aos="fade-down">About</p>
               <div className="footer-all-links-main">
-                <Link to={"/whyForexVoyager"} data-aos="fade-right">Why Forex Voyeger</Link>
+                <Link to={"/whyForexVoyager"} data-aos="fade-right">Why Forex Voyager</Link>
                 <Link to={"/regulations"} data-aos="fade-right">Licence</Link>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function Footer() {
                   <div className="callicon">
                     <img data-aos="fade-right" src={email} alt="error" />
                   </div>
-                  <a data-aos="fade-right" href="mailto:Info@forexvoyeger.com">Info@forexvoyeger.com</a>
+                  <a data-aos="fade-right" href="mailto:Info@forexVoyager.com">Info@forexVoyager.com</a>
                 </div>
               </div>
             </div>
@@ -110,7 +110,7 @@ export default function Footer() {
 
             <div className="risk-warning">
               <p>Restricted Regions</p>
-              <span>Forex Voyeger Limited does not provide services for citizens/residents of the USA, Cuba, Iraq, Myanmar, North Korea, Sudan. The services of Forex Voyeger are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.</span>
+              <span>Forex Voyager Limited does not provide services for citizens/residents of the USA, Cuba, Iraq, Myanmar, North Korea, Sudan. The services of Forex Voyager are not intended for distribution to, or use by, any person in any country or jurisdiction where such distribution or use would be contrary to local law or regulation.</span>
             </div>
           </div>
         </div>
@@ -128,7 +128,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-copyright-text">
-          <p>© 2024 All Rights Reserved By Forex Voyeger Limited</p>
+          <p>© 2024 All Rights Reserved By Forex Voyager Limited</p>
         </div>
       </div>
     </div>

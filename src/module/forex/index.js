@@ -113,7 +113,7 @@ export default function Forex() {
                                         Invest in <span>Metals</span>
                                     </h1>
                                     <p data-aos="fade-down">
-                                        By trading metals like gold and silver, you may diversify your portfolio and uncover fresh trading opportunities. With an unmatched global network of the most well-known producers, traders, buyers, and speculators in the precious metals market, Forex Voyeger Limited offers unparalleled expertise for seamless trading.
+                                        By trading metals like gold and silver, you may diversify your portfolio and uncover fresh trading opportunities. With an unmatched global network of the most well-known producers, traders, buyers, and speculators in the precious metals market, Forex Voyager Limited offers unparalleled expertise for seamless trading.
                                     </p>
                                     <div className="up-and-down-boxes-changer-sc" id="up-and-down-boxes-changer-web-metals">
                                         <div className="up-and-down-box-changer">
@@ -330,7 +330,7 @@ export default function Forex() {
                                         Invest in <span>Digital Assets</span>
                                     </h1>
                                     <p data-aos="fade-down">
-                                        With Forex Voyeger Limited, you can invest in the most well-known cryptocurrencies, such as Bitcoin, Ethereum, Ripple, and others, and benefit from this market's large price swings. This is best suited for seasoned traders who prefer to trade aggressively.
+                                        With Forex Voyager Limited, you can invest in the most well-known cryptocurrencies, such as Bitcoin, Ethereum, Ripple, and others, and benefit from this market's large price swings. This is best suited for seasoned traders who prefer to trade aggressively.
                                     </p>
                                     <div className="up-and-down-boxes-changer-frth" id="up-and-down-boxes-changer-web-digital">
                                         <div className="up-and-down-box-changer">
@@ -397,7 +397,7 @@ export default function Forex() {
 
                                     <p data-aos="fade-down">The Foreign exchange market is open around-the-clock and lacks a physical presence. To find out the pertinent dates and trading sessions, see our Trading Hours.</p>
 
-                                    <p data-aos="fade-down">With extensive liquidity, Forex Voyeger provides trading in major, cross, and exotic pairings on the Forex markets. Enjoy the most advanced trading platforms, MetaTrader 5, together with the greatest trading tools, on all of our accounts.</p>
+                                    <p data-aos="fade-down">With extensive liquidity, Forex Voyager provides trading in major, cross, and exotic pairings on the Forex markets. Enjoy the most advanced trading platforms, MetaTrader 5, together with the greatest trading tools, on all of our accounts.</p>
                                 </div>
                             </div>
                             <div className='what-is-img'>
@@ -413,8 +413,8 @@ export default function Forex() {
                     <div className='trade-grid'>
                         <div className='start-trading'>
                             <h3 data-aos="fade-down">Trade Forex With</h3>
-                            <span data-aos="fade-down">Forex Voyeger</span>
-                            <p data-aos="fade-down">With the narrowest spreads in the market, start trading on over 55 Forex pairs with Forex Voyeger.</p>
+                            <span data-aos="fade-down">Forex Voyager</span>
+                            <p data-aos="fade-down">With the narrowest spreads in the market, start trading on over 55 Forex pairs with Forex Voyager.</p>
                         </div>
                         <div className='trade-with-mb'>
                             <img src={tradewith} alt="error" data-aos="flip-right" />
@@ -429,7 +429,7 @@ export default function Forex() {
                         <div className="whyselectus-cards-grid-items1">
                             <span data-aos="fade-down">Distributes</span>
                             <div className="whyselectus-cards-bottom-line-sc"></div>
-                            <p data-aos="fade-down">Forex Voyeger has one of the most competitive spreads available, with starting prices as low as 0.0 pip.</p>
+                            <p data-aos="fade-down">Forex Voyager has one of the most competitive spreads available, with starting prices as low as 0.0 pip.</p>
                         </div>
 
                         <div className="whyselectus-cards-grid-items1">

@@ -92,7 +92,7 @@ export default function Callbackfrom() {
 
     console.log(formData);
 
-    const mailtoLink = `mailto:Info@forexvoyeger.com?subject=Callback%20Request&body=First%20Name:%20${encodeURIComponent(
+    const mailtoLink = `mailto:Info@forexVoyager.com?subject=Callback%20Request&body=First%20Name:%20${encodeURIComponent(
       firstName
     )}%0ALast%20Name:%20${encodeURIComponent(
       lastName
@@ -231,7 +231,7 @@ export default function Callbackfrom() {
         <div className="terms-lin-main">
           <p data-aos="fade-down">
             By submitting this form, you agree to receive emails from Forex
-            Voyeger Limited in accordance with our{" "}
+            Voyager Limited in accordance with our{" "}
             <Link to={"/terms"}>Terms & Conditions</Link> and{" "}
             <Link to={"/privacypage"}>Privacy Policy</Link>.
           </p>

@@ -23,7 +23,7 @@ export default function Whyforexvoyager() {
                 <div className='container'>
                     <div className='whyforex-flex'>
                         <div className='whyforex-detail'>
-                            <h1 data-aos="fade-down">Why <span>Forex Voyeger Limited</span></h1>
+                            <h1 data-aos="fade-down">Why <span>Forex Voyager Limited</span></h1>
                             <p data-aos="fade-down">We have effectively established our dominance in the trading industry since our founding. We have paved the way for the foreign exchange business and are still producing top-notch goods, services, and trading platforms.</p>
                         </div>
                         <div className='whyforex-flex-img'>
@@ -38,7 +38,7 @@ export default function Whyforexvoyager() {
                     <div className='whyforex-feat'>
                         <h3 data-aos="fade-down">FEATURES</h3>
                     </div>
-                    <h2 data-aos="fade-down">Forex Voyeger Limited Advantages</h2>
+                    <h2 data-aos="fade-down">Forex Voyager Limited Advantages</h2>
 
 
                     <div className='four-img-grid'>
@@ -88,7 +88,7 @@ export default function Whyforexvoyager() {
             <div className='established-bgcolor'>
                 <div className='container'>
                     <div className='forex-esta'>
-                        <h2 data-aos="fade-down"><span>Forex Voyeger Limited</span>
+                        <h2 data-aos="fade-down"><span>Forex Voyager Limited</span>
                             <br />
                             Established in 2024
                         </h2>

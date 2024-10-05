@@ -19,7 +19,7 @@ export default function Gotonext() {
                         <Link to={'/whyForexVoyager'}>
                             <div className='whychoose-main'>
                                 <div className='whychoose'>
-                                    <h3 data-aos="fade-right">Why ForexVoyeger Limited</h3>
+                                    <h3 data-aos="fade-right">Why ForexVoyager Limited</h3>
                                     <div className="stripedCard">
                                         <img src={stripedCard} alt="stripedCard" />
                                     </div>
