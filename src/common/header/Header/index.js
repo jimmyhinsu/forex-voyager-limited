@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../header.scss";
 import Dropdownicon from "../../../assets/svg/dropdownicon";
-import logo from '../../../assets/images/Forex Voyeger Logo.png';
+import logo from '../../../assets/images/Forex Voyager Logo.png';
 import { Link } from "react-router-dom";
 
 function Headermain() {

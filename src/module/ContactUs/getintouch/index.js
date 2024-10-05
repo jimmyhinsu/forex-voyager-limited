@@ -21,7 +21,7 @@ export default function Getintouch() {
         <div className="container">
           <div className="title-get">
             <h1 data-aos="fade-down">Get in touch</h1>
-            <p data-aos="fade-down">Contact us with any questions or if you’d like more information about MultiBank Group’s products and services.</p>
+            <p data-aos="fade-down">Contact us with any questions or if you’d like more information about Forex voyager products and services.</p>
           </div>
           <div className="contact-social-boxes-main">
             <div className={`whychoose-main ${activeIndex === 0 ? "active" : ""}`} onClick={() => setActiveIndex(0)}>

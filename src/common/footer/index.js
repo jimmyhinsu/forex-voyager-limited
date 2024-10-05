@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.scss";
 import { Link, NavLink } from "react-router-dom";
-import logo from '../../assets/images/Forex Voyeger Logo.png';
+import logo from '../../assets/images/Forex Voyager Logo.png';
 import call from '../../assets/icons/telephone-call.png';
 import email from '../../assets/icons/email.png';
 

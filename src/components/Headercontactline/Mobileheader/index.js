@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./mobileheader.scss";
-import logo from '../../../assets/images/Forex Voyeger Logo.png';
+import logo from '../../../assets/images/Forex Voyager Logo.png';
 
 import Menuicon from "../../../assets/icons/menu.png";
 import Sidebar from "../../sidebar";
