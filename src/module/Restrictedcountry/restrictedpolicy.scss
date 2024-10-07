@@ -1,6 +1,10 @@
 .restrictedpolicy-page-main-alignment {
     padding: 50px 0;
 
+    @media (max-width: 576px) {
+        padding: 20px 0;
+    }
+
     .restrictedpolicy-page-main {
         max-width: 1140px;
         margin: 0 auto;
@@ -12,6 +16,11 @@
             text-align: center;
             color: #3073c6;
             margin: 50px 0 16px 0;
+
+            @media (max-width: 576px) {
+                font-size: 24px;
+                margin: 0;
+            }
         }
 
         .restrictedpolicy-page-content {
@@ -24,6 +33,10 @@
                 margin: 10px 0 0;
                 text-align: justify;
                 color: #000;
+
+                @media (max-width: 576px) {
+                    font-size: 12px;
+                }
             }
 
             ul {
@@ -39,6 +52,10 @@
                     line-height: 1.5;
                     margin: 10px 0 0;
                     text-align: justify;
+
+                    @media (max-width: 576px) {
+                        font-size: 12px;
+                    }
                 }
             }
 

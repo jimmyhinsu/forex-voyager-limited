@@ -11,7 +11,15 @@
         h1 {
             font-size: 32px;
             color: #3073c6;
+
+            @media (max-width: 576px) {
+                font-size: 24px;
+            }
         }
+    }
+
+    @media (max-width: 576px) {
+        padding: 20px 0;
     }
 }
 
@@ -25,6 +33,14 @@
         h2 {
             font-size: 20px;
             color: #3d6bdd;
+
+            @media (max-width: 576px) {
+                font-size: 16px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            margin-top: 10px;
         }
     }
 
@@ -35,6 +51,10 @@
         margin: 10px 0 0;
         text-align: justify;
         color: #000;
+
+        @media (max-width: 576px) {
+            font-size: 12px;
+        }
     }
 
     .means {
@@ -58,6 +78,10 @@
                 text-indent: 0px !important;
                 text-align: start !important;
                 text-align-last: start !important;
+            }
+
+            @media (max-width: 576px) {
+                font-size: 12px;
             }
         }
     }

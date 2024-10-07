@@ -4,7 +4,7 @@ import "./deposit.scss";
 
 export default function Deposit() {
     return (
-        <>
+        <div className='depositemain'>
             <div className="deposit">
                 <div className="conatiner-deposit">
                     <h1>Deposit & Withdrawal Policy</h1>
@@ -108,6 +108,6 @@ export default function Deposit() {
 
                 <p>Please note that this policy cannot be exhaustive, and additional conditions or requirements may apply at any time due to regulations and policies, including those set-in order to prevent money laundering. Any and all usage of the site and services is subject to the Terms and Conditions, as may be amended from time to time by Forex Voyager LIMITED, at its sole discretion.</p>
             </div>
-        </>
+        </div>
     )
 }

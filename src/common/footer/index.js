@@ -25,6 +25,7 @@ export default function Footer() {
             </NavLink> */}
           </div>
         </div>
+
         <div className="footer-content-main-layout">
           <div className="footer-content-main">
             <div className="footer-content">
@@ -114,7 +115,6 @@ export default function Footer() {
             </div>
           </div>
         </div>
-
 
         <div className="footer-bottom-line">
           <Link to={"/privacypage"}>Privacy Policy</Link>

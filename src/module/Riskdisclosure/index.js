@@ -3,7 +3,7 @@ import "./riskdisclosure.scss";
 
 export default function Riskdisclosure() {
   return (
-    <>
+    <div className="riskpagemain">
       <div className="deposit">
         <div className="conatiner-deposit">
           <h1>Risk Disclosure</h1>
@@ -233,6 +233,6 @@ export default function Riskdisclosure() {
           </a>
         </p>
       </div>
-    </>
+    </div>
   );
 }
