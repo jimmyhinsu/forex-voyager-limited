@@ -15,7 +15,7 @@ function BecomeibWhatsection() {
                         <br />
                         Reasons for Client Preference</h1>
 
-                    {/* <button data-aos="flip-right">Become a Partner</button> */}
+                    <button data-aos="flip-right">Become a Partner</button>
                 </div>
 
                 <div className='becomeib-what-section-cards-main'>

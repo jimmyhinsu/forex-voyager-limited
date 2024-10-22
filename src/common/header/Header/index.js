@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../header.scss";
 import Dropdownicon from "../../../assets/svg/dropdownicon";
 import logo from '../../../assets/images/Forex Voyager Logo.png';
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 function Headermain() {
   const [isAboutDropdownVisible, setAboutDropdownVisible] = useState(false);
@@ -125,9 +125,9 @@ function Headermain() {
 
       <div className="headermain-last-buttons">
         <div className="Header-top-line-right-buttons">
-          {/* <div className="dropdown-container">
+          <div className="dropdown-container">
             <NavLink to={"/"}>Log in</NavLink>
-          </div> */}
+          </div>
         </div>
 
         <div className="Header-top-line-button">

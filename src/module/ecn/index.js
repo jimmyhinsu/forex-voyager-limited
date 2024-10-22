@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './ecn.scss';
 
-// import Slideicon from '../../assets/svg/slideicon';
+import Slideicon from '../../assets/svg/slideicon';
 
 import Standardicon from "../../assets/images/standerdicon.png"
 import Proicon from "../../assets/images/proicon.png"
@@ -67,7 +67,7 @@ export default function Ecn() {
                     <span>Standard</span>  Account
                   </h1>
                   <p data-aos="fade-down">An account with no commissions that is ideal for novice traders wishing to begin trading. Standard accounts provide consistent spreads and immediate execution.</p>
-                  {/* <div className='standard-open-buttons'>
+                  <div className='standard-open-buttons'>
                     <div className='start'>
                       <button data-aos="fade-down">Start Tranding Now
                         <Slideicon />
@@ -76,7 +76,7 @@ export default function Ecn() {
                     <div className='open-ecn'>
                       <button data-aos="fade-down">Open Demo Account</button>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               )}
               {activeButton === "Standard" && (
@@ -93,7 +93,7 @@ export default function Ecn() {
                     <span>Pro</span>  Account
                   </h1>
                   <p data-aos="fade-down">The Pro account is a fantastic choice for traders who wish to take advantage of tight spreads, quick execution, and no commission.</p>
-                  {/* <div className='standard-open-buttons'>
+                  <div className='standard-open-buttons'>
                     <div className='start'>
                       <button data-aos="fade-down">Start Tranding Now
                         <Slideicon />
@@ -102,7 +102,7 @@ export default function Ecn() {
                     <div className='open'>
                       <button data-aos="fade-down"> Open Demo Account</button>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               )}{activeButton === "proacc" && (
                 <>
@@ -118,7 +118,7 @@ export default function Ecn() {
                     <span>ECN </span>  Account
                   </h1>
                   <p data-aos="fade-down">Traders seeking instantaneous execution and raw spreads are better off with an ECN account.</p>
-                  {/* <div className='standard-open-buttons'>
+                  <div className='standard-open-buttons'>
                     <div className='start'>
                       <button data-aos="fade-down">Start Tranding Now
                         <Slideicon />
@@ -127,7 +127,7 @@ export default function Ecn() {
                     <div className='open'>
                       <button data-aos="fade-down">Open Demo Account</button>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               )}{activeButton === "ecnacc" && (
                 <>

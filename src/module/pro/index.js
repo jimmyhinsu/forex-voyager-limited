@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './pro.scss';
 
-// import Slideicon from '../../assets/svg/slideicon';
+import Slideicon from '../../assets/svg/slideicon';
 
 import Standardicon from "../../assets/images/standerdicon.png"
 import Proicon from "../../assets/images/proicon.png"
@@ -65,7 +65,7 @@ export default function Pro() {
                     <span>Standard</span>  Account
                   </h1>
                   <p data-aos="fade-down">A commission-free account that is perfect for new traders looking to start investing. Standard accounts offer instant execution, stable spreads.</p>
-                  {/* <div className='standard-open-buttons'>
+                  <div className='standard-open-buttons'>
                     <div className='start'>
                       <button data-aos="fade-down">Start Tranding Now
                         <Slideicon />
@@ -74,7 +74,7 @@ export default function Pro() {
                     <div className='open-demo'>
                       <button data-aos="fade-down">Open Demo Account</button>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               )}
               {activeButton === "Standard" && (
@@ -91,7 +91,7 @@ export default function Pro() {
                     <span>Pro </span>  Account
                   </h1>
                   <p>The Pro account is a fantastic choice for traders who wish to take advantage of tight spreads, quick execution, and no commission.</p>
-                  {/* <div className='standard-open-buttons'>
+                  <div className='standard-open-buttons'>
                     <div className='start'>
                       <button data-aos="fade-down">Start Tranding Now
                         <Slideicon />
@@ -100,7 +100,7 @@ export default function Pro() {
                     <div className='open'>
                       <button data-aos="fade-down">Open Demo Account</button>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               )}{activeButton === "proacc" && (
                 <>
@@ -116,7 +116,7 @@ export default function Pro() {
                     <span>ECN </span>Account
                   </h1>
                   <p data-aos="fade-down">Traders seeking instantaneous execution and raw spreads are better off with an ECN account.</p>
-                  {/* <div className='standard-open-buttons'>
+                  <div className='standard-open-buttons'>
                     <div className='start'>
                       <button data-aos="fade-down">Start Tranding Now
                         <Slideicon />
@@ -125,7 +125,7 @@ export default function Pro() {
                     <div className='open'>
                       <button data-aos="fade-down">Open Demo Account</button>
                     </div>
-                  </div> */}
+                  </div>
                 </div>
               )}{activeButton === "ecnacc" && (
                 <>

@@ -1,7 +1,7 @@
 import React from "react";
 import "../platforms/platforms.scss";
 import meta5 from "../../../assets/images/meta-5.svg";
-// import Slideicon from "../../../assets/svg/slideicon";
+import Slideicon from "../../../assets/svg/slideicon";
 import metaplat from "../../../assets/images/meta-5 img.webp";
 
 function Platforms({ id }) {
@@ -32,11 +32,11 @@ function Platforms({ id }) {
                       <img data-aos="fade-right" src={meta5} alt="error" />
                     </div>
                   </div>
-                  {/* <div className='Learn-more'>
+                  <div className='Learn-more'>
                     <button data-aos="fade-right"><p>Learn More</p>
                       <Slideicon />
                     </button>
-                  </div> */}
+                  </div>
                 </div>
 
                 <div className='platfromsimages'>

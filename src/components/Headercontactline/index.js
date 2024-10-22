@@ -24,11 +24,11 @@ function Headertopline() {
         <div className="border-div-header"></div>
       </div>
 
-      {/* <div className="Header-top-line-right-buttons">
+      <div className="Header-top-line-right-buttons">
         <div className="Header-top-line-button">
           <button>Start Trading</button>
         </div>
-      </div> */}
+      </div>
 
 
     </div>

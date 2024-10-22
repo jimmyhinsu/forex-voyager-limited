@@ -229,12 +229,12 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
 
           <div className="sidebar-bottom-content">
             <p>Open an account now to get started!</p>
-            {/* <div className="sidebar-button-one">
+            <div className="sidebar-button-one">
               <button>
                 Strat trading
                 <Slideicon />
               </button>
-            </div> */}
+            </div>
 
             <Link to={"/becomeib"} onClick={onClose}>
               <div className="become-ib-button">
@@ -245,9 +245,9 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
               </div>
             </Link>
 
-            {/* <div className="log-in-button">
+            <div className="log-in-button">
               <button>Log in</button>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

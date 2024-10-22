@@ -6,7 +6,7 @@ import forexheader from "../../../src/assets/images/invest in forex.png";
 import gold from "../../../src/assets/images/invest in metlas.png";
 import indices from "../../../src/assets/images/invest in indices.png";
 import shares from "../../../src/assets/images/invest in shares.webp";
-// import Slideicon from "../../../src/assets/svg/slideicon";
+import Slideicon from "../../../src/assets/svg/slideicon";
 import Gotonext from '../home/gotonext';
 // import Wanttoget from '../home/wanttoget';
 import Benefitfrom from '../../components/benefitfrom';
@@ -75,7 +75,7 @@ export default function Commodities() {
                                         </div>
                                     </div>
 
-                                    {/* <div className='start-open-buttons'>
+                                    <div className='start-open-buttons'>
                                         <div className='start'>
                                             <button data-aos="fade-down">Start Tranding Now
                                                 <Slideicon />
@@ -84,7 +84,7 @@ export default function Commodities() {
                                         <div className='open'>
                                             <button data-aos="fade-down">Open Demo Account</button>
                                         </div>
-                                    </div> */}
+                                    </div>
                                 </div>
                             )}
                             {activeButton === "Forex" && (
@@ -126,7 +126,7 @@ export default function Commodities() {
                                             <span data-aos="fade-down">Tightest spreads on Silver</span>
                                         </div>
                                     </div>
-                                    {/* <div className='start-open-buttons'>
+                                    <div className='start-open-buttons'>
                                         <div className='start'>
                                             <button data-aos="fade-down">Start Tranding Now
                                                 <Slideicon />
@@ -135,7 +135,7 @@ export default function Commodities() {
                                         <div className='open'>
                                             <button data-aos="fade-down">Open Demo Account</button>
                                         </div>
-                                    </div> */}
+                                    </div>
                                 </div>
                             )}
                             {activeButton === "Metals" && (
@@ -179,7 +179,7 @@ export default function Commodities() {
                                             <span data-aos="fade-down">Commission</span>
                                         </div>
                                     </div>
-                                    {/* <div className='start-open-buttons'>
+                                    <div className='start-open-buttons'>
                                         <div className='start'>
                                             <button data-aos="fade-down">Start Tranding Now
                                                 <Slideicon />
@@ -188,7 +188,7 @@ export default function Commodities() {
                                         <div className='open'>
                                             <button data-aos="fade-down">Open Demo Account</button>
                                         </div>
-                                    </div> */}
+                                    </div>
                                 </div>
                             )}
                             {activeButton === "Shares" && (
@@ -233,7 +233,7 @@ export default function Commodities() {
                                             <span data-aos="fade-down">Commission</span>
                                         </div>
                                     </div>
-                                    {/* <div className='start-open-buttons'>
+                                    <div className='start-open-buttons'>
                                         <div className='start'>
                                             <button data-aos="fade-down">Start Tranding Now
                                                 <Slideicon />
@@ -242,7 +242,7 @@ export default function Commodities() {
                                         <div className='open'>
                                             <button data-aos="fade-down">Open Demo Account</button>
                                         </div>
-                                    </div> */}
+                                    </div>
                                 </div>
                             )}
 
@@ -287,7 +287,7 @@ export default function Commodities() {
                                             <span data-aos="fade-down">On All Commodities</span>
                                         </div>
                                     </div>
-                                    {/* <div className='start-open-buttons'>
+                                    <div className='start-open-buttons'>
                                         <div className='start'>
                                             <button data-aos="fade-down">Start Tranding Now
                                                 <Slideicon />
@@ -296,7 +296,7 @@ export default function Commodities() {
                                         <div className='open'>
                                             <button data-aos="fade-down">Open Demo Account</button>
                                         </div>
-                                    </div> */}
+                                    </div>
                                 </div>
                             )}
 
@@ -343,7 +343,7 @@ export default function Commodities() {
                                             <span data-aos="fade-down">Leverage on cryptocurrencies</span>
                                         </div>
                                     </div>
-                                    {/* <div className='start-open-buttons'>
+                                    <div className='start-open-buttons'>
                                         <div className='start'>
                                             <button data-aos="fade-down">Start Tranding Now
                                                 <Slideicon />
@@ -352,7 +352,7 @@ export default function Commodities() {
                                         <div className='open'>
                                             <button data-aos="fade-down">Open Demo Account</button>
                                         </div>
-                                    </div> */}
+                                    </div>
                                 </div>
                             )}
                             {activeButton === "Digital Assets" && (
