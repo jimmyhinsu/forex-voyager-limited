@@ -10,31 +10,40 @@ export default function Herobanner({ id }) {
         <div className="herobannercontent">
           <div className="text">
             <h2 data-aos="fade-down">
-              <span>Trade </span> with confidence,  Explore <span>with Courage</span>
+              <span>Trade </span> with confidence, Explore{" "}
+              <span>with Courage</span>
             </h2>
           </div>
 
-          <p data-aos="fade-down">Become part of a global trading community and boost your portfolio.</p>
+          <p data-aos="fade-down">
+            Become part of a global trading community and boost your portfolio.
+          </p>
 
           <div className="button">
-            <button data-aos="fade-down">
-              Strating Trading
-              <Slideicon />
-            </button>
+            <a href="https://clients.forexvoyager.com/" target="__blank">
+              <button data-aos="fade-down">
+                Strating Trading
+                <Slideicon />
+              </button>
+            </a>
           </div>
 
           <div className="demo-ib-button">
             <div className="demoaccount">
+            <a href="https://clients.forexvoyager.com/" target="__blank">
               <button data-aos="fade-down">
                 Demo Account
                 <Slideicon />
               </button>
+              </a>
             </div>
             <div className="demoaccount">
-              <button data-aos="fade-down">
-                IB/Institutional Offers
-                <Slideicon />
-              </button>
+              <a href="https://clients.forexvoyager.com/" target="__blank">
+                <button data-aos="fade-down">
+                  IB/Institutional Offers
+                  <Slideicon />
+                </button>
+              </a>
             </div>
           </div>
 
@@ -43,7 +52,7 @@ export default function Herobanner({ id }) {
                             <img src={metatrade4} alt="error" />
 
                         </div> */}
-            <div className="tradeicon" >
+            <div className="tradeicon">
               <img src={metatrade5} alt="error" />
             </div>
           </div>

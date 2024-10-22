@@ -3,6 +3,7 @@ import "../platforms/platforms.scss";
 import meta5 from "../../../assets/images/meta-5.svg";
 import Slideicon from "../../../assets/svg/slideicon";
 import metaplat from "../../../assets/images/meta-5 img.webp";
+import { Link } from "react-router-dom";
 
 function Platforms({ id }) {
   return (
@@ -33,9 +34,11 @@ function Platforms({ id }) {
                     </div>
                   </div>
                   <div className='Learn-more'>
+                    <Link to="/meta5">
                     <button data-aos="fade-right"><p>Learn More</p>
                       <Slideicon />
                     </button>
+                    </Link>
                   </div>
                 </div>
 

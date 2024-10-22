@@ -3,7 +3,6 @@ import "./Headertopcontactline.scss";
 import { Link } from "react-router-dom";
 
 function Headertopline() {
-
   return (
     <div className="Headertopline">
       <div className="Headertopline-contact-and-number">
@@ -26,11 +25,11 @@ function Headertopline() {
 
       <div className="Header-top-line-right-buttons">
         <div className="Header-top-line-button">
-          <button>Start Trading</button>
+          <a href="https://clients.forexvoyager.com/" target="__blank">
+            <button>Start Trading</button>
+          </a>
         </div>
       </div>
-
-
     </div>
   );
 }
