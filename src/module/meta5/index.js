@@ -10,6 +10,7 @@ import downloadapp from "../../assets/images/download-mt5.png";
 import meta5svg from "../../assets/svg/logo-mt5.svg";
 import google from "../../assets/icons/playstore.png";
 import Appleicon from "../../assets/svg/appleicon";
+import browser from "../../assets/images/pngegg.png";
 
 export default function Meta5() {
   return (
@@ -111,6 +112,25 @@ export default function Meta5() {
                         <div className="appstore">
                           <p>Get It on</p>
                           <span>Google Play</span>
+                        </div>
+                      </div>
+                    </button>
+                  </a>
+                </div>
+
+                <div className="appstore-buton-main">
+                  <a
+                    href="https://download.metatrader.com/cdn/web/forexvoyager.limited/mt5/forexvoyager5setup.exe"
+                    target="__blank"
+                  >
+                    <button data-aos="flip-right">
+                      <div className="apple-icon-flex">
+                        <div className="apple-icon">
+                          <img src={browser} alt="error" />
+                        </div>
+                        <div className="appstore">
+                          <p>Available on</p>
+                          <span>Web Browser</span>
                         </div>
                       </div>
                     </button>
