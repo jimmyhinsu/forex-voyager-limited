@@ -27,7 +27,7 @@ export default function Ecn() {
     details: [
       { text: "Trading Platform:", highlight: "MT5" },
       { text: "Minimum initial deposit of", highlight: "$10,000" },
-      { text: "Spreads from pips", highlight: "0.0" },
+      { text: "Spreads from pips", highlight: "0.5" },
       { text: "Leverage up to from", highlight: "1:500" },
       { text: "Social Trading", highlight: "" },
       { text: "24/7 technical and account support", highlight: "" },

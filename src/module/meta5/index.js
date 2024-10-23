@@ -12,6 +12,7 @@ import google from "../../assets/icons/playstore.png";
 import Appleicon from "../../assets/svg/appleicon";
 import browser from "../../assets/images/pngegg.png";
 
+
 export default function Meta5() {
   return (
     <>

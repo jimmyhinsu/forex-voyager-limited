@@ -26,7 +26,7 @@ export default function Standard() {
     details: [
       { text: "Trading Platform:", highlight: "MT5" },
       { text: "Minimum initial deposit of", highlight: "$50" },
-      { text: "Spreads from pips", highlight: "1.5" },
+      { text: "Spreads from pips", highlight: "1.7" },
       { text: "Leverage up to from", highlight: "1:500" },
       { text: "Social Trading", highlight: "" },
       { text: "24/7 technical and account support", highlight: "" },
