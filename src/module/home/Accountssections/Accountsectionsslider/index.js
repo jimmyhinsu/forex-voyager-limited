@@ -73,7 +73,7 @@ export default function Accountsectionslider() {
               <div className="minimum-div">
                 <Upcharticon />
                 <p>
-                  Spreads from <span>1.5</span> pips
+                  Spreads from <span>1.7</span> pips
                 </p>
               </div>
               <div className="minimum-div">
@@ -110,7 +110,7 @@ export default function Accountsectionslider() {
               <div className="minimum-div">
                 <Upcharticon />
                 <p>
-                  Spreads from <span>0.8</span> pips
+                  Spreads from <span>1.0</span> pips
                 </p>
               </div>
               <div className="minimum-div">
@@ -147,7 +147,7 @@ export default function Accountsectionslider() {
               <div className="minimum-div">
                 <Upcharticon />
                 <p>
-                  Spreads from <span>0.0</span> pips
+                  Spreads from <span>0.5</span> pips
                 </p>
               </div>
               <div className="minimum-div">
