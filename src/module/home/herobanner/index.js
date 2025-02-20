@@ -22,7 +22,7 @@ export default function Herobanner({ id }) {
           <div className="button">
             <a href="https://clients.forexvoyager.com/" target="__blank">
               <button data-aos="fade-down">
-                Strating Trading
+              Start Trading
                 <Slideicon />
               </button>
             </a>

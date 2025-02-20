@@ -128,7 +128,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-copyright-text">
-          <p>© 2024 All Rights Reserved By Forex Voyager Limited</p>
+          <p>© 2025 All Rights Reserved By Forex Voyager Limited</p>
         </div>
       </div>
     </div>
