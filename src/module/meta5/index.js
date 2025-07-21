@@ -44,7 +44,7 @@ export default function Meta5() {
               </div>
               <div className="trader-button">
                 <div className="start">
-                  <a href="https://clients.forexvoyager.com/" target="__blank">
+                  <a href="https://register.forexvoyager.com/login/" target="__blank">
                     <button data-aos="fade-down">
                       Start Tranding Now
                       <Slideicon />
@@ -52,7 +52,7 @@ export default function Meta5() {
                   </a>
                 </div>
                 <div className="open">
-                  <a href="https://clients.forexvoyager.com/" target="__blank">
+                  <a href="https://register.forexvoyager.com/login/" target="__blank">
                     <button data-aos="fade-down">Open Demo Account</button>
                   </a>
                 </div>

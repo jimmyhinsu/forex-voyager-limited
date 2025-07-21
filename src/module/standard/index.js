@@ -85,7 +85,7 @@ export default function Standard() {
                   <div className="standard-open-buttons">
                     <div className="start">
                       <a
-                        href="https://clients.forexvoyager.com/"
+                        href="https://register.forexvoyager.com/login/"
                         target="__blank"
                       >
                         <button data-aos="fade-down">
@@ -96,7 +96,7 @@ export default function Standard() {
                     </div>
                     <div className="open">
                       <a
-                        href="https://clients.forexvoyager.com/"
+                        href="https://register.forexvoyager.com/login/"
                         target="__blank"
                       >
                         <button data-aos="fade-down">Open Demo Account</button>
@@ -130,7 +130,7 @@ export default function Standard() {
                   <div className="standard-open-buttons">
                     <div className="start">
                       <a
-                        href="https://clients.forexvoyager.com/"
+                        href="https://register.forexvoyager.com/login/"
                         target="__blank"
                       >
                         <button data-aos="fade-down">
@@ -141,7 +141,7 @@ export default function Standard() {
                     </div>
                     <div className="open">
                       <a
-                        href="https://clients.forexvoyager.com/"
+                        href="https://register.forexvoyager.com/login/"
                         target="__blank"
                       >
                         <button data-aos="fade-down">Open Demo Account</button>
@@ -173,7 +173,7 @@ export default function Standard() {
                   <div className="standard-open-buttons">
                     <div className="start">
                       <a
-                        href="https://clients.forexvoyager.com/"
+                        href="https://register.forexvoyager.com/login/"
                         target="__blank"
                       >
                         <button data-aos="fade-down">
@@ -184,7 +184,7 @@ export default function Standard() {
                     </div>
                     <div className="open">
                       <a
-                        href="https://clients.forexvoyager.com/"
+                        href="https://register.forexvoyager.com/login/"
                         target="__blank"
                       >
                         <button data-aos="fade-down">Open Demo Account</button>

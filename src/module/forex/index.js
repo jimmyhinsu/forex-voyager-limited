@@ -112,7 +112,7 @@ export default function Forex() {
 
                   <div className="start-open-buttons">
                    <div className="start">
-                      <a href="https://clients.forexvoyager.com/" target="__blank">
+                      <a href="https://register.forexvoyager.com/login/" target="__blank">
                         <button data-aos="fade-down">
                           Start Tranding Now
                           <Slideicon />
@@ -120,7 +120,7 @@ export default function Forex() {
                       </a>
                     </div>
                     <div className="open">
-                      <a href="https://clients.forexvoyager.com/" target="__blank">
+                      <a href="https://register.forexvoyager.com/login/" target="__blank">
                         <button data-aos="fade-down">Open Demo Account</button>
                       </a>
                     </div>
@@ -191,7 +191,7 @@ export default function Forex() {
                   </div>
                   <div className="start-open-buttons">
                    <div className="start">
-                      <a href="https://clients.forexvoyager.com/" target="__blank">
+                      <a href="https://register.forexvoyager.com/login/" target="__blank">
                         <button data-aos="fade-down">
                           Start Tranding Now
                           <Slideicon />
@@ -199,7 +199,7 @@ export default function Forex() {
                       </a>
                     </div>
                     <div className="open">
-                      <a href="https://clients.forexvoyager.com/" target="__blank">
+                      <a href="https://register.forexvoyager.com/login/" target="__blank">
                         <button data-aos="fade-down">Open Demo Account</button>
                       </a>
                     </div>
@@ -264,7 +264,7 @@ export default function Forex() {
                   </div>
                   <div className="start-open-buttons">
                    <div className="start">
-                      <a href="https://clients.forexvoyager.com/" target="__blank">
+                      <a href="https://register.forexvoyager.com/login/" target="__blank">
                         <button data-aos="fade-down">
                           Start Tranding Now
                           <Slideicon />
@@ -272,7 +272,7 @@ export default function Forex() {
                       </a>
                     </div>
                     <div className="open">
-                      <a href="https://clients.forexvoyager.com/" target="__blank">
+                      <a href="https://register.forexvoyager.com/login/" target="__blank">
                         <button data-aos="fade-down">Open Demo Account</button>
                       </a>
                     </div>
@@ -335,7 +335,7 @@ export default function Forex() {
                   </div>
                   <div className="start-open-buttons">
                    <div className="start">
-                      <a href="https://clients.forexvoyager.com/" target="__blank">
+                      <a href="https://register.forexvoyager.com/login/" target="__blank">
                         <button data-aos="fade-down">
                           Start Tranding Now
                           <Slideicon />
@@ -343,7 +343,7 @@ export default function Forex() {
                       </a>
                     </div>
                     <div className="open">
-                      <a href="https://clients.forexvoyager.com/" target="__blank">
+                      <a href="https://register.forexvoyager.com/login/" target="__blank">
                         <button data-aos="fade-down">Open Demo Account</button>
                       </a>
                     </div>
@@ -411,7 +411,7 @@ export default function Forex() {
                   </div>
                   <div className="start-open-buttons">
                    <div className="start">
-                      <a href="https://clients.forexvoyager.com/" target="__blank">
+                      <a href="https://register.forexvoyager.com/login/" target="__blank">
                         <button data-aos="fade-down">
                           Start Tranding Now
                           <Slideicon />
@@ -419,7 +419,7 @@ export default function Forex() {
                       </a>
                     </div>
                     <div className="open">
-                      <a href="https://clients.forexvoyager.com/" target="__blank">
+                      <a href="https://register.forexvoyager.com/login/" target="__blank">
                         <button data-aos="fade-down">Open Demo Account</button>
                       </a>
                     </div>
@@ -490,7 +490,7 @@ export default function Forex() {
                   </div>
                   <div className="start-open-buttons">
                    <div className="start">
-                      <a href="https://clients.forexvoyager.com/" target="__blank">
+                      <a href="https://register.forexvoyager.com/login/" target="__blank">
                         <button data-aos="fade-down">
                           Start Tranding Now
                           <Slideicon />
@@ -498,7 +498,7 @@ export default function Forex() {
                       </a>
                     </div>
                     <div className="open">
-                      <a href="https://clients.forexvoyager.com/" target="__blank">
+                      <a href="https://register.forexvoyager.com/login/" target="__blank">
                         <button data-aos="fade-down">Open Demo Account</button>
                       </a>
                     </div>

@@ -25,7 +25,7 @@ function Headertopline() {
 
       <div className="Header-top-line-right-buttons">
         <div className="Header-top-line-button">
-          <a href="https://clients.forexvoyager.com/" target="__blank">
+          <a href="https://register.forexvoyager.com/login/" target="__blank">
             <button>Start Trading</button>
           </a>
         </div>

@@ -17,7 +17,7 @@ function BecomeibWhatsection() {
             Reasons for Client Preference
           </h1>
 
-          <a href="https://clients.forexvoyager.com/" target="__blank">
+          <a href="https://register.forexvoyager.com/login/" target="__blank">
             <button data-aos="flip-right">Become a Partner</button>
           </a>
         </div>

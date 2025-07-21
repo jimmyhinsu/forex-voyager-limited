@@ -67,7 +67,7 @@ export default function Pro() {
                   <p data-aos="fade-down">A commission-free account that is perfect for new traders looking to start investing. Standard accounts offer instant execution, stable spreads.</p>
                   <div className='standard-open-buttons'>
                   <div className="start">
-                      <a href="https://clients.forexvoyager.com/" target="__blank">
+                      <a href="https://register.forexvoyager.com/login/" target="__blank">
                         <button data-aos="fade-down">
                           Start Tranding Now
                           <Slideicon />
@@ -75,7 +75,7 @@ export default function Pro() {
                       </a>
                     </div>
                     <div className="open">
-                      <a href="https://clients.forexvoyager.com/" target="__blank">
+                      <a href="https://register.forexvoyager.com/login/" target="__blank">
                         <button data-aos="fade-down">Open Demo Account</button>
                       </a>
                     </div>
@@ -98,7 +98,7 @@ export default function Pro() {
                   <p>The Pro account is a fantastic choice for traders who wish to take advantage of tight spreads, quick execution, and no commission.</p>
                   <div className='standard-open-buttons'>
                   <div className="start">
-                      <a href="https://clients.forexvoyager.com/" target="__blank">
+                      <a href="https://register.forexvoyager.com/login/" target="__blank">
                         <button data-aos="fade-down">
                           Start Tranding Now
                           <Slideicon />
@@ -106,7 +106,7 @@ export default function Pro() {
                       </a>
                     </div>
                     <div className="open">
-                      <a href="https://clients.forexvoyager.com/" target="__blank">
+                      <a href="https://register.forexvoyager.com/login/" target="__blank">
                         <button data-aos="fade-down">Open Demo Account</button>
                       </a>
                     </div>
@@ -128,7 +128,7 @@ export default function Pro() {
                   <p data-aos="fade-down">Traders seeking instantaneous execution and raw spreads are better off with an ECN account.</p>
                   <div className='standard-open-buttons'>
                   <div className="start">
-                      <a href="https://clients.forexvoyager.com/" target="__blank">
+                      <a href="https://register.forexvoyager.com/login/" target="__blank">
                         <button data-aos="fade-down">
                           Start Tranding Now
                           <Slideicon />
@@ -136,7 +136,7 @@ export default function Pro() {
                       </a>
                     </div>
                     <div className="open">
-                      <a href="https://clients.forexvoyager.com/" target="__blank">
+                      <a href="https://register.forexvoyager.com/login/" target="__blank">
                         <button data-aos="fade-down">Open Demo Account</button>
                       </a>
                     </div>

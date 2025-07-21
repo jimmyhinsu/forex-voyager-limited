@@ -10,7 +10,7 @@ export default function Herobanner({ id }) {
         <div className="herobannercontent">
           <div className="text">
             <h2 data-aos="fade-down">
-              <span>Trade </span> with confidence, Explore{" "}
+              <span>Trade </span> with Confidence, Explore{" "}
               <span>with Courage</span>
             </h2>
           </div>
@@ -20,7 +20,7 @@ export default function Herobanner({ id }) {
           </p>
 
           <div className="button">
-            <a href="https://clients.forexvoyager.com/" target="__blank">
+            <a href="https://register.forexvoyager.com/login/" target="__blank">
               <button data-aos="fade-down">
               Start Trading
                 <Slideicon />
@@ -30,7 +30,7 @@ export default function Herobanner({ id }) {
 
           <div className="demo-ib-button">
             <div className="demoaccount">
-            <a href="https://clients.forexvoyager.com/" target="__blank">
+            <a href="https://register.forexvoyager.com/login/" target="__blank">
               <button data-aos="fade-down">
                 Demo Account
                 <Slideicon />
@@ -38,7 +38,7 @@ export default function Herobanner({ id }) {
               </a>
             </div>
             <div className="demoaccount">
-              <a href="https://clients.forexvoyager.com/" target="__blank">
+              <a href="https://register.forexvoyager.com/login/" target="__blank">
                 <button data-aos="fade-down">
                   IB/Institutional Offers
                   <Slideicon />

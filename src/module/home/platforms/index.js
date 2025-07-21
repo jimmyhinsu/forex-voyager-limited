@@ -17,7 +17,7 @@ function Platforms({ id }) {
               </div>
 
               <div className="exploreour">
-                <h2 data-aos="fade-down">Experience our Mobile Trading Platforms</h2>
+                <h2 data-aos="fade-down">Experience Our Mobile Trading Platforms</h2>
               </div>
 
               <div className='mt4-mt5-grid'>

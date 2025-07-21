@@ -126,7 +126,7 @@ function Headermain() {
       <div className="headermain-last-buttons">
         <div className="Header-top-line-right-buttons">
           <div className="dropdown-container">
-          <a href="https://clients.forexvoyager.com/" target="__blank">
+          <a href="https://register.forexvoyager.com/login/" target="__blank">
             Log in
           </a>
           </div>

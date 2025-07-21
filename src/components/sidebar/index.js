@@ -230,7 +230,7 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
           <div className="sidebar-bottom-content">
             <p>Open an account now to get started!</p>
             <div className="sidebar-button-one">
-            <a href="https://clients.forexvoyager.com/" target="__blank">
+            <a href="https://register.forexvoyager.com/login/" target="__blank">
               <button>
                 Strat trading
                 <Slideicon />
@@ -248,7 +248,7 @@ export default function Sidebar({ isSidebarOpen, onClose }) {
             </Link>
 
             <div className="log-in-button">
-              <a href="https://clients.forexvoyager.com/" target="__blank">
+              <a href="https://register.forexvoyager.com/login/" target="__blank">
               <button>Log in</button>
               </a>
             </div>
